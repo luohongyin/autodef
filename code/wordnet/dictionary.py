@@ -26,4 +26,4 @@ class Dictionary:
 
 	def parse_sen(self, s):
 		l = list(s)
-		return ''.join(map((lambda x:x if isalpha(x) else ''), l))
+		return ''.join(map((lambda x:x if x.isalpha() else ''), l))
