@@ -9,7 +9,7 @@ class Dictionary:
 
 	def get_words(self):
 		l = [sn for sn in self.generator]
-		self.wordList = list(set(map((lambda x:x.name().split('.')[0]), l)))
+		return list(set(map((lambda x:x.name().split('.')[0]), l)))
 
 	def get_info(self, word):
 		sn = wn.synsets(word)
