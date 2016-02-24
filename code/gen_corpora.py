@@ -5,6 +5,8 @@ from wordnet import dictionary
 
 d = dictionary.Dictionary()
 words = d.get_words()
+for word in words:
+	print len(d.get_info(x))
 definitions = map((lambda x:d.get_info(x)[0]["def"]), words)
 outHandle1 = open("../data/model/words.txt", 'w')
 outHandle2 = open("../data/model/definitions.txt", 'w')
