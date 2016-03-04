@@ -3,7 +3,7 @@ import logging
 import pprint
 import operator
 import itertools
-
+import word2vec
 import theano
 import theano.tensor as TT
 from theano.ifelse import ifelse
@@ -1293,8 +1293,9 @@ class RNNEncoderDecoder(object):
         self.skip_init = skip_init
         self.compute_alignment = compute_alignment
 
-    def build(self):
+    def build(self, route):
         logger.debug("Create input variables")
+        self.word_vectors = TT.lvector('w_v')
         self.x = TT.lmatrix('x')
         self.x_mask = TT.matrix('x_mask')
         self.y = TT.lmatrix('y')
@@ -1304,6 +1305,7 @@ class RNNEncoderDecoder(object):
         # Annotation for the log-likelihood computation
         training_c_components = []
 
+        """
         logger.debug("Create encoder")
         self.encoder = Encoder(self.state, self.rng,
                 prefix="enc",
@@ -1343,6 +1345,7 @@ class RNNEncoderDecoder(object):
             training_c_components.append(ReplicateLayer(self.x.shape[0])
                     (backward_training_c[0]))
         self.state['c_dim'] = len(training_c_components) * self.state['dim']
+        """
 
         logger.debug("Create decoder")
         self.decoder = Decoder(self.state, self.rng,
@@ -1350,7 +1353,7 @@ class RNNEncoderDecoder(object):
         self.decoder.create_layers()
         logger.debug("Build log-likelihood computation graph")
         self.predictions, self.alignment = self.decoder.build_decoder(
-                c=Concatenate(axis=2)(*training_c_components), c_mask=self.x_mask,
+                c=self.word_vectors, c_mask=self.x_mask,
                 y=self.y, y_mask=self.y_mask)
 
         # Annotation for sampling
