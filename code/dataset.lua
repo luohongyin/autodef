@@ -17,8 +17,8 @@ local list = require "pl.List"
 
 function DataSet:__init(loader, options)
   options = options or {}
-
-  self.examplesFilename = "data/examples.t7"
+  self.matrix = torch.load("../data/model/vectors.t7")
+  self.examplesFilename = "../data/model/examples.t7"
 
   -- Discard words with lower frequency then this
   self.minWordFreq = options.minWordFreq or 1
@@ -38,7 +38,7 @@ function DataSet:__init(loader, options)
 end
 
 function DataSet:load(loader)
-  local filename = "data/vocab.t7"
+  local filename = "../data/model/vocab.t7"
 
   if path.exists(filename) then
     print("Loading vocabulary from " .. filename .. " ...")
@@ -78,19 +78,12 @@ function DataSet:visit(conversations)
 
   print("-- Pre-processing data")
 
-  local total = self.loadFirst or #conversations * 2
+  local total = self.loadFirst or #conversations
 
   for i, conversation in ipairs(conversations) do
     if i > total then break end
-    self:visitConversation(conversation)
+    self:visitConversation(i, conversation)
     xlua.progress(i, total)
-  end
-
-  -- Revisit from the perspective of 2nd character
-  for i, conversation in ipairs(conversations) do
-    if #conversations + i > total then break end
-    self:visitConversation(conversation, 2)
-    xlua.progress(#conversations + i, total)
   end
 
   print("-- Removing low frequency words")
@@ -167,28 +160,12 @@ function DataSet:removeLowFreqWords(input)
   end
 end
 
-function DataSet:visitConversation(lines, start)
-  start = start or 1
+function DataSet:visitConversation(i, line)
+  local targetIds = self:visitText(line, 2)
+  table.insert(targetIds, 1, self.goToken)
+  table.insert(targetIds, self.eosToken)
 
-  for i = start, #lines, 2 do
-    local input = lines[i]
-    local target = lines[i+1]
-
-    if target then
-      local inputIds = self:visitText(input.text)
-      local targetIds = self:visitText(target.text, 2)
-
-      if inputIds and targetIds then
-        -- Revert inputs
-        inputIds = list.reverse(inputIds)
-
-        table.insert(targetIds, 1, self.goToken)
-        table.insert(targetIds, self.eosToken)
-
-        table.insert(self.examples, { torch.IntTensor(inputIds), torch.IntTensor(targetIds) })
-      end
-    end
-  end
+  table.insert(self.examples, { self.matrix[i], torch.IntTensor(targetIds) })
 end
 
 function DataSet:visitText(text, additionalTokens)
