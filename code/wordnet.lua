@@ -20,7 +20,7 @@ end
 function WordNet:load()
 	lines = {}
 	count = 0
-	for line in io.input(self.dir .. "/definitions.txt") do
+	for line in io.lines(self.dir .. "/definitions.txt") do
 		table.insert(lines, line)
 		count = count + 1
 		process(count)
