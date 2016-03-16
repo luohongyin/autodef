@@ -13,7 +13,7 @@ local TOTAL_WORDS = 72499
 
 local function process(c)
 	if c % 10000 == 0 then
-		xlua.process(c, TOTAL_WORDS)
+		xlua.progress(c, TOTAL_WORDS)
 	end
 end
 
