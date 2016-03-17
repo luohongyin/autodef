@@ -70,6 +70,8 @@ function Seq2Seq:train(input, target)
   -- Forward pass
   -- self.encoder:forward(encoderInput)
   -- self:forwardConnect(encoderInput:size(1))
+  print(input)
+  print(decoderInput)
   local decoderOutput = self.decoder:forward({input, decoderInput})
   local Edecoder = self.criterion:forward(decoderOutput, decoderTarget)
 
