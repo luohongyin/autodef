@@ -36,7 +36,7 @@ function Seq2Seq:buildModel()
 end
 
 function Seq2Seq:cuda()
-  self.encoder:cuda()
+  -- self.encoder:cuda()
   self.decoder:cuda()
 
   if self.criterion then
