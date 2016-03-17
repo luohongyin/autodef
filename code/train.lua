@@ -53,8 +53,8 @@ if options.cuda then
 end
 
 -- Run the experiment
-test_examples = {}
 for epoch = 1, options.maxEpoch do
+  local test_examples = {}
   print("\n-- Epoch " .. epoch .. " / " .. options.maxEpoch)
   print("")
 
@@ -67,7 +67,7 @@ for epoch = 1, options.maxEpoch do
 
     for _, example in ipairs(examples) do
       local input, target = unpack(example)
-      
+
       if i % 1000 == 0 then
         table.insert(test_examples, example)
       end
@@ -115,14 +115,14 @@ for epoch = 1, options.maxEpoch do
 
   model.learningRate = model.learningRate + decayFactor
   model.learningRate = math.max(options.minLR, model.learningRate)
-end
 
--- Load testing script
-require "eval"
+  -- Load testing script
+  require "eval"
 
-for i = 1, #test_examples do
-  print("Test Example " .. i)
-  say(test_examples[i][1])
-  print(test_examples[2])
-  print("----------------------------------------")
+  for i = 1, #test_examples do
+    print("Test Example " .. i)
+    say(test_examples[i][1])
+    print(test_examples[2])
+    print("----------------------------------------")
+  end
 end
