@@ -50,23 +50,14 @@ function printProbabilityTable(wordIds, probabilities, num)
     end
     print(line)
   end
-
   print(string.rep("-", num * 22))
 end
 
-function say(text)
-  local wordIds = {}
-
-  for t, word in tokenizer.tokenize(text) do
-    local id = dataset.word2id[word:lower()] or dataset.unknownToken
-    table.insert(wordIds, id)
-  end
-
-  local input = torch.Tensor(list.reverse(wordIds))
+function say(vector)
+  local input = vector
   local wordIds, probabilities = model:eval(input)
 
   print(">> " .. pred2sent(wordIds))
-
   if options.debug then
     printProbabilityTable(wordIds, probabilities, 4)
   end

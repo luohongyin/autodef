@@ -53,7 +53,7 @@ if options.cuda then
 end
 
 -- Run the experiment
-
+test_examples = {}
 for epoch = 1, options.maxEpoch do
   print("\n-- Epoch " .. epoch .. " / " .. options.maxEpoch)
   print("")
@@ -67,6 +67,11 @@ for epoch = 1, options.maxEpoch do
 
     for _, example in ipairs(examples) do
       local input, target = unpack(example)
+      
+      if i % 1000 == 0 then
+        table.insert(test_examples, example)
+      end
+
 	  local encoderInput = torch.Tensor(target:size()[1] - 1, 400)
 	  for i = 1, target:size()[1] - 1 do
 	    encoderInput[i] = input
@@ -104,7 +109,7 @@ for epoch = 1, options.maxEpoch do
   -- Save the model if it improved.
   if minMeanError == nil or errors:mean() < minMeanError then
     print("\n(Saving model ...)")
-    torch.save("data/model.t7", model)
+    torch.save("../data/model/model.t7", model)
     minMeanError = errors:mean()
   end
 
@@ -114,3 +119,10 @@ end
 
 -- Load testing script
 require "eval"
+
+for i = 1, #test_examples do
+  print("Test Example " .. i)
+  say(test_examples[i][1])
+  print(test_examples[2])
+  print("----------------------------------------")
+end
