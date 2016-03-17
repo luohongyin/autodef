@@ -54,7 +54,11 @@ function printProbabilityTable(wordIds, probabilities, num)
 end
 
 function say(vector)
-  local input = vector
+  local input = torch.Tensor(20, 400)
+  for i = 1, input:size()[1] do
+    input[i] = vector
+  end
+  
   local wordIds, probabilities = model:eval(input)
 
   print(">> " .. pred2sent(wordIds))
