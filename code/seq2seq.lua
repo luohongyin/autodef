@@ -129,7 +129,7 @@ function Seq2Seq:eval(input)
   end 
 
   self.decoder:forget()
-  self.encoder:forget()
+  -- self.encoder:forget()
 
   return predictions, probabilities
 end
