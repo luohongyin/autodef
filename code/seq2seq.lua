@@ -16,7 +16,7 @@ function Seq2Seq:buildModel()
   -- self.encoder:add(nn.Linear(self.encoderLinear)
   -- self.encoder:add(nn.SelectTable(-1))
 
-  local para = nn.ParallalTable()
+  local para = nn.ParallelTable()
   local lookupModule = nn.Sequential()
   lookupModule:add(nn.LookupTable(self.vocabSize, self.hiddenSize))
   lookupModule:add(nn.SplitTable(1, 2))
