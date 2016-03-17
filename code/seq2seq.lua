@@ -9,22 +9,27 @@ function Seq2Seq:__init(vocabSize, hiddenSize)
 end
 
 function Seq2Seq:buildModel()
-  self.encoder = nn.Sequential()
-  self.encoder:add(nn.LookupTable(self.vocabSize, self.hiddenSize))
-  self.encoder:add(nn.SplitTable(1, 2))
-  self.encoderLSTM = nn.LSTM(self.hiddenSize, self.hiddenSize)
-  self.encoder:add(nn.Sequencer(self.encoderLSTM))
-  self.encoder:add(nn.SelectTable(-1))
+  -- self.encoder = nn.Sequential()
+  -- self.encoder:add(nn.LookupTable(self.vocabSize, self.hiddenSize))
+  -- self.encoder:add(nn.SplitTable(1, 2))
+  -- self.encoderLinear = nn.Linear(400, self.hiddenSize)
+  -- self.encoder:add(nn.Linear(self.encoderLinear)
+  -- self.encoder:add(nn.SelectTable(-1))
 
+  local para = nn.ParallalTable()
+  local lookupModule = nn.Sequential()
+  lookupModule:add(nn.LookupTable(self.vocabSize, self.hiddenSize))
+  lookupModule:add(nn.SplitTable(1, 2))
+  para:add(nn.Linear(400, self.hiddenSize)):add(lookupModule)
   self.decoder = nn.Sequential()
-  self.decoder:add(nn.LookupTable(self.vocabSize, self.hiddenSize))
-  self.decoder:add(nn.SplitTable(1, 2))
+  self.decoder:add(para)
+  self.decoder:add(nn.CAddTable)
   self.decoderLSTM = nn.LSTM(self.hiddenSize, self.hiddenSize)
   self.decoder:add(nn.Sequencer(self.decoderLSTM))
   self.decoder:add(nn.Sequencer(nn.Linear(self.hiddenSize, self.vocabSize)))
   self.decoder:add(nn.Sequencer(nn.LogSoftMax()))
 
-  self.encoder:zeroGradParameters()
+  -- self.encoder:zeroGradParameters()
   self.decoder:zeroGradParameters()
 
   self.zeroTensor = torch.Tensor(2):zero()
@@ -44,9 +49,9 @@ end
 --[[ Forward coupling: Copy encoder cell and output to decoder LSTM ]]--
 function Seq2Seq:forwardConnect(inputSeqLen)
   self.decoderLSTM.userPrevOutput =
-    nn.rnn.recursiveCopy(self.decoderLSTM.userPrevOutput, self.encoderLSTM.outputs[inputSeqLen])
+    nn.rnn.recursiveCopy(self.decoderLSTM.userPrevOutput, self.encoderLinear.output)
   self.decoderLSTM.userPrevCell =
-    nn.rnn.recursiveCopy(self.decoderLSTM.userPrevCell, self.encoderLSTM.cells[inputSeqLen])
+    nn.rnn.recursiveCopy(self.decoderLSTM.userPrevCell, self.encoderLinear.output)
 end
 
 --[[ Backward coupling: Copy decoder gradients to encoder LSTM ]]--
@@ -63,9 +68,9 @@ function Seq2Seq:train(input, target)
   local decoderTarget = target:sub(2, -1)
 
   -- Forward pass
-  self.encoder:forward(encoderInput)
-  self:forwardConnect(encoderInput:size(1))
-  local decoderOutput = self.decoder:forward(decoderInput)
+  -- self.encoder:forward(encoderInput)
+  -- self:forwardConnect(encoderInput:size(1))
+  local decoderOutput = self.decoder:forward({input, decoderInput})
   local Edecoder = self.criterion:forward(decoderOutput, decoderTarget)
 
   if Edecoder ~= Edecoder then -- Exist early on bad error
@@ -74,19 +79,19 @@ function Seq2Seq:train(input, target)
 
   -- Backward pass
   local gEdec = self.criterion:backward(decoderOutput, decoderTarget)
-  self.decoder:backward(decoderInput, gEdec)
-  self:backwardConnect()
-  self.encoder:backward(encoderInput, self.zeroTensor)
+  self.decoder:backward({input, decoderInput}, gEdec)
+  -- self:backwardConnect()
+  -- self.encoder:backward(encoderInput, self.zeroTensor)
 
-  self.encoder:updateGradParameters(self.momentum)
+  -- self.encoder:updateGradParameters(self.momentum)
   self.decoder:updateGradParameters(self.momentum)
   self.decoder:updateParameters(self.learningRate)
-  self.encoder:updateParameters(self.learningRate)
-  self.encoder:zeroGradParameters()
+  -- self.encoder:updateParameters(self.learningRate)
+  -- self.encoder:zeroGradParameters()
   self.decoder:zeroGradParameters()
 
   self.decoder:forget()
-  self.encoder:forget()
+  -- self.encoder:forget()
 
   return Edecoder
 end
@@ -97,8 +102,8 @@ function Seq2Seq:eval(input)
   assert(self.goToken, "No goToken specified")
   assert(self.eosToken, "No eosToken specified")
 
-  self.encoder:forward(input)
-  self:forwardConnect(input:size(1))
+  -- self.encoder:forward(input)
+  -- self:forwardConnect(input:size(1))
 
   local predictions = {}
   local probabilities = {}
@@ -106,7 +111,7 @@ function Seq2Seq:eval(input)
   -- Forward <go> and all of it's output recursively back to the decoder
   local output = self.goToken
   for i = 1, MAX_OUTPUT_SIZE do
-    local prediction = self.decoder:forward(torch.Tensor{output})[1]
+    local prediction = self.decoder:forward({input, torch.Tensor{output}})[1]
     -- prediction contains the probabilities for each word IDs.
     -- The index of the probability is the word ID.
     local prob, wordIds = prediction:sort(1, true)
