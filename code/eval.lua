@@ -23,7 +23,7 @@ end
 
 if model == nil then
   print("-- Loading model")
-  model = torch.load("data/model.t7")
+  model = torch.load("../data/model/model.t7")
 end
 
 -- Word IDs to sentence
@@ -58,7 +58,7 @@ function say(vector)
   for i = 1, input:size()[1] do
     input[i] = vector
   end
-  
+
   local wordIds, probabilities = model:eval(input)
 
   print(">> " .. pred2sent(wordIds))
