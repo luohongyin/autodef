@@ -67,17 +67,17 @@ for epoch = 1, options.maxEpoch do
 
     for _, example in ipairs(examples) do
       local input, target = unpack(example)
-	  local encoderInput = torch.Tensor(target:size()[1], 400)
-	  for i = 1, target:size()[1] do
+	  local encoderInput = torch.Tensor(target:size()[1] - 1, 400)
+	  for i = 1, target:size()[1] - 1 do
 	    encoderInput[i] = input
 	  end
 
       if options.cuda then
-        input = input:cuda()
+        encoderInput = encoderInput:cuda()
         target = target:cuda()
       end
 
-      local err = model:train(input, target)
+      local err = model:train(encoderInput, target)
 
       -- Check if error is NaN. If so, it's probably a bug.
       if err ~= err then
