@@ -67,6 +67,10 @@ for epoch = 1, options.maxEpoch do
 
     for _, example in ipairs(examples) do
       local input, target = unpack(example)
+	  local encoderInput = torch.Tensor(target:size()[1], 400)
+	  for i = 1, target:size()[1] do
+	    encoderInput[i] = input
+	  end
 
       if options.cuda then
         input = input:cuda()

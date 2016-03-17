@@ -89,7 +89,7 @@ function DataSet:visit(conversations)
   print("-- Removing low frequency words")
 
   for i, datum in ipairs(self.examples) do
-    self:removeLowFreqWords(datum[1])
+    -- self:removeLowFreqWords(datum[1])
     self:removeLowFreqWords(datum[2])
     xlua.progress(i, #self.examples)
   end
@@ -164,7 +164,6 @@ function DataSet:visitConversation(i, line)
   local targetIds = self:visitText(line, 2)
   table.insert(targetIds, 1, self.goToken)
   table.insert(targetIds, self.eosToken)
-
   table.insert(self.examples, { self.matrix[i], torch.IntTensor(targetIds) })
 end
 

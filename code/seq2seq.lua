@@ -18,12 +18,15 @@ function Seq2Seq:buildModel()
 
   local para = nn.ParallelTable()
   local lookupModule = nn.Sequential()
+  local linearModule = nn.Sequential()
   lookupModule:add(nn.LookupTable(self.vocabSize, self.hiddenSize))
   lookupModule:add(nn.SplitTable(1, 2))
-  para:add(nn.Linear(400, self.hiddenSize)):add(lookupModule)
+  linearModule:add(nn.Linear(400, self.hiddenSize))
+  linearModule:add(nn.SplitTable(1, 2))
+  para:add(linearModule):add(lookupModule)
   self.decoder = nn.Sequential()
   self.decoder:add(para)
-  self.decoder:add(nn.CAddTable)
+  self.decoder:add(nn.CAddTable())
   self.decoderLSTM = nn.LSTM(self.hiddenSize, self.hiddenSize)
   self.decoder:add(nn.Sequencer(self.decoderLSTM))
   self.decoder:add(nn.Sequencer(nn.Linear(self.hiddenSize, self.vocabSize)))
@@ -31,7 +34,6 @@ function Seq2Seq:buildModel()
 
   -- self.encoder:zeroGradParameters()
   self.decoder:zeroGradParameters()
-
   self.zeroTensor = torch.Tensor(2):zero()
 end
 
@@ -63,15 +65,12 @@ function Seq2Seq:backwardConnect()
 end
 
 function Seq2Seq:train(input, target)
-  local encoderInput = input
   local decoderInput = target:sub(1, -2)
   local decoderTarget = target:sub(2, -1)
 
   -- Forward pass
   -- self.encoder:forward(encoderInput)
   -- self:forwardConnect(encoderInput:size(1))
-  print(input)
-  print(decoderInput)
   local decoderOutput = self.decoder:forward({input, decoderInput})
   local Edecoder = self.criterion:forward(decoderOutput, decoderTarget)
 
