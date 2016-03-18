@@ -1,0 +1,9 @@
+-- Loading dataset	
+Loading vocabulary from ../data/model/vocab.t7 ...	
+
+Dataset stats:	
+  Vocabulary size: 38558	
+         Examples: 72499	
+
+-- Epoch 1 / 50	
+	
