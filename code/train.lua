@@ -6,7 +6,7 @@ cmd:text('Options:')
 cmd:option('--dataset', 0, 'approximate size of dataset to use (0 = all)')
 cmd:option('--minWordFreq', 1, 'minimum frequency of words kept in vocab')
 cmd:option('--cuda', false, 'use CUDA')
-cmd:option('--hiddenSize', 300, 'number of hidden units in LSTM')
+cmd:option('--hiddenSize', 1000, 'number of hidden units in LSTM')
 cmd:option('--learningRate', 0.05, 'learning rate at t=0')
 cmd:option('--momentum', 0.9, 'momentum')
 cmd:option('--minLR', 0.00001, 'minimum learning rate')
@@ -55,21 +55,22 @@ end
 -- Run the experiment
 for epoch = 1, options.maxEpoch do
   local test_examples = {}
+  local test_id = {}
   print("\n-- Epoch " .. epoch .. " / " .. options.maxEpoch)
   print("")
-
   local errors = torch.Tensor(dataset.examplesCount):fill(0)
   local timer = torch.Timer()
-
   local i = 1
   for examples in dataset:batches(options.batchSize) do
     collectgarbage()
 
     for _, example in ipairs(examples) do
       local input, target = unpack(example)
-
       if i % 1000 == 0 then
-        table.insert(test_examples, example)
+		vector = torch.Tensor(1, 400)
+		vector[1] = example[1]
+        table.insert(test_examples, {vector, example[2]})
+		table.insert(test_id, i)
       end
 
 	  local encoderInput = torch.Tensor(target:size()[1] - 1, 400)
@@ -90,7 +91,7 @@ for epoch = 1, options.maxEpoch do
       end
 
       errors[i] = err
-      xlua.progress(i, dataset.examplesCount)
+      -- xlua.progress(i, dataset.examplesCount)
       i = i + 1
     end
   end
@@ -122,7 +123,7 @@ for epoch = 1, options.maxEpoch do
   for i = 1, #test_examples do
     print("Test Example " .. i)
     say(test_examples[i][1])
-    print(test_examples[2])
+	print(test_id[i])
     print("----------------------------------------")
   end
 end
