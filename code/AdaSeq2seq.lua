@@ -72,8 +72,8 @@ function AdaSeq2Seq:train(input, target)
   local decoderTarget = target:sub(2, -1)
 
   -- Forward pass
-  self.encoder:forward({encoderInput, decoderInput})
-  self:forwardConnect(encoderInput:size(1))
+  self.encoder:forward({input, decoderInput})
+  self:forwardConnect(input:size(1))
   local decoderOutput = self.decoder:forward(decoderInput)
   local Edecoder = self.criterion:forward(decoderOutput, decoderTarget)
 
@@ -85,7 +85,7 @@ function AdaSeq2Seq:train(input, target)
   local gEdec = self.criterion:backward(decoderOutput, decoderTarget)
   self.decoder:backward(decoderInput, gEdec)
   self:backwardConnect()
-  self.encoder:backward(encoderInput, self.zeroTensor)
+  self.encoder:backward({input, decoderInput}, self.zeroTensor)
 
   self.encoder:updateGradParameters(self.momentum)
   self.decoder:updateGradParameters(self.momentum)
