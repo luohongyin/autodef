@@ -67,17 +67,17 @@ for epoch = 1, options.maxEpoch do
     for _, example in ipairs(examples) do
       local input, target = unpack(example)
       if i % 1000 == 0 then
-		vector = torch.Tensor(1, 400)
-		vector[1] = example[1]
+		    vector = torch.Tensor(1, 400)
+		    vector[1] = example[1]
         table.insert(test_examples, {vector, example[2]})
-		table.insert(test_id, i)
+		    table.insert(test_id, i)
       end
 
-	  if i % 1000 ~= 0 then
-	    local encoderInput = torch.Tensor(target:size()[1] - 1, 400)
-	    for i = 1, target:size()[1] - 1 do
-	      encoderInput[i] = input
-	    end
+	    if i % 1000 ~= 0 then
+	      local encoderInput = torch.Tensor(target:size()[1] - 1, 400)
+	      for i = 1, target:size()[1] - 1 do
+	        encoderInput[i] = input
+	      end
 
         if options.cuda then
           encoderInput = encoderInput:cuda()
@@ -92,7 +92,7 @@ for epoch = 1, options.maxEpoch do
         end
 
         errors[i] = err
-	  end
+	    end
       -- xlua.progress(i, dataset.examplesCount)
       i = i + 1
     end
