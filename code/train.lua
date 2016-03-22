@@ -4,7 +4,7 @@ require 'xlua'
 cmd = torch.CmdLine()
 cmd:text('Options:')
 cmd:option('--dataset', 0, 'approximate size of dataset to use (0 = all)')
-cmd:option('--minWordFreq', 1, 'minimum frequency of words kept in vocab')
+cmd:option('--minWordFreq', 5, 'minimum frequency of words kept in vocab')
 cmd:option('--cuda', false, 'use CUDA')
 cmd:option('--hiddenSize', 1000, 'number of hidden units in LSTM')
 cmd:option('--learningRate', 0.05, 'learning rate at t=0')
@@ -73,24 +73,26 @@ for epoch = 1, options.maxEpoch do
 		table.insert(test_id, i)
       end
 
-	  local encoderInput = torch.Tensor(target:size()[1] - 1, 400)
-	  for i = 1, target:size()[1] - 1 do
-	    encoderInput[i] = input
+	  if i % 1000 ~= 0 then
+	    local encoderInput = torch.Tensor(target:size()[1] - 1, 400)
+	    for i = 1, target:size()[1] - 1 do
+	      encoderInput[i] = input
+	    end
+
+        if options.cuda then
+          encoderInput = encoderInput:cuda()
+          target = target:cuda()
+        end
+
+        local err = model:train(encoderInput, target)
+
+        -- Check if error is NaN. If so, it's probably a bug.
+        if err ~= err then
+          error("Invalid error! Exiting.")
+        end
+
+        errors[i] = err
 	  end
-
-      if options.cuda then
-        encoderInput = encoderInput:cuda()
-        target = target:cuda()
-      end
-
-      local err = model:train(encoderInput, target)
-
-      -- Check if error is NaN. If so, it's probably a bug.
-      if err ~= err then
-        error("Invalid error! Exiting.")
-      end
-
-      errors[i] = err
       -- xlua.progress(i, dataset.examplesCount)
       i = i + 1
     end

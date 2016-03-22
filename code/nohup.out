@@ -1,0 +1,4251 @@
+-- Loading dataset	
+Loading vocabulary from ../data/model/vocab.t7 ...	
+
+Dataset stats:	
+  Vocabulary size: 38558	
+         Examples: 72499	
+
+-- Epoch 1 / 50	
+	
+
+Finished in 1h17m 15.532468368477 examples/sec.	
+
+Epoch stats:	
+           LR= 0.05	
+  Errors: min= 0	
+          max= 251.29884529114	
+       median= 56.833345413208	
+         mean= 64.917469806577	
+          std= 37.088384674443	
+
+(Saving model ...)	
+Test Example 1	
+>> A woman	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in the th century	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A woman	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of the same species in a family	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus of the genus of the genus of the genus of the genus of the genus of the genus of	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A ship	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A woman	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A	
+11000	
+----------------------------------------	
+Test Example 12	
+>> A source of the same or a source of the same or a source of the same or a source	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A woman	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of the same species of the same species of the same species of the same species of the same	
+15000	
+----------------------------------------	
+Test Example 16	
+>> A woman	
+16000	
+----------------------------------------	
+Test Example 17	
+>> A woman	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A source of a source of a source of a source of a source of a source of a source	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A woman	
+19000	
+----------------------------------------	
+Test Example 20	
+>> Type of the same species in a family	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a small amount	
+21000	
+----------------------------------------	
+Test Example 22	
+>> A family	
+22000	
+----------------------------------------	
+Test Example 23	
+>> The same or a woman	
+23000	
+----------------------------------------	
+Test Example 24	
+>> In a person	
+24000	
+----------------------------------------	
+Test Example 25	
+>> The same or a person	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A family	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A ship	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A woman	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A small white or a small white or a small white or a small white or a small white or	
+29000	
+----------------------------------------	
+Test Example 30	
+>> A woman	
+30000	
+----------------------------------------	
+Test Example 31	
+>> The same or a single	
+31000	
+----------------------------------------	
+Test Example 32	
+>> A family	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A city in a city in a city in a city in a city in a city in a city	
+33000	
+----------------------------------------	
+Test Example 34	
+>> In a state	
+34000	
+----------------------------------------	
+Test Example 35	
+>> A family	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A woman the same or a woman the same or a woman the same or a woman the same or	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A	
+37000	
+----------------------------------------	
+Test Example 38	
+>> A woman	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of the genus of the genus of the genus of the genus of the genus of the genus of	
+39000	
+----------------------------------------	
+Test Example 40	
+>> A	
+40000	
+----------------------------------------	
+Test Example 41	
+>> In a person	
+41000	
+----------------------------------------	
+Test Example 42	
+>> A woman	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A city in the th century who lived in the th century who lived in the th century who lived	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A woman	
+44000	
+----------------------------------------	
+Test Example 45	
+>> In a woman	
+45000	
+----------------------------------------	
+Test Example 46	
+>> An antibody	
+46000	
+----------------------------------------	
+Test Example 47	
+>> The ear	
+47000	
+----------------------------------------	
+Test Example 48	
+>> In a woman	
+48000	
+----------------------------------------	
+Test Example 49	
+>> In a ship	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A woman	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A woman	
+52000	
+----------------------------------------	
+Test Example 53	
+>> A family	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A ship	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of the family	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of the same species of the same species of the same species of the same species of the same	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of the genus of the genus of the genus of the genus of the genus of the genus of	
+58000	
+----------------------------------------	
+Test Example 59	
+>> A radioactive transuranic	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A city in a city in a city in a city in a city in a city in a city	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A ship	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A ship	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A woman	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A	
+64000	
+----------------------------------------	
+Test Example 65	
+>> A woman	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A ship	
+66000	
+----------------------------------------	
+Test Example 67	
+>> A source of the genus of the genus of the genus of the genus of the genus of the genus	
+67000	
+----------------------------------------	
+Test Example 68	
+>> A	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A town	
+71000	
+----------------------------------------	
+Test Example 72	
+>> An acute infection	
+72000	
+----------------------------------------	
+
+-- Epoch 2 / 50	
+	
+
+Finished in 1h17m 15.547045866107 examples/sec.	
+
+Epoch stats:	
+           LR= 0.0475005	
+  Errors: min= 0	
+          max= 220.51780700684	
+       median= 48.643337249756	
+         mean= 55.785408426336	
+          std= 32.564901773626	
+
+(Saving model ...)	
+Test Example 1	
+>> A small white or a small white or a small white or a small white or a small white or	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A metal or a metal or a metal or a metal or a metal or a metal or a metal	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A river flows into a river flows into a river flows into a river flows into a river flows into	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A word or a word or a word or a word or a word or a word or a word	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of a small tree	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus of a plant	
+6000	
+----------------------------------------	
+Test Example 7	
+>> The same	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A member of the same or a member of the same or a member of the same or a member	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A small white or a small white or a small white or a small white or a small white or	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A small a small a small a small a small a small a small a small a small a small	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A musical instruments	
+11000	
+----------------------------------------	
+Test Example 12	
+>> A plant	
+12000	
+----------------------------------------	
+Test Example 13	
+>> The same	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A small white or a small white or a small white or a small white or a small white or	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of a small tree	
+15000	
+----------------------------------------	
+Test Example 16	
+>> The same	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French military uniform in the same	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A strong and a strong and a strong and a strong and a strong and a strong and a strong	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A religious or a religious or a religious or a religious or a religious or a religious or a religious	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A fungus	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a woman	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Any of a small in a small in a small in a small in a small in a small in	
+22000	
+----------------------------------------	
+Test Example 23	
+>> The same	
+23000	
+----------------------------------------	
+Test Example 24	
+>> The same	
+24000	
+----------------------------------------	
+Test Example 25	
+>> The same	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A small and a small and a small and a small and a small and a small and a small	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A small a small a small a small a small a small a small a small a small a small	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A woman	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A small white or a small white or a small white or a small white or a small white or	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Any of the ear	
+30000	
+----------------------------------------	
+Test Example 31	
+>> The same	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of a fungus	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A city in the same or a city in the same or a city in the same or a city	
+33000	
+----------------------------------------	
+Test Example 34	
+>> An automobile or a state in a state in a state in a state in a state in a state	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type of a small and a small and a small and a small and a small and a small and	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A small a small a small a small a small a small a small a small a small a small	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A chemical reactions	
+37000	
+----------------------------------------	
+Test Example 38	
+>> A short stories	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of a family	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Any of the ear	
+40000	
+----------------------------------------	
+Test Example 41	
+>> An event	
+41000	
+----------------------------------------	
+Test Example 42	
+>> A small and a small and a small and a small and a small and a small and a small	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A group in the official language	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A woman	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a small in a small in a small in a small in a small in a small in a	
+45000	
+----------------------------------------	
+Test Example 46	
+>> An antibody	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A cell	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A woman	
+48000	
+----------------------------------------	
+Test Example 49	
+>> In a	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A woman	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A short stories	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A woman	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of a small tree	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A small a small a small a small a small a small a small a small a small a small	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of a fungus	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A short stories	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of a plant	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of a plant	
+58000	
+----------------------------------------	
+Test Example 59	
+>> An antibody	
+59000	
+----------------------------------------	
+Test Example 60	
+>> The highest peak in the highest peak in the highest peak in the highest peak in the highest peak in	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A statement	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A group in a group in a group in a group in a group in a group in a group	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A small and a small and a small and a small and a small and a small and a small	
+64000	
+----------------------------------------	
+Test Example 65	
+>> A small white or a small white or a small white or a small white or a small white or	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A military uniform port in a military uniform port in a military uniform port in a military uniform port in	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of a plant	
+67000	
+----------------------------------------	
+Test Example 68	
+>> In a mineral consisting of a mineral consisting of a mineral consisting of a mineral consisting of a mineral consisting	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A small in a small in a small in a small in a small in a small in a small	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A	
+70000	
+----------------------------------------	
+Test Example 71	
+>> The same or a public	
+71000	
+----------------------------------------	
+Test Example 72	
+>> A virus that are administered	
+72000	
+----------------------------------------	
+
+-- Epoch 3 / 50	
+	
+
+Finished in 1h18m 15.482016685571 examples/sec.	
+
+Epoch stats:	
+           LR= 0.045001	
+  Errors: min= 0	
+          max= 204.70111465454	
+       median= 43.918618202209	
+         mean= 50.407611510562	
+          std= 29.730478419871	
+
+(Saving model ...)	
+Test Example 1	
+>> A small round and a small round and a small round and a small round and a small round and	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A small amounts of a small amounts of a small amounts of a small amounts of a small amounts of	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in a city in a city in a city in a city in a city in a city	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A word or a word or a word or a word or a word or a word or a word	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of a small and a small and a small and a small and a small and a small and	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus of a fungus	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A liquid	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A city in a city in a city in a city in a city in a city in a city	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A small round and a small round and a small round and a small round and a small round and	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A small holes	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A small pieces	
+11000	
+----------------------------------------	
+Test Example 12	
+>> A plant	
+12000	
+----------------------------------------	
+Test Example 13	
+>> The defendant	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A small and a small and a small and a small and a small and a small and a small	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of a small white or a small white or a small white or a small white or a small	
+15000	
+----------------------------------------	
+Test Example 16	
+>> The style	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French and a muslim	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A steel in a steel in a steel in a steel in a steel in a steel in a steel	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A religious	
+19000	
+----------------------------------------	
+Test Example 20	
+>> One of a class in a class in a class in a class in a class in a class in	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a woman	
+21000	
+----------------------------------------	
+Test Example 22	
+>> A small and a small and a small and a small and a small and a small and a small	
+22000	
+----------------------------------------	
+Test Example 23	
+>> The ear	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not in a noun or a noun or a noun or a noun or a noun or a noun or	
+24000	
+----------------------------------------	
+Test Example 25	
+>> A feeling	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A small white or a small white or a small white or a small white or a small white or	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A small white or a small white or a small white or a small white or a small white or	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A strong	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A small white or a small white or a small white or a small white or a small white or	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Any of a vein	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A mental state of a mental state of a mental state of a mental state of a mental state of	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of a fungus	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A city in a city in a city in a city in a city in a city in a city	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Be	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus of a small white or a small white or a small white or a small white or a	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A small and a small and a small and a small and a small and a small and a small	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A small amounts of a small amounts of a small amounts of a small amounts of a small amounts of	
+37000	
+----------------------------------------	
+Test Example 38	
+>> A woman	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of a fungus	
+39000	
+----------------------------------------	
+Test Example 40	
+>> A small veins that has a small veins that has a small veins that has a small veins that has	
+40000	
+----------------------------------------	
+Test Example 41	
+>> A statement	
+41000	
+----------------------------------------	
+Test Example 42	
+>> A small and a small and a small and a small and a small and a small and a small	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A city in a city in a city in a city in a city in a city in a city	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A woman	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a small animals in a small animals in a small animals in a small animals in a small animals	
+45000	
+----------------------------------------	
+Test Example 46	
+>> Inflammation of a woman	
+46000	
+----------------------------------------	
+Test Example 47	
+>> Any of a gene	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A woman	
+48000	
+----------------------------------------	
+Test Example 49	
+>> In a small or a small or a small or a small or a small or a small or a	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A woman	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small pieces	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A woman	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of a fungus	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A small white or a small white or a small white or a small white or a small white or	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of a fungus	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A small boat	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of a small and a small and a small and a small and a small and a small and	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of a perennial of a perennial of a perennial of a perennial of a perennial of a perennial of	
+58000	
+----------------------------------------	
+Test Example 59	
+>> An antibody and a morbid fear of a morbid fear of a morbid fear of a morbid fear of a	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A port and a port and a port and a port and a port and a port and a port	
+60000	
+----------------------------------------	
+Test Example 61	
+>> The highest peak in a small island in a small island in a small island in a small island in	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A small enough to the defendant	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A book	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A small pieces	
+64000	
+----------------------------------------	
+Test Example 65	
+>> A small white or a small white or a small white or a small white or a small white or	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A river in a river in a river in a river in a river in a river in a river	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of a small tree	
+67000	
+----------------------------------------	
+Test Example 68	
+>> In a metal or a metal or a metal or a metal or a metal or a metal or a	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A small to the highest	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A small pieces	
+70000	
+----------------------------------------	
+Test Example 71	
+>> The highest peak in a university	
+71000	
+----------------------------------------	
+Test Example 72	
+>> An antibody in a small amounts in a small amounts in a small amounts in a small amounts in a	
+72000	
+----------------------------------------	
+
+-- Epoch 4 / 50	
+	
+
+Finished in 1h18m 15.482681264319 examples/sec.	
+
+Epoch stats:	
+           LR= 0.0425015	
+  Errors: min= 0	
+          max= 185.19488382339	
+       median= 40.030486106873	
+         mean= 45.965108235936	
+          std= 27.173896040788	
+
+(Saving model ...)	
+Test Example 1	
+>> A small round in a small round in a small round in a small round in a small round in	
+1000	
+----------------------------------------	
+Test Example 2	
+>> The sound to the sound to the sound to the sound to the sound to the sound to the sound	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in a city in a city in a city in a city in a city in a city	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A noun or a noun or a noun or a noun or a noun or a noun or a noun	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of a woman	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus of a fungus	
+6000	
+----------------------------------------	
+Test Example 7	
+>> The earth or the earth or the earth or the earth or the earth or the earth or the earth	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A city in a city in a city in a city in a city in a city in a city	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A small round in a small round in a small round in a small round in a small round in	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A building	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A small holes	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Any of a small and a small and a small and a small and a small and a small and	
+12000	
+----------------------------------------	
+Test Example 13	
+>> The existence	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A small round yellow or a small round yellow or a small round yellow or a small round yellow or	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of a small round and a small round and a small round and a small round and a small	
+15000	
+----------------------------------------	
+Test Example 16	
+>> The existence to the existence to the existence to the existence to the existence to the existence to the existence	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French and a roman catholics and a roman catholics and a roman catholics and a roman catholics and a roman	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A metal by a metal by a metal by a metal by a metal by a metal by a metal	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A muslim and a muslim and a muslim and a muslim and a muslim and a muslim and a muslim	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A fungus	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a person	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Any of a small round in a small round in a small round in a small round in a small	
+22000	
+----------------------------------------	
+Test Example 23	
+>> The ear of a child	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not affiliated with a statement	
+24000	
+----------------------------------------	
+Test Example 25	
+>> The state	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A small round and a small round and a small round and a small round and a small round and	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A city in a city in a city in a city in a city in a city in a city	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A party	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A small round sweet potatoes	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Any of a bone but not in a bone but not in a bone but not in a bone but	
+30000	
+----------------------------------------	
+Test Example 31	
+>> The ear and a state	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Type genus of a fungus	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A city in a city in a city in a city in a city in a city in a city	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Be	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus of a genus of a genus of a genus of a genus of a genus of a genus	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A small round table	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A triangle of a triangle of a triangle of a triangle of a triangle of a triangle of a triangle	
+37000	
+----------------------------------------	
+Test Example 38	
+>> The ear of a hat with a hat with a hat with a hat with a hat with a hat	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of a fungus	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Either of a joint	
+40000	
+----------------------------------------	
+Test Example 41	
+>> A statement	
+41000	
+----------------------------------------	
+Test Example 42	
+>> A small round table	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A city and a city and a city and a city and a city and a city and a city	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A member of a member of a member of a member of a member of a member of a member	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a bone but not present in a bone but not present in a bone but not present in a	
+45000	
+----------------------------------------	
+Test Example 46	
+>> An antibody	
+46000	
+----------------------------------------	
+Test Example 47	
+>> An antibody in a tumor in a tumor in a tumor in a tumor in a tumor in a tumor	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A woman	
+48000	
+----------------------------------------	
+Test Example 49	
+>> In a position	
+49000	
+----------------------------------------	
+Test Example 50	
+>> The ear	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small round or a small round or a small round or a small round or a small round or	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A woman	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of a fungus	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A small round in a small round in a small round in a small round in a small round in	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of a fungus	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A wall	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of a small and a small and a small and a small and a small and a small and	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of a small and a small and a small and a small and a small and a small and	
+58000	
+----------------------------------------	
+Test Example 59	
+>> An antibody	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A city in a city in a city in a city in a city in a city in a city	
+60000	
+----------------------------------------	
+Test Example 61	
+>> The middle age	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A short speech	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A city in a city in a city in a city in a city in a city in a city	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A metal or a metal or a metal or a metal or a metal or a metal or a metal	
+64000	
+----------------------------------------	
+Test Example 65	
+>> A small round in a small round in a small round in a small round in a small round in	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A city in a city in a city in a city in a city in a city in a city	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of a plant	
+67000	
+----------------------------------------	
+Test Example 68	
+>> Of a rock in a rock in a rock in a rock in a rock in a rock in a	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A plane in a plane in a plane in a plane in a plane in a plane in a plane	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A bank	
+70000	
+----------------------------------------	
+Test Example 71	
+>> The region of a city in a city in a city in a city in a city in a city	
+71000	
+----------------------------------------	
+Test Example 72	
+>> Any of a tumor of a tumor of a tumor of a tumor of a tumor of a tumor of	
+72000	
+----------------------------------------	
+
+-- Epoch 5 / 50	
+	
+
+Finished in 1h18m 15.482008552427 examples/sec.	
+
+Epoch stats:	
+           LR= 0.040002	
+  Errors: min= 0	
+          max= 159.08309745789	
+       median= 36.647444725037	
+         mean= 42.021877420552	
+          std= 24.814671221095	
+
+(Saving model ...)	
+Test Example 1	
+>> A small white or a small white or a small white or a small white or a small white or	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A furnace for a furnace for a furnace for a furnace for a furnace for a furnace for a furnace	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in the city in the city in the city in the city in the city in the city	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A noun that has a noun that has a noun that has a noun that has a noun that has	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of a small round in a small round in a small round in a small round in a small	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus of a fungus	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A liquid the removal of a liquid the removal of a liquid the removal of a liquid the removal of	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A mountain in the region of a mountain in the region of a mountain in the region of a mountain	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A woman	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A roof	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A musical instruments	
+11000	
+----------------------------------------	
+Test Example 12	
+>> A plant in the dried	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A statement	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A small round table	
+14000	
+----------------------------------------	
+Test Example 15	
+>> A small round in the small round in the small round in the small round in the small round in	
+15000	
+----------------------------------------	
+Test Example 16	
+>> The existence at the existence at the existence at the existence at the existence at the existence at the existence	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French painters of a roman road	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A metal together in a metal together in a metal together in a metal together in a metal together in	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A title	
+19000	
+----------------------------------------	
+Test Example 20	
+>> One million years	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a woman	
+21000	
+----------------------------------------	
+Test Example 22	
+>> A member of a member of a member of a member of a member of a member of a member	
+22000	
+----------------------------------------	
+Test Example 23	
+>> The state of a morbid or a morbid or a morbid or a morbid or a morbid or a morbid	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not to the state of a feeling	
+24000	
+----------------------------------------	
+Test Example 25	
+>> A feeling	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A member of a member of a member of a member of a member of a member of a member	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A small round table	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A title	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A dish	
+29000	
+----------------------------------------	
+Test Example 30	
+>> A bone in the foot of a bone in the foot of a bone in the foot of a bone	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A feeling of a feeling of a feeling of a feeling of a feeling of a feeling of a feeling	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of a fungus	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A city in a city in a city in a city in a city in a city in a city	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Move in a state of a state of a state of a state of a state of a state of	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus of a genus of a genus of a genus of a genus of a genus of a genus	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A small or a small or a small or a small or a small or a small or a small	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A small or a small or a small or a small or a small or a small or a small	
+37000	
+----------------------------------------	
+Test Example 38	
+>> The ear	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of a fungus	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Either of a bone	
+40000	
+----------------------------------------	
+Test Example 41	
+>> A statement	
+41000	
+----------------------------------------	
+Test Example 42	
+>> A small or a small or a small or a small or a small or a small or a small	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A group of a group of a group of a group of a group of a group of a group	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A small or a small or a small or a small or a small or a small or a small	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a bone in the eyes	
+45000	
+----------------------------------------	
+Test Example 46	
+>> Inflammation of a disorder in the state of a disorder in the state of a disorder in the state of	
+46000	
+----------------------------------------	
+Test Example 47	
+>> An antibody	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A woman	
+48000	
+----------------------------------------	
+Test Example 49	
+>> In a day	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A woman	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small or a small or a small or a small or a small or a small or a small	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A woman a woman a woman a woman a woman a woman a woman a woman a woman a woman	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of a fungus	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A small round or a small round or a small round or a small round or a small round or	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of a fungus	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A window to the foot	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of a plant in a plant in a plant in a plant in a plant in a plant in	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of a fungus	
+58000	
+----------------------------------------	
+Test Example 59	
+>> An antibody a morbid fear of a morbid fear of a morbid fear of a morbid fear of a morbid	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A town in the original to the original to the original to the original to the original to the original	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A position by a position by a position by a position by a position by a position by a position	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A noun	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A title	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A small grains	
+64000	
+----------------------------------------	
+Test Example 65	
+>> Flesh of a small round head and the flesh of a small round head and the flesh of a small	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A battle	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of a plant in a plant in a plant in a plant in a plant in a plant in	
+67000	
+----------------------------------------	
+Test Example 68	
+>> Of a sedimentary or a sedimentary or a sedimentary or a sedimentary or a sedimentary or a sedimentary or a	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A musical	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A business	
+70000	
+----------------------------------------	
+Test Example 71	
+>> The government	
+71000	
+----------------------------------------	
+Test Example 72	
+>> A protein in the uterus and the uterus and the uterus and the uterus and the uterus and the uterus	
+72000	
+----------------------------------------	
+
+-- Epoch 6 / 50	
+	
+
+Finished in 1h18m 15.481535767254 examples/sec.	
+
+Epoch stats:	
+           LR= 0.0375025	
+  Errors: min= 0	
+          max= 143.91475009918	
+       median= 33.477225780487	
+         mean= 38.311987871742	
+          std= 22.51866026857	
+
+(Saving model ...)	
+Test Example 1	
+>> A short stiff or a short stiff or a short stiff or a short stiff or a short stiff or	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A small pieces of a small pieces of a small pieces of a small pieces of a small pieces of	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in the major power	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A noun that has a noun that has a noun that has a noun that has a noun that has	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of a small round in a small round in a small round in a small round in a small	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus of a small white or a small white or a small white or a small white or a small	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A liquid to the liquid to the liquid to the liquid to the liquid to the liquid to the liquid	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A mountain in a mountain in a mountain in a mountain in a mountain in a mountain in a mountain	
+8000	
+----------------------------------------	
+Test Example 9	
+>> Any of a light	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A window in a window in a window in a window in a window in a window in a window	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A box for the sound	
+11000	
+----------------------------------------	
+Test Example 12	
+>> A small tree	
+12000	
+----------------------------------------	
+Test Example 13	
+>> The existence in a false	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A short stories	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of a small round in a small round in a small round in a small round in a small	
+15000	
+----------------------------------------	
+Test Example 16	
+>> The sacred	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French painters and the french painters and the french painters and the french painters and the french painters and the	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A metal or a metal or a metal or a metal or a metal or a metal or a metal	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A saint paul	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A fungus	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a person	
+21000	
+----------------------------------------	
+Test Example 22	
+>> A short and a short and a short and a short and a short and a short and a short	
+22000	
+----------------------------------------	
+Test Example 23	
+>> The ear that has a short speech and a short speech and a short speech and a short speech and	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not be used as a noun eg the meaning or a noun eg the meaning or a noun eg the	
+24000	
+----------------------------------------	
+Test Example 25	
+>> A feeling of a feeling of a feeling of a feeling of a feeling of a feeling of a feeling	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A strong	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A short stories	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A powerful and a powerful and a powerful and a powerful and a powerful and a powerful and a powerful	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A small grains	
+29000	
+----------------------------------------	
+Test Example 30	
+>> A triangle and the foot	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A certain types of a certain types of a certain types of a certain types of a certain types of	
+31000	
+----------------------------------------	
+Test Example 32	
+>> A fungus	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A city in a city in a city in a city in a city in a city in a city	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Become	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus of a genus of a genus of a genus of a genus of a genus of a genus	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A distinctive character or a distinctive character or a distinctive character or a distinctive character or a distinctive character or	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A single the ear two or a single the ear two or a single the ear two or a single	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Not to the ear	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of a fungus	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Either of a bone in a bone in a bone in a bone in a bone in a bone in	
+40000	
+----------------------------------------	
+Test Example 41	
+>> Be used to give a statement	
+41000	
+----------------------------------------	
+Test Example 42	
+>> Type genus of a few	
+42000	
+----------------------------------------	
+Test Example 43	
+>> The city in a muslim form of a muslim form of a muslim form of a muslim form of a	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A small or a small or a small or a small or a small or a small or a small	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a small or a small or a small or a small or a small or a small or a	
+45000	
+----------------------------------------	
+Test Example 46	
+>> Inflammation of a symptom of a symptom of a symptom of a symptom of a symptom of a symptom of	
+46000	
+----------------------------------------	
+Test Example 47	
+>> Of a bone especially a bone especially a bone especially a bone especially a bone especially a bone especially a	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A person	
+48000	
+----------------------------------------	
+Test Example 49	
+>> In a certain and a certain and a certain and a certain and a certain and a certain and a	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A baby	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small pieces of a small pieces of a small pieces of a small pieces of a small pieces of	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A person	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of a small round sweet a small round sweet a small round sweet a small round sweet a small	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A small round and the sound waves	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of a fungus	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A wall	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of a small white or a small white or a small white or a small white or a small	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of a light green and a light green and a light green and a light green and a light	
+58000	
+----------------------------------------	
+Test Example 59	
+>> An antibody	
+59000	
+----------------------------------------	
+Test Example 60	
+>> In a city in a city in a city in a city in a city in a city in a	
+60000	
+----------------------------------------	
+Test Example 61	
+>> The first century	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A word or a word or a word or a word or a word or a word or a word	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A group of a group of a group of a group of a group of a group of a group	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A metal and a metal and a metal and a metal and a metal and a metal and a metal	
+64000	
+----------------------------------------	
+Test Example 65	
+>> Any of a small round raised as a small round raised as a small round raised as a small round	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A muslim	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of a plant with a plant with a plant with a plant with a plant with a plant with	
+67000	
+----------------------------------------	
+Test Example 68	
+>> In a green and a green and a green and a green and a green and a green and a	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A plane in a plane in a plane in a plane in a plane in a plane in a plane	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A box for the use	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A government by a government by a government by a government by a government by a government by a government	
+71000	
+----------------------------------------	
+Test Example 72	
+>> A major types of a major types of a major types of a major types of a major types of	
+72000	
+----------------------------------------	
+
+-- Epoch 7 / 50	
+	
+
+Finished in 1h18m 15.481121064038 examples/sec.	
+
+Epoch stats:	
+           LR= 0.035003	
+  Errors: min= 0	
+          max= 138.00353527069	
+       median= 30.428944587708	
+         mean= 34.756946293853	
+          std= 20.240987314211	
+
+(Saving model ...)	
+Test Example 1	
+>> A small or a small or a small or a small or a small or a small or a small	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A liquid	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in the major and the major and the major and the major and the major and the major	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A noun that has a noun that has a noun that has a noun that has a noun that has	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of a grass	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus of a small white or a small white or a small white or a small white or a small	
+6000	
+----------------------------------------	
+Test Example 7	
+>> The liquid	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A mountain in a mountain in a mountain in a mountain in a mountain in a mountain in a mountain	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A small or a small or a small or a small or a small or a small or a small	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A light	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A musical instruments	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Tree	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A certain kinds of a certain kinds of a certain kinds of a certain kinds of a certain kinds of	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A woman	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of a variety of a variety of a variety of a variety of a variety of a variety of	
+15000	
+----------------------------------------	
+Test Example 16	
+>> The existence in a religious instruction in a religious instruction in a religious instruction in a religious instruction in a	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A steel that has a steel that has a steel that has a steel that has a steel that has	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A saint paul and the english	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A fungus of a fungus of a fungus of a fungus of a fungus of a fungus of a fungus	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a person of a person of a person of a person of a person of a person of a	
+21000	
+----------------------------------------	
+Test Example 22	
+>> A short broad and the flesh of a short broad and the flesh of a short broad and the flesh	
+22000	
+----------------------------------------	
+Test Example 23	
+>> The ear	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not in a strong sexual relations in a strong sexual relations in a strong sexual relations in a strong sexual	
+24000	
+----------------------------------------	
+Test Example 25	
+>> A state of a state of a state of a state of a state of a state of a state	
+25000	
+----------------------------------------	
+Test Example 26	
+>> Common in a short and the small or a short and the small or a short and the small or	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A small or a small or a small or a small or a small or a small or a small	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A commissioned to the english	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A small grains	
+29000	
+----------------------------------------	
+Test Example 30	
+>> A bone usually a bone usually a bone usually a bone usually a bone usually a bone usually a bone	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A mental state of a mental state of a mental state of a mental state of a mental state of	
+31000	
+----------------------------------------	
+Test Example 32	
+>> A small or a small or a small or a small or a small or a small or a small	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A city in a city in a city in a city in a city in a city in a city	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Become involved in a state of a state of a state of a state of a state of a state	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus of a genus of a genus of a genus of a genus of a genus of a genus	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A small or a small or a small or a small or a small or a small or a small	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A signal	
+37000	
+----------------------------------------	
+Test Example 38	
+>> A garment	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of a small in the genus of a small in the genus of a small in the genus of	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Either of a muscle in the body or a muscle in the body or a muscle in the body or	
+40000	
+----------------------------------------	
+Test Example 41	
+>> A statement	
+41000	
+----------------------------------------	
+Test Example 42	
+>> Type	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A native americans	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A person	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a bone usually a bone usually a bone usually a bone usually a bone usually a bone usually a	
+45000	
+----------------------------------------	
+Test Example 46	
+>> Inflammation of a disorder in the ear including and the ear including and the ear including and the ear including	
+46000	
+----------------------------------------	
+Test Example 47	
+>> Of a cell	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A woman	
+48000	
+----------------------------------------	
+Test Example 49	
+>> In a city in a city in a city in a city in a city in a city in a	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A health and the state of a health and the state of a health and the state of a health	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small pieces of a small pieces of a small pieces of a small pieces of a small pieces of	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A person or a person or a person or a person or a person or a person or a person	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of a small or a small or a small or a small or a small or a small or	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A mine	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of a small or a small or a small or a small or a small or a small or	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A wall and the ear	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of a plant with a plant with a plant with a plant with a plant with a plant with	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of a grass	
+58000	
+----------------------------------------	
+Test Example 59	
+>> A morbid fear of a morbid fear of a morbid fear of a morbid fear of a morbid fear of	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A city in the french	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A place	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A word or a word or a word or a word or a word or a word or a word	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A group of a group of a group of a group of a group of a group of a group	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A mine	
+64000	
+----------------------------------------	
+Test Example 65	
+>> A small round or a small round or a small round or a small round or a small round or	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A city in a city in a city in a city in a city in a city in a city	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Deciduous trees	
+67000	
+----------------------------------------	
+Test Example 68	
+>> Of a dark at the water or a dark at the water or a dark at the water or a	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A plane in a plane in a plane in a plane in a plane in a plane in a plane	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A box for the use of a box for the use of a box for the use of a box	
+70000	
+----------------------------------------	
+Test Example 71	
+>> The government	
+71000	
+----------------------------------------	
+Test Example 72	
+>> Of a major types of a major types of a major types of a major types of a major types	
+72000	
+----------------------------------------	
+
+-- Epoch 8 / 50	
+	
+
+Finished in 1h18m 15.474452507166 examples/sec.	
+
+Epoch stats:	
+           LR= 0.0325035	
+  Errors: min= 0	
+          max= 127.703810215	
+       median= 27.543179512024	
+         mean= 31.3263250221	
+          std= 18.01481515369	
+
+(Saving model ...)	
+Test Example 1	
+>> A small or a small or a small or a small or a small or a small or a small	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A bath by a bath by a bath by a bath by a bath by a bath by a bath	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in a city in a city in a city in a city in a city in a city	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A noun that has a noun that has a noun that has a noun that has a noun that has	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of a small round in a small round in a small round in a small round in a small	
+5000	
+----------------------------------------	
+Test Example 6	
+>> A small in a small in a small in a small in a small in a small in a small	
+6000	
+----------------------------------------	
+Test Example 7	
+>> The flow in the flow in the flow in the flow in the flow in the flow in the flow	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A mountain in a mountain in a mountain in a mountain in a mountain in a mountain in a mountain	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A small or a small or a small or a small or a small or a small or a small	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A small round or a small round or a small round or a small round or a small round or	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A short forward	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Any of a small tree	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A false in a false in a false in a false in a false in a false in a false	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A small or a small or a small or a small or a small or a small or a small	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of a small round or a small round or a small round or a small round or a small	
+15000	
+----------------------------------------	
+Test Example 16	
+>> The existence that has a religious and a religious and a religious and a religious and a religious and a	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French and the english in a roman catholics in a roman catholics in a roman catholics in a roman catholics	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A steel that is a steel that is a steel that is a steel that is a steel that is	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A saint paul the government	
+19000	
+----------------------------------------	
+Test Example 20	
+>> One of a plant	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a woman a woman a woman a woman a woman a woman a woman a woman a woman a	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Any of a large black	
+22000	
+----------------------------------------	
+Test Example 23	
+>> A small or a small or a small or a small or a small or a small or a small	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not being played	
+24000	
+----------------------------------------	
+Test Example 25	
+>> The eyes	
+25000	
+----------------------------------------	
+Test Example 26	
+>> Any of a large black	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A small or a small or a small or a small or a small or a small or a small	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A person or a person or a person or a person or a person or a person or a person	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A small grains	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Either of a triangle and the posterior	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A certain types of a certain types of a certain types of a certain types of a certain types of	
+31000	
+----------------------------------------	
+Test Example 32	
+>> A beautiful	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A city in a city in a city in a city in a city in a city in a city	
+33000	
+----------------------------------------	
+Test Example 34	
+>> A state of a state of a state of a state of a state of a state of a state	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus of a large black	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A small or a small or a small or a small or a small or a small or a small	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A signal	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Not a hat with a hat with a hat with a hat with a hat with a hat with a	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of a fungus	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Any of a muscle in a muscle in a muscle in a muscle in a muscle in a muscle in	
+40000	
+----------------------------------------	
+Test Example 41	
+>> A feeling	
+41000	
+----------------------------------------	
+Test Example 42	
+>> A very small or a very small or a very small or a very small or a very small or	
+42000	
+----------------------------------------	
+Test Example 43	
+>> The chinese	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A man in a man in a man in a man in a man in a man in a man	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a bone especially a bone especially a bone especially a bone especially a bone especially a bone especially a	
+45000	
+----------------------------------------	
+Test Example 46	
+>> An antibody or a disorder in a disorder in a disorder in a disorder in a disorder in a disorder	
+46000	
+----------------------------------------	
+Test Example 47	
+>> Of a cell with a cell with a cell with a cell with a cell with a cell with a	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A woman	
+48000	
+----------------------------------------	
+Test Example 49	
+>> In a certain in a certain in a certain in a certain in a certain in a certain in a	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A feeling of a feeling of a feeling of a feeling of a feeling of a feeling of a feeling	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small pieces of a small pieces of a small pieces of a small pieces of a small pieces of	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A man	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of a small in a small in a small in a small in a small in a small in	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A small or a small or a small or a small or a small or a small or a small	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of a plant with a plant with a plant with a plant with a plant with a plant with	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A small or a small or a small or a small or a small or a small or a small	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of a small and the dried	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of a small and the orchid	
+58000	
+----------------------------------------	
+Test Example 59	
+>> A morbid fear of a morbid fear of a morbid fear of a morbid fear of a morbid fear of	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A city in the battle in the battle in the battle in the battle in the battle in the battle	
+60000	
+----------------------------------------	
+Test Example 61	
+>> The temporal as a single	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A word or a word or a word or a word or a word or a word or a word	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A collection of a collection of a collection of a collection of a collection of a collection of a collection	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A small or a small or a small or a small or a small or a small or a small	
+64000	
+----------------------------------------	
+Test Example 65	
+>> A small or a small or a small or a small or a small or a small or a small	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A city and the english in a city and the english in a city and the english in a city	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of a small and a small and a small and a small and a small and a small and	
+67000	
+----------------------------------------	
+Test Example 68	
+>> Of a dark grey volcanic rock or a dark grey volcanic rock or a dark grey volcanic rock or a	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A line	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A box for the use of a box for the use of a box for the use of a box	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A city in a city in a city in a city in a city in a city in a city	
+71000	
+----------------------------------------	
+Test Example 72	
+>> Of a major in the bacterium normally found in the bacterium normally found in the bacterium normally found in the	
+72000	
+----------------------------------------	
+
+-- Epoch 9 / 50	
+	
+
+Finished in 1h18m 15.481403027713 examples/sec.	
+
+Epoch stats:	
+           LR= 0.030004	
+  Errors: min= 0	
+          max= 121.11540460587	
+       median= 24.752566814423	
+         mean= 28.08021199855	
+          std= 15.930037752256	
+
+(Saving model ...)	
+Test Example 1	
+>> A thin silk or a thin silk or a thin silk or a thin silk or a thin silk or	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A furnace in the flow of a furnace in the flow of a furnace in the flow of a furnace	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in the city in the city in the city in the city in the city in the city	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A noun that is a noun that is a noun that is a noun that is a noun that is	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of a color	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus of a tall and the fruiting and the fruiting and the fruiting and the fruiting and the fruiting and	
+6000	
+----------------------------------------	
+Test Example 7	
+>> The removal of a liquid by a liquid by a liquid by a liquid by a liquid by a liquid	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A mountain in the english and the english and the english and the english and the english and the english	
+8000	
+----------------------------------------	
+Test Example 9	
+>> Any of a woman	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A light	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A loud noise	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Small tree used as a small tree used as a small tree used as a small tree used as a	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A certain sounds of a certain sounds of a certain sounds of a certain sounds of a certain sounds of	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A short stories	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of a common along the western north american indians	
+15000	
+----------------------------------------	
+Test Example 16	
+>> A religious instruction in a religious instruction in a religious instruction in a religious instruction in a religious instruction in	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French and the english in the english in the english in the english in the english in the english in	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A metal by a metal by a metal by a metal by a metal by a metal by a metal	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A saint paul and the english by a saint paul and the english by a saint paul and the english	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A fungus	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a woman	
+21000	
+----------------------------------------	
+Test Example 22	
+>> A saltwater fish and the largest hare or a saltwater fish and the largest hare or a saltwater fish and	
+22000	
+----------------------------------------	
+Test Example 23	
+>> An image in a vowel and the eyes and the eyes and the eyes and the eyes and the eyes	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not the truth	
+24000	
+----------------------------------------	
+Test Example 25	
+>> A feeling	
+25000	
+----------------------------------------	
+Test Example 26	
+>> Common in a strong and the largest breed of a strong and the largest breed of a strong and the	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A bar	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A powerful and the sound	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A small grains	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Either of a triangle and the posterior	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A strong sexual pleasure or a strong sexual pleasure or a strong sexual pleasure or a strong sexual pleasure or	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Type and a fungus	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A city in the city in the city in the city in the city in the city in the city	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Cause to a state of a state of a state of a state of a state of a state of	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A large numbers in a large numbers in a large numbers in a large numbers in a large numbers in	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A signal	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Not the eyes usually a woman	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of a true orchids some of a true orchids some of a true orchids some of a true orchids	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Either one of a joint	
+40000	
+----------------------------------------	
+Test Example 41	
+>> Give a certain kinds of a certain kinds of a certain kinds of a certain kinds of a certain kinds	
+41000	
+----------------------------------------	
+Test Example 42	
+>> A genus of a genus of a genus of a genus of a genus of a genus of a genus	
+42000	
+----------------------------------------	
+Test Example 43	
+>> The former roman empire	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A strong and the ear and the ear and the ear and the ear and the ear and the ear	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a small round in a small round in a small round in a small round in a small round	
+45000	
+----------------------------------------	
+Test Example 46	
+>> Inflammation of a disorder in the ear or a disorder in the ear or a disorder in the ear or	
+46000	
+----------------------------------------	
+Test Example 47	
+>> An antibody in the nucleus of a cell in the nucleus of a cell in the nucleus of a cell	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A person	
+48000	
+----------------------------------------	
+Test Example 49	
+>> In a certain letters	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A prolonged and the state of a prolonged and the state of a prolonged and the state of a prolonged	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small pieces of a small pieces of a small pieces of a small pieces of a small pieces of	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A person	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of a grass of a grass of a grass of a grass of a grass of a grass of	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A small round or a small round or a small round or a small round or a small round or	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of a tall	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A wall and the arch	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of a small white or a small white or a small white or a small white or a small	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of a small white or a small white or a small white or a small white or a small	
+58000	
+----------------------------------------	
+Test Example 59	
+>> An acute infection	
+59000	
+----------------------------------------	
+Test Example 60	
+>> The english and the english and the english and the english and the english and the english and the english	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A saint vincent	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A vowel	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A club	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A bottle that is a bottle that is a bottle that is a bottle that is a bottle that is	
+64000	
+----------------------------------------	
+Test Example 65	
+>> Any of a small round and the sea to the sea to the sea to the sea to the sea	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A city in a city in a city in a city in a city in a city in a city	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of a black	
+67000	
+----------------------------------------	
+Test Example 68	
+>> Of a black at the stone	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A straight lines	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A box for the use of a box for the use of a box for the use of a box	
+70000	
+----------------------------------------	
+Test Example 71	
+>> The government	
+71000	
+----------------------------------------	
+Test Example 72	
+>> Of a tumor usually malignant neoplasm	
+72000	
+----------------------------------------	
+
+-- Epoch 10 / 50	
+	
+
+Finished in 1h18m 15.482273746339 examples/sec.	
+
+Epoch stats:	
+           LR= 0.0275045	
+  Errors: min= 0	
+          max= 98.107485294342	
+       median= 22.093542098999	
+         mean= 24.974092436211	
+          std= 13.964437695558	
+
+(Saving model ...)	
+Test Example 1	
+>> A thin silk fabric	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A furnace in a furnace in a furnace in a furnace in a furnace in a furnace in a furnace	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in the black at the black at the black at the black at the black at the black	
+3000	
+----------------------------------------	
+Test Example 4	
+>> The grammatical not to the grammatical not to the grammatical not to the grammatical not to the grammatical not to	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of a true roots and the fruiting body and the fruiting body and the fruiting body and the fruiting	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus of a tall and the type and the type and the type and the type and the type and	
+6000	
+----------------------------------------	
+Test Example 7	
+>> The removal of a liquid by a liquid by a liquid by a liquid by a liquid by a liquid	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A mountain	
+8000	
+----------------------------------------	
+Test Example 9	
+>> Any of a woman	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A small pieces of a small pieces of a small pieces of a small pieces of a small pieces of	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A hand	
+11000	
+----------------------------------------	
+Test Example 12	
+>> A sweet and the form of a sweet and the form of a sweet and the form of a sweet	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A false or a false or a false or a false or a false or a false or a false	
+13000	
+----------------------------------------	
+Test Example 14	
+>> Any of a small round and the ear tufts of a small round and the ear tufts of a small	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of a true roots in a true roots in a true roots in a true roots in a true	
+15000	
+----------------------------------------	
+Test Example 16	
+>> A religious zeal	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French and the english in the english in the english in the english in the english in the english in	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A metal in a metal in a metal in a metal in a metal in a metal in a metal	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A saint paul and the english in the english in the english in the english in the english in the	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A fungus	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a woman	
+21000	
+----------------------------------------	
+Test Example 22	
+>> A strong or a strong or a strong or a strong or a strong or a strong or a strong	
+22000	
+----------------------------------------	
+Test Example 23	
+>> The ear the ear the ear the ear the ear the ear the ear the ear the ear the ear	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Having a natural or a natural or a natural or a natural or a natural or a natural or a	
+24000	
+----------------------------------------	
+Test Example 25	
+>> The right	
+25000	
+----------------------------------------	
+Test Example 26	
+>> Common in a strong and the largest skates	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A bar	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A criminal behavior	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A thin usually a thin usually a thin usually a thin usually a thin usually a thin usually a thin	
+29000	
+----------------------------------------	
+Test Example 30	
+>> The posterior and the posterior and the posterior and the posterior and the posterior and the posterior and the posterior	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A sudden changes in a sudden changes in a sudden changes in a sudden changes in a sudden changes in	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of a dark brown or a dark brown or a dark brown or a dark brown or a dark	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A city in a city in a city in a city in a city in a city in a city	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Cause	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus of a true firs	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A computer	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A single the ear the ear the ear the ear the ear the ear the ear the ear the ear	
+37000	
+----------------------------------------	
+Test Example 38	
+>> A woman	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of a fungus	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Any of a muscle in the small wrist	
+40000	
+----------------------------------------	
+Test Example 41	
+>> A system of a system of a system of a system of a system of a system of a system	
+41000	
+----------------------------------------	
+Test Example 42	
+>> A very small pieces from the sound in a very small pieces from the sound in a very small pieces	
+42000	
+----------------------------------------	
+Test Example 43	
+>> The former gold in the former gold in the former gold in the former gold in the former gold in	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A strong and the mind	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a bone	
+45000	
+----------------------------------------	
+Test Example 46	
+>> Inflammation of a disorder in a disorder in a disorder in a disorder in a disorder in a disorder in	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A cell in the nucleus or a cell in the nucleus or a cell in the nucleus or a cell	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A woman	
+48000	
+----------------------------------------	
+Test Example 49	
+>> In a certain kinds of a certain kinds of a certain kinds of a certain kinds of a certain kinds	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A hospital	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small pieces of a small pieces of a small pieces of a small pieces of a small pieces of	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A person or a person or a person or a person or a person or a person or a person	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of a fungus	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A black	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of a fungus	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A wall	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of a small white or a small white or a small white or a small white or a small	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of a common in a common in a common in a common in a common in a common in	
+58000	
+----------------------------------------	
+Test Example 59	
+>> Inflammation of a disorder in a disorder in a disorder in a disorder in a disorder in a disorder in	
+59000	
+----------------------------------------	
+Test Example 60	
+>> The continental and the continental and the continental and the continental and the continental and the continental and the continental	
+60000	
+----------------------------------------	
+Test Example 61	
+>> The next character or a line	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A vowel and the sound	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A college and the mother by a college and the mother by a college and the mother by a college	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A furnace in the use of a furnace in the use of a furnace in the use of a furnace	
+64000	
+----------------------------------------	
+Test Example 65	
+>> A small round and the common in a small round and the common in a small round and the common	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A battle in a battle in a battle in a battle in a battle in a battle in a battle	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of a black berries	
+67000	
+----------------------------------------	
+Test Example 68	
+>> In a dark purple or a dark purple or a dark purple or a dark purple or a dark purple	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A strong wire	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A box for the use of a box for the use of a box for the use of a box	
+70000	
+----------------------------------------	
+Test Example 71	
+>> The government	
+71000	
+----------------------------------------	
+Test Example 72	
+>> Of a disorder in the chief phagocytic	
+72000	
+----------------------------------------	
+
+-- Epoch 11 / 50	
+	
+
+Finished in 1h18m 15.480875065932 examples/sec.	
+
+Epoch stats:	
+           LR= 0.025005	
+  Errors: min= 0	
+          max= 94.951776504517	
+       median= 19.521616458893	
+         mean= 22.01724256638	
+          std= 12.095342175072	
+
+(Saving model ...)	
+Test Example 1	
+>> A small or a small or a small or a small or a small or a small or a small	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A furnace	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in a city in a city in a city in a city in a city in a city	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A vowel in a vowel in a vowel in a vowel in a vowel in a vowel in a vowel	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of a light	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus of a tall grass of a tall grass of a tall grass of a tall grass of a tall	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A liquid that is a liquid that is a liquid that is a liquid that is a liquid that is	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A mountain in a mountain in a mountain in a mountain in a mountain in a mountain in a mountain	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A woman	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A room in a room in a room in a room in a room in a room in a room	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A box for the sound that is a box for the sound that is a box for the sound that	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Small white or a small white or a small white or a small white or a small white or a	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A certain kinds of a certain kinds of a certain kinds of a certain kinds of a certain kinds of	
+13000	
+----------------------------------------	
+Test Example 14	
+>> Any of a light	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of a large usually a large usually a large usually a large usually a large usually a large usually	
+15000	
+----------------------------------------	
+Test Example 16	
+>> The state of a religious and the state of a religious and the state of a religious and the state	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French and the ear	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A metal	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A saint paul	
+19000	
+----------------------------------------	
+Test Example 20	
+>> One another plant with a fungus	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a person	
+21000	
+----------------------------------------	
+Test Example 22	
+>> A strong a strong a strong a strong a strong a strong a strong a strong a strong a strong	
+22000	
+----------------------------------------	
+Test Example 23	
+>> The ear and the ear and the ear and the ear and the ear and the ear and the ear	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not very nature	
+24000	
+----------------------------------------	
+Test Example 25	
+>> The right	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A strong and a strong and a strong and a strong and a strong and a strong and a strong	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A small white or a small white or a small white or a small white or a small white or	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A guard	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A small grains	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Any of a small veins draining the posterior and the posterior and the posterior and the posterior and the posterior	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A feeling of a feeling of a feeling of a feeling of a feeling of a feeling of a feeling	
+31000	
+----------------------------------------	
+Test Example 32	
+>> A beautiful or a beautiful or a beautiful or a beautiful or a beautiful or a beautiful or a beautiful	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A city in a city in a city in a city in a city in a city in a city	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Cause	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus of a kind	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A computer software	
+36000	
+----------------------------------------	
+Test Example 37	
+>> The ear and the ear and the ear and the ear and the ear and the ear and the ear	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Not human or a muslim or a muslim or a muslim or a muslim or a muslim or a muslim	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of a true stems	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Any of a joint	
+40000	
+----------------------------------------	
+Test Example 41	
+>> A statement	
+41000	
+----------------------------------------	
+Test Example 42	
+>> A very small white or a very small white or a very small white or a very small white or	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A native to the former british commonwealth	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A sharp	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having four feet	
+45000	
+----------------------------------------	
+Test Example 46	
+>> Inflammation of a disorder in a disorder in a disorder in a disorder in a disorder in a disorder in	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A cell in a cell in a cell in a cell in a cell in a cell in a cell	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A woman	
+48000	
+----------------------------------------	
+Test Example 49	
+>> In a straight return	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A house that is a house that is a house that is a house that is a house that is	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small pieces of a small pieces of a small pieces of a small pieces of a small pieces of	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A great sensitivity or a great sensitivity or a great sensitivity or a great sensitivity or a great sensitivity or	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of a tall sometimes used in a tall sometimes used in a tall sometimes used in a tall sometimes	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A small white or a small white or a small white or a small white or a small white or	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of a tall late jurassic and the type genus of a tall late jurassic and the type genus of	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A door or a door or a door or a door or a door or a door or a door	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of a small usually a small usually a small usually a small usually a small usually a small usually	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of a small evergreen	
+58000	
+----------------------------------------	
+Test Example 59	
+>> A morbid usually affects for a morbid usually affects for a morbid usually affects for a morbid usually affects for	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A city and the government	
+60000	
+----------------------------------------	
+Test Example 61	
+>> The next to a family	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A word	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A single class in a single class in a single class in a single class in a single class in	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A mixture of a mixture of a mixture of a mixture of a mixture of a mixture of a mixture	
+64000	
+----------------------------------------	
+Test Example 65	
+>> A small round sweet milk	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A mountain in a mountain in a mountain in a mountain in a mountain in a mountain in a mountain	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of a black and a black and a black and a black and a black and a black and	
+67000	
+----------------------------------------	
+Test Example 68	
+>> Relating to a layer of a layer of a layer of a layer of a layer of a layer of	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A plane that is a plane that is a plane that is a plane that is a plane that is	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A box for the use of a box for the use of a box for the use of a box	
+70000	
+----------------------------------------	
+Test Example 71	
+>> Monetary unit	
+71000	
+----------------------------------------	
+Test Example 72	
+>> Of a ring of a ring of a ring of a ring of a ring of a ring of a	
+72000	
+----------------------------------------	
+
+-- Epoch 12 / 50	
+	
+
+Finished in 1h18m 15.48128001729 examples/sec.	
+
+Epoch stats:	
+           LR= 0.0225055	
+  Errors: min= 0	
+          max= 84.643488883972	
+       median= 17.178135871887	
+         mean= 19.240597013253	
+          std= 10.364314021047	
+
+(Saving model ...)	
+Test Example 1	
+>> A thin silk or a thin silk or a thin silk or a thin silk or a thin silk or	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A wall	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in a city in a city in a city in a city in a city in a city	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A vowel	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of a long a long a long a long a long a long a long a long a long	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus of a number of a number of a number of a number of a number of a number of	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A liquid by a liquid by a liquid by a liquid by a liquid by a liquid by a liquid	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A mountain	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A woman	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A light	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A box for the sound	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Aromatic roots and the fibers of a small white or a small white or a small white or a small	
+12000	
+----------------------------------------	
+Test Example 13	
+>> The meaning or a false a false a false a false a false a false a false a false a	
+13000	
+----------------------------------------	
+Test Example 14	
+>> Any of a woman	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of a beautiful or a beautiful or a beautiful or a beautiful or a beautiful or a beautiful or	
+15000	
+----------------------------------------	
+Test Example 16	
+>> Of a religious and the existence by a religious and the existence by a religious and the existence by a	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French and the english in the english in the english in the english in the english in the english in	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A metal in a metal in a metal in a metal in a metal in a metal in a metal	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A saint and the ancient egyptians	
+19000	
+----------------------------------------	
+Test Example 20	
+>> One another word	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a woman	
+21000	
+----------------------------------------	
+Test Example 22	
+>> A large up to a large up to a large up to a large up to a large up to	
+22000	
+----------------------------------------	
+Test Example 23	
+>> The ear including the ear including the ear including the ear including the ear including the ear including the ear	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not being in a natural feeling of a natural feeling of a natural feeling of a natural feeling of a	
+24000	
+----------------------------------------	
+Test Example 25	
+>> The right	
+25000	
+----------------------------------------	
+Test Example 26	
+>> Common in a strong as a strong as a strong as a strong as a strong as a strong as	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A flat or a flat or a flat or a flat or a flat or a flat or a flat	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A guard	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A small grains	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Either as a muscle in a muscle in a muscle in a muscle in a muscle in a muscle in	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A mental or a mental or a mental or a mental or a mental or a mental or a mental	
+31000	
+----------------------------------------	
+Test Example 32	
+>> A beautiful or a beautiful or a beautiful or a beautiful or a beautiful or a beautiful or a beautiful	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A city in a city in a city in a city in a city in a city in a city	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Cause to a natural and the cause to a natural and the cause to a natural and the cause to	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A strong as a strong as a strong as a strong as a strong as a strong as a strong	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A user	
+37000	
+----------------------------------------	
+Test Example 38	
+>> In a protective power	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of a fungus with a fungus with a fungus with a fungus with a fungus with a fungus with	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Any of a muscle in a muscle in a muscle in a muscle in a muscle in a muscle in	
+40000	
+----------------------------------------	
+Test Example 41	
+>> The meaning	
+41000	
+----------------------------------------	
+Test Example 42	
+>> Type genus of a strong as a strong as a strong as a strong as a strong as a strong	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A native to the country	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A strong and the common in a strong and the common in a strong and the common in a strong	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a bone	
+45000	
+----------------------------------------	
+Test Example 46	
+>> Inflammation of a disorder in a disorder in a disorder in a disorder in a disorder in a disorder in	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A cell in the formation	
+47000	
+----------------------------------------	
+Test Example 48	
+>> Having a woman	
+48000	
+----------------------------------------	
+Test Example 49	
+>> Enter someone who is a day	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A house of a house of a house of a house of a house of a house of a house	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small pieces of a small pieces of a small pieces of a small pieces of a small pieces of	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A morbid who obtains excessive consumption of a morbid who obtains excessive consumption of a morbid who obtains excessive consumption	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of a number of a number of a number of a number of a number of a number of	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A small pieces of a small pieces of a small pieces of a small pieces of a small pieces of	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of a few forms	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A wall	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of a plant	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of a weed in a weed in a weed in a weed in a weed in a weed in	
+58000	
+----------------------------------------	
+Test Example 59	
+>> A morbid and the removal of a morbid and the removal of a morbid and the removal of a morbid	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A city in the hudson	
+60000	
+----------------------------------------	
+Test Example 61	
+>> The next to a family	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A word or a word or a word or a word or a word or a word or a word	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A strong and a strong and a strong and a strong and a strong and a strong and a strong	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A mixture of a mixture of a mixture of a mixture of a mixture of a mixture of a mixture	
+64000	
+----------------------------------------	
+Test Example 65	
+>> A large up to a large up to a large up to a large up to a large up to	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A town	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of a light	
+67000	
+----------------------------------------	
+Test Example 68	
+>> Relating to a dark brown and the water	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A strong lightweight more than the sound	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A box for the use of a box for the use of a box for the use of a box	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A national park in a national park in a national park in a national park in a national park in	
+71000	
+----------------------------------------	
+Test Example 72	
+>> Of a malignant one of a malignant one of a malignant one of a malignant one of a malignant one	
+72000	
+----------------------------------------	
+
+-- Epoch 13 / 50	
+	
+
+Finished in 1h18m 15.481667388232 examples/sec.	
+
+Epoch stats:	
+           LR= 0.020006	
+  Errors: min= 0	
+          max= 72.08632183075	
+       median= 14.958325386047	
+         mean= 16.734442642428	
+          std= 8.814843549936	
+
+(Saving model ...)	
+Test Example 1	
+>> A flat or a flat or a flat or a flat or a flat or a flat or a flat	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A pipe	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in a city in a city in a city in a city in a city in a city	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A vowel	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of a strong and the common in a strong and the common in a strong and the common in	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus of a tall grass	
+6000	
+----------------------------------------	
+Test Example 7	
+>> An empty into a liquid by a liquid by a liquid by a liquid by a liquid by a liquid	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A mountain	
+8000	
+----------------------------------------	
+Test Example 9	
+>> Having a woman	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A room	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A box for the sound	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Small white or a sweet or a sweet or a sweet or a sweet or a sweet or a sweet	
+12000	
+----------------------------------------	
+Test Example 13	
+>> The meaning or a short supply	
+13000	
+----------------------------------------	
+Test Example 14	
+>> Any of a small round emitting a small round emitting a small round emitting a small round emitting a small	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of a large up to the common in a large up to the common in a large up to	
+15000	
+----------------------------------------	
+Test Example 16	
+>> The sacred or a religious instruction in a religious instruction in a religious instruction in a religious instruction in a	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French and the english	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A metal as a metal as a metal as a metal as a metal as a metal as a metal	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A saint and the ancient egyptians	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A plant	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a person	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Small usually the sea with a large up a large up a large up a large up a large up	
+22000	
+----------------------------------------	
+Test Example 23	
+>> The fingers or a sense of a sense of a sense of a sense of a sense of a sense	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Having a certain reason or a certain reason or a certain reason or a certain reason or a certain reason	
+24000	
+----------------------------------------	
+Test Example 25	
+>> The property	
+25000	
+----------------------------------------	
+Test Example 26	
+>> Common in a strong as a strong as a strong as a strong as a strong as a strong as	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A small pieces and the fingers that is a small pieces and the fingers that is a small pieces and	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A guard	
+28000	
+----------------------------------------	
+Test Example 29	
+>> Made with a small pieces	
+29000	
+----------------------------------------	
+Test Example 30	
+>> A small veins of a small veins of a small veins of a small veins of a small veins of	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A strong sexual activity	
+31000	
+----------------------------------------	
+Test Example 32	
+>> A fungus found in a fungus found in a fungus found in a fungus found in a fungus found in	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A city in a city in a city in a city in a city in a city in a city	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Cause to a certain kinds of a certain kinds of a certain kinds of a certain kinds of a certain	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus	
+35000	
+----------------------------------------	
+Test Example 36	
+>> The sound in a strong enough to a strong enough to a strong enough to a strong enough to a	
+36000	
+----------------------------------------	
+Test Example 37	
+>> The ear including a single substance in a single substance in a single substance in a single substance in a	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Not human or a curved parallel to be used as a curved parallel to be used as a curved parallel	
+38000	
+----------------------------------------	
+Test Example 39	
+>> One of a true heaths has been used in the type	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Any of a joint	
+40000	
+----------------------------------------	
+Test Example 41	
+>> The use	
+41000	
+----------------------------------------	
+Test Example 42	
+>> Cause can be used as a genus of a genus of a genus of a genus of a genus of	
+42000	
+----------------------------------------	
+Test Example 43	
+>> The country	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A beautiful often a beautiful often a beautiful often a beautiful often a beautiful often a beautiful often a beautiful	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a small or a small or a small or a small or a small or a small or a	
+45000	
+----------------------------------------	
+Test Example 46	
+>> Inflammation of a disorder in a disorder in a disorder in a disorder in a disorder in a disorder in	
+46000	
+----------------------------------------	
+Test Example 47	
+>> An organ and a cell in a cell in a cell in a cell in a cell in a cell	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A woman	
+48000	
+----------------------------------------	
+Test Example 49	
+>> The best	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A prolonged as a prolonged as a prolonged as a prolonged as a prolonged as a prolonged as a prolonged	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small or a small or a small or a small or a small or a small or a small	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A nervous organ especially a nervous organ especially a nervous organ especially a nervous organ especially a nervous organ especially	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A small pieces of a small pieces of a small pieces of a small pieces of a small pieces of	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus in a few used in a few used in a few used in a few used in a few	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A wall	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of a tall and the common in a tall and the common in a tall and the common in	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of a tall and the fruiting body and the fruiting body and the fruiting body and the fruiting body	
+58000	
+----------------------------------------	
+Test Example 59	
+>> An injury or a morbid fear or a morbid fear or a morbid fear or a morbid fear or a	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A historical area of a historical area of a historical area of a historical area of a historical area of	
+60000	
+----------------------------------------	
+Test Example 61	
+>> The best for the best for the best for the best for the best for the best for the best	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A word or a word or a word or a word or a word or a word or a word	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A strong and a strong and a strong and a strong and a strong and a strong and a strong	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A mixture of a mixture of a mixture of a mixture of a mixture of a mixture of a mixture	
+64000	
+----------------------------------------	
+Test Example 65	
+>> A large up to a large up to a large up to a large up to a large up to	
+65000	
+----------------------------------------	
+Test Example 66	
+>> French troops	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of a heavy or a heavy or a heavy or a heavy or a heavy or a heavy or	
+67000	
+----------------------------------------	
+Test Example 68	
+>> Relating to a dark when a dark when a dark when a dark when a dark when a dark when	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A plane	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A box for the use when the use when the use when the use when the use when the use	
+70000	
+----------------------------------------	
+Test Example 71	
+>> Monetary unit of a national center	
+71000	
+----------------------------------------	
+Test Example 72	
+>> Of a major source of a major source of a major source of a major source of a major source	
+72000	
+----------------------------------------	
+
+-- Epoch 14 / 50	
+	
+
+Finished in 1h18m 15.48160491867 examples/sec.	
+
+Epoch stats:	
+           LR= 0.0175065	
+  Errors: min= 0	
+          max= 64.602282524109	
+       median= 13.057639122009	
+         mean= 14.570848591379	
+          std= 7.5156484061628	
+
+(Saving model ...)	
+Test Example 1	
+>> A thin and the desired size for the desired size for the desired size for the desired size for the	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A single surfaces as a single surfaces as a single surfaces as a single surfaces as a single surfaces as	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in a city in a city in a city in a city in a city in a city	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A sentence	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of a handle as a handle as a handle as a handle as a handle as a handle as	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus of a thick usually affects the type genus of a thick usually affects the type genus of a thick	
+6000	
+----------------------------------------	
+Test Example 7	
+>> An event	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A mountain	
+8000	
+----------------------------------------	
+Test Example 9	
+>> Having a garment	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A room	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A box for the sound	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Seed by a sweet and the form of a sweet and the form of a sweet and the form of	
+12000	
+----------------------------------------	
+Test Example 13	
+>> The meaning or a false or a false or a false or a false or a false or a false	
+13000	
+----------------------------------------	
+Test Example 14	
+>> Any of a short stories	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of a beautiful and a beautiful and a beautiful and a beautiful and a beautiful and a beautiful and	
+15000	
+----------------------------------------	
+Test Example 16	
+>> The sacred	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French and a french and a french and a french and a french and a french and a french and	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A metal	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A saint and the english and the english and the english and the english and the english and the english	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A fungus	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a person	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Any of a strong a strong a strong a strong a strong a strong a strong a strong a strong	
+22000	
+----------------------------------------	
+Test Example 23	
+>> The fingers or a sense of a sense of a sense of a sense of a sense of a sense	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not being formed in a feeling of a feeling of a feeling of a feeling of a feeling of a	
+24000	
+----------------------------------------	
+Test Example 25	
+>> The right to a feeling	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A strong black	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A flat resulting from an open a flat resulting from an open a flat resulting from an open a flat	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A guard	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A small pieces of a small pieces of a small pieces of a small pieces of a small pieces of	
+29000	
+----------------------------------------	
+Test Example 30	
+>> A muscle	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A mental composure	
+31000	
+----------------------------------------	
+Test Example 32	
+>> A fungus	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A city in a city in a city in a city in a city in a city in a city	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Cause to a certain kinds of a certain kinds of a certain kinds of a certain kinds of a certain	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus of a strong sea in a strong sea in a strong sea in a strong sea in a	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A bit	
+36000	
+----------------------------------------	
+Test Example 37	
+>> The ear with a single two people or a single two people or a single two people or a single	
+37000	
+----------------------------------------	
+Test Example 38	
+>> In a woman	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus in the type	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Any of a joint	
+40000	
+----------------------------------------	
+Test Example 41	
+>> The use	
+41000	
+----------------------------------------	
+Test Example 42	
+>> Cause of a genus of a genus of a genus of a genus of a genus of a genus of	
+42000	
+----------------------------------------	
+Test Example 43	
+>> The country	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A large in a large in a large in a large in a large in a large in a large	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a small or a small or a small or a small or a small or a small or a	
+45000	
+----------------------------------------	
+Test Example 46	
+>> Inflammation as a disorder of a disorder of a disorder of a disorder of a disorder of a disorder of	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A cell division usually in a cell division usually in a cell division usually in a cell division usually in	
+47000	
+----------------------------------------	
+Test Example 48	
+>> Having a woman	
+48000	
+----------------------------------------	
+Test Example 49	
+>> In a certain way	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A prolonged as a prolonged as a prolonged as a prolonged as a prolonged as a prolonged as a prolonged	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small or a small or a small or a small or a small or a small or a small	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A very large and a very large and a very large and a very large and a very large and	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of a tall commonly cultivated for the common in a tall commonly cultivated for the common in a tall	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A small pieces of a small pieces of a small pieces of a small pieces of a small pieces of	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of a fungus that resemble gentian in a fungus that resemble gentian in a fungus that resemble gentian in	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A wall	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of a variety of a variety of a variety of a variety of a variety of a variety of	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of a variety of a variety of a variety of a variety of a variety of a variety of	
+58000	
+----------------------------------------	
+Test Example 59	
+>> An injury or a morbid thoughts and a morbid thoughts and a morbid thoughts and a morbid thoughts and a	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A city and the union and the union and the union and the union and the union and the union	
+60000	
+----------------------------------------	
+Test Example 61	
+>> The best interest in a row of a row of a row of a row of a row of a	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A word	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A strong and a strong and a strong and a strong and a strong and a strong and a strong	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A mixture of a mixture of a mixture of a mixture of a mixture of a mixture of a mixture	
+64000	
+----------------------------------------	
+Test Example 65	
+>> A large up to a large up to a large up to a large up to a large up to	
+65000	
+----------------------------------------	
+Test Example 66	
+>> French an automobile	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of a black	
+67000	
+----------------------------------------	
+Test Example 68	
+>> Relating to the water	
+68000	
+----------------------------------------	
+Test Example 69	
+>> An angle	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A box for the work	
+70000	
+----------------------------------------	
+Test Example 71	
+>> The government by a government by a government by a government by a government by a government by a government	
+71000	
+----------------------------------------	
+Test Example 72	
+>> Of a malignant and a malignant and a malignant and a malignant and a malignant and a malignant and a	
+72000	
+----------------------------------------	
+
+-- Epoch 15 / 50	
+	
