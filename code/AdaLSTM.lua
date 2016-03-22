@@ -8,11 +8,11 @@
 -- Expects 1D or 2D input.
 -- The first input in sequence uses zero value for cell and hidden state
 ------------------------------------------------------------------------
-assert(not nn.LSTM, "update nnx package : luarocks install nnx")
-local AdaLSTM, parent = torch.class('neuralconvo.LSTM', 'nn.LSTM')
+assert(not nn.AdaLSTM, "update nnx package : luarocks install nnx")
+local AdaLSTM, parent = torch.class('nn.AdaLSTM', 'nn.AbstractRecurrent')
 
-function LSTM:__init(inputSize, outputSize, rho, cell2gate)
-   parent.__init(self, inputSize, outputSize, rho, cell2gate)
+function AdaLSTM:__init(inputSize, outputSize, rho, cell2gate)
+   parent.__init(self, rho or 9999)
    self.inputSize = inputSize
    self.outputSize = outputSize or inputSize
    -- build the model
@@ -30,7 +30,7 @@ function LSTM:__init(inputSize, outputSize, rho, cell2gate)
 end
 
 -------------------------- factory methods -----------------------------
-function LSTM:buildGate()
+function AdaLSTM:buildGate()
    -- Note : gate expects an input table : {input, output(t-1), cell(t-1)}
    local gate = nn.Sequential()
    if not self.cell2gate then
@@ -49,32 +49,17 @@ function LSTM:buildGate()
    return gate
 end
 
-function LSTM:buildInputGate()
-    -- Note : gate expects an input table : {input, output(t-1), cell(t-1), pred(t - 1)}
-   local gate = nn.Sequential()
-   if not self.cell2gate then
-      gate:add(nn.NarrowTable(1,2))
-   end
-   local input2gate = nn.Linear(self.inputSize, self.outputSize)
-   local output2gate = nn.LinearNoBias(self.outputSize, self.outputSize)
-   local pred2gate = nn.LinearNoBias(self.outputSize, self.vocabSize)
-   local para = nn.ParallelTable()
-   para:add(input2gate):add(output2gate):add(pred2gate)
-   if self.cell2gate then
-      para:add(nn.CMul(self.outputSize)) -- diagonal cell to gate weight matrix
-   end
-   gate:add(para)
-   gate:add(nn.CAddTable())
-   gate:add(nn.Sigmoid())
-   return gate
+function AdaLSTM:buildInputGate()
+   self.inputGate = self:buildGate()
+   return self.inputGate
 end
 
-function LSTM:buildForgetGate()
+function AdaLSTM:buildForgetGate()
    self.forgetGate = self:buildGate()
    return self.forgetGate
 end
 
-function LSTM:buildHidden()
+function AdaLSTM:buildHidden()
    local hidden = nn.Sequential()
    -- input is {input, output(t-1), cell(t-1)}, but we only need {input, output(t-1)}
    hidden:add(nn.NarrowTable(1,2))
@@ -89,7 +74,7 @@ function LSTM:buildHidden()
    return hidden
 end
 
-function LSTM:buildCell()
+function AdaLSTM:buildCell()
    -- build
    self.inputGate = self:buildInputGate() 
    self.forgetGate = self:buildForgetGate()
@@ -116,7 +101,7 @@ function LSTM:buildCell()
    return cell
 end   
    
-function LSTM:buildOutputGate()
+function AdaLSTM:buildOutputGate()
    self.outputGate = self:buildGate()
    return self.outputGate
 end
@@ -124,7 +109,7 @@ end
 -- cell(t) = cellLayer{input, output(t-1), cell(t-1)}
 -- output(t) = outputGate{input, output(t-1), cell(t)}*tanh(cell(t))
 -- output of Model is table : {output(t), cell(t)} 
-function LSTM:buildModel()
+function AdaLSTM:buildModel()
    -- build components
    self.cellLayer = self:buildCell()
    self.outputGate = self:buildOutputGate()
@@ -146,22 +131,17 @@ function LSTM:buildModel()
    output:add(nn.CMulTable())
    -- we want the model to output : {output(t), cell(t)}
    local concat4 = nn.ConcatTable()
-   local dictionary = nn.Sequential()
-   dictionary:add(output)
-   dictionary:add(nn.Sequencer(nn.linear(self.outputSize, self.vocabSize)))
-   dictionary:add(nn.Sequencer(nn.LogSoftMax()))
-   concat4:add(output):add(nn.SelectTable(3)):add(dictionary)
+   concat4:add(output):add(nn.SelectTable(3))
    model:add(concat4)
    return model
 end
 
 ------------------------- forward backward -----------------------------
-function LSTM:updateOutput(input)
-   local prevOutput, prevCell, prevPred
+function AdaLSTM:updateOutput(input)
+   local prevOutput, prevCell
    if self.step == 1 then
       prevOutput = self.userPrevOutput or self.zeroTensor
       prevCell = self.userPrevCell or self.zeroTensor
-      prevPred = self.zeroTensor
       if input:dim() == 2 then
          self.zeroTensor:resize(input:size(1), self.outputSize):zero()
       else
@@ -171,7 +151,6 @@ function LSTM:updateOutput(input)
       -- previous output and cell of this module
       prevOutput = self.outputs[self.step-1]
       prevCell = self.cells[self.step-1]
-      prevPred = self.preds[self.step - 1]
    end
       
    -- output(t), cell(t) = lstm{input(t), output(t-1), cell(t-1)}
@@ -180,28 +159,26 @@ function LSTM:updateOutput(input)
       self:recycle()
       local recurrentModule = self:getStepModule(self.step)
       -- the actual forward propagation
-      output, cell, pred = unpack(recurrentModule:updateOutput{input, prevOutput, prevCell})
+      output, cell = unpack(recurrentModule:updateOutput{input, prevOutput, prevCell})
    else
-      output, cell, pred = unpack(self.recurrentModule:updateOutput{input, prevOutput, prevCell})
+      output, cell = unpack(self.recurrentModule:updateOutput{input, prevOutput, prevCell})
    end
    
    self.outputs[self.step] = output
    self.cells[self.step] = cell
-   self.preds[self.step] = pred
    
    self.output = output
    self.cell = cell
-   self.pred = pred
    
    self.step = self.step + 1
    self.gradPrevOutput = nil
    self.updateGradInputStep = nil
    self.accGradParametersStep = nil
    -- note that we don't return the cell, just the output
-   return self.output, self.pred
+   return self.output
 end
 
-function LSTM:_updateGradInput(input, gradOutput)
+function AdaLSTM:_updateGradInput(input, gradOutput)
    assert(self.step > 1, "expecting at least one updateOutput")
    local step = self.updateGradInputStep - 1
    assert(step >= 1)
@@ -232,7 +209,7 @@ function LSTM:_updateGradInput(input, gradOutput)
    return gradInput
 end
 
-function LSTM:_accGradParameters(input, gradOutput, scale)
+function AdaLSTM:_accGradParameters(input, gradOutput, scale)
    local step = self.accGradParametersStep - 1
    assert(step >= 1)
    
