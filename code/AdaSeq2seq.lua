@@ -19,8 +19,8 @@ function Seq2Seq:buildModel()
   self.encoder:add(para)
   self.encoder:add(nn.CAddTable())
   self.encoder:add(nn.SplitTable())
-  self.encoder:add(nn.LookupTable(self.vocabSize, self.hiddenSize))
-  self.encoder:add(nn.SplitTable(1, 2))
+  -- self.encoder:add(nn.LookupTable(self.vocabSize, self.hiddenSize))
+  -- self.encoder:add(nn.SplitTable(1, 2))
   self.encoderLSTM = nn.LSTM(self.hiddenSize, self.hiddenSize)
   self.encoder:add(nn.Sequencer(self.encoderLSTM))
   self.encoder:add(nn.SelectTable(-1))
@@ -114,6 +114,7 @@ function Seq2Seq:eval(input)
 
   -- Forward <go> and all of it's output recursively back to the decoder
   local output = self.goToken
+  
   for i = 1, MAX_OUTPUT_SIZE do
     local prediction = self.decoder:forward(torch.Tensor{output})[1]
     -- prediction contains the probabilities for each word IDs.
