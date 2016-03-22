@@ -4,13 +4,13 @@ require 'xlua'
 cmd = torch.CmdLine()
 cmd:text('Options:')
 cmd:option('--dataset', 0, 'approximate size of dataset to use (0 = all)')
-cmd:option('--minWordFreq', 5, 'minimum frequency of words kept in vocab')
+cmd:option('--minWordFreq', 1, 'minimum frequency of words kept in vocab')
 cmd:option('--cuda', false, 'use CUDA')
 cmd:option('--hiddenSize', 1000, 'number of hidden units in LSTM')
 cmd:option('--learningRate', 0.05, 'learning rate at t=0')
 cmd:option('--momentum', 0.9, 'momentum')
-cmd:option('--minLR', 0.00001, 'minimum learning rate')
-cmd:option('--saturateEpoch', 20, 'epoch at which linear decayed LR will reach minLR')
+cmd:option('--minLR', 0.000025, 'minimum learning rate')
+cmd:option('--saturateEpoch', 40, 'epoch at which linear decayed LR will reach minLR')
 cmd:option('--maxEpoch', 50, 'maximum number of epochs to run')
 cmd:option('--batchSize', 1000, 'number of examples to load at once')
 
@@ -34,7 +34,7 @@ print("  Vocabulary size: " .. dataset.wordsCount)
 print("         Examples: " .. dataset.examplesCount)
 
 -- Model
-model = neuralconvo.AdaSeq2Seq(dataset.wordsCount, options.hiddenSize)
+model = neuralconvo.Seq2Seq(dataset.wordsCount, options.hiddenSize)
 model.goToken = dataset.goToken
 model.eosToken = dataset.eosToken
 
