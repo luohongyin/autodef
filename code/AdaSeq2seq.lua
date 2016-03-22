@@ -1,5 +1,5 @@
 -- Based on https://github.com/Element-Research/rnn/blob/master/examples/encoder-decoder-coupling.lua
-local Seq2Seq = torch.class("neuralconvo.Seq2Seq")
+local AdaSeq2Seq = torch.class("neuralconvo.AdaSeq2Seq")
 
 function Seq2Seq:__init(vocabSize, hiddenSize)
   self.vocabSize = assert(vocabSize, "vocabSize required at arg #1")
