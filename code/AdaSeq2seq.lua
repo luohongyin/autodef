@@ -1,14 +1,14 @@
 -- Based on https://github.com/Element-Research/rnn/blob/master/examples/encoder-decoder-coupling.lua
-local Seq2Seq = torch.class("neuralconvo.Seq2Seq")
+local AdaSeq2Seq = torch.class("neuralconvo.AdaSeq2Seq")
 
-function Seq2Seq:__init(vocabSize, hiddenSize)
+function AdaSeq2Seq:__init(vocabSize, hiddenSize)
   self.vocabSize = assert(vocabSize, "vocabSize required at arg #1")
   self.hiddenSize = assert(hiddenSize, "hiddenSize required at arg #2")
 
   self:buildModel()
 end
 
-function Seq2Seq:buildModel()
+function AdaSeq2Seq:buildModel()
   local para = nn.ParallelTable()
   local lookupModule = nn.Sequential()
   local linearModule = nn.Sequential()
@@ -39,7 +39,7 @@ function Seq2Seq:buildModel()
   self.zeroTensor = torch.Tensor(2):zero()
 end
 
-function Seq2Seq:cuda()
+function AdaSeq2Seq:cuda()
   self.encoder:cuda()
   self.decoder:cuda()
 
@@ -51,7 +51,7 @@ function Seq2Seq:cuda()
 end
 
 --[[ Forward coupling: Copy encoder cell and output to decoder LSTM ]]--
-function Seq2Seq:forwardConnect(inputSeqLen)
+function AdaSeq2Seq:forwardConnect(inputSeqLen)
   self.decoderLSTM.userPrevOutput =
     nn.rnn.recursiveCopy(self.decoderLSTM.userPrevOutput, self.encoderLSTM.outputs[inputSeqLen])
   self.decoderLSTM.userPrevCell =
@@ -59,14 +59,14 @@ function Seq2Seq:forwardConnect(inputSeqLen)
 end
 
 --[[ Backward coupling: Copy decoder gradients to encoder LSTM ]]--
-function Seq2Seq:backwardConnect()
+function AdaSeq2Seq:backwardConnect()
   self.encoderLSTM.userNextGradCell =
     nn.rnn.recursiveCopy(self.encoderLSTM.userNextGradCell, self.decoderLSTM.userGradPrevCell)
   self.encoderLSTM.gradPrevOutput =
     nn.rnn.recursiveCopy(self.encoderLSTM.gradPrevOutput, self.decoderLSTM.userGradPrevOutput)
 end
 
-function Seq2Seq:train(input, target)
+function AdaSeq2Seq:train(input, target)
   local encoderInput = input
   local decoderInput = target:sub(1, -2)
   local decoderTarget = target:sub(2, -1)
@@ -102,7 +102,7 @@ end
 
 local MAX_OUTPUT_SIZE = 20
 
-function Seq2Seq:eval(input)
+function AdaSeq2Seq:eval(input)
   assert(self.goToken, "No goToken specified")
   assert(self.eosToken, "No eosToken specified")
 
@@ -114,7 +114,7 @@ function Seq2Seq:eval(input)
 
   -- Forward <go> and all of it's output recursively back to the decoder
   local output = self.goToken
-  
+
   for i = 1, MAX_OUTPUT_SIZE do
     local prediction = self.decoder:forward(torch.Tensor{output})[1]
     -- prediction contains the probabilities for each word IDs.
