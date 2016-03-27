@@ -40,14 +40,7 @@ function Sampling:updateGradInput(input, gradOutput)
       self.gradInput:resizeAs(gradOutput):copy(gradOutput)
    end
    if self.train then
-      if self.p > 0 then
-         self.gradInput:cmul(self.mask) -- simply mask the gradients with the noise vector
-      end
-   else
-      if not self.v2 and self.p > 0 then
-         self.gradInput:mul(1-self.p)
-      end
-   end
+      self.gradInput:cmul(self.mask) -- simply mask the gradients with the noise vector
    return self.gradInput
 end
 
