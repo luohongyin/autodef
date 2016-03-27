@@ -28,7 +28,7 @@ function AdaSeq2Seq:buildModel()
   lookupModule:add(nn.JoinTable(1))
   lookupModule:add(nn.Sigmoid())
   lookupModule:add(nn.Sampling(2))
-  linearModule:add(nn.Dropout(1.0))
+  linearModule:add(nn.Dropout(0))
   -- linearModule:add(nn.SplitTable(1, 2))
 
   para:add(linearModule):add(lookupModule)
