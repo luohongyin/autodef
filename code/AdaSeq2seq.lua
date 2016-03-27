@@ -90,7 +90,6 @@ function AdaSeq2Seq:train(input, target)
   self.decoder:backward({input, decoderInput}, gEdec)
   -- self:backwardConnect()
   -- self.encoder:backward(encoderInput, self.zeroTensor)
-
   -- self.encoder:updateGradParameters(self.momentum)
   self.decoder:updateGradParameters(self.momentum)
   self.decoder:updateParameters(self.learningRate)
