@@ -29,7 +29,7 @@ function Sampling:updateOutput(input)
       self.output:mul(1-self.p)
    end
    self.mask = self.output
-   print(self.output:size())
+   -- print(self.output:size())
    return self.output
 end
 
