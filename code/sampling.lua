@@ -41,6 +41,7 @@ function Sampling:updateGradInput(input, gradOutput)
    end
    if self.train then
       self.gradInput:cmul(self.mask) -- simply mask the gradients with the noise vector
+   end
    return self.gradInput
 end
 
