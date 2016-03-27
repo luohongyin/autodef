@@ -28,8 +28,8 @@ function Sampling:updateOutput(input)
    elseif not self.v2 then
       self.output:mul(1-self.p)
    end
-   -- mask data
    self.mask = self.output
+   print(self.output:size())
    return self.output
 end
 
