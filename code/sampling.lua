@@ -16,7 +16,6 @@ function Sampling:updateOutput(input)
             self.noise:bernoulli(input[i])
             self.output[i] = self.noise[1]
          end
-      end
       elseif self.dim == 2 then
          local size = input:size()
          for i = 1, size[1] do
@@ -26,10 +25,10 @@ function Sampling:updateOutput(input)
             end
          end
       end
-   end
    elseif not self.v2 then
       self.output:mul(1-self.p)
    end
+   -- mask data
    self.mask = self.output
    return self.output
 end
