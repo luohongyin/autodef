@@ -26,6 +26,7 @@ function Sampling:updateOutput(input)
             end
          end
       end
+   end
    elseif not self.v2 then
       self.output:mul(1-self.p)
    end
