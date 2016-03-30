@@ -4,7 +4,7 @@ function Sampling:__init(dim)
    Parent.__init(self)
    self.dim = dim
    self.train = true
-   self.noise = torch.Tensor(1)
+   self.noise = torch.Tensor()
 end
 
 function Sampling:updateOutput(input)
@@ -13,15 +13,21 @@ function Sampling:updateOutput(input)
       if self.dim == 1 then
          local size = input:size()[1]
          for i = 1, size do
-            self.noise:bernoulli(input[i])
-            self.output[i] = self.noise[1]
+            if input[i] > 0.5 then
+               self.output[i] = 1
+            elseif
+               self.output[i] = 0
+            end
          end
       elseif self.dim == 2 then
          local size = input:size()
          for i = 1, size[1] do
             for j = 1, size[2] do
-               self.noise:bernoulli(input[i][j])
-               self.output[i][j] = self.noise[1]
+               if input[i][j] > 0.5 then
+                  self.output[i][j] = 1
+               elseif
+                  self.output[i][j] = 0
+               end
             end
          end
       end
