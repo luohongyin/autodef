@@ -15,7 +15,7 @@ function Sampling:updateOutput(input)
          for i = 1, size do
             if input[i] > 0.5 then
                self.output[i] = 1
-            elseif
+            else
                self.output[i] = 0
             end
          end
@@ -25,7 +25,7 @@ function Sampling:updateOutput(input)
             for j = 1, size[2] do
                if input[i][j] > 0.5 then
                   self.output[i][j] = 1
-               elseif
+               else
                   self.output[i][j] = 0
                end
             end
