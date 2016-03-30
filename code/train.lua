@@ -84,7 +84,7 @@ for epoch = 1, options.maxEpoch do
           target = target:cuda()
         end
 
-        print(encoderInput:size())
+        -- print(encoderInput:size())
 		local err = model:train(encoderInput, target)
 
         -- Check if error is NaN. If so, it's probably a bug.

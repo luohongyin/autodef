@@ -1,3 +1,5 @@
+require "cutorch"
+
 local Sampling, Parent = torch.class('nn.Sampling', 'nn.Module')
 
 function Sampling:__init(dim)
