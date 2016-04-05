@@ -35,7 +35,7 @@ function AdaLSTM:buildGate()
    -- Note : gate expects an input table : {input1, input2, output(t-1), cell(t-1)}
    local gate = nn.Sequential()
    if not self.cell2gate then
-      gate:add(nn.NarrowTable(1,2))
+      gate:add(nn.NarrowTable(1,3))
    end
    local input2gate1 = nn.Linear(self.inputSize1, self.outputSize)
    local input2gate2 = nn.Linear(self.inputSize2, self.outputSize)
@@ -64,7 +64,7 @@ end
 function AdaLSTM:buildHidden()
    local hidden = nn.Sequential()
    -- input is {input1, input2, output(t-1), cell(t-1)}, but we only need {input1, input2, output(t-1)}
-   hidden:add(nn.NarrowTable(1,2))
+   hidden:add(nn.NarrowTable(1,3))
    local input2hidden1 = nn.Linear(self.inputSize1, self.outputSize)
    local input2hidden2 = nn.Linear(self.inputSize2, self.outputSize)
    local output2hidden = nn.LinearNoBias(self.outputSize, self.outputSize)
@@ -82,10 +82,10 @@ function AdaLSTM:buildCell()
    self.inputGate = self:buildInputGate() 
    self.forgetGate = self:buildForgetGate()
    self.hiddenLayer = self:buildHidden()
-   -- forget = forgetGate{input, output(t-1), cell(t-1)} * cell(t-1)
+   -- forget = forgetGate{input1, input2, output(t-1), cell(t-1)} * cell(t-1)
    local forget = nn.Sequential()
    local concat = nn.ConcatTable()
-   concat:add(self.forgetGate):add(nn.SelectTable(3))
+   concat:add(self.forgetGate):add(nn.SelectTable(4))
    forget:add(concat)
    forget:add(nn.CMulTable())
    -- input = inputGate{input, output(t-1), cell(t-1)} * hiddenLayer{input, output(t-1), cell(t-1)}
@@ -121,11 +121,11 @@ function AdaLSTM:buildModel()
    concat:add(nn.NarrowTable(1,3)):add(self.cellLayer)
    local model = nn.Sequential()
    model:add(concat)
-   -- output of concat is {{input, output}, cell(t)}, 
-   -- so flatten to {input, output, cell(t)}
+   -- output of concat is {{input1, input2 output}, cell(t)}, 
+   -- so flatten to {input1, input2, output, cell(t)}
    model:add(nn.FlattenTable())
    local cellAct = nn.Sequential()
-   cellAct:add(nn.SelectTable(3))
+   cellAct:add(nn.SelectTable(4))
    cellAct:add(nn.Tanh())
    local concat3 = nn.ConcatTable()
    concat3:add(self.outputGate):add(cellAct)
@@ -134,7 +134,7 @@ function AdaLSTM:buildModel()
    output:add(nn.CMulTable())
    -- we want the model to output : {output(t), cell(t)}
    local concat4 = nn.ConcatTable()
-   concat4:add(output):add(nn.SelectTable(3))
+   concat4:add(output):add(nn.SelectTable(4))
    model:add(concat4)
    return model
 end
