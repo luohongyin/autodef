@@ -145,8 +145,8 @@ function AdaLSTM:updateOutput(input)
    if self.step == 1 then
       prevOutput = self.userPrevOutput or self.zeroTensor
       prevCell = self.userPrevCell or self.zeroTensor
-      if input:dim() == 2 then
-         self.zeroTensor:resize(input:size(1), self.outputSize):zero()
+      if input[1]:dim() == 2 then
+         self.zeroTensor:resize(input[1]:size(1), self.outputSize):zero()
       else
          self.zeroTensor:resize(self.outputSize):zero()
       end
