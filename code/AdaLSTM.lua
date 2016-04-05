@@ -198,7 +198,7 @@ function AdaLSTM:_updateGradInput(input, gradOutput)
    
    local output = (step == 1) and (self.userPrevOutput or self.zeroTensor) or self.outputs[step-1]
    local cell = (step == 1) and (self.userPrevCell or self.zeroTensor) or self.cells[step-1]
-   local inputTable = {input, output, cell}
+   local inputTable = {input[1], input[2], output, cell}
    local gradCell = (step == self.step-1) and (self.userNextGradCell or self.zeroTensor) or self.gradCells[step]
    
    local gradInputTable = recurrentModule:updateGradInput(inputTable, {gradOutput, gradCell})
@@ -222,7 +222,7 @@ function AdaLSTM:_accGradParameters(input, gradOutput, scale)
    -- backward propagate through this step
    local output = (step == 1) and (self.userPrevOutput or self.zeroTensor) or self.outputs[step-1]
    local cell = (step == 1) and (self.userPrevCell or self.zeroTensor) or self.cells[step-1]
-   local inputTable = {input, output, cell}
+   local inputTable = {input[1], input[2], output, cell}
    local gradOutput = (step == self.step-1) and gradOutput or self._gradOutputs[step]
    local gradCell = (step == self.step-1) and (self.userNextGradCell or self.zeroTensor) or self.gradCells[step]
    local gradOutputTable = {gradOutput, gradCell}
