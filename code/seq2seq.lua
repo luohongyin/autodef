@@ -74,6 +74,7 @@ function Seq2Seq:train(input, target)
   encoderInput = {}
   for i = 1, #input do
     table.insert(encoderInput, {input[i], decoderInput[i]})
+  end
   local decoderOutput = self.decoder:forward(encoderInput)
   local Edecoder = self.criterion:forward(decoderOutput, decoderTarget)
 
