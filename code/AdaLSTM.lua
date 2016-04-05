@@ -8,13 +8,14 @@
 -- Expects 1D or 2D input.
 -- The first input in sequence uses zero value for cell and hidden state
 ------------------------------------------------------------------------
-assert(not nn.AdaLSTM, "update nnx package : luarocks install nnx")
+-- assert(not nn.AdaLSTM, "update nnx package : luarocks install nnx")
 local AdaLSTM, parent = torch.class('nn.AdaLSTM', 'nn.AbstractRecurrent')
 
-function AdaLSTM:__init(inputSize, outputSize, rho, cell2gate)
+function AdaLSTM:__init(inputSize1, inputSize2, outputSize, rho, cell2gate)
    parent.__init(self, rho or 9999)
-   self.inputSize = inputSize
-   self.outputSize = outputSize or inputSize
+   self.inputSize1 = inputSize1
+   self.inputSize2 = inputSize2
+   self.outputSize = outputSize or inputSize1
    -- build the model
    self.cell2gate = (cell2gate == nil) and true or cell2gate
    self.recurrentModule = self:buildModel()
@@ -31,15 +32,16 @@ end
 
 -------------------------- factory methods -----------------------------
 function AdaLSTM:buildGate()
-   -- Note : gate expects an input table : {input, output(t-1), cell(t-1)}
+   -- Note : gate expects an input table : {input1, input2, output(t-1), cell(t-1)}
    local gate = nn.Sequential()
    if not self.cell2gate then
       gate:add(nn.NarrowTable(1,2))
    end
-   local input2gate = nn.Linear(self.inputSize, self.outputSize)
+   local input2gate1 = nn.Linear(self.inputSize1, self.outputSize)
+   local input2gate2 = nn.Linear(self.inputSize2, self.outputSize)
    local output2gate = nn.LinearNoBias(self.outputSize, self.outputSize)
    local para = nn.ParallelTable()
-   para:add(input2gate):add(output2gate) 
+   para:add(input2gate1):add(input2gate2):add(output2gate) 
    if self.cell2gate then
       para:add(nn.CMul(self.outputSize)) -- diagonal cell to gate weight matrix
    end
@@ -61,12 +63,13 @@ end
 
 function AdaLSTM:buildHidden()
    local hidden = nn.Sequential()
-   -- input is {input, output(t-1), cell(t-1)}, but we only need {input, output(t-1)}
+   -- input is {input1, input2, output(t-1), cell(t-1)}, but we only need {input1, input2, output(t-1)}
    hidden:add(nn.NarrowTable(1,2))
-   local input2hidden = nn.Linear(self.inputSize, self.outputSize)
+   local input2hidden1 = nn.Linear(self.inputSize1, self.outputSize)
+   local input2hidden2 = nn.Linear(self.inputSize2, self.outputSize)
    local output2hidden = nn.LinearNoBias(self.outputSize, self.outputSize)
    local para = nn.ParallelTable()
-   para:add(input2hidden):add(output2hidden)
+   para:add(input2hidden1):add(input2hidden2):add(output2hidden)
    hidden:add(para)
    hidden:add(nn.CAddTable())
    hidden:add(nn.Tanh())
