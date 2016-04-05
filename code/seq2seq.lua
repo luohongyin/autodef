@@ -72,7 +72,7 @@ function Seq2Seq:train(input, target)
   -- self.encoder:forward(encoderInput)
   -- self:forwardConnect(encoderInput:size(1))
   encoderInput = {}
-  for i = 1, #input do
+  for i = 1, input:size(1) do
     table.insert(encoderInput, {input[i], decoderInput[i]})
   end
   local decoderOutput = self.decoder:forward(encoderInput)
