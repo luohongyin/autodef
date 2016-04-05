@@ -20,12 +20,12 @@ function Seq2Seq:buildModel()
   local lookupModule = nn.Sequential()
   local linearModule = nn.Sequential()
   lookupModule:add(nn.LookupTable(self.vocabSize, self.hiddenSize))
-  lookupModule:add(nn.SplitTable(1, 2))
+  -- lookupModule:add(nn.SplitTable(1, 2))
   -- linearModule:add(nn.Linear(400, self.hiddenSize))
-  linearModule:add(nn.SplitTable(1, 2))
+  linearModule:add(nn.DropOut(0))
   para:add(linearModule):add(lookupModule)
   self.decoder = nn.Sequential()
-  self.decoder:add(para)
+  self.decoder:add(nn.Sequencer(para))
   -- self.decoder:add(nn.CAddTable())
   -- self.decoder:add(nn.SplitTable(1, 2))
   self.decoderLSTM = nn.AdaLSTM(self.hiddenSize, self.hiddenSize, self.hiddenSize)
@@ -71,7 +71,10 @@ function Seq2Seq:train(input, target)
   -- Forward pass
   -- self.encoder:forward(encoderInput)
   -- self:forwardConnect(encoderInput:size(1))
-  local decoderOutput = self.decoder:forward({input, decoderInput})
+  encoderInput = {}
+  for i = 1, #input do
+    table.insert(encoderInput, {input[i], decoderInput[i]})
+  local decoderOutput = self.decoder:forward(encoderInput)
   local Edecoder = self.criterion:forward(decoderOutput, decoderTarget)
 
   if Edecoder ~= Edecoder then -- Exist early on bad error
@@ -80,7 +83,7 @@ function Seq2Seq:train(input, target)
 
   -- Backward pass
   local gEdec = self.criterion:backward(decoderOutput, decoderTarget)
-  self.decoder:backward({input, decoderInput}, gEdec)
+  self.decoder:backward(encoderInput, gEdec)
   -- self:backwardConnect()
   -- self.encoder:backward(encoderInput, self.zeroTensor)
 
