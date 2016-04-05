@@ -73,7 +73,7 @@ function Seq2Seq:train(input, target)
   -- self:forwardConnect(encoderInput:size(1))
   encoderInput = {}
   for i = 1, input:size(1) do
-    table.insert(encoderInput, {input[i], decoderInput[i]})
+    table.insert(encoderInput, {input[i], torch.Tensor(decoderInput[i])})
   end
   local decoderOutput = self.decoder:forward(encoderInput)
   local Edecoder = self.criterion:forward(decoderOutput, decoderTarget)
