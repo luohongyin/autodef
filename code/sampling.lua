@@ -36,8 +36,8 @@ function Sampling:updateOutput(input)
    elseif not self.v2 then
       self.output:mul(1-self.p)
    end
-   self.mask = self.output
-   -- print(self.output:size())
+   -- mask data
+   self.noise = self.output
    return self.output
 end
 
@@ -48,7 +48,7 @@ function Sampling:updateGradInput(input, gradOutput)
       self.gradInput:resizeAs(gradOutput):copy(gradOutput)
    end
    if self.train then
-      self.gradInput:cmul(self.mask) -- simply mask the gradients with the noise vector
+      self.gradInput:cmul(self.noise) -- simply mask the gradients with the noise vector
    end
    return self.gradInput
 end
