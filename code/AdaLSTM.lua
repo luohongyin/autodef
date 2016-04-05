@@ -118,7 +118,7 @@ function AdaLSTM:buildModel()
    self.outputGate = self:buildOutputGate()
    -- assemble
    local concat = nn.ConcatTable()
-   concat:add(nn.NarrowTable(1,2)):add(self.cellLayer)
+   concat:add(nn.NarrowTable(1,3)):add(self.cellLayer)
    local model = nn.Sequential()
    model:add(concat)
    -- output of concat is {{input, output}, cell(t)}, 
@@ -162,9 +162,9 @@ function AdaLSTM:updateOutput(input)
       self:recycle()
       local recurrentModule = self:getStepModule(self.step)
       -- the actual forward propagation
-      output, cell = unpack(recurrentModule:updateOutput{input, prevOutput, prevCell})
+      output, cell = unpack(recurrentModule:updateOutput{input[1], input[2], prevOutput, prevCell})
    else
-      output, cell = unpack(self.recurrentModule:updateOutput{input, prevOutput, prevCell})
+      output, cell = unpack(self.recurrentModule:updateOutput{input[1], input[2], prevOutput, prevCell})
    end
    
    self.outputs[self.step] = output
