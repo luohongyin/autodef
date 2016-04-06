@@ -1,40 +1,18 @@
+require "cutorch"
+require "cunn"
+
 local Sampling, Parent = torch.class('nn.Sampling', 'nn.Module')
 
 function Sampling:__init(dim)
    Parent.__init(self)
    self.dim = dim
-   self.train = true
    self.noise = torch.Tensor()
 end
 
 function Sampling:updateOutput(input)
    self.output:resizeAs(input):copy(input)
-   if self.train then
-      if self.dim == 1 then
-         local size = input:size()[1]
-         for i = 1, size do
-            if input[i] > 0.5 then
-               self.output[i] = 1
-            else
-               self.output[i] = 0
-            end
-         end
-      elseif self.dim == 2 then
-         local size = input:size()
-         for i = 1, size[1] do
-            for j = 1, size[2] do
-               if input[i][j] > 0.5 then
-                  self.output[i][j] = 1
-               else
-                  self.output[i][j] = 0
-               end
-            end
-         end
-      end
-   elseif not self.v2 then
-      self.output:mul(1-self.p)
-   end
-   -- mask data
+   self.mask = torch.ones(input:size()):cuda() * 0.5
+   self.output = torch.clamp(torch.sign(input - mask), 0, 1)
    self.noise = self.output
    return self.output
 end
@@ -54,7 +32,6 @@ end
 function Sampling:__tostring__()
    return string.format('%s(%f)', torch.type(self), self.p)
 end
-
 
 function Sampling:clearState()
    if self.noise then
