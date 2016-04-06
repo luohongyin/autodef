@@ -109,8 +109,8 @@ function AdaLSTM:buildOutputGate()
    return self.outputGate
 end
 
--- cell(t) = cellLayer{input, output(t-1), cell(t-1)}
--- output(t) = outputGate{input, output(t-1), cell(t)}*tanh(cell(t))
+-- cell(t) = cellLayer{input1, input2, output(t-1), cell(t-1)}
+-- output(t) = outputGate{input1, input2, output(t-1), cell(t)}*tanh(cell(t))
 -- output of Model is table : {output(t), cell(t)} 
 function AdaLSTM:buildModel()
    -- build components
