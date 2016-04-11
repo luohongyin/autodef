@@ -11,7 +11,7 @@ end
 
 function Sampling:updateOutput(input)
    self.output:resizeAs(input):copy(input)
-   self.mask = torch.ones(input:size()):cuda() * 0.5
+   self.mask = torch.rand(input:size()):cuda()
    self.output = torch.clamp(torch.sign(input - self.mask), 0, 1)
    self.noise = self.output
    return self.output
