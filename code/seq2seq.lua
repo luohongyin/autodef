@@ -16,18 +16,18 @@ function Seq2Seq:buildModel()
   -- self.encoder:add(nn.Linear(self.encoderLinear)
   -- self.encoder:add(nn.SelectTable(-1))
 
-  local para = nn.ParallelTable()
+  -- local para = nn.ParallelTable()
   local lookupModule = nn.Sequential()
-  local linearModule = nn.Sequential()
+  -- local linearModule = nn.Sequential()
   lookupModule:add(nn.LookupTable(self.vocabSize, self.hiddenSize))
   -- lookupModule:add(nn.SplitTable(1, 2))
   -- linearModule:add(nn.Linear(400, self.hiddenSize))
-  linearModule:add(nn.Dropout(0))
-  para:add(linearModule):add(lookupModule)
+  -- linearModule:add(nn.Dropout(0))
+  -- para:add(linearModule):add(lookupModule)
   self.decoder = nn.Sequential()
-  self.decoder:add(nn.Sequencer(para))
+  self.decoder:add(lookupModule)
   -- self.decoder:add(nn.CAddTable())
-  -- self.decoder:add(nn.SplitTable(1, 2))
+  self.decoder:add(nn.SplitTable(1, 2))
   self.decoderLSTM = nn.AdaLSTM(self.hiddenSize, self.hiddenSize, self.hiddenSize)
   self.decoder:add(nn.Sequencer(self.decoderLSTM))
   self.decoder:add(nn.Sequencer(nn.Linear(self.hiddenSize, self.vocabSize)))
@@ -71,11 +71,8 @@ function Seq2Seq:train(input, target)
   -- Forward pass
   -- self.encoder:forward(encoderInput)
   -- self:forwardConnect(encoderInput:size(1))
-  encoderInput = {}
-  for i = 1, input:size(1) do
-    table.insert(encoderInput, {input[i]:resize(1, input:size(2)), torch.Tensor({decoderInput[i]}):cuda()})
-  end
-  local decoderOutput = self.decoder:forward(encoderInput)
+  self.decoderLSTM.userPrevOutput = input[1]
+  local decoderOutput = self.decoder:forward(decoderInput)
   local Edecoder = self.criterion:forward(decoderOutput, decoderTarget)
 
   if Edecoder ~= Edecoder then -- Exist early on bad error
@@ -84,7 +81,7 @@ function Seq2Seq:train(input, target)
 
   -- Backward pass
   local gEdec = self.criterion:backward(decoderOutput, decoderTarget)
-  self.decoder:backward(encoderInput, gEdec)
+  self.decoder:backward(decoderInput, gEdec)
   -- self:backwardConnect()
   -- self.encoder:backward(encoderInput, self.zeroTensor)
 

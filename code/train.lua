@@ -34,7 +34,7 @@ print("  Vocabulary size: " .. dataset.wordsCount)
 print("         Examples: " .. dataset.examplesCount)
 
 -- Model
-model = neuralconvo.AdaSeq2Seq(dataset.wordsCount, options.hiddenSize)
+model = neuralconvo.Seq2Seq(dataset.wordsCount, options.hiddenSize)
 model.goToken = dataset.goToken
 model.eosToken = dataset.eosToken
 
@@ -94,7 +94,7 @@ for epoch = 1, options.maxEpoch do
 
         errors[i] = err
 	    end
-      -- xlua.progress(i, dataset.examplesCount)
+      xlua.progress(i, dataset.examplesCount)
       i = i + 1
     end
   end

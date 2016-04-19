@@ -17,8 +17,8 @@ local list = require "pl.List"
 
 function DataSet:__init(loader, options)
   options = options or {}
-  self.matrix = torch.load("../data/model/vectors_I.t7")
-  self.examplesFilename = "../data/model/examples_I.t7"
+  self.matrix = torch.load("../data/model/vectors.t7")
+  self.examplesFilename = "../data/model/examples.t7"
 
   -- Discard words with lower frequency then this
   self.minWordFreq = options.minWordFreq or 1
@@ -38,7 +38,7 @@ function DataSet:__init(loader, options)
 end
 
 function DataSet:load(loader)
-  local filename = "../data/model/vocab_I.t7"
+  local filename = "../data/model/vocab.t7"
 
   if path.exists(filename) then
     print("Loading vocabulary from " .. filename .. " ...")
