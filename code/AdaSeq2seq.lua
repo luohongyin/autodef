@@ -33,7 +33,7 @@ function AdaSeq2Seq:buildModel()
   -- samplingModule:add(nn.Sampling(2))
   linearModule:add(nn.Dropout(0))
   -- linearModule:add(nn.SplitTable(1, 2))
-  LMModule:add(nn.Linear(self.hiddenSize, self.hiddenSize))
+  LMModule:add(nn.Dropout(0))
   concat = nn.ConcatTable()
   concat:add(samplingModule):add(LMModule)
 
