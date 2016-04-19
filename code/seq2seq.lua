@@ -109,11 +109,12 @@ function Seq2Seq:eval(input)
 
   local predictions = {}
   local probabilities = {}
+  self.decoderLSTM.userPrevOutput = input
 
   -- Forward <go> and all of it's output recursively back to the decoder
   local output = self.goToken
   for i = 1, MAX_OUTPUT_SIZE do
-    local prediction = self.decoder:forward({input, torch.Tensor{output}})[1]
+    local prediction = self.decoder:forward(torch.Tensor{output})[1]
     -- prediction contains the probabilities for each word IDs.
     -- The index of the probability is the word ID.
     local prob, wordIds = prediction:sort(1, true)
@@ -125,7 +126,6 @@ function Seq2Seq:eval(input)
     if output == self.eosToken then
       break
     end
-
     table.insert(predictions, wordIds)
     table.insert(probabilities, prob)
   end 
