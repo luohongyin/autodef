@@ -71,7 +71,7 @@ function Seq2Seq:train(input, target)
   -- Forward pass
   -- self.encoder:forward(encoderInput)
   -- self:forwardConnect(encoderInput:size(1))
-  self.decoderLSTM.userPrevOutput = input[1]
+  self.decoderLSTM.userPrevCell = input[1]
   local decoderOutput = self.decoder:forward(decoderInput)
   local Edecoder = self.criterion:forward(decoderOutput, decoderTarget)
 
@@ -109,7 +109,7 @@ function Seq2Seq:eval(input)
 
   local predictions = {}
   local probabilities = {}
-  self.decoderLSTM.userPrevOutput = input
+  self.decoderLSTM.userPrevCell = input
 
   -- Forward <go> and all of it's output recursively back to the decoder
   local output = self.goToken
