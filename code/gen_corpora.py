@@ -13,7 +13,7 @@ def get_vector(word):
 	if '_' in word:
 		wordList = word.split('_')
 		word_num = len(wordList)
-		v = np.zeros(sys.argv[2])
+		v = np.zeros(int(sys.argv[2]))
 		for w in wordList:
 			try:
 				v += model[w]
