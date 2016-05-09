@@ -34,7 +34,7 @@ print("  Vocabulary size: " .. dataset.wordsCount)
 print("         Examples: " .. dataset.examplesCount)
 
 -- Model
-model = neuralconvo.AdaSeq2Seq(dataset.wordsCount, options.hiddenSize)
+model = neuralconvo.Seq2Seq(dataset.wordsCount, options.hiddenSize)
 model.goToken = dataset.goToken
 model.eosToken = dataset.eosToken
 
