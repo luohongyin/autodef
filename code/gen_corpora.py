@@ -36,10 +36,14 @@ def select(w_v, s):
 d = dictionary.Dictionary()
 words = d.get_words()
 wordList = []
+definitions = []
 for word in words:
-    if len(d.get_info(word)) != 0 and len(word) != 0:
-        wordList.append(word)
-definitions = map((lambda x:d.get_info(x)[0]["def"]), wordList)
+    info_list = d.get_info(word)
+    if len(info_list) != 0 and len(word) != 0:
+        defs = map((lambda x:x["def"].encode("utf-8")), info_list)
+        wordList.extend([word] * len(defs))
+        definitions.extend(defs)
+#definitions = map((lambda x:d.get_info(x)[0]["def"]), wordList)
 word_vectors = map(get_vector, wordList)
 wordList = map(select, word_vectors, wordList)
 definitions = map(select, word_vectors, definitions)

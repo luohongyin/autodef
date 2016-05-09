@@ -1,0 +1,1493 @@
+-- Loading dataset	
+Loading vocabulary from ../data/model/vocab.t7 ...	
+
+Dataset stats:	
+  Vocabulary size: 41207	
+         Examples: 89795	
+
+-- Epoch 1 / 50	
+	
+
+Finished in 1h39m 15.027204791071 examples/sec.	
+
+Epoch stats:	
+           LR= 0.05	
+  Errors: min= 0	
+          max= 259.65733766556	
+       median= 55.295528888702	
+         mean= 63.60166424876	
+          std= 36.432416968326	
+
+(Saving model ...)	
+Test Example 1	
+>> Any of the skin	
+1000	
+----------------------------------------	
+Test Example 2	
+>> An object	
+2000	
+----------------------------------------	
+Test Example 3	
+>> An area	
+3000	
+----------------------------------------	
+Test Example 4	
+>> Any of the body of the body the body the body the body of the body the body of the	
+4000	
+----------------------------------------	
+Test Example 5	
+>> A source of a source of a source of a source of a source of a source of a source	
+5000	
+----------------------------------------	
+Test Example 6	
+>> The same time	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A state	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A strong and the same as a strong and the same as a strong and the same as a strong	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A state	
+9000	
+----------------------------------------	
+Test Example 10	
+>> An area	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A family used as a family polypodiaceae	
+11000	
+----------------------------------------	
+Test Example 12	
+>> In the state	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A single	
+13000	
+----------------------------------------	
+Test Example 14	
+>> Type genus of the ear	
+14000	
+----------------------------------------	
+Test Example 15	
+>> The same time	
+15000	
+----------------------------------------	
+Test Example 16	
+>> A strong and the same time	
+16000	
+----------------------------------------	
+Test Example 17	
+>> A state	
+17000	
+----------------------------------------	
+Test Example 18	
+>> In the same time	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A ship	
+19000	
+----------------------------------------	
+Test Example 20	
+>> An area	
+20000	
+----------------------------------------	
+Test Example 21	
+>> An area	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Not having the state in the state in the state in the state in the state in the state	
+22000	
+----------------------------------------	
+Test Example 23	
+>> Any of the body	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not having the same way of the same time	
+24000	
+----------------------------------------	
+Test Example 25	
+>> Any of the ear	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A ship	
+26000	
+----------------------------------------	
+Test Example 27	
+>> In the same kind of the same time	
+27000	
+----------------------------------------	
+Test Example 28	
+>> In the same time	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A ball	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Genus of the skin	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A ship	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of the family used as a family used as a family used as a family used as a family	
+32000	
+----------------------------------------	
+Test Example 33	
+>> An antibody	
+33000	
+----------------------------------------	
+Test Example 34	
+>> A ship	
+34000	
+----------------------------------------	
+Test Example 35	
+>> In the same as a state	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A source of a source of the same time	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A part of the same time	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Any of the same species of the same species with a source of the same kind of the same kind	
+38000	
+----------------------------------------	
+Test Example 39	
+>> A ship	
+39000	
+----------------------------------------	
+Test Example 40	
+>> A person	
+40000	
+----------------------------------------	
+Test Example 41	
+>> A strong and the body	
+41000	
+----------------------------------------	
+Test Example 42	
+>> An area	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A ship	
+43000	
+----------------------------------------	
+Test Example 44	
+>> The same time	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a strong	
+45000	
+----------------------------------------	
+Test Example 46	
+>> A state	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A single	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A ship	
+48000	
+----------------------------------------	
+Test Example 49	
+>> A single	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A strong	
+50000	
+----------------------------------------	
+Test Example 51	
+>> An essential for their own	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A source of the th centuries with a source of the th centuries	
+52000	
+----------------------------------------	
+Test Example 53	
+>> The same time	
+53000	
+----------------------------------------	
+Test Example 54	
+>> An artery	
+54000	
+----------------------------------------	
+Test Example 55	
+>> A hard and a hard wood	
+55000	
+----------------------------------------	
+Test Example 56	
+>> In the state or to the state or to the state or to the state or to the state or	
+56000	
+----------------------------------------	
+Test Example 57	
+>> An abnormal condition in the body the body the body the body the body the body the body the body	
+57000	
+----------------------------------------	
+Test Example 58	
+>> An area	
+58000	
+----------------------------------------	
+Test Example 59	
+>> Any of the same species with a source of the same species of the same species of the same species	
+59000	
+----------------------------------------	
+Test Example 60	
+>> Genus of the family used as a family used as a family of the family used as a family of	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A source of the same as a source of the same kind of the same kind of the same as	
+61000	
+----------------------------------------	
+Test Example 62	
+>> English writer of the ear	
+62000	
+----------------------------------------	
+Test Example 63	
+>> Any of the family used as a family used as a family used as a family used as a plant	
+63000	
+----------------------------------------	
+Test Example 64	
+>> Roman empire	
+64000	
+----------------------------------------	
+Test Example 65	
+>> The same time	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A state of the state of the same as a state of the state of the same as a state	
+66000	
+----------------------------------------	
+Test Example 67	
+>> The ear	
+67000	
+----------------------------------------	
+Test Example 68	
+>> An object in a state of the state	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A ship	
+69000	
+----------------------------------------	
+Test Example 70	
+>> An antibody	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A single or in the same to the same to the same time	
+71000	
+----------------------------------------	
+Test Example 72	
+>> The same time in the same time	
+72000	
+----------------------------------------	
+Test Example 73	
+>> A ship or in a person	
+73000	
+----------------------------------------	
+Test Example 74	
+>> Not having a state	
+74000	
+----------------------------------------	
+Test Example 75	
+>> A ship	
+75000	
+----------------------------------------	
+Test Example 76	
+>> An essential for the same as a source of the same as a source of the same as a source	
+76000	
+----------------------------------------	
+Test Example 77	
+>> A ship	
+77000	
+----------------------------------------	
+Test Example 78	
+>> Not having the same time	
+78000	
+----------------------------------------	
+Test Example 79	
+>> A single	
+79000	
+----------------------------------------	
+Test Example 80	
+>> A source of the body the body the body the body the body the same chemical reactions	
+80000	
+----------------------------------------	
+Test Example 81	
+>> A family of the ear	
+81000	
+----------------------------------------	
+Test Example 82	
+>> A state	
+82000	
+----------------------------------------	
+Test Example 83	
+>> Type genus of the ear	
+83000	
+----------------------------------------	
+Test Example 84	
+>> In a state	
+84000	
+----------------------------------------	
+Test Example 85	
+>> A single in the same time	
+85000	
+----------------------------------------	
+Test Example 86	
+>> A source of the same kind of the same substance	
+86000	
+----------------------------------------	
+Test Example 87	
+>> A source of the body of the body	
+87000	
+----------------------------------------	
+Test Example 88	
+>> A source of a source of a source of a source of a source of the body	
+88000	
+----------------------------------------	
+Test Example 89	
+>> A ship	
+89000	
+----------------------------------------	
+
+-- Epoch 2 / 50	
+	
+
+Finished in 1h35m 15.600881952729 examples/sec.	
+
+Epoch stats:	
+           LR= 0.04750125	
+  Errors: min= 0	
+          max= 242.51861381531	
+       median= 48.408684253693	
+         mean= 55.820267017647	
+          std= 32.638541215826	
+
+(Saving model ...)	
+Test Example 1	
+>> Any of a disease	
+1000	
+----------------------------------------	
+Test Example 2	
+>> The state	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A book	
+3000	
+----------------------------------------	
+Test Example 4	
+>> Any of a stem of a stem of a stem of a stem of a stem of a stem of	
+4000	
+----------------------------------------	
+Test Example 5	
+>> A small white or a small white or a small round fruits of a small round fruits of a small	
+5000	
+----------------------------------------	
+Test Example 6	
+>> The right to be used in a new york of the right to be used in a state	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A computer science	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A hard heavy	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A ball	
+9000	
+----------------------------------------	
+Test Example 10	
+>> An area	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A fungus of a fungus of a fungus of a family of a family of a fungus of a fungus	
+11000	
+----------------------------------------	
+Test Example 12	
+>> In a state	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A strong and a hole in a strong and a light to make a strong and a strong and a	
+13000	
+----------------------------------------	
+Test Example 14	
+>> Type genus of the same species of the same to the same	
+14000	
+----------------------------------------	
+Test Example 15	
+>> A group	
+15000	
+----------------------------------------	
+Test Example 16	
+>> A ball	
+16000	
+----------------------------------------	
+Test Example 17	
+>> A ball	
+17000	
+----------------------------------------	
+Test Example 18	
+>> In a hard disk	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A small round with a small round in a small round with a small round with a small round with	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A state	
+20000	
+----------------------------------------	
+Test Example 21	
+>> A legal the right to be used in a legal the right to the right to the right to the	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Not being	
+22000	
+----------------------------------------	
+Test Example 23	
+>> Any of a hard brown with a hard brown with a hard heavy	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not having a state	
+24000	
+----------------------------------------	
+Test Example 25	
+>> Any of the eye	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A sudden the sound	
+26000	
+----------------------------------------	
+Test Example 27	
+>> In a small or a small or in a small fruit	
+27000	
+----------------------------------------	
+Test Example 28	
+>> In the sound	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A brush	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Any of a plant used as a plant that are used as a plant used as a plant used in	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A hole in a hole in a hole in a hole to the sound used in a hole to the	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of a family	
+32000	
+----------------------------------------	
+Test Example 33	
+>> An antibody	
+33000	
+----------------------------------------	
+Test Example 34	
+>> A brush	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Not in a sudden the sound to the sound to the sound to the sound to the sound to the	
+35000	
+----------------------------------------	
+Test Example 36	
+>> French in a hard dry in a hard dry and a hard dry in a hard heavy	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A sudden the foot of the right to the foot of the foot of the right to the right to	
+37000	
+----------------------------------------	
+Test Example 38	
+>> A small round fruits of a small round fruits of a small white or a small round fruits of a	
+38000	
+----------------------------------------	
+Test Example 39	
+>> A small	
+39000	
+----------------------------------------	
+Test Example 40	
+>> A person	
+40000	
+----------------------------------------	
+Test Example 41	
+>> Any of a disease	
+41000	
+----------------------------------------	
+Test Example 42	
+>> An image	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A ball	
+43000	
+----------------------------------------	
+Test Example 44	
+>> The word to the line	
+44000	
+----------------------------------------	
+Test Example 45	
+>> In a stem of a stem of a single	
+45000	
+----------------------------------------	
+Test Example 46	
+>> A small round to be played on a ball	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A ball	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A hole as a hole in a hole in a hole in a hole in a hole in a hole	
+48000	
+----------------------------------------	
+Test Example 49	
+>> A strong and the first or a strong and the first or a strong and the first or a strong	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A woman	
+50000	
+----------------------------------------	
+Test Example 51	
+>> An antibody	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A river in a state	
+52000	
+----------------------------------------	
+Test Example 53	
+>> An area	
+53000	
+----------------------------------------	
+Test Example 54	
+>> Inflammation of the ear	
+54000	
+----------------------------------------	
+Test Example 55	
+>> A hard dry white or the main a hard dry white or the sound made of a hard dry white	
+55000	
+----------------------------------------	
+Test Example 56	
+>> In a lack of the use in the use of the use of the meaning	
+56000	
+----------------------------------------	
+Test Example 57	
+>> An acute sexual intercourse with the ear	
+57000	
+----------------------------------------	
+Test Example 58	
+>> A state	
+58000	
+----------------------------------------	
+Test Example 59	
+>> Any of a plant used as a plant used as a plant used as a plant	
+59000	
+----------------------------------------	
+Test Example 60	
+>> Genus of a family of a fungus of a fungus of a fungus of a family of a family of	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A small and a small and a small round fruits of a small and a small and a small and	
+61000	
+----------------------------------------	
+Test Example 62	
+>> English clergyman	
+62000	
+----------------------------------------	
+Test Example 63	
+>> Genus of a family of a family	
+63000	
+----------------------------------------	
+Test Example 64	
+>> An area in the english clergyman in the english clergyman and the english clergyman in the english clergyman in the	
+64000	
+----------------------------------------	
+Test Example 65	
+>> In a state	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A state in a state of a system to the amount of a state of a state	
+66000	
+----------------------------------------	
+Test Example 67	
+>> A group of the region of the region	
+67000	
+----------------------------------------	
+Test Example 68	
+>> An act of the right to be true	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A ball	
+69000	
+----------------------------------------	
+Test Example 70	
+>> Inflammation of the eye	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A musical instruments	
+71000	
+----------------------------------------	
+Test Example 72	
+>> The th century	
+72000	
+----------------------------------------	
+Test Example 73	
+>> A person	
+73000	
+----------------------------------------	
+Test Example 74	
+>> An act of the right to the state of the right to the state of the right to the right	
+74000	
+----------------------------------------	
+Test Example 75	
+>> A ball	
+75000	
+----------------------------------------	
+Test Example 76	
+>> A hard brown with a strong and the production of a hard brittle	
+76000	
+----------------------------------------	
+Test Example 77	
+>> A ball	
+77000	
+----------------------------------------	
+Test Example 78	
+>> Not true or a state	
+78000	
+----------------------------------------	
+Test Example 79	
+>> A sudden	
+79000	
+----------------------------------------	
+Test Example 80	
+>> A liquid to the flow	
+80000	
+----------------------------------------	
+Test Example 81	
+>> Type genus of a group of a family of a group of a group of a family of a family	
+81000	
+----------------------------------------	
+Test Example 82	
+>> A small pieces of the sound	
+82000	
+----------------------------------------	
+Test Example 83	
+>> Type genus of the order the order that are used in the order that are used in the order that	
+83000	
+----------------------------------------	
+Test Example 84	
+>> Not being	
+84000	
+----------------------------------------	
+Test Example 85	
+>> A strong and a strong and a strong and a strong and a strong and a strong and a strong	
+85000	
+----------------------------------------	
+Test Example 86	
+>> A hole from a brush	
+86000	
+----------------------------------------	
+Test Example 87	
+>> An antibody	
+87000	
+----------------------------------------	
+Test Example 88	
+>> A small and a brush	
+88000	
+----------------------------------------	
+Test Example 89	
+>> A sudden	
+89000	
+----------------------------------------	
+
+-- Epoch 3 / 50	
+	
+
+Finished in 1h36m 15.506475995348 examples/sec.	
+
+Epoch stats:	
+           LR= 0.0450025	
+  Errors: min= 0	
+          max= 220.00574731827	
+       median= 44.862402439117	
+         mean= 51.835091755734	
+          std= 30.679053588213	
+
+(Saving model ...)	
+Test Example 1	
+>> Any of a small edible	
+1000	
+----------------------------------------	
+Test Example 2	
+>> The meaning	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A state	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A stem of a stem of a stem of a stem of a small round fruits	
+4000	
+----------------------------------------	
+Test Example 5	
+>> A small tree used as a small tree used in the palm of a small tree used in the palm	
+5000	
+----------------------------------------	
+Test Example 6	
+>> The first to the first to the first to the first to the first to the first to the first	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A single and a single	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A strong and a strong and a strong fruit with a strong and a strong and a strong and used	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A hole as a ball	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A person who are used in the first to the first to the first to the first to the first	
+10000	
+----------------------------------------	
+Test Example 11	
+>> Any of a hard wood and a fungus that is used as a fungus with a small edible when mature	
+11000	
+----------------------------------------	
+Test Example 12	
+>> In the ear or to the ear or to the ear or to the ear or to the ear or	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A hole in a hole in a hole in a hole in a hole in a hole with a hole	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A family	
+14000	
+----------------------------------------	
+Test Example 15	
+>> The first to the third	
+15000	
+----------------------------------------	
+Test Example 16	
+>> A single	
+16000	
+----------------------------------------	
+Test Example 17	
+>> A strong and a strong	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A small round or the third in the first to a small round or to a single and the third	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A small round table in the first to the first american football	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A court	
+20000	
+----------------------------------------	
+Test Example 21	
+>> A court	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Not having a sudden fear in the ear or to the state	
+22000	
+----------------------------------------	
+Test Example 23	
+>> Any of a small round table	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Be true or to the first to a specific way	
+24000	
+----------------------------------------	
+Test Example 25	
+>> An opening in the body	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A sudden in a sudden in a sudden in a sudden in a sudden	
+26000	
+----------------------------------------	
+Test Example 27	
+>> In a small round in a small round in a small fruit with a small fruit with a small round	
+27000	
+----------------------------------------	
+Test Example 28	
+>> An act of a person with the first to the first to the first to the first to the first	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A ball	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Any of a plant	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A small opening	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of a plant	
+32000	
+----------------------------------------	
+Test Example 33	
+>> Any of a sudden	
+33000	
+----------------------------------------	
+Test Example 34	
+>> A line in a sudden the first to be used in a line in a line in a sudden the	
+34000	
+----------------------------------------	
+Test Example 35	
+>> A sudden in a sudden in a sudden or to make a sudden in a sudden in a sudden	
+35000	
+----------------------------------------	
+Test Example 36	
+>> English and a small round table in the first to the first president in the first president in the first	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A part of a small opening in the right of a small opening in the lower jaw in the lower	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Any of a single and a single and a small white or a small white or a small white or	
+38000	
+----------------------------------------	
+Test Example 39	
+>> A small round a small round table in a small round table with a small round table with a small	
+39000	
+----------------------------------------	
+Test Example 40	
+>> A person with a person with a person with a person with a person with a person with a person	
+40000	
+----------------------------------------	
+Test Example 41	
+>> A small edible when a small fruit with a small round in the first to a small edible when young	
+41000	
+----------------------------------------	
+Test Example 42	
+>> An expression of a book	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A hole as a ball in a hole in a ball	
+43000	
+----------------------------------------	
+Test Example 44	
+>> The first and the first to the first and a form a form a form a form a form of	
+44000	
+----------------------------------------	
+Test Example 45	
+>> In the first to a single and the first to a single and the surface	
+45000	
+----------------------------------------	
+Test Example 46	
+>> A series of a series of a single	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A sudden the first to the first to the first to the first to the first to the first to	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A small round as a small round as a small round as a small round as a small round as	
+48000	
+----------------------------------------	
+Test Example 49	
+>> A single and a state of a state of a state	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A light	
+50000	
+----------------------------------------	
+Test Example 51	
+>> An electric shock	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A major in the first to the first to the first to the first to the first president in the	
+52000	
+----------------------------------------	
+Test Example 53	
+>> An organism	
+53000	
+----------------------------------------	
+Test Example 54	
+>> An organ	
+54000	
+----------------------------------------	
+Test Example 55	
+>> A small fruit with a small fruit with a small fruit with a hard heavy fabric used as a small	
+55000	
+----------------------------------------	
+Test Example 56	
+>> Not having a lack of a state	
+56000	
+----------------------------------------	
+Test Example 57	
+>> An organ	
+57000	
+----------------------------------------	
+Test Example 58	
+>> The first to the first to the first to the first to the first to the first to the first	
+58000	
+----------------------------------------	
+Test Example 59	
+>> Any of a small white or a plant	
+59000	
+----------------------------------------	
+Test Example 60	
+>> Genus of a plant that has a plant	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A small white or a small white or a small white or a small white or a small white or	
+61000	
+----------------------------------------	
+Test Example 62	
+>> English clergyman for use in the first president in the first to the first and a woman	
+62000	
+----------------------------------------	
+Test Example 63	
+>> Any of a plant used as a plant used as a plant	
+63000	
+----------------------------------------	
+Test Example 64	
+>> Roman catholic churches in the first president of the first to the first to the first to the first president	
+64000	
+----------------------------------------	
+Test Example 65	
+>> The first to the first to the first to the first and a state	
+65000	
+----------------------------------------	
+Test Example 66	
+>> An electric shock	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Of the third in the third in the third in the third in the third in the third	
+67000	
+----------------------------------------	
+Test Example 68	
+>> The right and a court to the right to the right to the right and a court to the right	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A ball	
+69000	
+----------------------------------------	
+Test Example 70	
+>> An ulcer	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A musical instruments in the first and a musical instruments in the first to the first to the first to	
+71000	
+----------------------------------------	
+Test Example 72	
+>> A state	
+72000	
+----------------------------------------	
+Test Example 73	
+>> A person with a court	
+73000	
+----------------------------------------	
+Test Example 74	
+>> An idea	
+74000	
+----------------------------------------	
+Test Example 75	
+>> A ball	
+75000	
+----------------------------------------	
+Test Example 76	
+>> A strong and sometimes used as a strong and sometimes used as a strong and sometimes used as a strong	
+76000	
+----------------------------------------	
+Test Example 77	
+>> A ball	
+77000	
+----------------------------------------	
+Test Example 78	
+>> An act of a person who are not having a state	
+78000	
+----------------------------------------	
+Test Example 79	
+>> A line in a line in a sudden the third base used in a line in a line in a	
+79000	
+----------------------------------------	
+Test Example 80	
+>> A liquid to the air	
+80000	
+----------------------------------------	
+Test Example 81	
+>> Type genus of a single	
+81000	
+----------------------------------------	
+Test Example 82	
+>> A single	
+82000	
+----------------------------------------	
+Test Example 83	
+>> Type genus of a family	
+83000	
+----------------------------------------	
+Test Example 84	
+>> Not having a sudden fear in the ear or to the sound to the first to the sound	
+84000	
+----------------------------------------	
+Test Example 85	
+>> A state	
+85000	
+----------------------------------------	
+Test Example 86	
+>> A small round table with a small round table with a small fruit with a small round table with a	
+86000	
+----------------------------------------	
+Test Example 87	
+>> The first described by the first described by the first described by the first described by the first to the	
+87000	
+----------------------------------------	
+Test Example 88	
+>> A small fruit with a small round leaves and a small white or to a small fruit of a small	
+88000	
+----------------------------------------	
+Test Example 89	
+>> A person with a sudden	
+89000	
+----------------------------------------	
+
+-- Epoch 4 / 50	
+	
+
+Finished in 1h36m 15.546740176925 examples/sec.	
+
+Epoch stats:	
+           LR= 0.04250375	
+  Errors: min= 0	
+          max= 216.2699842453	
+       median= 42.255359649658	
+         mean= 48.894123119567	
+          std= 29.150321841092	
+
+(Saving model ...)	
+Test Example 1	
+>> Any of a small white or a small white or a small white or a small white or a small	
+1000	
+----------------------------------------	
+Test Example 2	
+>> An act of the meaning	
+2000	
+----------------------------------------	
+Test Example 3	
+>> An order or a ball	
+3000	
+----------------------------------------	
+Test Example 4	
+>> Any of a small white or a plant and a small white or a small white or a small round	
+4000	
+----------------------------------------	
+Test Example 5	
+>> A small white or a small white or a small white or a small white or a small white or	
+5000	
+----------------------------------------	
+Test Example 6	
+>> The time	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A particular	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A small white or a small white or a small white or a small round or a small round or	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A ball	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A woman in a woman in a woman in a woman in a woman in a woman in a woman	
+10000	
+----------------------------------------	
+Test Example 11	
+>> Any of a family	
+11000	
+----------------------------------------	
+Test Example 12	
+>> In the ear	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A hole as a ball in a hole as a ball	
+13000	
+----------------------------------------	
+Test Example 14	
+>> Type genus in the order	
+14000	
+----------------------------------------	
+Test Example 15	
+>> A member of a group of a member of a member of a member of a member of a member	
+15000	
+----------------------------------------	
+Test Example 16	
+>> A small white or a small white or a small white or a musical instruments	
+16000	
+----------------------------------------	
+Test Example 17	
+>> A ship	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A small white or a small white or a small white or a small a small white or a small	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A small white or a street	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A member of a member of a woman a member of a woman a court in a member of a	
+20000	
+----------------------------------------	
+Test Example 21	
+>> A court in a legal proceedings to the defendant the defendant that a legal proceedings to a legal proceedings in	
+21000	
+----------------------------------------	
+Test Example 22	
+>> An activity	
+22000	
+----------------------------------------	
+Test Example 23	
+>> Any of a hole as a hole as a small round or a hole as a small round or a	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Move in a person	
+24000	
+----------------------------------------	
+Test Example 25	
+>> An organ of the inner ear	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A small or a small round to a small round to a small round to be a small white or	
+26000	
+----------------------------------------	
+Test Example 27	
+>> In a small white or a small white or a small fruit of a small fruit of a small white	
+27000	
+----------------------------------------	
+Test Example 28	
+>> An act of a woman	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A band of a band of a band of a band of a band of a band of a band	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Any of a plant and a plant and a plant and a plant	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A hole as a hole as a hole as a vessel	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of a family	
+32000	
+----------------------------------------	
+Test Example 33	
+>> An area	
+33000	
+----------------------------------------	
+Test Example 34	
+>> A strong and a strong and a strong and a position	
+34000	
+----------------------------------------	
+Test Example 35	
+>> An area	
+35000	
+----------------------------------------	
+Test Example 36	
+>> English	
+36000	
+----------------------------------------	
+Test Example 37	
+>> An opening into the eyeball	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Any of a small white or a small white or a small white or a small white or a small	
+38000	
+----------------------------------------	
+Test Example 39	
+>> A room in a street	
+39000	
+----------------------------------------	
+Test Example 40	
+>> A person	
+40000	
+----------------------------------------	
+Test Example 41	
+>> A small round a small round or a small white or a small white or a small round or a	
+41000	
+----------------------------------------	
+Test Example 42	
+>> The body of a distinctive and a distinctive and a style of a distinctive and a distinctive and the body	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A ball	
+43000	
+----------------------------------------	
+Test Example 44	
+>> An image of a particular	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a number of a small fruit of a small fruit of a small fruit of a number of a	
+45000	
+----------------------------------------	
+Test Example 46	
+>> A ball	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A strong and the first to the first to the dead in a strong and the dead in a strong	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A small round or a small round a small round a small round or in a small round a small	
+48000	
+----------------------------------------	
+Test Example 49	
+>> A new england	
+49000	
+----------------------------------------	
+Test Example 50	
+>> An act in the first or the first celebrated in the first celebrated in the first or the first celebrated	
+50000	
+----------------------------------------	
+Test Example 51	
+>> An electric current	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A river in the first to the first to the first to the first to the first to the first	
+52000	
+----------------------------------------	
+Test Example 53	
+>> An individual the state of a state of a state of a state of a state of a state of	
+53000	
+----------------------------------------	
+Test Example 54	
+>> An organ in the eyeball	
+54000	
+----------------------------------------	
+Test Example 55	
+>> A hard rinds	
+55000	
+----------------------------------------	
+Test Example 56	
+>> Having a person who are used as a person who are used as a person	
+56000	
+----------------------------------------	
+Test Example 57	
+>> An oral contraceptive	
+57000	
+----------------------------------------	
+Test Example 58	
+>> An order or a single in a single in a single in a single in a single in a single	
+58000	
+----------------------------------------	
+Test Example 59	
+>> Any of a family of a family of a small white or a small white or a small white or	
+59000	
+----------------------------------------	
+Test Example 60	
+>> Genus of a family	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A plant used as a plant and a plant and a small white or a plant	
+61000	
+----------------------------------------	
+Test Example 62	
+>> English	
+62000	
+----------------------------------------	
+Test Example 63	
+>> Genus	
+63000	
+----------------------------------------	
+Test Example 64	
+>> The first celebrated in the first celebrated in the th century	
+64000	
+----------------------------------------	
+Test Example 65	
+>> An order or a state in a state in a state in a state in a state in a state	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A state of a state	
+66000	
+----------------------------------------	
+Test Example 67	
+>> An ancient egyptians in the hindu storm in the region of the third of the hindu caste	
+67000	
+----------------------------------------	
+Test Example 68	
+>> An act in a document	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A ball	
+69000	
+----------------------------------------	
+Test Example 70	
+>> Inflammation of the skin that are used as a symptom of the skin that are not being in the skin	
+70000	
+----------------------------------------	
+Test Example 71	
+>> Music in a musical instruments of a ball	
+71000	
+----------------------------------------	
+Test Example 72	
+>> An ancient greeks	
+72000	
+----------------------------------------	
+Test Example 73	
+>> A ship	
+73000	
+----------------------------------------	
+Test Example 74	
+>> An official	
+74000	
+----------------------------------------	
+Test Example 75	
+>> A ball of a ball	
+75000	
+----------------------------------------	
+Test Example 76	
+>> An agent that has a mixture of a liquid to make a strong and the liquid as a mixture of	
+76000	
+----------------------------------------	
+Test Example 77	
+>> A ball	
+77000	
+----------------------------------------	
+Test Example 78	
+>> An enemy used as a state	
+78000	
+----------------------------------------	
+Test Example 79	
+>> A ship	
+79000	
+----------------------------------------	
+Test Example 80	
+>> A liquid to the flow and a liquid to the water or a liquid to the flow in the flow	
+80000	
+----------------------------------------	
+Test Example 81	
+>> Type genus of a family	
+81000	
+----------------------------------------	
+Test Example 82	
+>> A room in a room in a room in a room in a room in a room in a room	
+82000	
+----------------------------------------	
+Test Example 83	
+>> Type genus of a family	
+83000	
+----------------------------------------	
+Test Example 84	
+>> Not having a sudden fear of a state	
+84000	
+----------------------------------------	
+Test Example 85	
+>> A ball	
+85000	
+----------------------------------------	
+Test Example 86	
+>> A small white or a small white or a small white or a small white or a small white or	
+86000	
+----------------------------------------	
+Test Example 87	
+>> An oil used as a small round or a small white or a small white or a diet that are	
+87000	
+----------------------------------------	
+Test Example 88	
+>> A small white or a small white or a small white or a small fruit of a small white or	
+88000	
+----------------------------------------	
+Test Example 89	
+>> A person	
+89000	
+----------------------------------------	
+
+-- Epoch 5 / 50	
+	
