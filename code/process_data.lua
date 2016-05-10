@@ -6,7 +6,7 @@ stringx = require "pl.stringx"
 
 word_vectors = {}
 n = 0
-for line in io.lines("../data/model/vectors_I.txt") do
+for line in io.lines("../data/model/vectors.txt") do
 	if n == 1 then
 		vector = {}
 		w_v = stringx.split(line, ' ')
@@ -21,4 +21,4 @@ for line in io.lines("../data/model/vectors_I.txt") do
 end
 
 word_vectors = torch.Tensor(word_vectors)
-torch.save("../data/model/vectors_I.t7", word_vectors)
+torch.save("../data/model/vectors.t7", word_vectors)
