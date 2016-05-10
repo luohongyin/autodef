@@ -59,6 +59,7 @@ function AdaSeq2Seq:buildModel()
   self.decoder:add(nn.SplitTable(1, 2))
   self.decoderLSTM = nn.LSTM(self.hiddenSize, self.hiddenSize)
   self.decoder:add(nn.Sequencer(self.decoderLSTM))
+  concat3 = nn.ConcatTable()
   self.decoder:add(nn.Sequencer(nn.Linear(self.hiddenSize, self.vocabSize)))
   self.decoder:add(nn.Sequencer(nn.LogSoftMax()))
   -- self.encoder:zeroGradParameters()
@@ -107,7 +108,7 @@ function AdaSeq2Seq:train(input, target)
   end
 
   -- Backward pass
-  local gEdec = self.criterion:backward(decoderOutput, decoderTarget)
+  local gEdec = self.criterion:backward({decoderOutput, self.decoderLSTM.output}, {decoderTarget, input[1]})
   self.decoder:backward({input, decoderInput}, gEdec)
   -- self:backwardConnect()
   -- self.encoder:backward(encoderInput, self.zeroTensor)
