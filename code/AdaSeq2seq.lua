@@ -24,6 +24,7 @@ function AdaSeq2Seq:buildModel()
   local attentionModule = nn.Sequential()
   lookupModule:add(nn.LookupTable(self.vocabSize, self.hiddenSize))
   
+  --[[
   self.encoderLSTM = nn.LSTM(self.hiddenSize, 400)
   samplingModule:add(nn.SplitTable(1, 2))
   samplingModule:add(nn.Sequencer(self.encoderLSTM))
@@ -32,7 +33,12 @@ function AdaSeq2Seq:buildModel()
   samplingModule:add(nn.Linear(400, 400))
   samplingModule:add(nn.Sigmoid())
   samplingModule:add(nn.Sampling(2))
-  linearModule:add(nn.Dropout(0))
+  ]]--
+  linearModule:add(nn.Linear(400, self.hiddenSize))
+  para:add(linearModule):add(lookupModule)
+  self.decoder = nn.Sequential()
+  self.decoder:add(para)
+  --[[
   LMModule:add(nn.Dropout(0))
   concat = nn.ConcatTable()
   concat:add(samplingModule):add(LMModule)
@@ -48,10 +54,12 @@ function AdaSeq2Seq:buildModel()
   attentionModule:add(nn.Linear(400, self.hiddenSize))
   concat2:add(attentionModule):add(nn.SelectTable(3))
   self.decoder:add(concat2)
+  ]]--
   self.decoder:add(nn.CAddTable())
   self.decoder:add(nn.SplitTable(1, 2))
   self.decoderLSTM = nn.LSTM(self.hiddenSize, self.hiddenSize)
   self.decoder:add(nn.Sequencer(self.decoderLSTM))
+  concat3 = nn.ConcatTable()
   self.decoder:add(nn.Sequencer(nn.Linear(self.hiddenSize, self.vocabSize)))
   self.decoder:add(nn.Sequencer(nn.LogSoftMax()))
   -- self.encoder:zeroGradParameters()
@@ -100,7 +108,7 @@ function AdaSeq2Seq:train(input, target)
   end
 
   -- Backward pass
-  local gEdec = self.criterion:backward(decoderOutput, decoderTarget)
+  local gEdec = self.criterion:backward({decoderOutput, self.decoderLSTM.output}, {decoderTarget, input[1]})
   self.decoder:backward({input, decoderInput}, gEdec)
   -- self:backwardConnect()
   -- self.encoder:backward(encoderInput, self.zeroTensor)
