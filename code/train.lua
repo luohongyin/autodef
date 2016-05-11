@@ -40,6 +40,7 @@ model.eosToken = dataset.eosToken
 
 -- Training parameters
 model.criterion = nn.SequencerCriterion(nn.ClassNLLCriterion())
+model.MEMCriterion = nn.MSECriterion()
 model.learningRate = options.learningRate
 model.momentum = options.momentum
 local decayFactor = (options.minLR - options.learningRate) / options.saturateEpoch
