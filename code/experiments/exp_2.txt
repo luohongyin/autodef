@@ -1,0 +1,1864 @@
+-- Loading dataset	
+Loading vocabulary from ../data/model/vocab.t7 ...	
+
+Dataset stats:	
+  Vocabulary size: 41207	
+         Examples: 89795	
+
+-- Epoch 1 / 50	
+	
+
+Finished in 1h5m 23.007305740895 examples/sec.	
+
+Epoch stats:	
+           LR= 0.05	
+  Errors: min= 0	
+          max= 254.55244922638	
+       median= 54.859308719635	
+         mean= 63.089423610593	
+          std= 36.259933339249	
+
+(Saving model ...)	
+Test Example 1	
+>> Any of the ear and a plant used in a plant used in a plant used in a plant used	
+1000	
+----------------------------------------	
+Test Example 2	
+>> The same as a state of the same as a state of the same as a state of the same	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A ship	
+3000	
+----------------------------------------	
+Test Example 4	
+>> Any of the ear	
+4000	
+----------------------------------------	
+Test Example 5	
+>> A strong and a strong and a strong and a strong and a strong and a strong and a strong	
+5000	
+----------------------------------------	
+Test Example 6	
+>> A ship	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A state of the sound	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A state	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A ship	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A person with a person with a person with a person with a person with a person with a person	
+10000	
+----------------------------------------	
+Test Example 11	
+>> Genus of the region in a plant and a plant and a plant and a plant and a plant and	
+11000	
+----------------------------------------	
+Test Example 12	
+>> In the same as a state of the same as a state of the same as a state of the	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A ship in a ship in a ship in a ship in a ship in a ship in a ship	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A family polypodiaceae and a family polypodiaceae and a family polypodiaceae and a family polypodiaceae and a family polypodiaceae and	
+14000	
+----------------------------------------	
+Test Example 15	
+>> The th century	
+15000	
+----------------------------------------	
+Test Example 16	
+>> A ship in a ship in a ship in a ship in a ship in a ship in a ship	
+16000	
+----------------------------------------	
+Test Example 17	
+>> A ship	
+17000	
+----------------------------------------	
+Test Example 18	
+>> In the sound	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A ship	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A ship	
+20000	
+----------------------------------------	
+Test Example 21	
+>> An area	
+21000	
+----------------------------------------	
+Test Example 22	
+>> The same	
+22000	
+----------------------------------------	
+Test Example 23	
+>> Any of the sea	
+23000	
+----------------------------------------	
+Test Example 24	
+>> In the same	
+24000	
+----------------------------------------	
+Test Example 25	
+>> Any of the ear	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A ship	
+26000	
+----------------------------------------	
+Test Example 27	
+>> In a ship in a ship in a ship in a ship in a ship in a ship in a	
+27000	
+----------------------------------------	
+Test Example 28	
+>> In the same as a state of the same as a state of the same as a state of the	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A ship in a ship in a ship in a ship in a ship in a ship in a ship	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Any of the region of the region of the region of the region of the region of the region of	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A ship in a ship in a ship in a ship in a ship in a ship in a ship	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of the flesh of the flesh of the flesh of the flesh of the flesh of the flesh of	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A state of the ear	
+33000	
+----------------------------------------	
+Test Example 34	
+>> A ship in the sound	
+34000	
+----------------------------------------	
+Test Example 35	
+>> The sound	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A woman	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A sudden	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Any of the th century	
+38000	
+----------------------------------------	
+Test Example 39	
+>> A ship	
+39000	
+----------------------------------------	
+Test Example 40	
+>> A person with a person with a person with a person with a person with a person with a person	
+40000	
+----------------------------------------	
+Test Example 41	
+>> Any of the ear	
+41000	
+----------------------------------------	
+Test Example 42	
+>> An area	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A ship	
+43000	
+----------------------------------------	
+Test Example 44	
+>> The same as a state of the same as a state of the same as a state of the same	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a part of the ear	
+45000	
+----------------------------------------	
+Test Example 46	
+>> A ship in the sound	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A state of the sound	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A ship in a ship in a ship in a ship in a ship in a ship in a ship	
+48000	
+----------------------------------------	
+Test Example 49	
+>> A ship	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A woman	
+50000	
+----------------------------------------	
+Test Example 51	
+>> An antibody	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A ship in the line in the line in the line in the line in the line in the line	
+52000	
+----------------------------------------	
+Test Example 53	
+>> An uncontrolled to the ear	
+53000	
+----------------------------------------	
+Test Example 54	
+>> An animal	
+54000	
+----------------------------------------	
+Test Example 55	
+>> A strong and a strong and a strong and a strong and a strong and a strong and a strong	
+55000	
+----------------------------------------	
+Test Example 56	
+>> In the state of the state of the state of the state of the state of the state of the	
+56000	
+----------------------------------------	
+Test Example 57	
+>> An early in the same as a state	
+57000	
+----------------------------------------	
+Test Example 58	
+>> An area	
+58000	
+----------------------------------------	
+Test Example 59	
+>> Any of the sun and a plant and a plant and a plant and a plant and a plant and	
+59000	
+----------------------------------------	
+Test Example 60	
+>> Genus of the ear and a family polypodiaceae and a family polypodiaceae and a family polypodiaceae and a family polypodiaceae	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A strong and the sound	
+61000	
+----------------------------------------	
+Test Example 62	
+>> English for the th century	
+62000	
+----------------------------------------	
+Test Example 63	
+>> Any of the flesh of the flesh of the flesh of the flesh of the flesh of the flesh of	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A group of the th century	
+64000	
+----------------------------------------	
+Test Example 65	
+>> The th century	
+65000	
+----------------------------------------	
+Test Example 66	
+>> An area	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Of the th century	
+67000	
+----------------------------------------	
+Test Example 68	
+>> The same as a state of the same as a state of the same as a state of the same	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A ship	
+69000	
+----------------------------------------	
+Test Example 70	
+>> An acute in the ear	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A state of the sound	
+71000	
+----------------------------------------	
+Test Example 72	
+>> A member of the th century bc	
+72000	
+----------------------------------------	
+Test Example 73	
+>> A ship	
+73000	
+----------------------------------------	
+Test Example 74	
+>> The same time	
+74000	
+----------------------------------------	
+Test Example 75	
+>> A ship	
+75000	
+----------------------------------------	
+Test Example 76	
+>> A strong liquid used in the sound	
+76000	
+----------------------------------------	
+Test Example 77	
+>> A ship	
+77000	
+----------------------------------------	
+Test Example 78	
+>> The same as a state of the same as a state of the same as a state of the same	
+78000	
+----------------------------------------	
+Test Example 79	
+>> A ship	
+79000	
+----------------------------------------	
+Test Example 80	
+>> A sudden and a sudden and a sudden and a sudden and a sudden and a sudden and a sudden	
+80000	
+----------------------------------------	
+Test Example 81	
+>> Type genus of the sun	
+81000	
+----------------------------------------	
+Test Example 82	
+>> A ship	
+82000	
+----------------------------------------	
+Test Example 83	
+>> Type genus	
+83000	
+----------------------------------------	
+Test Example 84	
+>> In the state	
+84000	
+----------------------------------------	
+Test Example 85	
+>> A ship	
+85000	
+----------------------------------------	
+Test Example 86	
+>> A strong and a strong and a strong and a strong and a strong and a strong and a strong	
+86000	
+----------------------------------------	
+Test Example 87	
+>> A state of the sound	
+87000	
+----------------------------------------	
+Test Example 88	
+>> The sound	
+88000	
+----------------------------------------	
+Test Example 89	
+>> A person	
+89000	
+----------------------------------------	
+
+-- Epoch 2 / 50	
+	
+
+Finished in 1h5m 22.975959185607 examples/sec.	
+
+Epoch stats:	
+           LR= 0.04750125	
+  Errors: min= 0	
+          max= 233.7455239296	
+       median= 47.756527900696	
+         mean= 55.143436007588	
+          std= 32.341518114221	
+
+(Saving model ...)	
+Test Example 1	
+>> Any of the main and a single	
+1000	
+----------------------------------------	
+Test Example 2	
+>> An early in the th and a person who is not being	
+2000	
+----------------------------------------	
+Test Example 3	
+>> The first to the first to the first to the first to the first to the first to the first	
+3000	
+----------------------------------------	
+Test Example 4	
+>> Any of the stem or in a single	
+4000	
+----------------------------------------	
+Test Example 5	
+>> A small white or to the first to the first to the first to the first to the first to	
+5000	
+----------------------------------------	
+Test Example 6	
+>> The th century bc the th century bc the th century bc the th century bc the th century bc	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A single	
+7000	
+----------------------------------------	
+Test Example 8	
+>> The first to the first to the first to the first to the first to the first to the first	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A single or to the first to the first to the first to the first to the first to the	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A person	
+10000	
+----------------------------------------	
+Test Example 11	
+>> Any of the stem and a single	
+11000	
+----------------------------------------	
+Test Example 12	
+>> In a person	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A small round the sound	
+13000	
+----------------------------------------	
+Test Example 14	
+>> Type genus of the sea	
+14000	
+----------------------------------------	
+Test Example 15	
+>> An area	
+15000	
+----------------------------------------	
+Test Example 16	
+>> A small round the third	
+16000	
+----------------------------------------	
+Test Example 17	
+>> A single and the first to the first to the first to the first to the first to the first	
+17000	
+----------------------------------------	
+Test Example 18	
+>> In a person	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A single a single a single a single a single a single a single a single a single a single	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A person	
+20000	
+----------------------------------------	
+Test Example 21	
+>> An order	
+21000	
+----------------------------------------	
+Test Example 22	
+>> An act in the state	
+22000	
+----------------------------------------	
+Test Example 23	
+>> Any of the head of the head of the head of the head of the head of the head of	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Be used to the same as a sudden or to the same as a sudden or to the same as	
+24000	
+----------------------------------------	
+Test Example 25	
+>> An area	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A small and the first to the first to the first to the first to the first to the first	
+26000	
+----------------------------------------	
+Test Example 27	
+>> In a single	
+27000	
+----------------------------------------	
+Test Example 28	
+>> In a person	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A small round table	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Any of a family in the stem and a family in the stem and a family in the stem and	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A hole in a hole in a hole in a hole in a hole in a hole in a hole	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of the stem or in the stem or in the stem or in the stem or in the stem	
+32000	
+----------------------------------------	
+Test Example 33	
+>> An area	
+33000	
+----------------------------------------	
+Test Example 34	
+>> A gun used in a gun used in a gun used in a gun used in a gun used in	
+34000	
+----------------------------------------	
+Test Example 35	
+>> A sudden and the th and the th and the th and the th and the th and the th	
+35000	
+----------------------------------------	
+Test Example 36	
+>> English clergyman and a ball used as a ball used as a ball used as a ball used as a	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A joint	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Any of the small white or to the small white or to the small white or to the small white	
+38000	
+----------------------------------------	
+Test Example 39	
+>> A single on the first to the first to the first to the first to the first to the first	
+39000	
+----------------------------------------	
+Test Example 40	
+>> A person	
+40000	
+----------------------------------------	
+Test Example 41	
+>> Any of the human beings	
+41000	
+----------------------------------------	
+Test Example 42	
+>> The same as a sudden and a sudden and a sudden and a sudden and a sudden and a sudden	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A vehicle used to the sound	
+43000	
+----------------------------------------	
+Test Example 44	
+>> The same in a word that has a word that has a word that has a word that has a	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Of the part of the part of the part of the part of the part of the part of the	
+45000	
+----------------------------------------	
+Test Example 46	
+>> A small white or to the first to the first to the first to the first to the first to	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A light in a light in a light in a light in a light in a light in a light	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A hole in a hole in a hole in a hole in a hole in a hole in a hole	
+48000	
+----------------------------------------	
+Test Example 49	
+>> A person	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A woman	
+50000	
+----------------------------------------	
+Test Example 51	
+>> An essential for use of the most common in the most common in the most common in the most common	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A state in the th centuries the th centuries the th centuries the th centuries the th centuries the th	
+52000	
+----------------------------------------	
+Test Example 53	
+>> An area	
+53000	
+----------------------------------------	
+Test Example 54	
+>> An order	
+54000	
+----------------------------------------	
+Test Example 55	
+>> A small white or the first used in a small white or the first used in a small white or	
+55000	
+----------------------------------------	
+Test Example 56	
+>> Not having a person	
+56000	
+----------------------------------------	
+Test Example 57	
+>> An abnormal blood vessels	
+57000	
+----------------------------------------	
+Test Example 58	
+>> An area	
+58000	
+----------------------------------------	
+Test Example 59	
+>> Any of the th and the th and the th and the th and the th and the th and	
+59000	
+----------------------------------------	
+Test Example 60	
+>> Genus of the order	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A small or the th and the th and the th and the th and the th and the th	
+61000	
+----------------------------------------	
+Test Example 62	
+>> English clergyman and the first to the first to the first to the first to the first to the first	
+62000	
+----------------------------------------	
+Test Example 63	
+>> Genus of the stem and the stem and the stem and the stem and the stem and the stem and	
+63000	
+----------------------------------------	
+Test Example 64	
+>> The first to the first to the first to the first to the first to the first to the first	
+64000	
+----------------------------------------	
+Test Example 65	
+>> The first to the first to the first to the first to the first to the first to the first	
+65000	
+----------------------------------------	
+Test Example 66	
+>> An area	
+66000	
+----------------------------------------	
+Test Example 67	
+>> An order	
+67000	
+----------------------------------------	
+Test Example 68	
+>> An order	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A ship	
+69000	
+----------------------------------------	
+Test Example 70	
+>> An order	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A person	
+71000	
+----------------------------------------	
+Test Example 72	
+>> A family of the ancient rome to the ancient rome to the ancient rome to the ancient rome to the	
+72000	
+----------------------------------------	
+Test Example 73	
+>> A single a single a single a single a single a single a single a single a single a single	
+73000	
+----------------------------------------	
+Test Example 74	
+>> An organization	
+74000	
+----------------------------------------	
+Test Example 75	
+>> A ship	
+75000	
+----------------------------------------	
+Test Example 76	
+>> An oil used in the head of the head of the head of the head of the head of the	
+76000	
+----------------------------------------	
+Test Example 77	
+>> A ship	
+77000	
+----------------------------------------	
+Test Example 78	
+>> An order	
+78000	
+----------------------------------------	
+Test Example 79	
+>> A ship	
+79000	
+----------------------------------------	
+Test Example 80	
+>> A sudden and in the same as a sudden and in the same as a sudden and in the same	
+80000	
+----------------------------------------	
+Test Example 81	
+>> Type genus of the sea	
+81000	
+----------------------------------------	
+Test Example 82	
+>> A single or to the first to the first to the first to the first to the first to the	
+82000	
+----------------------------------------	
+Test Example 83	
+>> Type genus of a family polypodiaceae the largest the largest the largest the largest the largest the largest the largest	
+83000	
+----------------------------------------	
+Test Example 84	
+>> Not be the first to the first to the first to the first to the first to the first to	
+84000	
+----------------------------------------	
+Test Example 85	
+>> A ship	
+85000	
+----------------------------------------	
+Test Example 86	
+>> A light the main fruit	
+86000	
+----------------------------------------	
+Test Example 87	
+>> An order	
+87000	
+----------------------------------------	
+Test Example 88	
+>> A small round or to the head of the head of the head of the head of the head of	
+88000	
+----------------------------------------	
+Test Example 89	
+>> A person	
+89000	
+----------------------------------------	
+
+-- Epoch 3 / 50	
+	
+
+Finished in 1h2m 24.058876686422 examples/sec.	
+
+Epoch stats:	
+           LR= 0.0450025	
+  Errors: min= 0	
+          max= 212.4732003212	
+       median= 44.110583782196	
+         mean= 50.969891735111	
+          std= 30.231963126801	
+
+(Saving model ...)	
+Test Example 1	
+>> Any of the stem and a fungus with a fungus with a fungus with a fungus with a fungus with	
+1000	
+----------------------------------------	
+Test Example 2	
+>> An art	
+2000	
+----------------------------------------	
+Test Example 3	
+>> An early in a public performance of the first to the first to the first to the first to the	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A single	
+4000	
+----------------------------------------	
+Test Example 5	
+>> A hard rinds and a hard rinds and a hard rinds and a hard rinds and a hard rinds and	
+5000	
+----------------------------------------	
+Test Example 6	
+>> The first the first the first the first the first the first the first the first the first the first	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A single	
+7000	
+----------------------------------------	
+Test Example 8	
+>> The first to the first to the first to the first to the first to the first to the first	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A sudden to the main	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A person who are used to the first to the first to the first to the first to the first	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A fruit	
+11000	
+----------------------------------------	
+Test Example 12	
+>> An important or a sudden and the sound	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A hole in a hole in a hole in a hole in a hole in a hole in a hole	
+13000	
+----------------------------------------	
+Test Example 14	
+>> Type genus of the body	
+14000	
+----------------------------------------	
+Test Example 15	
+>> A member of the first to the first to the first to the first to the first to the first	
+15000	
+----------------------------------------	
+Test Example 16	
+>> A hole in a hole in a hole in a hole in a hole in a hole in a hole	
+16000	
+----------------------------------------	
+Test Example 17	
+>> A sudden to the first to the first to the first to the first to the first to the first	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A hole in a hole in a hole in a hole in a hole in a hole in a hole	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A member of the first to the first to the first to the first to the first to the first	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A church the first to the first to the first to the first to the first to the first to	
+20000	
+----------------------------------------	
+Test Example 21	
+>> An insurance to the first to the first to the first to the first to the first to the first	
+21000	
+----------------------------------------	
+Test Example 22	
+>> An uncontrolled	
+22000	
+----------------------------------------	
+Test Example 23	
+>> Any of the head with a small usually a small usually a small usually a small usually a small usually	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Be used to the first to the first to the first to the first to the first to the first	
+24000	
+----------------------------------------	
+Test Example 25	
+>> A bone marrow	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A small white or to the sound	
+26000	
+----------------------------------------	
+Test Example 27	
+>> Not made of the main	
+27000	
+----------------------------------------	
+Test Example 28	
+>> The voice usually a person	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A strong	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Any of the stem and a single	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A hole in a hole in a hole in a hole in a hole in a hole in a hole	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of the stem or as a genus of the stem or as a genus of the stem or as	
+32000	
+----------------------------------------	
+Test Example 33	
+>> An organ as a symptom of the head of the head of the head of the head of the head	
+33000	
+----------------------------------------	
+Test Example 34	
+>> A sudden to the main	
+34000	
+----------------------------------------	
+Test Example 35	
+>> The sound	
+35000	
+----------------------------------------	
+Test Example 36	
+>> French	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A hole	
+37000	
+----------------------------------------	
+Test Example 38	
+>> A member of the most common in a member of the most common in a member of the most common	
+38000	
+----------------------------------------	
+Test Example 39	
+>> A church the first to the first to the first to the first to the first to the first to	
+39000	
+----------------------------------------	
+Test Example 40	
+>> A person	
+40000	
+----------------------------------------	
+Test Example 41	
+>> A hole in the most common in the most common in the most common in the most common in the	
+41000	
+----------------------------------------	
+Test Example 42	
+>> The first to the first to the first to the first to the first to the first to the first	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A gun a gun a gun a gun a gun a gun a gun a gun a gun a gun	
+43000	
+----------------------------------------	
+Test Example 44	
+>> The words in a word	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a pattern of the part of the part of the part of the part of the part of the	
+45000	
+----------------------------------------	
+Test Example 46	
+>> A sudden to the main a sudden to the main a sudden to the main a sudden to the main	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A light the first the first the first the first the first the first the first the first the first	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A hole	
+48000	
+----------------------------------------	
+Test Example 49	
+>> A small white or a small white or a small white or a small white or a small white or	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A woman	
+50000	
+----------------------------------------	
+Test Example 51	
+>> Any of the production of the production of the production of the production of the production of the production of	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A member of the first the first the first the first the first the first the first the first the	
+52000	
+----------------------------------------	
+Test Example 53	
+>> An area	
+53000	
+----------------------------------------	
+Test Example 54	
+>> An organ	
+54000	
+----------------------------------------	
+Test Example 55	
+>> A small white or to the first the first the first the first the first the first the first the	
+55000	
+----------------------------------------	
+Test Example 56	
+>> Not having the first to the first to the first to the first to the first to the first to	
+56000	
+----------------------------------------	
+Test Example 57	
+>> An abnormal increase in the first to the first to the first to the first to the first to the	
+57000	
+----------------------------------------	
+Test Example 58	
+>> An organization	
+58000	
+----------------------------------------	
+Test Example 59	
+>> Tall perennial of the common in a member of the common in a member of the common in a member	
+59000	
+----------------------------------------	
+Test Example 60	
+>> Genus helipterum	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A small white or to the part of the part of the part of the part of the part of	
+61000	
+----------------------------------------	
+Test Example 62	
+>> English in a member of the first to the first to the first to the first to the first to	
+62000	
+----------------------------------------	
+Test Example 63	
+>> Genus helipterum the genus helipterum the genus helipterum the genus helipterum the genus helipterum the genus helipterum the genus helipterum	
+63000	
+----------------------------------------	
+Test Example 64	
+>> An enemy	
+64000	
+----------------------------------------	
+Test Example 65	
+>> The first to the first to the first to the first to the first to the first to the first	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A sudden and a sudden and a sudden and a sudden and a sudden and a sudden and a sudden	
+66000	
+----------------------------------------	
+Test Example 67	
+>> An ancient greeks the first the first the first the first the first the first the first the first the	
+67000	
+----------------------------------------	
+Test Example 68	
+>> The court	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A ship in a ship in a ship in a ship in a ship in a ship in a ship	
+69000	
+----------------------------------------	
+Test Example 70	
+>> An organ	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A musical instruments	
+71000	
+----------------------------------------	
+Test Example 72	
+>> An ancient greeks a river in the first the first the first the first the first the first the first	
+72000	
+----------------------------------------	
+Test Example 73	
+>> A gun	
+73000	
+----------------------------------------	
+Test Example 74	
+>> The same and the same and the same and the same and the same and the same and the same	
+74000	
+----------------------------------------	
+Test Example 75	
+>> A ship in a ship in a ship in a ship in a ship in a ship in a ship	
+75000	
+----------------------------------------	
+Test Example 76	
+>> A strong usually a strong usually a strong usually a strong usually a strong usually a strong usually a strong	
+76000	
+----------------------------------------	
+Test Example 77	
+>> A gun used to the sound a gun used to the sound a gun used to the sound a gun	
+77000	
+----------------------------------------	
+Test Example 78	
+>> The first to the first to the first to the first to the first to the first to the first	
+78000	
+----------------------------------------	
+Test Example 79	
+>> An area	
+79000	
+----------------------------------------	
+Test Example 80	
+>> A nuclear weapons	
+80000	
+----------------------------------------	
+Test Example 81	
+>> Type genus helipterum	
+81000	
+----------------------------------------	
+Test Example 82	
+>> A section of the first to the first to the first to the first to the first to the first	
+82000	
+----------------------------------------	
+Test Example 83	
+>> Type genus helipterum	
+83000	
+----------------------------------------	
+Test Example 84	
+>> Not be	
+84000	
+----------------------------------------	
+Test Example 85	
+>> A ship	
+85000	
+----------------------------------------	
+Test Example 86	
+>> A liquid in a liquid in a liquid in a liquid in a liquid in a liquid in a liquid	
+86000	
+----------------------------------------	
+Test Example 87	
+>> A liquid or to the head with a liquid or to the head with a liquid or to the head	
+87000	
+----------------------------------------	
+Test Example 88	
+>> A strong durable wood	
+88000	
+----------------------------------------	
+Test Example 89	
+>> A small pieces of the first the first the first the first the first the first the first the first	
+89000	
+----------------------------------------	
+
+-- Epoch 4 / 50	
+	
+
+Finished in 1h1m 24.185969156711 examples/sec.	
+
+Epoch stats:	
+           LR= 0.04250375	
+  Errors: min= 0	
+          max= 201.93055725098	
+       median= 41.300479888916	
+         mean= 47.788360753121	
+          std= 28.546637426157	
+
+(Saving model ...)	
+Test Example 1	
+>> Disease	
+1000	
+----------------------------------------	
+Test Example 2	
+>> An imaginary in a person who has a person who has a person who has a person who has a	
+2000	
+----------------------------------------	
+Test Example 3	
+>> The united states in a state	
+3000	
+----------------------------------------	
+Test Example 4	
+>> Any of the stem	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Tall and the main as a small or a small or a small or a small or a small or	
+5000	
+----------------------------------------	
+Test Example 6	
+>> The last syllable in the last syllable in the last syllable in the last syllable in the last syllable in	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A single file	
+7000	
+----------------------------------------	
+Test Example 8	
+>> Used in the main as a cereal in the main as a cereal in the main as a cereal in	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A gun in a gun in a gun in a gun in a gun in a gun in a gun	
+9000	
+----------------------------------------	
+Test Example 10	
+>> An honor without permission to the first to the first to the first to the first to the first to	
+10000	
+----------------------------------------	
+Test Example 11	
+>> Genus of the main	
+11000	
+----------------------------------------	
+Test Example 12	
+>> In the first to the first to the first to the first to the first to the first to the	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A hole or a hole or a hole or a hole or a hole or a hole or a hole	
+13000	
+----------------------------------------	
+Test Example 14	
+>> Type genus of the sea	
+14000	
+----------------------------------------	
+Test Example 15	
+>> The first to the first to the first to the first to the first to the first to the first	
+15000	
+----------------------------------------	
+Test Example 16	
+>> A hole in a hole in a hole in a hole in a hole in a hole in a hole	
+16000	
+----------------------------------------	
+Test Example 17	
+>> A single	
+17000	
+----------------------------------------	
+Test Example 18	
+>> An order	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A small or a small or a small or a small or a small or a small or a small	
+19000	
+----------------------------------------	
+Test Example 20	
+>> An order	
+20000	
+----------------------------------------	
+Test Example 21	
+>> A person who has been paid to the right to the right to the right to the right to the	
+21000	
+----------------------------------------	
+Test Example 22	
+>> An attack as a state	
+22000	
+----------------------------------------	
+Test Example 23	
+>> Any of the larvae are used in the larvae are used in the larvae are used in the larvae are	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Be made by a person or in the first to the first to the first to the first to the	
+24000	
+----------------------------------------	
+Test Example 25	
+>> Any of the bone marrow	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A gun as a gun as a gun as a gun as a gun as a gun as a gun	
+26000	
+----------------------------------------	
+Test Example 27	
+>> In the main	
+27000	
+----------------------------------------	
+Test Example 28	
+>> Having a person who are not having a person who are not having a person who are not having a	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A small pieces of the head	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Any of the stem and the stem and the stem and the stem and the stem and the stem and	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A hole in a hole in a hole in a hole in a hole in a hole in a hole	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of the small or a small or a small or a small or a small or a small or	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A symptom of the mouth	
+33000	
+----------------------------------------	
+Test Example 34	
+>> The main	
+34000	
+----------------------------------------	
+Test Example 35	
+>> An engine	
+35000	
+----------------------------------------	
+Test Example 36	
+>> English folk music the first to the first to the first to the first to the first to the first	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A bone	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Tall and the small white or a small white or a small white or a small white or a small	
+38000	
+----------------------------------------	
+Test Example 39	
+>> A building the main	
+39000	
+----------------------------------------	
+Test Example 40	
+>> A person who are not hold	
+40000	
+----------------------------------------	
+Test Example 41	
+>> Any of the mouth	
+41000	
+----------------------------------------	
+Test Example 42	
+>> The first to the first to the first to the first to the first to the first to the first	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A gun in a gun in a gun in a gun in a gun in a gun in a gun	
+43000	
+----------------------------------------	
+Test Example 44	
+>> The first to the first to the first to the first to the first to the first to the first	
+44000	
+----------------------------------------	
+Test Example 45	
+>> In the same one of the same one of the same one of the same one of the same one	
+45000	
+----------------------------------------	
+Test Example 46	
+>> A motor vehicle to the main	
+46000	
+----------------------------------------	
+Test Example 47	
+>> The first to the first to the first to the first to the first to the first to the first	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A hole in a hole in a hole in a hole in a hole in a hole in a hole	
+48000	
+----------------------------------------	
+Test Example 49	
+>> An honor of the first to the first to the first to the first to the first to the first	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A woman to the first to the first to the first to the first to the first to the first	
+50000	
+----------------------------------------	
+Test Example 51	
+>> An important for use as a diet to the virus that is not a diet to the virus that is	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A city in the first to the first to the first to the first to the first to the first	
+52000	
+----------------------------------------	
+Test Example 53	
+>> An infectious disease	
+53000	
+----------------------------------------	
+Test Example 54	
+>> Any of the bone marrow	
+54000	
+----------------------------------------	
+Test Example 55	
+>> A small white or the first to the first to the first to the first to the first to the	
+55000	
+----------------------------------------	
+Test Example 56	
+>> Not having a state of the first to the first to the first to the first to the first to	
+56000	
+----------------------------------------	
+Test Example 57	
+>> An abnormal	
+57000	
+----------------------------------------	
+Test Example 58	
+>> The first to the first to the first to the first to the first to the first to the first	
+58000	
+----------------------------------------	
+Test Example 59	
+>> Any of the common in the common in the common in the common in the common in the common in	
+59000	
+----------------------------------------	
+Test Example 60	
+>> Genus helipterum used in the main and a person who lived in the main and a person who lived in	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A small or a small or a small or a small or a small or a small or a small	
+61000	
+----------------------------------------	
+Test Example 62	
+>> English folk to the th century english folk to the th century english folk to the th century english folk	
+62000	
+----------------------------------------	
+Test Example 63	
+>> Genus of the main and the main and the main and the main and the main and the main and	
+63000	
+----------------------------------------	
+Test Example 64	
+>> The first to the first to the first to the first to the first to the first to the first	
+64000	
+----------------------------------------	
+Test Example 65	
+>> An active in the first to the first to the first to the first to the first to the first	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A sudden and a sudden and a sudden and a sudden and a sudden and a sudden and a sudden	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Of the th century bc	
+67000	
+----------------------------------------	
+Test Example 68	
+>> The right to the right to the right to the right to the right to the right to the right	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A gun as a gun as a gun as a gun as a gun as a gun as a gun	
+69000	
+----------------------------------------	
+Test Example 70	
+>> Inflammation	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A musical instruments	
+71000	
+----------------------------------------	
+Test Example 72	
+>> An ancient greeks the sea in the sea in the sea in the sea in the sea in the sea	
+72000	
+----------------------------------------	
+Test Example 73	
+>> A gun used to the first to the first to the first to the first to the first to the	
+73000	
+----------------------------------------	
+Test Example 74	
+>> The right	
+74000	
+----------------------------------------	
+Test Example 75	
+>> A motor vehicle to the main a motor vehicle to the main a motor vehicle to the main a motor	
+75000	
+----------------------------------------	
+Test Example 76	
+>> An edible fruits	
+76000	
+----------------------------------------	
+Test Example 77	
+>> A motor vehicle used to the main a motor vehicle used to the main a motor vehicle used to the	
+77000	
+----------------------------------------	
+Test Example 78	
+>> Not having a sudden and the first to the first to the first to the first to the first to	
+78000	
+----------------------------------------	
+Test Example 79	
+>> An engine	
+79000	
+----------------------------------------	
+Test Example 80	
+>> A nuclear weapons	
+80000	
+----------------------------------------	
+Test Example 81	
+>> Type genus helipterum	
+81000	
+----------------------------------------	
+Test Example 82	
+>> A building material used in a building material used in a building material used in a building material used in	
+82000	
+----------------------------------------	
+Test Example 83	
+>> Type in the small or a family planning	
+83000	
+----------------------------------------	
+Test Example 84	
+>> Not conforming to the state	
+84000	
+----------------------------------------	
+Test Example 85	
+>> A gun	
+85000	
+----------------------------------------	
+Test Example 86	
+>> A small pieces of the main fruit	
+86000	
+----------------------------------------	
+Test Example 87	
+>> Any of the mouth	
+87000	
+----------------------------------------	
+Test Example 88	
+>> A hole to the brush	
+88000	
+----------------------------------------	
+Test Example 89	
+>> A small or a small or a small or a small or a small or a small or a small	
+89000	
+----------------------------------------	
+
+-- Epoch 5 / 50	
+	
+
+Finished in 1h2m 24.040121603141 examples/sec.	
+
+Epoch stats:	
+           LR= 0.040005	
+  Errors: min= 0	
+          max= 199.15402173996	
+       median= 38.877807617188	
+         mean= 45.057708643502	
+          std= 27.045131622127	
+
+(Saving model ...)	
+Test Example 1	
+>> Any of the fruit	
+1000	
+----------------------------------------	
+Test Example 2	
+>> An art	
+2000	
+----------------------------------------	
+Test Example 3	
+>> The first to the first to the first to the first to the first to the first to the first	
+3000	
+----------------------------------------	
+Test Example 4	
+>> Any of the stem or a single	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Tropical and the first leaves and the first leaves and the first leaves and the first leaves and the first	
+5000	
+----------------------------------------	
+Test Example 6	
+>> The first to the first to the first to the first to the first to the first to the first	
+6000	
+----------------------------------------	
+Test Example 7	
+>> An area	
+7000	
+----------------------------------------	
+Test Example 8	
+>> Of the body	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A gun used to the sea or a gun used to the sea or a gun used to the sea	
+9000	
+----------------------------------------	
+Test Example 10	
+>> An attendant	
+10000	
+----------------------------------------	
+Test Example 11	
+>> Genus helipterum with a plant	
+11000	
+----------------------------------------	
+Test Example 12	
+>> In the state	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A hole	
+13000	
+----------------------------------------	
+Test Example 14	
+>> Type genus helipterum	
+14000	
+----------------------------------------	
+Test Example 15	
+>> The first to the first to the first to the first to the first to the first to the first	
+15000	
+----------------------------------------	
+Test Example 16	
+>> A keyboard or a keyboard or a keyboard or a keyboard or a keyboard or a keyboard or a keyboard	
+16000	
+----------------------------------------	
+Test Example 17	
+>> A body	
+17000	
+----------------------------------------	
+Test Example 18	
+>> Having a hole in the face of the face of the face of the face of the face of the	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A river in the sound	
+19000	
+----------------------------------------	
+Test Example 20	
+>> An order of the first to the first to the first to the first to the first to the first	
+20000	
+----------------------------------------	
+Test Example 21	
+>> An end of the first to the first to the first to the first to the first to the first	
+21000	
+----------------------------------------	
+Test Example 22	
+>> An action	
+22000	
+----------------------------------------	
+Test Example 23	
+>> Any of the sea in the sea in the sea in the sea in the sea in the sea in	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Make more than the other	
+24000	
+----------------------------------------	
+Test Example 25	
+>> Any of the inner gland	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A gun	
+26000	
+----------------------------------------	
+Test Example 27	
+>> Having a number of the main	
+27000	
+----------------------------------------	
+Test Example 28	
+>> Having a person who has a person who has a person who has a person who has a person who	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A part of the hair	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Any of the stem or a single	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A hole or a hole or a hole or a hole or a hole or a hole or a hole	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of the region of the region of the region of the region of the region of the region of	
+32000	
+----------------------------------------	
+Test Example 33	
+>> An animal tissues of the inner gland	
+33000	
+----------------------------------------	
+Test Example 34	
+>> The main	
+34000	
+----------------------------------------	
+Test Example 35	
+>> An engine	
+35000	
+----------------------------------------	
+Test Example 36	
+>> United states	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A hole in the part of the part of the part of the part of the part of the part	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Any of the first to the first to the first to the first to the first to the first to	
+38000	
+----------------------------------------	
+Test Example 39	
+>> A section of the region of the region of the region of the region of the region of the region	
+39000	
+----------------------------------------	
+Test Example 40	
+>> An attendant in a horse	
+40000	
+----------------------------------------	
+Test Example 41	
+>> Any of the inner tissue	
+41000	
+----------------------------------------	
+Test Example 42	
+>> The first to the first to the first to the first to the first to the first to the first	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A gun	
+43000	
+----------------------------------------	
+Test Example 44	
+>> The vocal the vocal the vocal the vocal the vocal the vocal the vocal the vocal the vocal the vocal	
+44000	
+----------------------------------------	
+Test Example 45	
+>> In the part of the part of the part of the part of the part of the part of the	
+45000	
+----------------------------------------	
+Test Example 46	
+>> A sudden and the sea	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A number of the state	
+47000	
+----------------------------------------	
+Test Example 48	
+>> The part of the part of the part of the part of the part of the part of the part	
+48000	
+----------------------------------------	
+Test Example 49	
+>> The first to the first to the first to the first to the first to the first to the first	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A short and the sound as a short and the sound as a short and the sound as a short	
+50000	
+----------------------------------------	
+Test Example 51	
+>> An oil used as a chemical reactions	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A city in the th century	
+52000	
+----------------------------------------	
+Test Example 53	
+>> An area	
+53000	
+----------------------------------------	
+Test Example 54	
+>> Any of the region of the region of the region of the region of the region of the region of	
+54000	
+----------------------------------------	
+Test Example 55	
+>> A small white or to the first to the first to the first to the first to the first to	
+55000	
+----------------------------------------	
+Test Example 56	
+>> Not having a person	
+56000	
+----------------------------------------	
+Test Example 57	
+>> An acute and the mouth	
+57000	
+----------------------------------------	
+Test Example 58	
+>> A person or a person or a person or a person or a person or a person or a person	
+58000	
+----------------------------------------	
+Test Example 59	
+>> Any of the region of the region of the region of the region of the region of the region of	
+59000	
+----------------------------------------	
+Test Example 60	
+>> Genus helipterum and the most southern and the most southern and the most southern and the most southern and the	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A plant and the main	
+61000	
+----------------------------------------	
+Test Example 62	
+>> English in the th century	
+62000	
+----------------------------------------	
+Test Example 63	
+>> Genus of the region used in the region used in the region used in the region used in the region	
+63000	
+----------------------------------------	
+Test Example 64	
+>> French rule of the first president of the first president of the first president of the first president of the	
+64000	
+----------------------------------------	
+Test Example 65	
+>> The sea	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A sudden to the state	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Of the first to the first to the first to the first to the first to the first to the	
+67000	
+----------------------------------------	
+Test Example 68	
+>> An order to the state	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A hole in a hole in a hole in a hole in a hole in a hole in a hole	
+69000	
+----------------------------------------	
+Test Example 70	
+>> Inflammation of the eye disease	
+70000	
+----------------------------------------	
+Test Example 71	
+>> Music	
+71000	
+----------------------------------------	
+Test Example 72	
+>> Greek into the ancient greeks to the ancient greeks to the ancient greeks to the ancient greeks to the ancient	
+72000	
+----------------------------------------	
+Test Example 73	
+>> A gun	
+73000	
+----------------------------------------	
+Test Example 74	
+>> The body	
+74000	
+----------------------------------------	
+Test Example 75	
+>> A ball	
+75000	
+----------------------------------------	
+Test Example 76	
+>> A liquid from the inner fruit	
+76000	
+----------------------------------------	
+Test Example 77	
+>> A gun	
+77000	
+----------------------------------------	
+Test Example 78	
+>> Having a sudden to the body	
+78000	
+----------------------------------------	
+Test Example 79	
+>> A river	
+79000	
+----------------------------------------	
+Test Example 80	
+>> A liquid	
+80000	
+----------------------------------------	
+Test Example 81	
+>> Type genus helipterum	
+81000	
+----------------------------------------	
+Test Example 82	
+>> A house	
+82000	
+----------------------------------------	
+Test Example 83	
+>> Type	
+83000	
+----------------------------------------	
+Test Example 84	
+>> Not having a sudden fear or to the state	
+84000	
+----------------------------------------	
+Test Example 85	
+>> A gun	
+85000	
+----------------------------------------	
+Test Example 86	
+>> The main	
+86000	
+----------------------------------------	
+Test Example 87	
+>> The mouth	
+87000	
+----------------------------------------	
+Test Example 88	
+>> A hole	
+88000	
+----------------------------------------	
+Test Example 89	
+>> An engine	
+89000	
+----------------------------------------	
+
+-- Epoch 6 / 50	
+	

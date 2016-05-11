@@ -1,4 +1,4 @@
 #lhy
 #2016.3
 
-th train.lua --cuda --dataset 0 --hiddenSize 400
+th train.lua --cuda --dataset 0 --hiddenSize 512
