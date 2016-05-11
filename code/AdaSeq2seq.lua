@@ -21,6 +21,7 @@ function AdaSeq2Seq:buildModel()
   local linearModule = nn.Sequential()
   local samplingModule = nn.Sequential()
   self.LMModule = nn.Sequential()
+  self.MEMModule = nn.Sequential()
   local attentionModule = nn.Sequential()
   lookupModule:add(nn.LookupTable(self.vocabSize, self.hiddenSize))
   
@@ -64,7 +65,9 @@ function AdaSeq2Seq:buildModel()
   self.LMModule:add(nn.Sequencer(nn.LogSoftMax()))
   self.LMModule:zeroGradParameters()
   self.decoder2 = self.decoder:clone('weight', 'bias')
-  self.decoder2:zeroGradParameters()
+  self.MEMModule:add(self.decoder2)
+  self.MEMModule:add(nn.JoinTable(1))
+  self.MEMModule:zeroGradParameters()
   self.zeroTensor = torch.Tensor(2):zero()
   
 end
@@ -72,14 +75,10 @@ end
 function AdaSeq2Seq:cuda()
   -- self.encoder:cuda()
   self.LMModule:cuda()
-  self.decoder2:cuda()
+  self.MEMModule:cuda()
   if self.criterion then
     self.criterion:cuda()
   end
-  if self.MSECriterion then
-    self.MSECriterion:cuda()
-  end
-
   if self.MEMCriterion then
 	self.MEMCriterion:cuda()
   end
@@ -111,7 +110,7 @@ function AdaSeq2Seq:train(input, target)
   -- self.encoder:forward(encoderInput)
   -- self:forwardConnect(encoderInput:size(1))
   local LLModelOutput = self.LMModule:forward({input, decoderInput})
-  local decoderOutput = self.decoder2:forward({input, decoderInput})
+  local MEMOutput = self.MEMModule:forward({input, decoderInput})
   local Edecoder = self.criterion:forward(LLModelOutput, decoderTarget)
 
   if Edecoder ~= Edecoder then -- Exist early on bad error
@@ -125,7 +124,7 @@ function AdaSeq2Seq:train(input, target)
   for i = 1, len do
     table.insert(inputTable, input[1])
   end
-  local mEdec = self.MEMCriterion:backward(decoderOutput, inputTable)
+  local mEdec = self.MEMCriterion:backward(decoderOutput, torch.Tensor(inputTable):cuda())
   self.LMModule:backward({input, decoderInput}, gEdec)
   -- self:backwardConnect()
   -- self.encoder:backward(encoderInput, self.zeroTensor)
@@ -138,11 +137,11 @@ function AdaSeq2Seq:train(input, target)
 
   self.LMModule:forget()
   -- self.encoder:forget()
-  self.decoder2:backward({input, decoderInput}, mEdec)
-  self.decoder2:updateGradParameters(self.momentum)
-  self.decoder2:updateParameters(self.learningRate)
-  self.decoder2:zeroGradParameters()
-  self.decoder2:forget()
+  self.MEMModule:backward({input, decoderInput}, mEdec)
+  self.MEMModule:updateGradParameters(self.momentum)
+  self.MEMModule:updateParameters(self.learningRate)
+  self.MEMModule:zeroGradParameters()
+  self.MEMModule:forget()
   return Edecoder
 end
 
