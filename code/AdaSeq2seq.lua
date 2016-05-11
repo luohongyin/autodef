@@ -74,6 +74,10 @@ function AdaSeq2Seq:cuda()
     self.criterion:cuda()
   end
 
+  if self.MEMCriterion then
+	self.MEMCriterion:cuda()
+  end
+
   self.zeroTensor = self.zeroTensor:cuda()
 end
 
@@ -108,8 +112,11 @@ function AdaSeq2Seq:train(input, target)
   end
 
   -- Backward pass
-  local gEdec = self.criterion:backward({decoderOutput, self.decoderLSTM.output}, {decoderTarget, input[1]})
-  self.decoder:backward({input, decoderInput}, gEdec)
+  local gEdec = self.criterion:backward(decoderOutput, decoderTarget)
+  local mEdec = self.MEMCriterion:backward(self.decoderLSTM.output, input[1])
+  print(mEdec)
+  self.decoder:backward({input, decoderInput}, gEdec + mEdec)
+  -- self.decoder:backward({input, decoderInput}, mEdec)
   -- self:backwardConnect()
   -- self.encoder:backward(encoderInput, self.zeroTensor)
   -- self.encoder:updateGradParameters(self.momentum)

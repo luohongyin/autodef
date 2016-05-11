@@ -12,7 +12,7 @@ cmd:option('--momentum', 0.9, 'momentum')
 cmd:option('--minLR', 0.000025, 'minimum learning rate')
 cmd:option('--saturateEpoch', 20, 'epoch at which linear decayed LR will reach minLR')
 cmd:option('--maxEpoch', 50, 'maximum number of epochs to run')
-cmd:option('--batchSize', 1000, 'number of examples to load at once')
+cmd:option('--batchSize', 128, 'number of examples to load at once')
 
 cmd:text()
 options = cmd:parse(arg)
@@ -40,6 +40,7 @@ model.eosToken = dataset.eosToken
 
 -- Training parameters
 model.criterion = nn.SequencerCriterion(nn.ClassNLLCriterion())
+model.MEMCriterion = nn.MSECriterion()
 model.learningRate = options.learningRate
 model.momentum = options.momentum
 local decayFactor = (options.minLR - options.learningRate) / options.saturateEpoch
@@ -94,7 +95,7 @@ for epoch = 1, options.maxEpoch do
 
         errors[i] = err
 	    end
-      -- xlua.progress(i, dataset.examplesCount)
+      xlua.progress(i, dataset.examplesCount)
       i = i + 1
     end
   end
