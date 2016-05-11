@@ -109,22 +109,22 @@ function AdaSeq2Seq:train(input, target)
   -- Forward pass
   -- self.encoder:forward(encoderInput)
   -- self:forwardConnect(encoderInput:size(1))
-  local LLModelOutput = self.LMModule:forward({input, decoderInput})
+  local LMModelOutput = self.LMModule:forward({input, decoderInput})
   local MEMOutput = self.MEMModule:forward({input, decoderInput})
-  local Edecoder = self.criterion:forward(LLModelOutput, decoderTarget)
+  local Edecoder = self.criterion:forward(LMModelOutput, decoderTarget)
 
   if Edecoder ~= Edecoder then -- Exist early on bad error
     return Edecoder
   end
 
   -- Backward pass
-  local gEdec = self.criterion:backward(LLModelOutput, decoderTarget)
-  local len = #decoderOutput
-  local inputTable = {}
+  local gEdec = self.criterion:backward(LMModelOutput, decoderTarget)
+  local len = #LMModelOutput
+  local inputTable = torch.Tensor(len, 400):cuda()
   for i = 1, len do
-    table.insert(inputTable, input[1])
+    inputTable[i] = input[1]
   end
-  local mEdec = self.MEMCriterion:backward(decoderOutput, torch.Tensor(inputTable):cuda())
+  local mEdec = self.MEMCriterion:backward(MEMOutput, inputTable)
   self.LMModule:backward({input, decoderInput}, gEdec)
   -- self:backwardConnect()
   -- self.encoder:backward(encoderInput, self.zeroTensor)
