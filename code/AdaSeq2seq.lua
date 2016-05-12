@@ -135,12 +135,12 @@ function AdaSeq2Seq:train(input, target)
   -- self.encoder:zeroGradParameters()
   self.LMModule:zeroGradParameters()
 
-  self.LMModule:forget()
   -- self.encoder:forget()
   self.MEMModule:backward({input, decoderInput}, mEdec)
   self.MEMModule:updateGradParameters(self.momentum)
   self.MEMModule:updateParameters(self.learningRate)
   self.MEMModule:zeroGradParameters()
+  self.LMModule:forget()
   self.MEMModule:forget()
   return Edecoder
 end

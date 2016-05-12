@@ -24,7 +24,7 @@ function DataSet:__init(loader, options)
   self.minWordFreq = options.minWordFreq or 1
 
   -- Maximum number of words in an example sentence
-  self.maxExampleLen = options.maxExampleLen or 25
+  self.maxExampleLen = options.maxExampleLen or 30
 
   -- Load only first fews examples (approximately)
   self.loadFirst = options.loadFirst
