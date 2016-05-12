@@ -1,0 +1,5767 @@
+-- Loading dataset	
+Loading vocabulary from ../data/model/vocab_I.t7 ...	
+
+Dataset stats:	
+  Vocabulary size: 38558	
+         Examples: 72499	
+
+-- Epoch 1 / 50	
+	
+
+Finished in 1h34m 12.82535544224 examples/sec.	
+
+Epoch stats:	
+           LR= 0.05	
+  Errors: min= 0	
+          max= 252.3996257782	
+       median= 57.26274728775	
+         mean= 65.264996356817	
+          std= 37.148087867267	
+
+(Saving model ...)	
+Test Example 1	
+>> A woman	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A device	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A group in a group in a group in a group in a group in a group in a group	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A person	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of the region of the region of the region of the region of the region of the region of	
+5000	
+----------------------------------------	
+Test Example 6	
+>> A family in some classification systems	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A radioactive transuranic	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A group in a group in a group in a group in a group in a group in a group	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A plant	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A ship	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A person	
+11000	
+----------------------------------------	
+Test Example 12	
+>> A plant used in a plant used in a plant used in a plant used in a plant used in	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A person	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A plant	
+14000	
+----------------------------------------	
+Test Example 15	
+>> A plant	
+15000	
+----------------------------------------	
+Test Example 16	
+>> A group	
+16000	
+----------------------------------------	
+Test Example 17	
+>> A person	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A radioactive transuranic	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A group	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A group or a group or a group or a group or a group or a group or a group	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a person	
+21000	
+----------------------------------------	
+Test Example 22	
+>> A woman	
+22000	
+----------------------------------------	
+Test Example 23	
+>> A group in a group in a group in a group in a group in a group in a group	
+23000	
+----------------------------------------	
+Test Example 24	
+>> In a person	
+24000	
+----------------------------------------	
+Test Example 25	
+>> In a person	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A woman	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A large and a large and a large and a large and a large and a large and a large	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A person	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A plant	
+29000	
+----------------------------------------	
+Test Example 30	
+>> A group or a group or a group or a group or a group or a group or a group	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A ship	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Type genus of the family of the family of the family of the family of the family of the family	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A group or a group or a group or a group or a group or a group or a group	
+33000	
+----------------------------------------	
+Test Example 34	
+>> In a group or a group or a group or a group or a group or a group or a	
+34000	
+----------------------------------------	
+Test Example 35	
+>> A family of a family of a family of a family of a family of a family of a family	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A group	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A group in a group in a group in a group in a group in a group in a group	
+37000	
+----------------------------------------	
+Test Example 38	
+>> A woman	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of a fungus with a fungus with a fungus with a fungus with a fungus with a fungus with	
+39000	
+----------------------------------------	
+Test Example 40	
+>> A group of a group of a group of a group of a group of a group of a group	
+40000	
+----------------------------------------	
+Test Example 41	
+>> In a person	
+41000	
+----------------------------------------	
+Test Example 42	
+>> A woman	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A group or a group or a group or a group or a group or a group or a group	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A woman	
+44000	
+----------------------------------------	
+Test Example 45	
+>> A group or a group or a group or a group or a group or a group or a group	
+45000	
+----------------------------------------	
+Test Example 46	
+>> A group of a group of a group of a group of a group of a group of a group	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A group in a group in a group in a group in a group in a group in a group	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A woman	
+48000	
+----------------------------------------	
+Test Example 49	
+>> A group	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A group or a group or a group or a group or a group or a group or a group	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A person	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of the family of the family of the family of the family of the family of the family of	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A small and a small and a small and a small and a small and a small and a small	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of the region of the region of the region of the region of the region of the region of	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A person	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of a plant	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of the small and a plant	
+58000	
+----------------------------------------	
+Test Example 59	
+>> A salt or in a salt or in a salt or in a salt or in a salt or in	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A group or a group or a group or a group or a group or a group or a group	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A person	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A woman	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A person	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A small	
+64000	
+----------------------------------------	
+Test Example 65	
+>> A plant	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A group	
+66000	
+----------------------------------------	
+Test Example 67	
+>> A plant	
+67000	
+----------------------------------------	
+Test Example 68	
+>> A group or a group or a group or a group or a group or a group or a group	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A group	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A person	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A group in a group in a group in a group in a group in a group in a group	
+71000	
+----------------------------------------	
+Test Example 72	
+>> A group of a group of a group of a group of a group of a group of a group	
+72000	
+----------------------------------------	
+
+-- Epoch 2 / 50	
+	
+
+Finished in 1h34m 12.833664364474 examples/sec.	
+
+Epoch stats:	
+           LR= 0.04750125	
+  Errors: min= 0	
+          max= 235.96473264694	
+       median= 49.474681854248	
+         mean= 56.639827305683	
+          std= 32.864016599622	
+
+(Saving model ...)	
+Test Example 1	
+>> A woman	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A ship	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A member of a member of a member of a member of a member of a member of a member	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A woman	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of the family	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Type genus of a family	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A small round a small round a small round a small round a small round a small round a small	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A small round a small round a small round a small round a small round a small round a small	
+8000	
+----------------------------------------	
+Test Example 9	
+>> Any of a common in the first or in the first or in the first or in the first or	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A ship	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A new england	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Any of a plant	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A new england	
+13000	
+----------------------------------------	
+Test Example 14	
+>> Any of a woman	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of the family	
+15000	
+----------------------------------------	
+Test Example 16	
+>> The same in a person	
+16000	
+----------------------------------------	
+Test Example 17	
+>> A woman	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A small round table	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A new zealand and a new zealand and a new zealand and a new zealand and a new zealand and	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A family	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a person	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Any of a large genus of a large genus of a large genus of a large genus of a large	
+22000	
+----------------------------------------	
+Test Example 23	
+>> A surgical procedures	
+23000	
+----------------------------------------	
+Test Example 24	
+>> The same in a period of the same in a period of the same in a period of the same	
+24000	
+----------------------------------------	
+Test Example 25	
+>> The same in a person	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A family	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A large tree	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A woman	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A small round in the first or in the first or in the first or in the first or in	
+29000	
+----------------------------------------	
+Test Example 30	
+>> A small round table	
+30000	
+----------------------------------------	
+Test Example 31	
+>> The same in the same in the same in the same in the same in the same in the same	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Type genus of a family	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A member of the first or a member of the first or a member of the first or a member	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Not having a person	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus of a family	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A large and a large and a large and a large and a large and a large and a large	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A surgical procedures	
+37000	
+----------------------------------------	
+Test Example 38	
+>> A woman	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of the family	
+39000	
+----------------------------------------	
+Test Example 40	
+>> The region of the region of the region of the region of the region of the region of the region	
+40000	
+----------------------------------------	
+Test Example 41	
+>> In a person	
+41000	
+----------------------------------------	
+Test Example 42	
+>> A family	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A new zealand	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A woman	
+44000	
+----------------------------------------	
+Test Example 45	
+>> In a small round	
+45000	
+----------------------------------------	
+Test Example 46	
+>> A blood from which a blood from which a blood from which a blood from which a blood from which	
+46000	
+----------------------------------------	
+Test Example 47	
+>> An antibody	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A woman	
+48000	
+----------------------------------------	
+Test Example 49	
+>> A period of the same in the same in the same in the same in the same in the same	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A person	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small round a small round a small round a small round a small round a small round a small	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A woman	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of the family of the family of the family of the family of the family of the family of	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A small round in a small round in a small round in a small round in a small round in	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of a family of a family of a family of a family of a family of a family of	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A large and a large and a large and a large and a large and a large and a large	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of a common in the family	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of a common in a common in a common in a common in a common in a common in	
+58000	
+----------------------------------------	
+Test Example 59	
+>> An antibody	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A member of a member of a member of a member of a member of a member of a member	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A period of the same in a period of the same in a period of the same in a period	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A woman	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A woman	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A small round table	
+64000	
+----------------------------------------	
+Test Example 65	
+>> Any of a large and a large and a large and a large and a large and a large and	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A new england	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of a small round table	
+67000	
+----------------------------------------	
+Test Example 68	
+>> A small round table	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A new zealand	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A public or the same in a public or the same in a public or the same in a public	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A new zealand and a new zealand and a new zealand and a new zealand and a new zealand and	
+71000	
+----------------------------------------	
+Test Example 72	
+>> A disease characterized by a disease characterized by a disease characterized by a disease characterized by a disease characterized by	
+72000	
+----------------------------------------	
+
+-- Epoch 3 / 50	
+	
+
+Finished in 1h34m 12.834744746673 examples/sec.	
+
+Epoch stats:	
+           LR= 0.0450025	
+  Errors: min= 0	
+          max= 209.56130886078	
+       median= 44.856608390808	
+         mean= 51.495551206169	
+          std= 30.21408169882	
+
+(Saving model ...)	
+Test Example 1	
+>> A ball	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A hole	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A member of a member of a member of a member of a member of a member of a member	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A woman	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of a common in a common in a common in a common in a common in a common in	
+5000	
+----------------------------------------	
+Test Example 6	
+>> A woman	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A hole	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A chain of the third	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A common in a common in a common in a common in a common in a common in a common	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A hole	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A position in a position in a position in a position in a position in a position in a position	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Any of a small or a small or a small or a small or a small or a small or	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A woman	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A woman	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of a common in a common in a common in a common in a common in a common in	
+15000	
+----------------------------------------	
+Test Example 16	
+>> The same name for a woman	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French polynesia	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A thin layers of a thin layers of a thin layers of a thin layers of a thin layers of	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A woman	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A person	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a person	
+21000	
+----------------------------------------	
+Test Example 22	
+>> A person	
+22000	
+----------------------------------------	
+Test Example 23	
+>> A surgical instrument of the same in a surgical instrument of the same in a surgical instrument of the same	
+23000	
+----------------------------------------	
+Test Example 24	
+>> The same as a statement that is used in a statement that is used in a statement that is used	
+24000	
+----------------------------------------	
+Test Example 25	
+>> A person	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A person	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A ship	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A new england and a new england and a new england and a new england and a new england and	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A small round in a small round in a small round in a small round in a small round in	
+29000	
+----------------------------------------	
+Test Example 30	
+>> A body and a body and a body and a body and a body and a body and a body	
+30000	
+----------------------------------------	
+Test Example 31	
+>> The same in a person	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Type genus of a woman	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A member of a member of a member of a member of a member of a member of a member	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Not having a person	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus of a small round a small round a small round a small round a small round a small	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A small often used in a small often used in a small often used in a small often used in	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A body	
+37000	
+----------------------------------------	
+Test Example 38	
+>> A woman	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of a family	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Surgical operation	
+40000	
+----------------------------------------	
+Test Example 41	
+>> In a woman	
+41000	
+----------------------------------------	
+Test Example 42	
+>> A woman	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A member of a member of a member of a member of a member of a member of a member	
+43000	
+----------------------------------------	
+Test Example 44	
+>> English	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Of a hole by a hole by a hole by a hole by a hole by a hole by a	
+45000	
+----------------------------------------	
+Test Example 46	
+>> A blood from a blood from a blood from a blood from a blood from a blood from a blood	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A surgical instrument and a surgical instrument and a surgical instrument and a surgical instrument and a surgical instrument and	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A woman	
+48000	
+----------------------------------------	
+Test Example 49	
+>> A period of the same to the same to the same to the same to the same to the same	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A new england and a new england and a new england and a new england and a new england and	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A hole	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A woman	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of a family	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A hole	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of a family	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A hole	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of a woman	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of a common in a common in a common in a common in a common in a common in	
+58000	
+----------------------------------------	
+Test Example 59	
+>> A blood from a blood from a blood from a blood from a blood from a blood from a blood	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A member of a member of a member of a member of a member of a member of a member	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A new england	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A woman	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A woman	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A small often used in a small often used in a small often used in a small often used in	
+64000	
+----------------------------------------	
+Test Example 65	
+>> Any of a small round a small round a small round a small round a small round a small round	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A new england and a new england and a new england and a new england and a new england and	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of a small round a small round a small round a small round a small round a small round	
+67000	
+----------------------------------------	
+Test Example 68	
+>> In a hole	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A position in a position in a position in a position in a position in a position in a position	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A statement that has a statement that has a statement that has a statement that has a statement that has	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A body	
+71000	
+----------------------------------------	
+Test Example 72	
+>> An acute leukemia	
+72000	
+----------------------------------------	
+
+-- Epoch 4 / 50	
+	
+
+Finished in 1h34m 12.83677708201 examples/sec.	
+
+Epoch stats:	
+           LR= 0.04250375	
+  Errors: min= 0	
+          max= 192.40397787094	
+       median= 41.187061309814	
+         mean= 47.219555507787	
+          std= 27.789856962943	
+
+(Saving model ...)	
+Test Example 1	
+>> A short stories	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A lamp	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in a city in a city in a city in a city in a city in a city	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A woman in a woman in a woman in a woman in a woman in a woman in a woman	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of a common in a common in a common in a common in a common in a common in	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Any of a common in a common in a common in a common in a common in a common in	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A substance used in a substance used in a substance used in a substance used in a substance used in	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A small to the first or the first or the first or the first or the first or the first	
+8000	
+----------------------------------------	
+Test Example 9	
+>> Common in a common in a common in a common in a common in a common in a common in	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A small or a small or a small or a small or a small or a small or a small	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A small or a small or a small or a small or a small or a small or a small	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Any of a small or a small or a small or a small or a small or a small or	
+12000	
+----------------------------------------	
+Test Example 13	
+>> The same as a woman in a woman in a woman in a woman in a woman in a woman	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A woman in a woman in a woman in a woman in a woman in a woman in a woman	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of the first or a common in a common in a common in a common in a common in	
+15000	
+----------------------------------------	
+Test Example 16	
+>> An ideal	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French painter	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A salt water used in a salt water used in a salt water used in a salt water used in	
+18000	
+----------------------------------------	
+Test Example 19	
+>> An emperor	
+19000	
+----------------------------------------	
+Test Example 20	
+>> In a small or a small or a small or a small or a small or a small or a	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a woman in a woman in a woman in a woman in a woman in a woman in a	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Any of a small	
+22000	
+----------------------------------------	
+Test Example 23	
+>> A person	
+23000	
+----------------------------------------	
+Test Example 24	
+>> The same as a person	
+24000	
+----------------------------------------	
+Test Example 25	
+>> The use of a person	
+25000	
+----------------------------------------	
+Test Example 26	
+>> Any of a large and a large and a large and a large and a large and a large and	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A cross in a cross in a cross in a cross in a cross in a cross in a cross	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A woman in a woman in a woman in a woman in a woman in a woman in a woman	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A small or a small or a small or a small or a small or a small or a small	
+29000	
+----------------------------------------	
+Test Example 30	
+>> A person	
+30000	
+----------------------------------------	
+Test Example 31	
+>> The use of a person	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Type genus of a family in a family in a family in a family in a family in a family	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A city in a city in a city in a city in a city in a city in a city	
+33000	
+----------------------------------------	
+Test Example 34	
+>> A person	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus of a common in a common in a common in a common in a common in a common	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A woman in a woman in a woman in a woman in a woman in a woman in a woman	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A surgical procedures	
+37000	
+----------------------------------------	
+Test Example 38	
+>> A woman	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Of a joint or a joint or a joint or a joint or a joint or a joint or a	
+40000	
+----------------------------------------	
+Test Example 41	
+>> A person	
+41000	
+----------------------------------------	
+Test Example 42	
+>> Type genus of a small	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A former british parliament an organization	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A woman	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Of the first or a small or a small or a small or a small or a small or a	
+45000	
+----------------------------------------	
+Test Example 46	
+>> Any of a disease characterized by a disease characterized by a disease characterized by a disease characterized by a disease	
+46000	
+----------------------------------------	
+Test Example 47	
+>> Of a blood vessels of a blood vessels of a blood vessels of a blood vessels of a blood vessels	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A woman	
+48000	
+----------------------------------------	
+Test Example 49	
+>> Be used in a period that has a period that has a period that has a period that has a	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A state	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A shop in a shop in a shop in a shop in a shop in a shop in a shop	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A woman	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Type genus of the family	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A short distances	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Type genus of a genus of a genus of a genus of a genus of a genus of a genus	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A short forward	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of the leaves a common in a common in a common in a common in a common in a	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of the leaves a woman in a woman in a woman in a woman in a woman in a	
+58000	
+----------------------------------------	
+Test Example 59	
+>> Any of a drug or a drug or a drug or a drug or a drug or a drug or	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A new england	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A woman	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A woman	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A woman	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A small or a small or a small or a small or a small or a small or a small	
+64000	
+----------------------------------------	
+Test Example 65	
+>> Any of a small	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A woman in a woman in a woman in a woman in a woman in a woman in a woman	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of a small	
+67000	
+----------------------------------------	
+Test Example 68	
+>> Of the first or a small or a small or a small or a small or a small or a	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A line or a line or a line or a line or a line or a line or a line	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A small or a small or a small or a small or a small or a small or a small	
+70000	
+----------------------------------------	
+Test Example 71	
+>> The first	
+71000	
+----------------------------------------	
+Test Example 72	
+>> Inflammation of a blood vessels of a blood vessels of a blood vessels of a blood vessels of a blood	
+72000	
+----------------------------------------	
+
+-- Epoch 5 / 50	
+	
+
+Finished in 1h34m 12.83575019861 examples/sec.	
+
+Epoch stats:	
+           LR= 0.040005	
+  Errors: min= 0	
+          max= 175.59848737717	
+       median= 37.838483333588	
+         mean= 43.441535848557	
+          std= 25.597790362433	
+
+(Saving model ...)	
+Test Example 1	
+>> A small round a small round a small round a small round a small round a small round a small	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A power of the liquid in a power of the liquid in a power of the liquid in a power	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A division of the first or the first or the first or the first or the first or the first	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A distinctive position	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of the first or a person	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Any of the first or a woman in a woman in a woman in a woman in a woman in	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A large quantities of the first or a large quantities of the first or a large quantities of the first	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A river in a river in a river in a river in a river in a river in a river	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A common in a common in a common in a common in a common in a common in a common	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A small round table	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A small or a small or a small or a small or a small or a small or a small	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Any of the seeds of the seeds of the seeds of the seeds of the seeds of the seeds of	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A new england	
+13000	
+----------------------------------------	
+Test Example 14	
+>> Any of a woman to the first or a woman to the first or a woman to the first or	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of the first or a common in a common in a common in a common in a common in	
+15000	
+----------------------------------------	
+Test Example 16	
+>> The first to the first to the first to the first to the first to the first to the first	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French painter	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A soft with a soft with a soft with a soft with a soft with a soft with a soft	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A roman catholic	
+19000	
+----------------------------------------	
+Test Example 20	
+>> In a group in a group in a group in a group in a group in a group in a	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a person	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Any fish	
+22000	
+----------------------------------------	
+Test Example 23	
+>> A person	
+23000	
+----------------------------------------	
+Test Example 24	
+>> The first or a statement	
+24000	
+----------------------------------------	
+Test Example 25	
+>> A person	
+25000	
+----------------------------------------	
+Test Example 26	
+>> Any of the first or a large quantities in the first or a large quantities in the first or a	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A small round a small round a small round a small round a small round a small round a small	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A woman	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A small round in a small round in a small round in a small round in a small round in	
+29000	
+----------------------------------------	
+Test Example 30	
+>> A small round a small round a small round a small round a small round a small round a small	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A person	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of the first and the first and the first and the first and the first and the first and	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A new england	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Remove the first or a person	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus of a large quantities	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A large quantities of the first or a large quantities of the first or a large quantities of the first	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A small or a small or a small or a small or a small or a small or a small	
+37000	
+----------------------------------------	
+Test Example 38	
+>> A woman	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of the leaves	
+39000	
+----------------------------------------	
+Test Example 40	
+>> The first or a small round as a small round as a small round as a small round as a	
+40000	
+----------------------------------------	
+Test Example 41	
+>> A person	
+41000	
+----------------------------------------	
+Test Example 42	
+>> Type genus chrysanthemum	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A member of the first or a member of the first or a member of the first or a member	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A person	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a triangle that has a triangle that has a triangle that has a triangle that has a triangle that	
+45000	
+----------------------------------------	
+Test Example 46	
+>> An acute and the presence of the presence of the presence of the presence of the presence of the presence	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A tumor of the first or a tumor of the first or a tumor of the first or a tumor	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A woman who are not having a woman who are not having a woman who are not having a woman	
+48000	
+----------------------------------------	
+Test Example 49	
+>> In the united states	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A state	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small round a small round a small round a small round a small round a small round a small	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A woman who are not having a woman who are not having a woman who are not having a woman	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of the first or a large yellow and a large yellow and a large yellow and a large yellow	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A small or a small or a small or a small or a small or a small or a small	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of the leaves	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A hand	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of the first or small round fruits in the first or small round fruits in the first or small	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of the first or small round in a common in a common in a common in a common in	
+58000	
+----------------------------------------	
+Test Example 59	
+>> Any of the use of the use of the use of the use of the use of the use of	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A new england and the first or the first or the first or the first or the first or the	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A person	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A woman to the first or a woman to the first or a woman to the first or a woman	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A person	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A small or a small or a small or a small or a small or a small or a small	
+64000	
+----------------------------------------	
+Test Example 65	
+>> Any of the first or a small round a small round a small round a small round a small round	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A large quantities	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of the first or a small to the first or a small to the first or a small to	
+67000	
+----------------------------------------	
+Test Example 68	
+>> A small round a small round a small round a small round a small round a small round a small	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A position	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A statement	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A new england	
+71000	
+----------------------------------------	
+Test Example 72	
+>> A surgical instrument that has a surgical instrument that has a surgical instrument that has a surgical instrument that has	
+72000	
+----------------------------------------	
+
+-- Epoch 6 / 50	
+	
+
+Finished in 1h34m 12.836229030373 examples/sec.	
+
+Epoch stats:	
+           LR= 0.03750625	
+  Errors: min= 0	
+          max= 157.58274459839	
+       median= 35.036357879639	
+         mean= 40.062890019462	
+          std= 23.502556408381	
+
+(Saving model ...)	
+Test Example 1	
+>> A small or a small or a small or a small or a small or a small or a small	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A device	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in the first and the first and the first and the first and the first and the first	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A person in a person in a person in a person in a person in a person in a person	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of the first or a small or a small or a small or a small or a small or	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus of the use and the use and the use and the use and the use and the use and	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A large quantities in a large quantities in a large quantities in a large quantities in a large quantities in	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A small or the first or the first or the first or the first or the first or the first	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A hole in the first or a hole in the first or a hole in the first or a hole	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A gun that has a gun that has a gun that has a gun that has a gun that has	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A game in a game in a game in a game in a game in a game in a game	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Any of the first or a woman the first or a woman the first or a woman the first or	
+12000	
+----------------------------------------	
+Test Example 13	
+>> The use of the use of the use of the use of the use of the use of the use	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A woman	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of the type genus of the type genus of the type genus of the type genus of the type	
+15000	
+----------------------------------------	
+Test Example 16	
+>> Of the use of the use of the use of the use of the use of the use of the	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French painter	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A material that is used in a material that is used in a material that is used in a material	
+18000	
+----------------------------------------	
+Test Example 19	
+>> The use of the use of the use of the use of the use of the use of the use	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A large numbers	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a person in a person in a person in a person in a person in a person in a	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Any of the first or a large quantities of the first or a large quantities of the first or a	
+22000	
+----------------------------------------	
+Test Example 23	
+>> An aircraft	
+23000	
+----------------------------------------	
+Test Example 24	
+>> The use of the use of the use of the use of the use of the use of the use	
+24000	
+----------------------------------------	
+Test Example 25	
+>> The use of the use of the use of the use of the use of the use of the use	
+25000	
+----------------------------------------	
+Test Example 26	
+>> Any of the first or a large quantities of the first or a large quantities of the first or a	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A baseball	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A person in a person in a person in a person in a person in a person in a person	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A small or a small or a small or a small or a small or a small or a small	
+29000	
+----------------------------------------	
+Test Example 30	
+>> A small or a small or a small or a small or a small or a small or a small	
+30000	
+----------------------------------------	
+Test Example 31	
+>> An idea of the use of the use of the use of the use of the use of the use	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of the first or a woman	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A large quantities in a large quantities in a large quantities in a large quantities in a large quantities in	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Remove a person in a person in a person in a person in a person in a person in a	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus of the first or a large quantities in the first or a large quantities in the first or	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A large quantities of the first or a large quantities of the first or a large quantities of the first	
+36000	
+----------------------------------------	
+Test Example 37	
+>> The use of the use of the use of the use of the use of the use of the use	
+37000	
+----------------------------------------	
+Test Example 38	
+>> A person in a person in a person in a person in a person in a person in a person	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of the upper surface that has a large white or the upper surface that has a large white or	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Either of the upper two or a small round as a small round as a small round as a small	
+40000	
+----------------------------------------	
+Test Example 41	
+>> A person in a person in a person in a person in a person in a person in a person	
+41000	
+----------------------------------------	
+Test Example 42	
+>> Type genus of the first or a large quantities of the first or a large quantities of the first or	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A member of the first or the first or the first or the first or the first or the first	
+43000	
+----------------------------------------	
+Test Example 44	
+>> English mr	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a triangle	
+45000	
+----------------------------------------	
+Test Example 46	
+>> An acute and a blood	
+46000	
+----------------------------------------	
+Test Example 47	
+>> An aircraft	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A woman to the first or a woman to the first or a woman to the first or a woman	
+48000	
+----------------------------------------	
+Test Example 49	
+>> In a person in a person in a person in a person in a person in a person in a	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A person in a person in a person in a person in a person in a person in a person	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small or a small or a small or a small or a small or a small or a small	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A person in a person in a person in a person in a person in a person in a person	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of the family in the family in the family in the family in the family in the family in	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A large quantities to the first or a large quantities to the first or a large quantities to the first	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of the family	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A hole usually plural the first or a hole usually plural the first or a hole usually plural the first	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of the leaves	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of the leaves	
+58000	
+----------------------------------------	
+Test Example 59	
+>> Any of the first or the first or the first or the first or the first or the first or	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A large quantities in a large quantities in a large quantities in a large quantities in a large quantities in	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A person	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A person in a person in a person in a person in a person in a person in a person	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A large quantities	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A large quantities in a large quantities in a large quantities in a large quantities in a large quantities in	
+64000	
+----------------------------------------	
+Test Example 65	
+>> Any of the first or a large white or a large white or a large white or a large white	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A large quantities of the first or a large quantities of the first or a large quantities of the first	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of the first or a large white or a large white or a large white or a large white	
+67000	
+----------------------------------------	
+Test Example 68	
+>> Of the first or a small or a small or a small or a small or a small or a	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A line or a line or a line or a line or a line or a line or a line	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A statement of the use of the use of the use of the use of the use of the use	
+70000	
+----------------------------------------	
+Test Example 71	
+>> The first day	
+71000	
+----------------------------------------	
+Test Example 72	
+>> Of the first day in the first day in the first day in the first day in the first day	
+72000	
+----------------------------------------	
+
+-- Epoch 7 / 50	
+	
+
+Finished in 1h34m 12.837843001217 examples/sec.	
+
+Epoch stats:	
+           LR= 0.0350075	
+  Errors: min= 0	
+          max= 148.41174316406	
+       median= 32.190849304199	
+         mean= 36.922755644593	
+          std= 21.525892707631	
+
+(Saving model ...)	
+Test Example 1	
+>> A small or a small or a small or a small or a small or a small or a small	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A gun that has a gun that has a gun that has a gun that has a gun that has	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A large black and the first and the first and the first and the first and the first and the	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A small or a small or a small or a small or a small or a small or a small	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of a small or a small or a small or a small or a small or a small or	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Any of the first or a large and the first or a large and the first or a large and	
+6000	
+----------------------------------------	
+Test Example 7	
+>> An internalcombustion engine in a small round as a small round as a small round as a small round as	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A small or the region of the region of the region of the region of the region of the region	
+8000	
+----------------------------------------	
+Test Example 9	
+>> Any of the first of the first of the first of the first of the first of the first of	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A small or a small or a small or a small or a small or a small or a small	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A large up of the first or a large up of the first or a large up of the first	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Any of the first of the first of the first of the first of the first of the first of	
+12000	
+----------------------------------------	
+Test Example 13	
+>> The same as a state	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A woman	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of the first of the first of the first of the first of the first of the first of	
+15000	
+----------------------------------------	
+Test Example 16	
+>> The use of the use of the use of the use of the use of the use of the use	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French painter	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A chemical reactions in a chemical reactions in a chemical reactions in a chemical reactions in a chemical reactions in	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A christian churches who are used in a christian churches who are used in a christian churches who are used	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A small or a small or a small or a small or a small or a small or a small	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a person to the use of the use of the use of the use of the use of the	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Any of the first of the first of the first of the first of the first of the first of	
+22000	
+----------------------------------------	
+Test Example 23	
+>> A disorder that has a disorder that has a disorder that has a disorder that has a disorder that has	
+23000	
+----------------------------------------	
+Test Example 24	
+>> The same as a quantity and a quantity and a quantity and a quantity and a quantity and a quantity	
+24000	
+----------------------------------------	
+Test Example 25	
+>> A state	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A small or a small or a small or a small or a small or a small or a small	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A small or the first new zealand	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A small or a small or a small or a small or a small or a small or a small	
+28000	
+----------------------------------------	
+Test Example 29	
+>> Any of the first or other ingredients with a small or other ingredients with a small or other ingredients with	
+29000	
+----------------------------------------	
+Test Example 30	
+>> A small round as a small round as a small round as a small round as a small round as	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A small or the use of the use of the use of the use of the use of the use	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of the first or a large and the first or a large and the first or a large and	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A place of the first and the first and the first and the first and the first and the first	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Cause of the use of the use of the use of the use of the use of the use of	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus of the first of the first of the first of the first of the first of the first	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A small or a small or a small or a small or a small or a small or a small	
+36000	
+----------------------------------------	
+Test Example 37	
+>> The same as an animal that has a small particles of the same as an animal that has a small	
+37000	
+----------------------------------------	
+Test Example 38	
+>> A small or a small or a small or a small or a small or a small or a small	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of a suborder	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Of the first to the first to the first to the first to the first to the first to the	
+40000	
+----------------------------------------	
+Test Example 41	
+>> In a small or other people	
+41000	
+----------------------------------------	
+Test Example 42	
+>> Type genus of the first or a common in a common in a common in a common in a common	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A member of the region of the region of the region of the region of the region of the region	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A small or a small or a small or a small or a small or a small or a small	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Of the first to the first to the first to the first to the first to the first to the	
+45000	
+----------------------------------------	
+Test Example 46	
+>> An acute infection by the most common in a disorder in a disorder in a disorder in a disorder in	
+46000	
+----------------------------------------	
+Test Example 47	
+>> Of the first day	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A small or a small or a small or a small or a small or a small or a small	
+48000	
+----------------------------------------	
+Test Example 49	
+>> A statement	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A small or a small or a small or a small or a small or a small or a small	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small or a small or a small or a small or a small or a small or a small	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A person	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of a large and the family	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A small or a small or a small or a small or a small or a small or a small	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of a large yellow or a large yellow or a large yellow or a large yellow or a large	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A small or a small or a small or a small or a small or a small or a small	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of a common in a common in a common in a common in a common in a common in	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of a small to the first of a small to the first of a small to the first of	
+58000	
+----------------------------------------	
+Test Example 59	
+>> A disease characterized by a disease characterized by a disease characterized by a disease characterized by a disease characterized by	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A small or the first or the first or the first or the first or the first or the first	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A person with a person with a person with a person with a person with a person with a person	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A small or a small or a small or a small or a small or a small or a small	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A small or a small or a small or a small or a small or a small or a small	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A small round as a small round as a small round as a small round as a small round as	
+64000	
+----------------------------------------	
+Test Example 65	
+>> Any of a small round a small round a small round a small round a small round a small round	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A place of the first or a place of the first or a place of the first or a place	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of the first or a small to the first or a small to the first or a small to	
+67000	
+----------------------------------------	
+Test Example 68	
+>> A small to the first and the first and the first and the first and the first and the first	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A small or a small or a small or a small or a small or a small or a small	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A small or a small or a small or a small or a small or a small or a small	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A state	
+71000	
+----------------------------------------	
+Test Example 72	
+>> A small to the first day	
+72000	
+----------------------------------------	
+
+-- Epoch 8 / 50	
+	
+
+Finished in 1h34m 12.839756998226 examples/sec.	
+
+Epoch stats:	
+           LR= 0.03250875	
+  Errors: min= 0	
+          max= 145.13633203506	
+       median= 29.642102241516	
+         mean= 33.842429915866	
+          std= 19.569672959495	
+
+(Saving model ...)	
+Test Example 1	
+>> A small pieces	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A device for the first especially a device for the first especially a device for the first especially a device	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A member of the first three large order	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A small round as a small round as a small round as a small round as a small round as	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of a small to the common in a small to the common in a small to the common in	
+5000	
+----------------------------------------	
+Test Example 6	
+>> A large and the leaves	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A small round in a small round in a small round in a small round in a small round in	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A large black and the first of the first of the first of the first of the first of the	
+8000	
+----------------------------------------	
+Test Example 9	
+>> Common in a large and the common in a large and the common in a large and the common in	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A small or the first day	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A small or a small or a small or a small or a small or a small or a small	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Any of the leaves	
+12000	
+----------------------------------------	
+Test Example 13	
+>> The use of the use of the use of the use of the use of the use of the use	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A small white or a small white or a small white or a small white or a small white or	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of the first of the first of the first of the first of the first of the first of	
+15000	
+----------------------------------------	
+Test Example 16	
+>> The use of the use of the use of the use of the use of the use of the use	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French painter	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A soft brittle than a soft brittle than a soft brittle than a soft brittle than a soft brittle than	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A church	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A small number of a small number of a small number of a small number of a small number of	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a person with a person with a person with a person with a person with a person with a	
+21000	
+----------------------------------------	
+Test Example 22	
+>> A large up of the first of the first of the first of the first of the first of the	
+22000	
+----------------------------------------	
+Test Example 23	
+>> An image on a small or the same as a small or the same as a small or the same	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not having a person with a person with a person with a person with a person with a person with	
+24000	
+----------------------------------------	
+Test Example 25	
+>> The use of the use of the use of the use of the use of the use of the use	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A large up the first three large up the first three large up the first three large up the first	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A baseball by the first of the first of the first of the first of the first of the first	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A person with a person with a person with a person with a person with a person with a person	
+28000	
+----------------------------------------	
+Test Example 29	
+>> Any of the first day of the first day of the first day of the first day of the first	
+29000	
+----------------------------------------	
+Test Example 30	
+>> One of the first of the first of the first of the first of the first of the first of	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A person to the use of the use of the use of the use of the use of the use	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of the first three seasons	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A large usually in a large usually in a large usually in a large usually in a large usually in	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Cause of the first day	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus of the first three seasons	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A small to the first of the first of the first of the first of the first of the first	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A mathematical expressions in a mathematical expressions in a mathematical expressions in a mathematical expressions in a mathematical expressions in	
+37000	
+----------------------------------------	
+Test Example 38	
+>> A small round as a small round as a small round as a small round as a small round as	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of the most common in south american water	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Of the upper respiratory and the upper respiratory and the upper respiratory and the upper respiratory and the upper respiratory	
+40000	
+----------------------------------------	
+Test Example 41	
+>> An event that has been paid to the first to the first to the first to the first to the	
+41000	
+----------------------------------------	
+Test Example 42	
+>> Type genus of the first day	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A muslim breed of the first public	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A small to the first of the first of the first of the first of the first of the first	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Of the first of the first of the first of the first of the first of the first of the	
+45000	
+----------------------------------------	
+Test Example 46	
+>> An increase in a small abnormal dryness characterized by the use of the use of the use of the use	
+46000	
+----------------------------------------	
+Test Example 47	
+>> Of the first day	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A small pieces	
+48000	
+----------------------------------------	
+Test Example 49	
+>> In a person a person a person a person a person a person a person a person a person a	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A small pieces	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small pieces	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A person in a person in a person in a person in a person in a person in a person	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of the family of the family of the family of the family of the family of the family of	
+53000	
+----------------------------------------	
+Test Example 54	
+>> The first public	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of the type genus of the type genus of the type genus of the type genus of the type	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A small round as a small round as a small round as a small round as a small round as	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of the eastern north american folk usually a common garden for the eastern north american folk usually a common	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of the common garden peas and the common garden peas and the common garden peas and the common garden	
+58000	
+----------------------------------------	
+Test Example 59	
+>> A small cells	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A large amounts in a large amounts in a large amounts in a large amounts in a large amounts in	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A person with a person with a person with a person with a person with a person with a person	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A small round as a small round as a small round as a small round as a small round as	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A small or by a small or by a small or by a small or by a small or by	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A small amounts in a small amounts in a small amounts in a small amounts in a small amounts in	
+64000	
+----------------------------------------	
+Test Example 65	
+>> Any of the first of the first of the first of the first of the first of the first of	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A small black and the first of the first of the first of the first of the first of the	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of a common stock	
+67000	
+----------------------------------------	
+Test Example 68	
+>> An area of the first of the first of the first of the first of the first of the first	
+68000	
+----------------------------------------	
+Test Example 69	
+>> An aircraft or the same circumstances as a small or the same circumstances as a small or the same circumstances	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A public	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A large quantities in a large quantities in a large quantities in a large quantities in a large quantities in	
+71000	
+----------------------------------------	
+Test Example 72	
+>> A small to the first of the first of the first of the first of the first of the first	
+72000	
+----------------------------------------	
+
+-- Epoch 9 / 50	
+	
+
+Finished in 1h34m 12.838069266458 examples/sec.	
+
+Epoch stats:	
+           LR= 0.03001	
+  Errors: min= 0	
+          max= 127.62034606934	
+       median= 27.086609840393	
+         mean= 30.872095158275	
+          std= 17.622555342678	
+
+(Saving model ...)	
+Test Example 1	
+>> A small round as a small round as a small round as a small round as a small round as	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A gun	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A large and the first and the first and the first and the first and the first and the first	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A person with a person with a person with a person with a person with a person with a person	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of the common in the common in the common in the common in the common in the common in	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus of the first and the first and the first and the first and the first and the first and	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A large quantities of the first especially a large quantities of the first especially a large quantities of the first	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A small to the first especially a small to the first especially a small to the first especially a small	
+8000	
+----------------------------------------	
+Test Example 9	
+>> Any of the first used in the first used in the first used in the first used in the first	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A small or a small or a small or a small or a small or a small or a small	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A small or a small or a small or a small or a small or a small or a small	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Any of a small white to the first place of a small white to the first place of a small	
+12000	
+----------------------------------------	
+Test Example 13	
+>> The use of the use of the use of the use of the use of the use of the use	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A small white or a small white or a small white or a small white or a small white or	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of the common north american wood of the common north american wood of the common north american wood of	
+15000	
+----------------------------------------	
+Test Example 16	
+>> The use of the use of the use of the use of the use of the use of the use	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French polynesia	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A soft brittle stems to the first especially a soft brittle stems to the first especially a soft brittle stems	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A christian church	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A large numbers	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a person	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Any of the first especially a large black	
+22000	
+----------------------------------------	
+Test Example 23	
+>> A small or a small or a small or a small or a small or a small or a small	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not having a statement	
+24000	
+----------------------------------------	
+Test Example 25	
+>> The use of the use of the use of the use of the use of the use of the use	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A large in the first especially the first especially the first especially the first especially the first especially the first	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A baseball	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A person with a person with a person with a person with a person with a person with a person	
+28000	
+----------------------------------------	
+Test Example 29	
+>> Any of the first appeared in a small round bread	
+29000	
+----------------------------------------	
+Test Example 30	
+>> The upper respiratory function as a small round as a small round as a small round as a small round	
+30000	
+----------------------------------------	
+Test Example 31	
+>> An open to the use of the use of the use of the use of the use of the use	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of the first or a common in the first or a common in the first or a common in	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A small to the first especially a small to the first especially a small to the first especially a small	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Cause of the use of the use of the use of the use of the use of the use of	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus of the first day	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A small white or a small white or a small white or a small white or a small white or	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A mathematical expressions	
+37000	
+----------------------------------------	
+Test Example 38	
+>> A small white or a small white or a small white or a small white or a small white or	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of the leaves	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Of the first especially a joint	
+40000	
+----------------------------------------	
+Test Example 41	
+>> A person with a person with a person with a person with a person with a person with a person	
+41000	
+----------------------------------------	
+Test Example 42	
+>> Type genus of the first day	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A muslim in the first of the first of the first of the first of the first of the first	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A small to the first especially a small to the first especially a small to the first especially a small	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Of the first especially in front of the first especially in front of the first especially in front of the	
+45000	
+----------------------------------------	
+Test Example 46	
+>> An increase in the most of the most of the most of the most of the most of the most	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A small to the first especially in the first especially in the first especially in the first especially in the	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A small to the first of the first of the first of the first of the first of the first	
+48000	
+----------------------------------------	
+Test Example 49	
+>> In a new england	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A small or a small or a small or a small or a small or a small or a small	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small pieces	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A person with a person with a person with a person with a person with a person with a person	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of the order of the order of the order of the order of the order of the order of	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A small amounts of the number of the number of the number of the number of the number of the	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of the fruit flies	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A small round as a small round as a small round as a small round as a small round as	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of the common garden for the common garden for the common garden for the common garden for the common	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Small white or small white or small white or small white or small white or small white or small white	
+58000	
+----------------------------------------	
+Test Example 59	
+>> A solution of the use of the use of the use of the use of the use of the use	
+59000	
+----------------------------------------	
+Test Example 60	
+>> The first of the first of the first of the first of the first of the first of the first	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A person with a person with a person with a person with a person with a person with a person	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A small or a small or a small or a small or a small or a small or a small	
+62000	
+----------------------------------------	
+Test Example 63	
+>> The first public opinion and the first public opinion and the first public opinion and the first public opinion and	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A large and the first or the first or the first or the first or the first or the first	
+64000	
+----------------------------------------	
+Test Example 65	
+>> Any of the first of the first of the first of the first of the first of the first of	
+65000	
+----------------------------------------	
+Test Example 66	
+>> A place of the first especially a place of the first especially a place of the first especially a place	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of the first day	
+67000	
+----------------------------------------	
+Test Example 68	
+>> In a small to the first especially a small to the first especially a small to the first especially a	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A large active in a large active in a large active in a large active in a large active in	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A period of the use of the use of the use of the use of the use of the use	
+70000	
+----------------------------------------	
+Test Example 71	
+>> The government that has a period of the government that has a period of the government that has a period	
+71000	
+----------------------------------------	
+Test Example 72	
+>> An animal	
+72000	
+----------------------------------------	
+
+-- Epoch 10 / 50	
+	
+
+Finished in 1h34m 12.841175899978 examples/sec.	
+
+Epoch stats:	
+           LR= 0.02751125	
+  Errors: min= 0	
+          max= 122.72057294846	
+       median= 24.624670028687	
+         mean= 28.027840335559	
+          std= 15.820393581342	
+
+(Saving model ...)	
+Test Example 1	
+>> A small round as a small round as a small round as a small round as a small round as	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A room especially a room especially a room especially a room especially a room especially a room especially a room	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A large usually with a large usually with a large usually with a large usually with a large usually with	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A person or the same as a person or the same as a person or the same as a person	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of the first and the first and the first and the first and the first and the first and	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus of the first and the first and the first and the first and the first and the first and	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A gun	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A large in the first and the first and the first and the first and the first and the first	
+8000	
+----------------------------------------	
+Test Example 9	
+>> Any of the first of the first of the first of the first of the first of the first of	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A small or a small or a small or a small or a small or a small or a small	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A device usually with a device usually with a device usually with a device usually with a device usually with	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Tropical america and the first and the first and the first and the first and the first and the first	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A person or a person or a person or a person or a person or a person or a person	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A woman in a woman in a woman in a woman in a woman in a woman in a woman	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of the first or small or small or small or small or small or small or small or small	
+15000	
+----------------------------------------	
+Test Example 16	
+>> The first day	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French painters having a person in a person in a person in a person in a person in a person	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A soft brittle	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A religious worship	
+19000	
+----------------------------------------	
+Test Example 20	
+>> Type genus bos especially in the first day	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a person or a person or a person or a person or a person or a person or a	
+21000	
+----------------------------------------	
+Test Example 22	
+>> A large old world flying the first and the first and the first and the first and the first and	
+22000	
+----------------------------------------	
+Test Example 23	
+>> An increase the same or a very short bones used in a very short bones used in a very short	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not in a statement of the same as a statement of the same as a statement of the same as	
+24000	
+----------------------------------------	
+Test Example 25	
+>> A person or a person or a person or a person or a person or a person or a person	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A large amounts for a large amounts for a large amounts for a large amounts for a large amounts for	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A large yellow to the first of the first of the first of the first of the first of the	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A person or a person or a person or a person or a person or a person or a person	
+28000	
+----------------------------------------	
+Test Example 29	
+>> Any of the first and the first and the first and the first and the first and the first and	
+29000	
+----------------------------------------	
+Test Example 30	
+>> The first day	
+30000	
+----------------------------------------	
+Test Example 31	
+>> An animal that has a person to the use of the use of the use of the use of the	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of the first and the first and the first and the first and the first and the first and	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A large usually with a large usually with a large usually with a large usually with a large usually with	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Cause a person in a person in a person in a person in a person in a person in a	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus of the first and the first and the first and the first and the first and the first	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A large amounts for a large amounts for a large amounts for a large amounts for a large amounts for	
+36000	
+----------------------------------------	
+Test Example 37	
+>> The use of the use of the use of the use of the use of the use of the use	
+37000	
+----------------------------------------	
+Test Example 38	
+>> A small pieces	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus bos chiefly in some classification used as a family in some classification used as a family in some classification	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Either the first and the first and the first and the first and the first and the first and the	
+40000	
+----------------------------------------	
+Test Example 41	
+>> A new ones own use of the same as a new ones own use of the same as a new	
+41000	
+----------------------------------------	
+Test Example 42	
+>> Type genus of the first day	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A large amounts a large amounts a large amounts a large amounts a large amounts a large amounts a large	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A small or the first and the first and the first and the first and the first and the first	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a kind	
+45000	
+----------------------------------------	
+Test Example 46	
+>> Inflammation of the most of the most of the most of the most of the most of the most of	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A chromosome to the first day	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A person in the first and the first and the first and the first and the first and the first	
+48000	
+----------------------------------------	
+Test Example 49	
+>> In the body the body the body the body the body the body the body the body the body the	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A person or a person or a person or a person or a person or a person or a person	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small or a small or a small or a small or a small or a small or a small	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A person or a person or a person or a person or a person or a person or a person	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of the type genus of the type genus of the type genus of the type genus of the type	
+53000	
+----------------------------------------	
+Test Example 54	
+>> The first and the first and the first and the first and the first and the first and the first	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of the type genus of the type genus of the type genus of the type genus of the type	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A large quantities of the first and the first and the first and the first and the first and the	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of the common garden roots and sometimes in the common garden roots and sometimes in the common garden roots	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of the common garden or small round to the common garden or small round to the common garden or	
+58000	
+----------------------------------------	
+Test Example 59	
+>> A disease in the use of the use of the use of the use of the use of the use	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A large amounts in a large amounts in a large amounts in a large amounts in a large amounts in	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A person or a person or a person or a person or a person or a person or a person	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A person or a person or a person or a person or a person or a person or a person	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A period of the first day	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A small usually with a small usually with a small usually with a small usually with a small usually with	
+64000	
+----------------------------------------	
+Test Example 65	
+>> Any of the first of the first of the first of the first of the first of the first of	
+65000	
+----------------------------------------	
+Test Example 66	
+>> French painters having a large usually with a large usually with a large usually with a large usually with a	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of the first day	
+67000	
+----------------------------------------	
+Test Example 68	
+>> Not in the first day	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A line on the same number of the same number of the same number of the same number of the	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A mathematical control	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A new england and the same as a new england and the same as a new england and the same	
+71000	
+----------------------------------------	
+Test Example 72	
+>> An area	
+72000	
+----------------------------------------	
+
+-- Epoch 11 / 50	
+	
+
+Finished in 1h34m 12.849336718316 examples/sec.	
+
+Epoch stats:	
+           LR= 0.0250125	
+  Errors: min= 0	
+          max= 110.86591815948	
+       median= 22.319239616394	
+         mean= 25.373206377947	
+          std= 14.105751541987	
+
+(Saving model ...)	
+Test Example 1	
+>> A small pieces and the first and the first and the first and the first and the first and the	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A small or other material that has been used in a small or other material that has been used in	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in the first and the first and the first and the first and the first and the first	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A person with a person with a person with a person with a person with a person with a person	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of the common garden beds and other plants of the common garden beds and other plants of the common	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus of the first day when mature and other plants of the first day when mature and other plants of	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A small or the first and the first and the first and the first and the first and the first	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A small to the first and the first and the first and the first and the first and the first	
+8000	
+----------------------------------------	
+Test Example 9	
+>> Common juniper in the common juniper in the common juniper in the common juniper in the common juniper in the	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A small or the first and the first and the first and the first and the first and the first	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A small or other than a small or other than a small or other than a small or other than	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Any of the first and other small to the first and other small to the first and other small to	
+12000	
+----------------------------------------	
+Test Example 13	
+>> The use of the use of the use of the use of the use of the use of the use	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A woman the first and other than the first and other than the first and other than the first and	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of the first and the first and the first and the first and the first and the first and	
+15000	
+----------------------------------------	
+Test Example 16	
+>> The use of the use of the use of the use of the use of the use of the use	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French painter	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A soft material that is used in a soft material that is used in a soft material that is used	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A church	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A family in a family in a family in a family in a family in a family in a family	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In a person with a person with a person with a person with a person with a person with a	
+21000	
+----------------------------------------	
+Test Example 22	
+>> A large numbers	
+22000	
+----------------------------------------	
+Test Example 23	
+>> A common in the same as a common in the same as a common in the same as a common	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not having a person with a person with a person with a person with a person with a person with	
+24000	
+----------------------------------------	
+Test Example 25	
+>> A feeling a feeling a feeling a feeling a feeling a feeling a feeling a feeling a feeling a feeling	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A large quantities used in a large quantities used in a large quantities used in a large quantities used in	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A main street in the first and the first and the first and the first and the first and the	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A person	
+28000	
+----------------------------------------	
+Test Example 29	
+>> Made of the first and other than the first and other than the first and other than the first and	
+29000	
+----------------------------------------	
+Test Example 30	
+>> A small round as a small round as a small round as a small round as a small round as	
+30000	
+----------------------------------------	
+Test Example 31	
+>> An animal	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of the first three in the first three in the first three in the first three in the first	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A small to the first and the first and the first and the first and the first and the first	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Cause an animal cells of the use of the use of the use of the use of the use of	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus bos especially in the first and the first and the first and the first and the first and	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A small or the first and the first and the first and the first and the first and the first	
+36000	
+----------------------------------------	
+Test Example 37	
+>> The use of the use of the use of the use of the use of the use of the use	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Of the first and the first and the first and the first and the first and the first and the	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of the type genus of the type genus of the type genus of the type genus of the type	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Of the first and other than the first and other than the first and other than the first and other	
+40000	
+----------------------------------------	
+Test Example 41	
+>> A person with a person with a person with a person with a person with a person with a person	
+41000	
+----------------------------------------	
+Test Example 42	
+>> Type genus of the first and the first and the first and the first and the first and the first	
+42000	
+----------------------------------------	
+Test Example 43	
+>> The first and the first and the first and the first and the first and the first and the first	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A large numbers	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Of the upper surface having a small or the upper surface having a small or the upper surface having a	
+45000	
+----------------------------------------	
+Test Example 46	
+>> An antibody in the most of the most of the most of the most of the most of the most	
+46000	
+----------------------------------------	
+Test Example 47	
+>> An organ of the first day	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A person with a person with a person with a person with a person with a person with a person	
+48000	
+----------------------------------------	
+Test Example 49	
+>> Be used in a small open	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A person	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small or the first and the first and the first and the first and the first and the first	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A person	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of the common in some plants that has been as a family in some plants that has been as	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A large quantities used in the first and the first and the first and the first and the first and	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of the type genus of the type genus of the type genus of the type genus of the type	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A large quantities of the first and the first and the first and the first and the first and the	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of the common garden roots	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of the common garden peas who works from the common garden peas who works from the common garden peas	
+58000	
+----------------------------------------	
+Test Example 59	
+>> A common in the first and other than normal levels of the first and other than normal levels of the	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A large and the first and the first and the first and the first and the first and the first	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A person	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A person with a person with a person with a person with a person with a person with a person	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A small or the first day	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A small or the use as a small or the use as a small or the use as a small	
+64000	
+----------------------------------------	
+Test Example 65	
+>> Any of the first and other birds	
+65000	
+----------------------------------------	
+Test Example 66	
+>> French painter and the first and the first and the first and the first and the first and the first	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of the first and the first and the first and the first and the first and the first and	
+67000	
+----------------------------------------	
+Test Example 68	
+>> Of the first and the first and the first and the first and the first and the first and the	
+68000	
+----------------------------------------	
+Test Example 69	
+>> The same as a sound	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A public figures for the use of the use of the use of the use of the use of the	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A court a court a court a court a court a court a court a court a court a court	
+71000	
+----------------------------------------	
+Test Example 72	
+>> An organ for the first day of the first day of the first day of the first day of the	
+72000	
+----------------------------------------	
+
+-- Epoch 12 / 50	
+	
+
+Finished in 1h34m 12.848025892375 examples/sec.	
+
+Epoch stats:	
+           LR= 0.02251375	
+  Errors: min= 0	
+          max= 105.00195741653	
+       median= 20.139331817627	
+         mean= 22.789629626362	
+          std= 12.406508087049	
+
+(Saving model ...)	
+Test Example 1	
+>> A small pieces and the first and the first and the first and the first and the first and the	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A machine or the first day	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in the first and the first and the first and the first and the first and the first	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A word	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of the fruit that is a common and the fruit that is a common and the fruit that is	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus of the first day	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A strong lightweight	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A large usually in the upper level of the upper level of the upper level of the upper level of	
+8000	
+----------------------------------------	
+Test Example 9	
+>> Common in the common in the common in the common in the common in the common in the common in	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A small metal or the first and the first and the first and the first and the first and the	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A small to the first day	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Any of the leaves of the leaves of the leaves of the leaves of the leaves of the leaves of	
+12000	
+----------------------------------------	
+Test Example 13	
+>> The use of the use of the use of the use of the use of the use of the use	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A woman the first and the first and the first and the first and the first and the first and	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of the fruit that is a common in the fruit that is a common in the fruit that is	
+15000	
+----------------------------------------	
+Test Example 16	
+>> Of the use of the use of the use of the use of the use of the use of the	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French polynesia	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A hard dark purple or the first day	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A religious worship of the roman catholic but now nearly landlocked early christian worship of the roman catholic but now	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A group of the first and the first and the first and the first and the first and the first	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In the use of the use of the use of the use of the use of the use of the	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Flesh of the first and the first and the first and the first and the first and the first and	
+22000	
+----------------------------------------	
+Test Example 23	
+>> A stimulus the use of the use of the use of the use of the use of the use of	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not in the use of the use of the use of the use of the use of the use of	
+24000	
+----------------------------------------	
+Test Example 25	
+>> The use of the use of the use of the use of the use of the use of the use	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A large usually in the first and the first and the first and the first and the first and the	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A large north america and the first and the first and the first and the first and the first and	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A person with a person with a person with a person with a person with a person with a person	
+28000	
+----------------------------------------	
+Test Example 29	
+>> Any of a sweet and the first and the first and the first and the first and the first and	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Either of the first day	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A person with a person with a person with a person with a person with a person with a person	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of the first and the first and the first and the first and the first and the first and	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A large usually in the first and the first and the first and the first and the first and the	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Cause an animal	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus of the first day	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A small round or the first day a small round or the first day a small round or the first	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A graphical representation as a graphical representation as a graphical representation as a graphical representation as a graphical representation as	
+37000	
+----------------------------------------	
+Test Example 38	
+>> A womans shape the first and the first and the first and the first and the first and the first	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of the common in some plant and the common in some plant and the common in some plant and	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Either in the upper respiratory passages at the upper respiratory passages at the upper respiratory passages at the upper respiratory	
+40000	
+----------------------------------------	
+Test Example 41	
+>> In the same as a person with a person with a person with a person with a person with a	
+41000	
+----------------------------------------	
+Test Example 42	
+>> Type genus of the first day	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A small to the first and the first and the first and the first and the first and the first	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A small ones own young sporophore or the first and the first and the first and the first and the	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Of the first and the first and the first and the first and the first and the first and the	
+45000	
+----------------------------------------	
+Test Example 46	
+>> Any of the use of the use of the use of the use of the use of the use of	
+46000	
+----------------------------------------	
+Test Example 47	
+>> Of the first and the first and the first and the first and the first and the first and the	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A person with a person with a person with a person with a person with a person with a person	
+48000	
+----------------------------------------	
+Test Example 49	
+>> Be used in the first that a list in the first that a list in the first that a list	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A large usually in the first and the first and the first and the first and the first and the	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small to the first and the first and the first and the first and the first and the first	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A person with a person with a person with a person with a person with a person with a person	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of the common in the common in the common in the common in the common in the common in	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A large quantities of the first day found in the first day found in the first day found in the	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Type genus of the common chickweed	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A large usually in the first and the first and the first and the first and the first and the	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of the leaves of the leaves of the leaves of the leaves of the leaves of the leaves of	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of the leaves of the leaves of the leaves of the leaves of the leaves of the leaves of	
+58000	
+----------------------------------------	
+Test Example 59	
+>> An acute skin	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A large amounts in the first and the first and the first and the first and the first and the	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A person with a person with a person with a person with a person with a person with a person	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A small to the same as a small to the same as a small to the same as a small	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A short periods of the first and the first and the first and the first and the first and the	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A strong lightweight wood	
+64000	
+----------------------------------------	
+Test Example 65	
+>> Any of the first and the first and the first and the first and the first and the first and	
+65000	
+----------------------------------------	
+Test Example 66	
+>> French polynesia	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of the leaves of the leaves of the leaves of the leaves of the leaves of the leaves of	
+67000	
+----------------------------------------	
+Test Example 68	
+>> Of the first day	
+68000	
+----------------------------------------	
+Test Example 69	
+>> The first day	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A public works	
+70000	
+----------------------------------------	
+Test Example 71	
+>> The first day a large amount the first day a large amount the first day a large amount the first	
+71000	
+----------------------------------------	
+Test Example 72	
+>> An area	
+72000	
+----------------------------------------	
+
+-- Epoch 13 / 50	
+	
+
+Finished in 1h34m 12.849575286709 examples/sec.	
+
+Epoch stats:	
+           LR= 0.020015	
+  Errors: min= 0	
+          max= 91.585947990417	
+       median= 18.057848930359	
+         mean= 20.399938510493	
+          std= 10.825409299962	
+
+(Saving model ...)	
+Test Example 1	
+>> A large amounts red in the first and the first and the first and the first and the first and	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A high quality especially a high quality especially a high quality especially a high quality especially a high quality especially	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A large usually in the first and the first and the first and the first and the first and the	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A grammatical properties of the same as a grammatical properties of the same as a grammatical properties of the same	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of the margin especially a common north american wood	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus of the first day	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A liquid in the first day	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A large cities a large cities a large cities a large cities a large cities a large cities a large	
+8000	
+----------------------------------------	
+Test Example 9	
+>> Any of the common in the common in the common in the common in the common in the common in	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A small or the first and the first and the first and the first and the first and the first	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A small or the first and the first and the first and the first and the first and the first	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Tropical america and the leaves and the leaves and the leaves and the leaves and the leaves and the leaves	
+12000	
+----------------------------------------	
+Test Example 13	
+>> The use of the use of the use of the use of the use of the use of the use	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A woman in the first and the first and the first and the first and the first and the first	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of the common north american wood	
+15000	
+----------------------------------------	
+Test Example 16	
+>> Of the use of the use of the use of the use of the use of the use of the	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French polynesia	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A hard brittle flat and the chemical reactions of the chemical reactions of the chemical reactions of the chemical reactions	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A state	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A large numbers	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In the use of the use of the use of the use of the use of the use of the	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Flesh of the first day	
+22000	
+----------------------------------------	
+Test Example 23	
+>> A natural or the same as a natural or the same as a natural or the same as a natural	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not in the same as a statement of the same as a statement of the same as a statement of	
+24000	
+----------------------------------------	
+Test Example 25	
+>> The use of the use of the use of the use of the use of the use of the use	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A large amounts a large amounts a large amounts a large amounts a large amounts a large amounts a large	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A large old testament the first public opinion from the first public opinion from the first public opinion from the	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A person in the first and the first and the first and the first and the first and the first	
+28000	
+----------------------------------------	
+Test Example 29	
+>> Any of the flesh of the flesh of the flesh of the flesh of the flesh of the flesh of	
+29000	
+----------------------------------------	
+Test Example 30	
+>> The first day	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A person with a person with a person with a person with a person with a person with a person	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus bos especially in the first and the first and the first and the first and the first and the	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A small to the first and the first and the first and the first and the first and the first	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Cause an animal	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus bos especially in the first day	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A small ones competition in the first day	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A natural selection from the use of the use of the use of the use of the use of the	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Of the first and the first and the first and the first and the first and the first and the	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus bos as a family including both sexes are used in some plant and the type genus bos as a	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Of the upper chambers in the upper chambers in the upper chambers in the upper chambers in the upper chambers	
+40000	
+----------------------------------------	
+Test Example 41	
+>> A person with a person with a person with a person with a person with a person with a person	
+41000	
+----------------------------------------	
+Test Example 42	
+>> A large white or the first day	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A small to the first day	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A small usually in the first and the first and the first and the first and the first and the	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a small ones bill	
+45000	
+----------------------------------------	
+Test Example 46	
+>> An acute skin disease that is a blood from the presence of the presence of the presence of the presence	
+46000	
+----------------------------------------	
+Test Example 47	
+>> Of the first day	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A small ones bill as a small ones bill as a small ones bill as a small ones bill as	
+48000	
+----------------------------------------	
+Test Example 49	
+>> In number of the same as a high in number of the same as a high in number of the	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A person to the use of the use of the use of the use of the use of the use	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small usually in the first and the first and the first and the first and the first and the	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A person in the face	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus bos as a large yellow to the common source of the common source of the common source of the	
+53000	
+----------------------------------------	
+Test Example 54	
+>> The amount the amount the amount the amount the amount the amount the amount the amount the amount the amount	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus bos as a family consisting of the type genus bos as a family consisting of the type genus bos	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A small round as a small round as a small round as a small round as a small round as	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of the common garden peas and the common garden peas and the common garden peas and the common garden	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of the common garden peas and the common garden peas and the common garden peas and the common garden	
+58000	
+----------------------------------------	
+Test Example 59	
+>> A toxic to the use of the use of the use of the use of the use of the use	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A large amounts of the first and the first and the first and the first and the first and the	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A person with a person with a person with a person with a person with a person with a person	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A person or the use of the use of the use of the use of the use of the use	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A person in the first day a person in the first day a person in the first day a person	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A light from the amount the amount the amount the amount the amount the amount the amount the amount the	
+64000	
+----------------------------------------	
+Test Example 65	
+>> Any of the first day	
+65000	
+----------------------------------------	
+Test Example 66	
+>> French government or the first and the first and the first and the first and the first and the first	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of the first and the first and the first and the first and the first and the first and	
+67000	
+----------------------------------------	
+Test Example 68	
+>> Resembling a white or the first day	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A point in the same as a point in the same as a point in the same as a point	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A public transportation	
+70000	
+----------------------------------------	
+Test Example 71	
+>> The first day when the first day when the first day when the first day when the first day when	
+71000	
+----------------------------------------	
+Test Example 72	
+>> A small ones competition in the use of the use of the use of the use of the use of	
+72000	
+----------------------------------------	
+
+-- Epoch 14 / 50	
+	
+
+Finished in 1h34m 12.847998722182 examples/sec.	
+
+Epoch stats:	
+           LR= 0.01751625	
+  Errors: min= 0	
+          max= 82.767289638519	
+       median= 16.192832946777	
+         mean= 18.231925909666	
+          std= 9.4489874859451	
+
+(Saving model ...)	
+Test Example 1	
+>> A large amounts in the first and the first and the first and the first and the first and the	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A high temperatures and the use of the use of the use of the use of the use of the	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in the first and the first and the first and the first and the first and the first	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A word and the first and the first and the first and the first and the first and the first	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of the common and the common and the common and the common and the common and the common and	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus arabis by a large yellow to the first day	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A liquid in the liquid in the liquid in the liquid in the liquid in the liquid in the liquid	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A large quantities of the first and the first and the first and the first and the first and the	
+8000	
+----------------------------------------	
+Test Example 9	
+>> Any of the common and the common and the common and the common and the common and the common and	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A small open different points usually in the first and the first and the first and the first and the	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A small open to the first and the first and the first and the first and the first and the	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Small white flowers in the common and the common and the common and the common and the common and the	
+12000	
+----------------------------------------	
+Test Example 13	
+>> The use of the use of the use of the use of the use of the use of the use	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A woman	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of the common and the common and the common and the common and the common and the common and	
+15000	
+----------------------------------------	
+Test Example 16	
+>> The use of the use of the use of the use of the use of the use of the use	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French polynesia and the first and the first and the first and the first and the first and the first	
+17000	
+----------------------------------------	
+Test Example 18	
+>> An alloy containing an alloy containing an alloy containing an alloy containing an alloy containing an alloy containing an alloy	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A christian churches that is a christian churches that is a christian churches that is a christian churches that is	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A small often used in the upper level with a small often used in the upper level with a small	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In the use of the use of the use of the use of the use of the use of the	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Flesh of the first and the first and the first and the first and the first and the first and	
+22000	
+----------------------------------------	
+Test Example 23	
+>> A correlation used in the first day	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not in the same as a person in the same as a person in the same as a person in	
+24000	
+----------------------------------------	
+Test Example 25	
+>> The use of the use of the use of the use of the use of the use of the use	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A large amounts in the first and the first and the first and the first and the first and the	
+26000	
+----------------------------------------	
+Test Example 27	
+>> Any of the main memory by a large amounts in the main memory by a large amounts in the main	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A person in the first and the first and the first and the first and the first and the first	
+28000	
+----------------------------------------	
+Test Example 29	
+>> Any of a strong as a strong as a strong as a strong as a strong as a strong as	
+29000	
+----------------------------------------	
+Test Example 30	
+>> The upper surface layer of the upper surface layer of the upper surface layer of the upper surface layer of	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A person with a person with a person with a person with a person with a person with a person	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus arabis by a common and the first and the first and the first and the first and the first	
+32000	
+----------------------------------------	
+Test Example 33	
+>> The first and the first and the first and the first and the first and the first and the first	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Remove the amount the amount the amount the amount the amount the amount the amount the amount the amount the	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus bos and the white blood	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A small or the first and the first and the first and the first and the first and the first	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A structure of the use of the use of the use of the use of the use of the use	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Of the first and the first and the first and the first and the first and the first and the	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus mammoths as a large usually with a large usually with a large usually with a large usually with a	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Of the first day	
+40000	
+----------------------------------------	
+Test Example 41	
+>> Make a person with a person with a person with a person with a person with a person with a	
+41000	
+----------------------------------------	
+Test Example 42	
+>> Type genus bos a common in the first and the first and the first and the first and the first	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A small to the first day	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A large usually with a large usually with a large usually with a large usually with a large usually with	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Of the first day	
+45000	
+----------------------------------------	
+Test Example 46	
+>> An acute skin	
+46000	
+----------------------------------------	
+Test Example 47	
+>> Of the first day	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A person in the first and the first and the first and the first and the first and the first	
+48000	
+----------------------------------------	
+Test Example 49	
+>> Be used in the amount or the amount or the amount or the amount or the amount or the amount	
+49000	
+----------------------------------------	
+Test Example 50	
+>> An animal	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small enough to the first and the first and the first and the first and the first and the	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A person in the first and the first and the first and the first and the first and the first	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of the common north american green and the common north american green and the common north american green and	
+53000	
+----------------------------------------	
+Test Example 54	
+>> The basic and the basic and the basic and the basic and the basic and the basic and the basic	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus arabis by a family consisting of the type genus arabis by a family consisting of the type genus arabis	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A small round suitable for the first and the first and the first and the first and the first and	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of the common garden where the common garden where the common garden where the common garden where the common	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of the leaves of the leaves of the leaves of the leaves of the leaves of the leaves of	
+58000	
+----------------------------------------	
+Test Example 59	
+>> A drug that is a drug that is a drug that is a drug that is a drug that is	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A place of the first and the first and the first and the first and the first and the first	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A small active in the first and the first and the first and the first and the first and the	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A white and the first and the first and the first and the first and the first and the first	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A period of the first and the first and the first and the first and the first and the first	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A large amounts of the first day	
+64000	
+----------------------------------------	
+Test Example 65	
+>> Any of a small round a small round a small round a small round a small round a small round	
+65000	
+----------------------------------------	
+Test Example 66	
+>> French government in the first and the first and the first and the first and the first and the first	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of the leaves of the leaves of the leaves of the leaves of the leaves of the leaves of	
+67000	
+----------------------------------------	
+Test Example 68	
+>> Of the upper surface tension	
+68000	
+----------------------------------------	
+Test Example 69	
+>> The first day	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A public expenditure of the use of the use of the use of the use of the use of the	
+70000	
+----------------------------------------	
+Test Example 71	
+>> The amount the amount the amount the amount the amount the amount the amount the amount the amount the amount	
+71000	
+----------------------------------------	
+Test Example 72	
+>> An organ for the first day	
+72000	
+----------------------------------------	
+
+-- Epoch 15 / 50	
+	
+
+Finished in 1h34m 12.847051662705 examples/sec.	
+
+Epoch stats:	
+           LR= 0.0150175	
+  Errors: min= 0	
+          max= 78.013799190521	
+       median= 14.544138908386	
+         mean= 16.299940668568	
+          std= 8.2322008953416	
+
+(Saving model ...)	
+Test Example 1	
+>> A large amounts in the first and the first and the first and the first and the first and the	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A high temperatures to the amount along with a high temperatures to the amount along with a high temperatures to	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in the upper register	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A word or the same as a word or the same as a word or the same as a word	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of the common and the common and the common and the common and the common and the common and	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus bos and the first day	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A liquid in the first day	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A small usually restricted to the upper level country especially a small usually restricted to the upper level country especially	
+8000	
+----------------------------------------	
+Test Example 9	
+>> Any of the common and the common and the common and the common and the common and the common and	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A small yellow to the first and the first and the first and the first and the first and the	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A small pieces of the first and the first and the first and the first and the first and the	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Plant having a small usually with a small usually with a small usually with a small usually with a small	
+12000	
+----------------------------------------	
+Test Example 13	
+>> The use of the use of the use of the use of the use of the use of the use	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A black coffee common and the first and the first and the first and the first and the first and	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of the fruit that is a common and the fruit that is a common and the fruit that is	
+15000	
+----------------------------------------	
+Test Example 16	
+>> The use of the use of the use of the use of the use of the use of the use	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French painter and the white to the white to the white to the white to the white to the white	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A porous being shaped like a porous being shaped like a porous being shaped like a porous being shaped like	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A church	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A head with a head with a head with a head with a head with a head with a head	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In the use of the use of the use of the use of the use of the use of the	
+21000	
+----------------------------------------	
+Test Example 22	
+>> A large numbers of the first and the first and the first and the first and the first and the	
+22000	
+----------------------------------------	
+Test Example 23	
+>> A correlation used in the upper to the upper to the upper to the upper to the upper to the	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not in the use of the use of the use of the use of the use of the use of	
+24000	
+----------------------------------------	
+Test Example 25	
+>> The use of the use of the use of the use of the use of the use of the use	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A large amounts in the first and the first and the first and the first and the first and the	
+26000	
+----------------------------------------	
+Test Example 27	
+>> An oil and other small boat that can be used in the upper part of the upper part of the	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A person in the first and the first and the first and the first and the first and the first	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A small pieces of a small pieces of a small pieces of a small pieces of a small pieces of	
+29000	
+----------------------------------------	
+Test Example 30	
+>> The first day a small round or the first day a small round or the first day a small round	
+30000	
+----------------------------------------	
+Test Example 31	
+>> Psychoanalysis a person in the use of the use of the use of the use of the use of the	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus bos especially in the first or the first or the first or the first or the first or the	
+32000	
+----------------------------------------	
+Test Example 33	
+>> The first or the first or the first or the first or the first or the first or the first	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Cause inflammation of the use of the use of the use of the use of the use of the use	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus bos and the first or the first or the first or the first or the first or the	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A small pieces of the first day a small pieces of the first day a small pieces of the first	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A straight lines in the use of the use of the use of the use of the use of the	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Of the first and the first and the first and the first and the first and the first and the	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus arabis by the type genus arabis by the type genus arabis by the type genus arabis by the type	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Of the upper or the upper or the upper or the upper or the upper or the upper or the	
+40000	
+----------------------------------------	
+Test Example 41	
+>> A person in the final sounds	
+41000	
+----------------------------------------	
+Test Example 42	
+>> Type genus bos especially in the first or the first or the first or the first or the first or	
+42000	
+----------------------------------------	
+Test Example 43	
+>> The first day a small to the first day a small to the first day a small to the first	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A large amounts in the first or the first or the first or the first or the first or the	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Of the upper or the upper or the upper or the upper or the upper or the upper or the	
+45000	
+----------------------------------------	
+Test Example 46	
+>> Inflammation of a disease that is a disease that is a disease that is a disease that is a disease	
+46000	
+----------------------------------------	
+Test Example 47	
+>> Of the first day	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A person in the first and the first and the first and the first and the first and the first	
+48000	
+----------------------------------------	
+Test Example 49	
+>> Be used in the amount or other evidence that is not at the amount or other evidence that is not	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A person in the first or the first or the first or the first or the first or the first	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small pieces of the first and the first and the first and the first and the first and the	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A person in the first and the first and the first and the first and the first and the first	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of the type genus of the type genus of the type genus of the type genus of the type	
+53000	
+----------------------------------------	
+Test Example 54	
+>> The amount the amount the amount the amount the amount the amount the amount the amount the amount the amount	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus arabis and the type genus arabis and the type genus arabis and the type genus arabis and the type	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A small active in the first and the first and the first and the first and the first and the	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of the common garden where the common garden where the common garden where the common garden where the common	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of the leaves of the leaves of the leaves of the leaves of the leaves of the leaves of	
+58000	
+----------------------------------------	
+Test Example 59	
+>> A drug or other than normal levels of a drug or other than normal levels of a drug or other	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A place of the first or the first or the first or the first or the first or the first	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A small active work as a small active work as a small active work as a small active work as	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A white to the first day	
+62000	
+----------------------------------------	
+Test Example 63	
+>> The first or the first or the first or the first or the first or the first or the first	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A white or the liquid or the liquid or the liquid or the liquid or the liquid or the liquid	
+64000	
+----------------------------------------	
+Test Example 65	
+>> Any of a small round a small round a small round a small round a small round a small round	
+65000	
+----------------------------------------	
+Test Example 66	
+>> French government in the first and the first and the first and the first and the first and the first	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of the first and the first and the first and the first and the first and the first and	
+67000	
+----------------------------------------	
+Test Example 68	
+>> Of the first day	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A sound	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A small investors usually advises the use of the use of the use of the use of the use of	
+70000	
+----------------------------------------	
+Test Example 71	
+>> The first or the first or the first or the first or the first or the first or the first	
+71000	
+----------------------------------------	
+Test Example 72	
+>> An organ for the first day a blood to the first day a blood to the first day a blood	
+72000	
+----------------------------------------	
+
+-- Epoch 16 / 50	
+	
+
+Finished in 1h34m 12.845077388334 examples/sec.	
+
+Epoch stats:	
+           LR= 0.01251875	
+  Errors: min= 0	
+          max= 68.164519786835	
+       median= 13.185738563538	
+         mean= 14.661266507684	
+          std= 7.1798875132749	
+
+(Saving model ...)	
+Test Example 1	
+>> A large amounts	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A small pieces of the amount along with a small pieces of the amount along with a small pieces of	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in the first or the first or the first or the first or the first or the first	
+3000	
+----------------------------------------	
+Test Example 4	
+>> The word that is a word that is a word that is a word that is a word that is	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of the common and the common and the common and the common and the common and the common and	
+5000	
+----------------------------------------	
+Test Example 6	
+>> A fungus	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A liquid in the first day a liquid in the first day a liquid in the first day a liquid	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A large amounts in the first and the first and the first and the first and the first and the	
+8000	
+----------------------------------------	
+Test Example 9	
+>> Any of the common and the common and the common and the common and the common and the common and	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A large in the first and the first and the first and the first and the first and the first	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A large up and the first and the first and the first and the first and the first and the	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Small tropical and the common edible young leaves usually in the common edible young leaves usually in the common edible	
+12000	
+----------------------------------------	
+Test Example 13	
+>> The use of the use of the use of the use of the use of the use of the use	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A white to a white to a white to a white to a white to a white to a white	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of the common and the common and the common and the common and the common and the common and	
+15000	
+----------------------------------------	
+Test Example 16	
+>> Of the use of the use of the use of the use of the use of the use of the	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French polynesia in the final things as a person in the final things as a person in the final things	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A porous being shaped to a porous being shaped to a porous being shaped to a porous being shaped to	
+18000	
+----------------------------------------	
+Test Example 19	
+>> The church	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A family	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In the use of the use of the use of the use of the use of the use of the	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Flesh of the first especially in the first especially in the first especially in the first especially in the first	
+22000	
+----------------------------------------	
+Test Example 23	
+>> A correlation in the same as a correlation in the same as a correlation in the same as a correlation	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not in the use of the use of the use of the use of the use of the use of	
+24000	
+----------------------------------------	
+Test Example 25	
+>> The use of the use of the use of the use of the use of the use of the use	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A large amounts of the first especially a large amounts of the first especially a large amounts of the first	
+26000	
+----------------------------------------	
+Test Example 27	
+>> An oil and other small white and other small white and other small white and other small white and other	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A person or the first and the first and the first and the first and the first and the first	
+28000	
+----------------------------------------	
+Test Example 29	
+>> Made from the first and the first and the first and the first and the first and the first and	
+29000	
+----------------------------------------	
+Test Example 30	
+>> The first day a ring of the first day a ring of the first day a ring of the first	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A state	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of the first or the first or the first or the first or the first or the first or	
+32000	
+----------------------------------------	
+Test Example 33	
+>> The first or the first or the first or the first or the first or the first or the first	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Cause inflammation of the use of the use of the use of the use of the use of the use	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus bos especially in the upper surface having a large amounts of the upper surface having a large amounts	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A straight return to the first day a straight return to the first day a straight return to the first	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A type of the use of the use of the use of the use of the use of the use	
+37000	
+----------------------------------------	
+Test Example 38	
+>> The use of the use of the use of the use of the use of the use of the use	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus bos high quality or aquatic animals as a large north american wood warblers species of the common name for	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Of the upper surface having a body as a body as a body as a body as a body as	
+40000	
+----------------------------------------	
+Test Example 41	
+>> A new york or other than the final sounds	
+41000	
+----------------------------------------	
+Test Example 42	
+>> Type genus bos especially a large amounts of the first or the first or the first or the first or	
+42000	
+----------------------------------------	
+Test Example 43	
+>> The basic monetary standard time before a former not in the basic monetary standard time before a former not in	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A large amounts in the first and the first and the first and the first and the first and the	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Of the upper part of the upper part of the upper part of the upper part of the upper part	
+45000	
+----------------------------------------	
+Test Example 46	
+>> An acute skin and the common molds with a state of blood to a state of blood to a state	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A small cells of the first day	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A person in the first or the first or the first or the first or the first or the first	
+48000	
+----------------------------------------	
+Test Example 49	
+>> Be used for the order for the order for the order for the order for the order for the order	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A large amounts of the first or the first or the first or the first or the first or the	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small red or the first and the first and the first and the first and the first and the	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A person in the final sounds	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of the common genus of the common genus of the common genus of the common genus of the common	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A main money in the basic and the basic and the basic and the basic and the basic and the	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus aster	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A large amounts of the first and the first and the first and the first and the first and the	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of the common garden peas and the common garden peas and the common garden peas and the common garden	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Any of a white oaks	
+58000	
+----------------------------------------	
+Test Example 59	
+>> A drug an irritating or the form of the form of the form of the form of the form of	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A large amounts in the first or the first or the first or the first or the first or the	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A small active work at the upper body to the upper body to the upper body to the upper body	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A white to the use of the use of the use of the use of the use of the use	
+62000	
+----------------------------------------	
+Test Example 63	
+>> The first day a period of the first day a period of the first day a period of the first	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A process of a process of a process of a process of a process of a process of a process	
+64000	
+----------------------------------------	
+Test Example 65	
+>> Any of a small round a small round a small round a small round a small round a small round	
+65000	
+----------------------------------------	
+Test Example 66	
+>> French government in the first and the first and the first and the first and the first and the first	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of a white to a white to a white to a white to a white to a white to	
+67000	
+----------------------------------------	
+Test Example 68	
+>> Of the first day	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A sound as a sound as a sound as a sound as a sound as a sound as a sound	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A market the use of the use of the use of the use of the use of the use of	
+70000	
+----------------------------------------	
+Test Example 71	
+>> The first public opinion on the first public opinion on the first public opinion on the first public opinion on	
+71000	
+----------------------------------------	
+Test Example 72	
+>> Of the use of the use of the use of the use of the use of the use of the	
+72000	
+----------------------------------------	
+
+-- Epoch 17 / 50	
+	
+
+Finished in 1h34m 12.847222867349 examples/sec.	
+
+Epoch stats:	
+           LR= 0.01002	
+  Errors: min= 0	
+          max= 62.657095909119	
+       median= 12.050126075745	
+         mean= 13.329752610525	
+          std= 6.3556817778657	
+
+(Saving model ...)	
+Test Example 1	
+>> A large amounts in the first and the first and the first and the first and the first and the	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A high in the quantity of the quantity of the quantity of the quantity of the quantity of the quantity	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in the first or the first or the first or the first or the first or the first	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A word	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of small often used in the common and other small often used in the common and other small often	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus bos from the upper incisors and other plants of a fungus	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A liquid as a liquid as a liquid as a liquid as a liquid as a liquid as a liquid	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A large amounts in the white or the white or the white or the white or the white or the	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A common and the common and the common and the common and the common and the common and the common	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A large amounts mostly air and the first and the first and the first and the first and the first	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A large usually in the first and the first and the first and the first and the first and the	
+11000	
+----------------------------------------	
+Test Example 12	
+>> A small to a small to a small to a small to a small to a small to a small	
+12000	
+----------------------------------------	
+Test Example 13	
+>> The use of the use of the use of the use of the use of the use of the use	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A common and the first and the first and the first and the first and the first and the first	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of the common and other old world as a common and other old world as a common and other	
+15000	
+----------------------------------------	
+Test Example 16	
+>> The use of the use of the use of the use of the use of the use of the use	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French painter and the upper register or the upper register or the upper register or the upper register or the	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A porous not in the use of the use of the use of the use of the use of the	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A church	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A class of the upper register	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In the use of the use of the use of the use of the use of the use of the	
+21000	
+----------------------------------------	
+Test Example 22	
+>> A large to a large to a large to a large to a large to a large to a large	
+22000	
+----------------------------------------	
+Test Example 23	
+>> A natural immunity from the final stage as a natural immunity from the final stage as a natural immunity from	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not in the use of the use of the use of the use of the use of the use of	
+24000	
+----------------------------------------	
+Test Example 25	
+>> The use of the use of the use of the use of the use of the use of the use	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A large amounts of the first day a large amounts of the first day a large amounts of the first	
+26000	
+----------------------------------------	
+Test Example 27	
+>> A small boat that is a small boat that is a small boat that is a small boat that is	
+27000	
+----------------------------------------	
+Test Example 28	
+>> A person in the first and the first and the first and the first and the first and the first	
+28000	
+----------------------------------------	
+Test Example 29	
+>> Any of a white to the fruit containing an oven a white to the fruit containing an oven a white	
+29000	
+----------------------------------------	
+Test Example 30	
+>> The first day a ring of the first day a ring of the first day a ring of the first	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A person in the use of the use of the use of the use of the use of the use	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of the first or the first or the first or the first or the first or the first or	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A large amounts in the first or the first or the first or the first or the first or the	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Cause inflammation of the use of the use of the use of the use of the use of the use	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus bos as a small often used in the upper register	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A small usually in the first day a small usually in the first day a small usually in the first	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A type of the use of the use of the use of the use of the use of the use	
+37000	
+----------------------------------------	
+Test Example 38	
+>> A womans hair to a womans hair to a womans hair to a womans hair to a womans hair to	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of the type genus of the type genus of the type genus of the type genus of the type	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Of the upper part of the upper part of the upper part of the upper part of the upper part	
+40000	
+----------------------------------------	
+Test Example 41	
+>> A new york or other than the first and the first and the first and the first and the first	
+41000	
+----------------------------------------	
+Test Example 42	
+>> Type genus bos from the first or the first or the first or the first or the first or the	
+42000	
+----------------------------------------	
+Test Example 43	
+>> The first day a former british customs originally used in the first day a former british customs originally used in	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A large amounts in the first and the first and the first and the first and the first and the	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Of the upper part of the upper part of the upper part of the upper part of the upper part	
+45000	
+----------------------------------------	
+Test Example 46	
+>> Inflammation of the pressure on a blood to a blood to a blood to a blood to a blood to	
+46000	
+----------------------------------------	
+Test Example 47	
+>> Of the first day	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A person in the first and the first and the first and the first and the first and the first	
+48000	
+----------------------------------------	
+Test Example 49	
+>> Be used in the party usually by one of the party usually by one of the party usually by one	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A small usually caused by a small usually caused by a small usually caused by a small usually caused by	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small red in the first and the first and the first and the first and the first and the	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A person in the face	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of a large usually in the type genus of a large usually in the type genus of a large	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A white to the basic and other small silvery pale thin as a white to the basic and other small	
+54000	
+----------------------------------------	
+Test Example 55	
+>> Genus of a large usually in the common house and other plants of a large usually in the common house	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A small open first and the first and the first and the first and the first and the first and	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of a white oaks and often used in the common garden peas into a white oaks and often used	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Small round and sometimes with a white oaks	
+58000	
+----------------------------------------	
+Test Example 59	
+>> A white to a white to a white to a white to a white to a white to a white	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A large amounts in the first or the first or the first or the first or the first or the	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A small open to the first and the first and the first and the first and the first and the	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A white to the use of the use of the use of the use of the use of the use	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A man	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A white to a white to a white to a white to a white to a white to a white	
+64000	
+----------------------------------------	
+Test Example 65	
+>> Any of a large amounts of a large amounts of a large amounts of a large amounts of a large	
+65000	
+----------------------------------------	
+Test Example 66	
+>> French government in the first and the first and the first and the first and the first and the first	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of a large amounts of a large amounts of a large amounts of a large amounts of a large	
+67000	
+----------------------------------------	
+Test Example 68	
+>> Of the first day	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A point in the same as a point in the same as a point in the same as a point	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A public expenditure of the use of the use of the use of the use of the use of the	
+70000	
+----------------------------------------	
+Test Example 71	
+>> The common and the common and the common and the common and the common and the common and the common	
+71000	
+----------------------------------------	
+Test Example 72	
+>> Of the upper respiratory assistance in the upper respiratory assistance in the upper respiratory assistance in the upper respiratory assistance	
+72000	
+----------------------------------------	
+
+-- Epoch 18 / 50	
+	
+
+Finished in 1h34m 12.846619963106 examples/sec.	
+
+Epoch stats:	
+           LR= 0.00752125	
+  Errors: min= 0	
+          max= 56.810643672943	
+       median= 11.237330436707	
+         mean= 12.346509802705	
+          std= 5.7548712400532	
+
+(Saving model ...)	
+Test Example 1	
+>> A large amounts in the hand with a large amounts in the hand with a large amounts in the hand	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A small wheels from the quantity of the quantity of the quantity of the quantity of the quantity of the	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in the upper register	
+3000	
+----------------------------------------	
+Test Example 4	
+>> The word	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of small often a common and other small often a common and other small often a common and other	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus bos as a large fruits to a large fruits to a large fruits to a large fruits to a	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A liquid in the use of the use of the use of the use of the use of the use	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A large cities	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A common and other birds	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A large amounts in the first and the first and the first and the first and the first and the	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A large holes for the use of the use of the use of the use of the use of the	
+11000	
+----------------------------------------	
+Test Example 12	
+>> A small to a small to a small to a small to a small to a small to a small	
+12000	
+----------------------------------------	
+Test Example 13	
+>> The use of the use of the use of the use of the use of the use of the use	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A person on a person on a person on a person on a person on a person on a person	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of the common and other old world as a common and other old world as a common and other	
+15000	
+----------------------------------------	
+Test Example 16	
+>> A period of the use of the use of the use of the use of the use of the use	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French painter and other than a person or the upper register or the upper register or the upper register or	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A porous being shaped to a porous being shaped to a porous being shaped to a porous being shaped to	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A church	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A large amounts flies	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In the use of the use of the use of the use of the use of the use of the	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Flesh of the head of the head of the head of the head of the head of the head of	
+22000	
+----------------------------------------	
+Test Example 23	
+>> A stimulus that makes an open to a stimulus that makes an open to a stimulus that makes an open	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not in the use of the use of the use of the use of the use of the use of	
+24000	
+----------------------------------------	
+Test Example 25	
+>> The use of the use of the use of the use of the use of the use of the use	
+25000	
+----------------------------------------	
+Test Example 26	
+>> Any of the first or the first or the first or the first or the first or the first or	
+26000	
+----------------------------------------	
+Test Example 27	
+>> An oil and other small boat that is used especially a small boat that is used especially a small boat	
+27000	
+----------------------------------------	
+Test Example 28	
+>> Someone who is a person in the first and other than the first and other than the first and other	
+28000	
+----------------------------------------	
+Test Example 29	
+>> Any of a white to a white to a white to a white to a white to a white to	
+29000	
+----------------------------------------	
+Test Example 30	
+>> The first or some part of the first or some part of the first or some part of the first	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A person with a person with a person with a person with a person with a person with a person	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of the first or small white to a common on the first or small white to a common on	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A large amounts in the first or the first or the first or the first or the first or the	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Cause inflammation of the use of the use of the use of the use of the use of the use	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus bos especially in the upper surface having a large amounts of the upper surface having a large amounts	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A standard time in the first day	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A type of the use of the use of the use of the use of the use of the use	
+37000	
+----------------------------------------	
+Test Example 38	
+>> A womans hair growing closely related to a womans hair growing closely related to a womans hair growing closely related	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus of the type genus of the type genus of the type genus of the type genus of the type	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Of the upper part of the upper part of the upper part of the upper part of the upper part	
+40000	
+----------------------------------------	
+Test Example 41	
+>> A new ones own all the first and the first and the first and the first and the first and	
+41000	
+----------------------------------------	
+Test Example 42	
+>> Type genus bos from the first or the first or the first or the first or the first or the	
+42000	
+----------------------------------------	
+Test Example 43	
+>> The nations	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A large amounts in the first and other than the first and other than the first and other than the	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Of the upper part of the upper part of the upper part of the upper part of the upper part	
+45000	
+----------------------------------------	
+Test Example 46	
+>> A state as a state as a state as a state as a state as a state as a state	
+46000	
+----------------------------------------	
+Test Example 47	
+>> Of the first day	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A person in the first and other than the first and other than the first and other than the first	
+48000	
+----------------------------------------	
+Test Example 49	
+>> Be used in number of the right to a small and usually by one of the right to a small	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A small usually in the final damage or the final damage or the final damage or the final damage or	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A small pieces of a small pieces of a small pieces of a small pieces of a small pieces of	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A person in the face	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of a large usually in the common genus of a large usually in the common genus of a large	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A white to the basic and other small white to the basic and other small white to the basic and	
+54000	
+----------------------------------------	
+Test Example 55	
+>> A large usually in the type genus arabis in the type genus arabis in the type genus arabis in the	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A large amounts of the first and other than the first and other than the first and other than the	
+56000	
+----------------------------------------	
+Test Example 57	
+>> Any of the common garden where the common garden where the common garden where the common garden where the common	
+57000	
+----------------------------------------	
+Test Example 58	
+>> Small tufted form a white and sometimes with a white and sometimes with a white and sometimes with a white	
+58000	
+----------------------------------------	
+Test Example 59	
+>> A white to a white to a white to a white to a white to a white to a white	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A large amounts in the first or by a large amounts in the first or by a large amounts in	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A small open to a small open to a small open to a small open to a small open to	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A person or the use of the use of the use of the use of the use of the use	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A court a court a court a court a court a court a court a court a court a court	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A process of the liquid or the liquid or the liquid or the liquid or the liquid or the liquid	
+64000	
+----------------------------------------	
+Test Example 65	
+>> Any of a large amounts of a large amounts of a large amounts of a large amounts of a large	
+65000	
+----------------------------------------	
+Test Example 66	
+>> French military personnel	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of a large amounts of a large amounts of a large amounts of a large amounts of a large	
+67000	
+----------------------------------------	
+Test Example 68	
+>> Of the upper register or other than the upper register or other than the upper register or other than the	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A point	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A public expenditure of the use of the use of the use of the use of the use of the	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A period of the first or the first or the first or the first or the first or the first	
+71000	
+----------------------------------------	
+Test Example 72	
+>> An area especially a small white to a small white to a small white to a small white to a	
+72000	
+----------------------------------------	
+
+-- Epoch 19 / 50	
+	
+
+Finished in 1h34m 12.846924807991 examples/sec.	
+
+Epoch stats:	
+           LR= 0.0050225	
+  Errors: min= 0	
+          max= 50.93150138855	
+       median= 10.771980285645	
+         mean= 11.763334228693	
+          std= 5.3860187211598	
+
+(Saving model ...)	
+Test Example 1	
+>> A large amounts	
+1000	
+----------------------------------------	
+Test Example 2	
+>> A small wheels from the metal in the metal in the metal in the metal in the metal in the	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A city in the first day	
+3000	
+----------------------------------------	
+Test Example 4	
+>> A word	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of small often a common and other ant the common and other ant the common and other ant the	
+5000	
+----------------------------------------	
+Test Example 6	
+>> Genus arabis and other plants of small to a large white or the upper register or the upper register or	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A liquid in the liquid in the liquid in the liquid in the liquid in the liquid in the liquid	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A large usually nomadic a large usually nomadic a large usually nomadic a large usually nomadic a large usually nomadic	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A large usually in the common and other birds	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A large amounts in the first and the first and the first and the first and the first and the	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A small open to a small open to a small open to a small open to a small open to	
+11000	
+----------------------------------------	
+Test Example 12	
+>> Seed of small to a small to a small to a small to a small to a small to a	
+12000	
+----------------------------------------	
+Test Example 13	
+>> The use of the use of the use of the use of the use of the use of the use	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A person who is a person who is a person who is a person who is a person who is	
+14000	
+----------------------------------------	
+Test Example 15	
+>> Any of the first or small white fungus that is a common and other plants and other plants and other	
+15000	
+----------------------------------------	
+Test Example 16	
+>> A large amounts all the use of the use of the use of the use of the use of the	
+16000	
+----------------------------------------	
+Test Example 17	
+>> French roman catholic used in the upper register or the upper register or the upper register or the upper register	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A reddish wood or the use of the use of the use of the use of the use of the	
+18000	
+----------------------------------------	
+Test Example 19	
+>> The church for the church for the church for the church for the church for the church for the church	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A large amounts in the upper part of the upper part of the upper part of the upper part of	
+20000	
+----------------------------------------	
+Test Example 21	
+>> In the use of the use of the use of the use of the use of the use of the	
+21000	
+----------------------------------------	
+Test Example 22	
+>> A large amounts of the first and other birds	
+22000	
+----------------------------------------	
+Test Example 23	
+>> A very small red to a very small red to a very small red to a very small red to	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Not in the use of the use of the use of the use of the use of the use of	
+24000	
+----------------------------------------	
+Test Example 25	
+>> A feeling a feeling a feeling a feeling a feeling a feeling a feeling a feeling a feeling a feeling	
+25000	
+----------------------------------------	
+Test Example 26	
+>> Any of the first or the first or the first or the first or the first or the first or	
+26000	
+----------------------------------------	
+Test Example 27	
+>> An umbrella by a small to a small to a small to a small to a small to a small	
+27000	
+----------------------------------------	
+Test Example 28	
+>> Someone who is a person in the first and the first and the first and the first and the first	
+28000	
+----------------------------------------	
+Test Example 29	
+>> Any of a small wooden soles and other small wooden soles and other small wooden soles and other small wooden	
+29000	
+----------------------------------------	
+Test Example 30	
+>> The first day a womans other small round or some part of the first day a womans other small round	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A state	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of the first or small white to a large white to a large white to a large white to	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A large amounts in the first or the first or the first or the first or the first or the	
+33000	
+----------------------------------------	
+Test Example 34	
+>> Cause inflammation of the use of the use of the use of the use of the use of the use	
+34000	
+----------------------------------------	
+Test Example 35	
+>> Type genus bos especially the first or the first or the first or the first or the first or the	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A small round or the first day	
+36000	
+----------------------------------------	
+Test Example 37	
+>> An area especially a type of the use of the use of the use of the use of the use	
+37000	
+----------------------------------------	
+Test Example 38	
+>> A womans pelvic fins as a womans pelvic fins as a womans pelvic fins as a womans pelvic fins as	
+38000	
+----------------------------------------	
+Test Example 39	
+>> Genus dryopteris in the type genus dryopteris in the type genus dryopteris in the type genus dryopteris in the type	
+39000	
+----------------------------------------	
+Test Example 40	
+>> Of the upper part of the upper part of the upper part of the upper part of the upper part	
+40000	
+----------------------------------------	
+Test Example 41	
+>> Give a new york or other than the first and the first and the first and the first and the	
+41000	
+----------------------------------------	
+Test Example 42	
+>> Type genus bos especially in the first or the first or the first or the first or the first or	
+42000	
+----------------------------------------	
+Test Example 43	
+>> The nations	
+43000	
+----------------------------------------	
+Test Example 44	
+>> A large amounts in the first and other than the first and other than the first and other than the	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Of the upper part of the upper part of the upper part of the upper part of the upper part	
+45000	
+----------------------------------------	
+Test Example 46	
+>> Inflammation of the form of the form of the form of the form of the form of the form of	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A cell division of the first day	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A person in the first and other than the first and other than the first and other than the first	
+48000	
+----------------------------------------	
+Test Example 49	
+>> Be used in number of the right to a small and usually by one of the right to a small	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A small red and the first children and the first children and the first children and the first children and	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A large amounts in the first and other than the first and other than the first and other than the	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A person in the face	
+52000	
+----------------------------------------	
+Test Example 53	
+>> Genus of small white spores are used in the common and often used in the common and often used in	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A market the number of the number of the number of the number of the number of the number of	
+54000	
+----------------------------------------	
+Test Example 55	
+>> A large usually in the type genus arabis to a large usually in the type genus arabis to a large	
+55000	
+----------------------------------------	
+Test Example 56	
+>> A large amounts of the first and other material that the first and other material that the first and other	
+56000	
+----------------------------------------	
+Test Example 57	
+>> A common garden where the common garden where the common garden where the common garden where the common garden where	
+57000	
+----------------------------------------	
+Test Example 58	
+>> A holly	
+58000	
+----------------------------------------	
+Test Example 59	
+>> A common in the effect as a common in the effect as a common in the effect as a common	
+59000	
+----------------------------------------	
+Test Example 60	
+>> A large amounts in the first or by a large amounts in the first or by a large amounts in	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A small open to a small open to a small open to a small open to a small open to	
+61000	
+----------------------------------------	
+Test Example 62	
+>> A person or the use of the use of the use of the use of the use of the use	
+62000	
+----------------------------------------	
+Test Example 63	
+>> A court a court a court a court a court a court a court a court a court a court	
+63000	
+----------------------------------------	
+Test Example 64	
+>> A state	
+64000	
+----------------------------------------	
+Test Example 65	
+>> Any of a large amounts of a large amounts of a large amounts of a large amounts of a large	
+65000	
+----------------------------------------	
+Test Example 66	
+>> French military personnel	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Any of small to a common and other plants of small to a common and other plants of small to	
+67000	
+----------------------------------------	
+Test Example 68	
+>> Of the first or the first or the first or the first or the first or the first or the	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A sound as a sound as a sound as a sound as a sound as a sound as a sound	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A small investors usually by a small investors usually by a small investors usually by a small investors usually by	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A period of the upper register or the upper register or the upper register or the upper register or the	
+71000	
+----------------------------------------	
+Test Example 72	
+>> An area especially a small white to a small white to a small white to a small white to a	
+72000	
+----------------------------------------	
+
+-- Epoch 20 / 50	
+	
+Terminated

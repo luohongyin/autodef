@@ -11,7 +11,7 @@ for line in io.lines("../data/model/vectors.txt") do
 		vector = {}
 		w_v = stringx.split(line, ' ')
 		for i = 2, #w_v do
-			table.insert(vector, tonumber(w_v[i]))
+			table.insert(vector, tonumber(w_v[i]) * 10)
 		end
 		table.insert(word_vectors, vector)
 	end
