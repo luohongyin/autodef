@@ -8,14 +8,13 @@
 -- Expects 1D or 2D input.
 -- The first input in sequence uses zero value for cell and hidden state
 ------------------------------------------------------------------------
--- assert(not nn.AdaLSTM, "update nnx package : luarocks install nnx")
-local AdaLSTM, parent = torch.class('nn.AdaLSTM', 'nn.AbstractRecurrent')
+-- assert(not nn.LSTM, "update nnx package : luarocks install nnx")
+local LSTM, parent = torch.class('neuralconvo.AdaLSTM', 'nn.AbstractRecurrent')
 
-function AdaLSTM:__init(inputSize1, inputSize2, outputSize, rho, cell2gate)
+function LSTM:__init(inputSize, outputSize, rho, cell2gate)
    parent.__init(self, rho or 9999)
-   self.inputSize1 = inputSize1
-   self.inputSize2 = inputSize2
-   self.outputSize = outputSize or inputSize1
+   self.inputSize = inputSize
+   self.outputSize = outputSize or inputSize
    -- build the model
    self.cell2gate = (cell2gate == nil) and true or cell2gate
    self.recurrentModule = self:buildModel()
@@ -31,17 +30,17 @@ function AdaLSTM:__init(inputSize1, inputSize2, outputSize, rho, cell2gate)
 end
 
 -------------------------- factory methods -----------------------------
-function AdaLSTM:buildGate()
-   -- Note : gate expects an input table : {input1, input2, output(t-1), cell(t-1)}
+function LSTM:buildGate()
+   -- Note : gate expects an input table : {input, output(t-1), cell(t-1)}
    local gate = nn.Sequential()
    if not self.cell2gate then
-      gate:add(nn.NarrowTable(1,3))
+      gate:add(nn.NarrowTable(1,2))
    end
-   local input2gate1 = nn.Linear(self.inputSize1, self.outputSize)
-   local input2gate2 = nn.Linear(self.inputSize2, self.outputSize)
+   -- local input2gate = nn.Linear(self.inputSize, self.outputSize)
+   local input2gate = nn.Dropout(0)
    local output2gate = nn.LinearNoBias(self.outputSize, self.outputSize)
    local para = nn.ParallelTable()
-   para:add(input2gate1):add(input2gate2):add(output2gate) 
+   para:add(input2gate):add(output2gate) 
    if self.cell2gate then
       para:add(nn.CMul(self.outputSize)) -- diagonal cell to gate weight matrix
    end
@@ -51,25 +50,25 @@ function AdaLSTM:buildGate()
    return gate
 end
 
-function AdaLSTM:buildInputGate()
+function LSTM:buildInputGate()
    self.inputGate = self:buildGate()
    return self.inputGate
 end
 
-function AdaLSTM:buildForgetGate()
+function LSTM:buildForgetGate()
    self.forgetGate = self:buildGate()
    return self.forgetGate
 end
 
-function AdaLSTM:buildHidden()
+function LSTM:buildHidden()
    local hidden = nn.Sequential()
-   -- input is {input1, input2, output(t-1), cell(t-1)}, but we only need {input1, input2, output(t-1)}
-   hidden:add(nn.NarrowTable(1,3))
-   local input2hidden1 = nn.Linear(self.inputSize1, self.outputSize)
-   local input2hidden2 = nn.Linear(self.inputSize2, self.outputSize)
+   -- input is {input, output(t-1), cell(t-1)}, but we only need {input, output(t-1)}
+   hidden:add(nn.NarrowTable(1,2))
+   -- local input2hidden = nn.Linear(self.inputSize, self.outputSize)
+   local input2hidden = nn.Dropout(0)
    local output2hidden = nn.LinearNoBias(self.outputSize, self.outputSize)
    local para = nn.ParallelTable()
-   para:add(input2hidden1):add(input2hidden2):add(output2hidden)
+   para:add(input2hidden):add(output2hidden)
    hidden:add(para)
    hidden:add(nn.CAddTable())
    hidden:add(nn.Tanh())
@@ -77,15 +76,15 @@ function AdaLSTM:buildHidden()
    return hidden
 end
 
-function AdaLSTM:buildCell()
+function LSTM:buildCell()
    -- build
    self.inputGate = self:buildInputGate() 
    self.forgetGate = self:buildForgetGate()
    self.hiddenLayer = self:buildHidden()
-   -- forget = forgetGate{input1, input2, output(t-1), cell(t-1)} * cell(t-1)
+   -- forget = forgetGate{input, output(t-1), cell(t-1)} * cell(t-1)
    local forget = nn.Sequential()
    local concat = nn.ConcatTable()
-   concat:add(self.forgetGate):add(nn.SelectTable(4))
+   concat:add(self.forgetGate):add(nn.SelectTable(3))
    forget:add(concat)
    forget:add(nn.CMulTable())
    -- input = inputGate{input, output(t-1), cell(t-1)} * hiddenLayer{input, output(t-1), cell(t-1)}
@@ -104,28 +103,28 @@ function AdaLSTM:buildCell()
    return cell
 end   
    
-function AdaLSTM:buildOutputGate()
+function LSTM:buildOutputGate()
    self.outputGate = self:buildGate()
    return self.outputGate
 end
 
--- cell(t) = cellLayer{input1, input2, output(t-1), cell(t-1)}
--- output(t) = outputGate{input1, input2, output(t-1), cell(t)}*tanh(cell(t))
+-- cell(t) = cellLayer{input, output(t-1), cell(t-1)}
+-- output(t) = outputGate{input, output(t-1), cell(t)}*tanh(cell(t))
 -- output of Model is table : {output(t), cell(t)} 
-function AdaLSTM:buildModel()
+function LSTM:buildModel()
    -- build components
    self.cellLayer = self:buildCell()
    self.outputGate = self:buildOutputGate()
    -- assemble
    local concat = nn.ConcatTable()
-   concat:add(nn.NarrowTable(1,3)):add(self.cellLayer)
+   concat:add(nn.NarrowTable(1,2)):add(self.cellLayer)
    local model = nn.Sequential()
    model:add(concat)
-   -- output of concat is {{input1, input2 output}, cell(t)}, 
-   -- so flatten to {input1, input2, output, cell(t)}
+   -- output of concat is {{input, output}, cell(t)}, 
+   -- so flatten to {input, output, cell(t)}
    model:add(nn.FlattenTable())
    local cellAct = nn.Sequential()
-   cellAct:add(nn.SelectTable(4))
+   cellAct:add(nn.SelectTable(3))
    cellAct:add(nn.Tanh())
    local concat3 = nn.ConcatTable()
    concat3:add(self.outputGate):add(cellAct)
@@ -134,19 +133,19 @@ function AdaLSTM:buildModel()
    output:add(nn.CMulTable())
    -- we want the model to output : {output(t), cell(t)}
    local concat4 = nn.ConcatTable()
-   concat4:add(output):add(nn.SelectTable(4))
+   concat4:add(output):add(nn.SelectTable(3))
    model:add(concat4)
    return model
 end
 
 ------------------------- forward backward -----------------------------
-function AdaLSTM:updateOutput(input)
+function LSTM:updateOutput(input)
    local prevOutput, prevCell
    if self.step == 1 then
       prevOutput = self.userPrevOutput or self.zeroTensor
       prevCell = self.userPrevCell or self.zeroTensor
-      if input[1]:dim() == 2 then
-         self.zeroTensor:resize(input[1]:size(1), self.outputSize):zero()
+      if input:dim() == 2 then
+         self.zeroTensor:resize(input:size(1), self.outputSize):zero()
       else
          self.zeroTensor:resize(self.outputSize):zero()
       end
@@ -162,9 +161,9 @@ function AdaLSTM:updateOutput(input)
       self:recycle()
       local recurrentModule = self:getStepModule(self.step)
       -- the actual forward propagation
-      output, cell = unpack(recurrentModule:updateOutput{input[1], input[2], prevOutput, prevCell})
+      output, cell = unpack(recurrentModule:updateOutput{input, prevOutput, prevCell})
    else
-      output, cell = unpack(self.recurrentModule:updateOutput{input[1], input[2], prevOutput, prevCell})
+      output, cell = unpack(self.recurrentModule:updateOutput{input, prevOutput, prevCell})
    end
    
    self.outputs[self.step] = output
@@ -181,7 +180,7 @@ function AdaLSTM:updateOutput(input)
    return self.output
 end
 
-function AdaLSTM:_updateGradInput(input, gradOutput)
+function LSTM:_updateGradInput(input, gradOutput)
    assert(self.step > 1, "expecting at least one updateOutput")
    local step = self.updateGradInputStep - 1
    assert(step >= 1)
@@ -198,7 +197,7 @@ function AdaLSTM:_updateGradInput(input, gradOutput)
    
    local output = (step == 1) and (self.userPrevOutput or self.zeroTensor) or self.outputs[step-1]
    local cell = (step == 1) and (self.userPrevCell or self.zeroTensor) or self.cells[step-1]
-   local inputTable = {input[1], input[2], output, cell}
+   local inputTable = {input, output, cell}
    local gradCell = (step == self.step-1) and (self.userNextGradCell or self.zeroTensor) or self.gradCells[step]
    
    local gradInputTable = recurrentModule:updateGradInput(inputTable, {gradOutput, gradCell})
@@ -212,7 +211,7 @@ function AdaLSTM:_updateGradInput(input, gradOutput)
    return gradInput
 end
 
-function AdaLSTM:_accGradParameters(input, gradOutput, scale)
+function LSTM:_accGradParameters(input, gradOutput, scale)
    local step = self.accGradParametersStep - 1
    assert(step >= 1)
    
@@ -222,7 +221,7 @@ function AdaLSTM:_accGradParameters(input, gradOutput, scale)
    -- backward propagate through this step
    local output = (step == 1) and (self.userPrevOutput or self.zeroTensor) or self.outputs[step-1]
    local cell = (step == 1) and (self.userPrevCell or self.zeroTensor) or self.cells[step-1]
-   local inputTable = {input[1], input[2], output, cell}
+   local inputTable = {input, output, cell}
    local gradOutput = (step == self.step-1) and gradOutput or self._gradOutputs[step]
    local gradCell = (step == self.step-1) and (self.userNextGradCell or self.zeroTensor) or self.gradCells[step]
    local gradOutputTable = {gradOutput, gradCell}
