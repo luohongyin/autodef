@@ -145,7 +145,7 @@ function AdaSeq2Seq:train(input, target)
   return Edecoder
 end
 
-local MAX_OUTPUT_SIZE = 20
+local MAX_OUTPUT_SIZE = 30
 
 function AdaSeq2Seq:eval(input)
   assert(self.goToken, "No goToken specified")
