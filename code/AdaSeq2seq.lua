@@ -64,10 +64,12 @@ function AdaSeq2Seq:buildModel()
   self.LMModule:add(nn.Sequencer(nn.Linear(self.hiddenSize, self.vocabSize)))
   self.LMModule:add(nn.Sequencer(nn.LogSoftMax()))
   self.LMModule:zeroGradParameters()
+  --[[
   self.decoder2 = self.decoder:clone('weight', 'bias')
   self.MEMModule:add(self.decoder2)
   self.MEMModule:add(nn.JoinTable(1))
   self.MEMModule:zeroGradParameters()
+  ]]--
   self.zeroTensor = torch.Tensor(2):zero()
   
 end
@@ -75,13 +77,15 @@ end
 function AdaSeq2Seq:cuda()
   -- self.encoder:cuda()
   self.LMModule:cuda()
-  self.MEMModule:cuda()
+  --self.MEMModule:cuda()
   if self.criterion then
     self.criterion:cuda()
   end
+  --[[
   if self.MEMCriterion then
 	self.MEMCriterion:cuda()
   end
+  ]]--
 
   self.zeroTensor = self.zeroTensor:cuda()
 end
@@ -105,12 +109,13 @@ end
 function AdaSeq2Seq:train(input, target)
   local decoderInput = target:sub(1, -2)
   local decoderTarget = target:sub(2, -1)
+  decoderInput[1] = decoderInput[1]:zero()
 
   -- Forward pass
   -- self.encoder:forward(encoderInput)
   -- self:forwardConnect(encoderInput:size(1))
   local LMModelOutput = self.LMModule:forward({input, decoderInput})
-  local MEMOutput = self.MEMModule:forward({input, decoderInput})
+  --local MEMOutput = self.MEMModule:forward({input, decoderInput})
   local Edecoder = self.criterion:forward(LMModelOutput, decoderTarget)
 
   if Edecoder ~= Edecoder then -- Exist early on bad error
@@ -119,12 +124,14 @@ function AdaSeq2Seq:train(input, target)
 
   -- Backward pass
   local gEdec = self.criterion:backward(LMModelOutput, decoderTarget)
+  --[[
   local len = #LMModelOutput
   local inputTable = torch.Tensor(len, 400):cuda()
   for i = 1, len do
     inputTable[i] = input[1]
   end
   local mEdec = self.MEMCriterion:backward(MEMOutput, inputTable)
+  ]]--
   self.LMModule:backward({input, decoderInput}, gEdec)
   -- self:backwardConnect()
   -- self.encoder:backward(encoderInput, self.zeroTensor)
@@ -136,12 +143,14 @@ function AdaSeq2Seq:train(input, target)
   self.LMModule:zeroGradParameters()
 
   -- self.encoder:forget()
+  --[[
   self.MEMModule:backward({input, decoderInput}, mEdec)
   self.MEMModule:updateGradParameters(self.momentum)
   self.MEMModule:updateParameters(self.learningRate)
   self.MEMModule:zeroGradParameters()
-  self.LMModule:forget()
   self.MEMModule:forget()
+  ]]--
+  self.LMModule:forget()
   return Edecoder
 end
 
@@ -158,7 +167,7 @@ function AdaSeq2Seq:eval(input)
   local probabilities = {}
 
   -- Forward <go> and all of it's output recursively back to the decoder
-  local output = self.goToken
+  local output = self.goToken:zero()
   for i = 1, MAX_OUTPUT_SIZE do
     local prediction = self.LMModule:forward({input, torch.Tensor{output}})[1]
     -- prediction contains the probabilities for each word IDs.
