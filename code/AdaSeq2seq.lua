@@ -165,7 +165,7 @@ function AdaSeq2Seq:eval(input)
   local probabilities = {}
 
   -- Forward <go> and all of it's output recursively back to the decoder
-  local output = self.goToken:zero()
+  local output = self.goToken
   for i = 1, MAX_OUTPUT_SIZE do
     local prediction = self.LMModule:forward({input, torch.Tensor{output}})[1]
     -- prediction contains the probabilities for each word IDs.
