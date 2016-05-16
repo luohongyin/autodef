@@ -58,7 +58,7 @@ function AdaSeq2Seq:buildModel()
   ]]--
   self.decoder:add(nn.CAddTable())
   self.decoder:add(nn.SplitTable(1, 2))
-  self.decoderLSTM = nnLSTM(self.hiddenSize, self.hiddenSize)
+  self.decoderLSTM = nn.LSTM(self.hiddenSize, self.hiddenSize)
   self.decoder:add(nn.Sequencer(self.decoderLSTM))
   self.LMModule:add(self.decoder)
   self.LMModule:add(nn.Sequencer(nn.Linear(self.hiddenSize, self.vocabSize)))
