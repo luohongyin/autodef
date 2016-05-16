@@ -71,7 +71,6 @@ function AdaSeq2Seq:buildModel()
   self.MEMModule:zeroGradParameters()
   ]]--
   self.zeroTensor = torch.Tensor(2):zero()
-  
 end
 
 function AdaSeq2Seq:cuda()
@@ -109,7 +108,6 @@ end
 function AdaSeq2Seq:train(input, target)
   local decoderInput = target:sub(1, -2)
   local decoderTarget = target:sub(2, -1)
-  decoderInput[1] = decoderInput[1]:zero()
 
   -- Forward pass
   -- self.encoder:forward(encoderInput)
