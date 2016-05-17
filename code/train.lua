@@ -74,7 +74,7 @@ for epoch = 1, options.maxEpoch do
 		    table.insert(test_id, i)
       end
 
-	    if i % 1000 ~= 0 then
+	  if i % 1000 ~= 0 then
 	      local encoderInput = torch.Tensor(target:size()[1] - 1, 400)
         encoderInput[1] = input
 	      for i = 1, target:size()[1] - 1 do
@@ -96,7 +96,7 @@ for epoch = 1, options.maxEpoch do
 
         errors[i] = err
 	    end
-      -- xlua.progress(i, dataset.examplesCount)
+      xlua.progress(i, dataset.examplesCount)
       i = i + 1
     end
   end
