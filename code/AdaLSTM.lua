@@ -16,7 +16,7 @@ function LSTM:__init(inputSize, outputSize, rho, cell2gate)
    self.inputSize = inputSize
    self.outputSize = outputSize or inputSize
    -- build the model
-   self.cell2gate = (cell2gate == nil) and true or cell2gate
+   self.cell2gate = false
    self.recurrentModule = self:buildModel()
    -- make it work with nn.Container
    self.modules[1] = self.recurrentModule
@@ -36,8 +36,8 @@ function LSTM:buildGate()
    if not self.cell2gate then
       gate:add(nn.NarrowTable(1,2))
    end
-   -- local input2gate = nn.Linear(self.inputSize, self.outputSize)
-   local input2gate = nn.Dropout(0)
+   local input2gate = nn.Linear(self.inputSize, self.outputSize)
+   -- local input2gate = nn.Dropout(0)
    local output2gate = nn.LinearNoBias(self.outputSize, self.outputSize)
    local para = nn.ParallelTable()
    para:add(input2gate):add(output2gate) 
@@ -64,8 +64,8 @@ function LSTM:buildHidden()
    local hidden = nn.Sequential()
    -- input is {input, output(t-1), cell(t-1)}, but we only need {input, output(t-1)}
    hidden:add(nn.NarrowTable(1,2))
-   -- local input2hidden = nn.Linear(self.inputSize, self.outputSize)
-   local input2hidden = nn.Dropout(0)
+   local input2hidden = nn.Linear(self.inputSize, self.outputSize)
+   -- local input2hidden = nn.Dropout(0)
    local output2hidden = nn.LinearNoBias(self.outputSize, self.outputSize)
    local para = nn.ParallelTable()
    para:add(input2hidden):add(output2hidden)
