@@ -7,7 +7,7 @@ function LMLookupTable:__init(route, paddingValue)
    parent.__init(self)
    self.matrix = torch.load(route)
    self.weight = self.matrix
-   self.gradWeight = self.matrix:zero()
+   self.gradWeight = torch.Tensor():resizeAs(self.matrix):zero()
    self.paddingValue = paddingValue or 0
 
    self:reset()
