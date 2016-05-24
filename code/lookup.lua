@@ -11,7 +11,7 @@ function Lookup:updateOutput(input)
 end
 
 function Lookup:updateGradInput(input, gradOutput)
-   self.gradInput = gradOutput
+   self.gradInput:resizeAs(gradOutput):copy(gradOutput)
    return self.gradInput
 end
 
