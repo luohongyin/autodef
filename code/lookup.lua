@@ -18,7 +18,7 @@ function Lookup:updateGradInput(input, gradOutput)
    return self.gradInput
 end
 
-function Dropout:setp(p)
+function Lookup:setp(p)
    self.p = p
 end
 
