@@ -1,3 +1,4 @@
+-- Use word vectors as the weight of LookupTable
 local Lookup, Parent = torch.class('neuralconvo.Lookup', 'nn.Module')
 
 function Lookup:__init(route)
@@ -10,7 +11,8 @@ function Lookup:updateOutput(input)
 end
 
 function Lookup:updateGradInput(input, gradOutput)
-   return gradOutput
+   self.gradInput = gradOutput
+   return self.gradInput
 end
 
 function Lookup:clearState()
