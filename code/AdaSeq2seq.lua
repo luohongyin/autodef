@@ -23,7 +23,7 @@ function AdaSeq2Seq:buildModel()
   self.LMModule = nn.Sequential()
   self.MEMModule = nn.Sequential()
   local attentionModule = nn.Sequential()
-  lookupModule:add(nn.Lookup("../data/model/lm_vectors.t7"))
+  lookupModule:add(nn.LMLookupTable("../data/model/lm_vectors.t7"))
   lookupModule:add(nn.Linear(400, self.hiddenSize))
   
   --[[

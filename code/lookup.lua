@@ -1,9 +1,9 @@
 local THNN = require 'nn.THNN'
-local LookupTable, parent = torch.class('nn.LMLookupTable', 'nn.Module')
+local LMLookupTable, parent = torch.class('nn.LMLookupTable', 'nn.Module')
 
-LookupTable.__version = 4
+LMLookupTable.__version = 4
 
-function LookupTable:__init(route, paddingValue)
+function LMLookupTable:__init(route, paddingValue)
    parent.__init(self)
    self.matrix = torch.load(route)
    self.weight = self.matrix
@@ -13,7 +13,7 @@ function LookupTable:__init(route, paddingValue)
    self:reset()
 end
 
-function LookupTable:backCompatibility()
+function LMLookupTable:backCompatibility()
    self._count = self._count or torch.IntTensor()
    self._input = self._input or torch.LongTensor()
 
@@ -22,27 +22,27 @@ function LookupTable:backCompatibility()
    end
 end
 
-function LookupTable:accUpdateOnly()
+function LMLookupTable:accUpdateOnly()
    self.gradWeight = nil
    return self
 end
 
-function LookupTable:setPadding(paddingValue)
+function LMLookupTable:setPadding(paddingValue)
     self.paddingValue = paddingValue
     return self
 end
 
-function LookupTable:scaleGradByFreq()
+function LMLookupTable:scaleGradByFreq()
    self.shouldScaleGradByFreq = true
    return self
 end
 
-function LookupTable:reset(stdv)
+function LMLookupTable:reset(stdv)
    stdv = stdv or 1
    self.weight:normal(0, stdv)
 end
 
-function LookupTable:makeInputContiguous(input)
+function LMLookupTable:makeInputContiguous(input)
    -- make sure input is a contiguous torch.LongTensor
    if (not input:isContiguous()) or torch.type(input) ~= torch.type(self._input) then
       self.copiedInput = true
@@ -53,7 +53,7 @@ function LookupTable:makeInputContiguous(input)
    return input
 end
 
-function LookupTable:updateOutput(input)
+function LMLookupTable:updateOutput(input)
    self:backCompatibility()
    input = self:makeInputContiguous(input)
    if input:dim() == 1 then
@@ -67,7 +67,7 @@ function LookupTable:updateOutput(input)
    return self.output
 end
 
-function LookupTable:accGradParameters(input, gradOutput, scale)
+function LMLookupTable:accGradParameters(input, gradOutput, scale)
    self:backCompatibility()
    input = self.copiedInput and self._input or input
    if input:dim() == 2 then
@@ -95,7 +95,7 @@ function LookupTable:accGradParameters(input, gradOutput, scale)
    )
 end
 
-function LookupTable:type(type, tensorCache)
+function LMLookupTable:type(type, tensorCache)
    parent.type(self, type, tensorCache)
 
    if type == 'torch.CudaTensor' then
@@ -113,9 +113,10 @@ function LookupTable:type(type, tensorCache)
    return self
 end
 
-function LookupTable:clearState()
+function LMLookupTable:clearState()
    self._gradOutput = nil
    return self
 end
 
-LookupTable.sharedAccUpdateGradParameters = LookupTable.accUpdateGradParameters
+-- we do not need to accumulate parameters when sharing
+LMLookupTable.sharedAccUpdateGradParameters = LMLookupTable.accUpdateGradParameters
