@@ -1,4 +1,4 @@
-local Lookup, Parent = torch.class('nn.Lookup', 'nn.Module')
+local Lookup, Parent = torch.class('neuralconvo.Lookup', 'nn.Module')
 
 function Lookup:__init(route)
    self.weight = torch.load(route)
