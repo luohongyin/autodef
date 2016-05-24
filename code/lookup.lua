@@ -1,7 +1,11 @@
 -- Use word vectors as the weight of LookupTable
-local Lookup, Parent = torch.class('neuralconvo.Lookup', 'nn.Module')
+require "cutorch"
+require "cunn"
+
+local Lookup, Parent = torch.class('nn.Lookup', 'nn.Module')
 
 function Lookup:__init(route)
+   Parent.__init(self)
    self.weight = torch.load(route)
 end
 

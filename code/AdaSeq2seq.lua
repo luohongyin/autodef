@@ -23,7 +23,7 @@ function AdaSeq2Seq:buildModel()
   self.LMModule = nn.Sequential()
   self.MEMModule = nn.Sequential()
   local attentionModule = nn.Sequential()
-  lookupModule:add(neuralconvo.Lookup("../data/model/lm_vectors.t7"))
+  lookupModule:add(nn.Lookup("../data/model/lm_vectors.t7"))
   lookupModule:add(nn.Linear(400, self.hiddenSize))
   
   --[[
@@ -36,7 +36,7 @@ function AdaSeq2Seq:buildModel()
   samplingModule:add(nn.Sigmoid())
   samplingModule:add(nn.Sampling(2))
   ]]--
-  linearModule:add(nn.Dropout(0))
+  linearModule:add(nn.Linear(400, self.hiddenSize))
   para:add(linearModule):add(lookupModule)
   self.decoder = nn.Sequential()
   self.decoder:add(para)
