@@ -10,7 +10,7 @@ function Lookup:updateOutput(input)
 end
 
 function Lookup:updateGradInput(input, gradOutput)
-   return self.gradInput
+   return self.gradOutput
 end
 
 function Lookup:clearState()
