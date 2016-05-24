@@ -5,7 +5,7 @@ function Lookup:__init(route)
 end
 
 function Lookup:updateOutput(input)
-   self.output = self.weight:index(1, torch.LongTensor(input))
+   self.output = self.weight:index(1, torch.LongTensor(torch.totable(input)))
    return self.output
 end
 
@@ -18,7 +18,7 @@ function Lookup:updateGradInput(input, gradOutput)
    return self.gradInput
 end
 
-function Dropout:setp(p)
+function Lookup:setp(p)
    self.p = p
 end
 
