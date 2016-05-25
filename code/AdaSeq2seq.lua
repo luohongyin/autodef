@@ -23,7 +23,7 @@ function AdaSeq2Seq:buildModel()
   self.LMModule = nn.Sequential()
   self.MEMModule = nn.Sequential()
   local attentionModule = nn.Sequential()
-  lookupModule:add(nn.LMLookupTable("../data/model/lm_vectors.t7"))
+  -- lookupModule:add(nn.LMLookupTable("../data/model/lm_vectors.t7"))
   lookupModule:add(nn.Linear(400, self.hiddenSize))
   
   --[[
@@ -111,14 +111,15 @@ function AdaSeq2Seq:backwardConnect()
     nn.rnn.recursiveCopy(self.encoderLSTM.gradPrevOutput, self.decoderLSTM.userGradPrevOutput)
 end
 
-function AdaSeq2Seq:train(input, target)
-  local decoderInput = target:sub(1, -2)
+function AdaSeq2Seq:train(input, target, LMTarget)
+  -- local decoderInput = target:sub(1, -2)
   local decoderTarget = target:sub(2, -1)
+  local LMDecoerInput = LMTarget:sub(1, -2)
 
   -- Forward pass
   -- self.encoder:forward(encoderInput)
   -- self:forwardConnect(encoderInput:size(1))
-  local LMModelOutput = self.decoder:forward({input, decoderInput})
+  local LMModelOutput = self.decoder:forward({input, LMDecoderInput})
   --local MEMOutput = self.MEMModule:forward({input, decoderInput})
   local Edecoder = self.criterion:forward(LMModelOutput, decoderTarget)
 
@@ -171,8 +172,11 @@ function AdaSeq2Seq:eval(input)
   local probabilities = {}
 
   -- Forward <go> and all of it's output recursively back to the decoder
-  local output = self.goToken
+  local output = self.LMMatrix[self.goToken]
   for i = 1, MAX_OUTPUT_SIZE do
+    if i > 1 then
+      input = input:zero()
+    end
     local prediction = self.decoder:forward({input, torch.Tensor{output}})[1]
     -- prediction contains the probabilities for each word IDs.
     -- The index of the probability is the word ID.
@@ -186,6 +190,7 @@ function AdaSeq2Seq:eval(input)
       break
     end
 
+    output = self.LMMatrix[output]
     table.insert(predictions, wordIds)
     table.insert(probabilities, prob)
   end 
