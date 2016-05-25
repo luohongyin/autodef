@@ -82,6 +82,7 @@ end
 function AdaSeq2Seq:cuda()
   -- self.encoder:cuda()
   self.decoder:cuda()
+  self.LMMatrix:cuda()
   --self.MEMModule:cuda()
   if self.criterion then
     self.criterion:cuda()
@@ -112,14 +113,14 @@ function AdaSeq2Seq:backwardConnect()
 end
 
 function AdaSeq2Seq:train(input, target, LMTarget)
-  -- local decoderInput = target:sub(1, -2)
+  local input_net = input * 10
   local decoderTarget = target:sub(2, -1)
   local LMDecoderInput = LMTarget:sub(1, -2)
 
   -- Forward pass
   -- self.encoder:forward(encoderInput)
   -- self:forwardConnect(encoderInput:size(1))
-  local LMModelOutput = self.decoder:forward({input, LMDecoderInput})
+  local LMModelOutput = self.decoder:forward({input_net, LMDecoderInput})
   --local MEMOutput = self.MEMModule:forward({input, decoderInput})
   local Edecoder = self.criterion:forward(LMModelOutput, decoderTarget)
 
@@ -137,7 +138,7 @@ function AdaSeq2Seq:train(input, target, LMTarget)
   end
   local mEdec = self.MEMCriterion:backward(MEMOutput, inputTable)
   ]]--
-  self.decoder:backward({input, decoderInput}, gEdec)
+  self.decoder:backward({input_net, LMDecoderInput}, gEdec)
   -- self:backwardConnect()
   -- self.encoder:backward(encoderInput, self.zeroTensor)
   -- self.encoder:updateGradParameters(self.momentum)
@@ -174,10 +175,10 @@ function AdaSeq2Seq:eval(input)
   -- Forward <go> and all of it's output recursively back to the decoder
   local output = self.LMMatrix[self.goToken]
   for i = 1, MAX_OUTPUT_SIZE do
-    if i > 1 then
-      input = input:zero()
-    end
-    local prediction = self.decoder:forward({input, torch.Tensor{output}})[1]
+    -- if i > 1 then
+    --   input = input:zero()
+    -- end
+    local prediction = self.decoder:forward({input * 10, output:cuda()})[1]
     -- prediction contains the probabilities for each word IDs.
     -- The index of the probability is the word ID.
     local prob, wordIds = prediction:sort(1, true)

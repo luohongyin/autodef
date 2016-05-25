@@ -37,7 +37,7 @@ function LMLookupTable:scaleGradByFreq()
    return self
 end
 
-function LookupTable:reset(stdv)
+function LMLookupTable:reset(stdv)
    stdv = stdv or 1
    self.weight:normal(0, stdv)
 end

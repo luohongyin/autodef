@@ -37,7 +37,7 @@ print("         Examples: " .. dataset.examplesCount)
 model = neuralconvo.AdaSeq2Seq(dataset.wordsCount, options.hiddenSize)
 model.goToken = dataset.goToken
 model.eosToken = dataset.eosToken
-model.LMMatrix = torch.load("../data/model/lm_vectors.t7")
+model.LMMatrix = torch.load("../data/model/lm_vectors.t7") * 10
 
 -- Training parameters
 model.criterion = nn.SequencerCriterion(nn.ClassNLLCriterion())
@@ -68,7 +68,7 @@ for epoch = 1, options.maxEpoch do
 
     for _, example in ipairs(examples) do
       local input, target = unpack(example)
-      LMTarget = model.LMMatrix:index(1, target)
+      LMTarget = model.LMMatrix:index(1, torch.LongTensor(torch.totable(target)))
       if i % 1000 == 0 then
 		    vector = torch.Tensor(1, 400)
 		    vector[1] = example[1]
@@ -76,17 +76,18 @@ for epoch = 1, options.maxEpoch do
 		    table.insert(test_id, i)
       end
 
-	    if i % 1000 ~= 0 then
+	  
+	  if i % 1000 ~= 0 then
 	      local encoderInput = torch.Tensor(target:size()[1] - 1, 400)
-        encoderInput[1] = input
-	      for i = 2, target:size()[1] - 1 do
-	        encoderInput[i] = input:zero()
+          -- encoderInput[1] = input
+	      for i = 1, target:size()[1] - 1 do
+	        encoderInput[i]:copy(input)
 	      end
 
         if options.cuda then
           encoderInput = encoderInput:cuda()
           target = target:cuda()
-          model.LMMatrix = model.LMMatrix:cuda()
+		      LMTarget = LMTarget:cuda()
         end
 
         -- print(encoderInput:size())
@@ -127,7 +128,6 @@ for epoch = 1, options.maxEpoch do
 
   -- Load testing script
   require "eval"
-
   for i = 1, #test_examples do
     print("Test Example " .. i)
     say(test_examples[i][1])
