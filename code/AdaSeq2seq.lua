@@ -114,7 +114,7 @@ end
 function AdaSeq2Seq:train(input, target, LMTarget)
   -- local decoderInput = target:sub(1, -2)
   local decoderTarget = target:sub(2, -1)
-  local LMDecoerInput = LMTarget:sub(1, -2)
+  local LMDecoderInput = LMTarget:sub(1, -2)
 
   -- Forward pass
   -- self.encoder:forward(encoderInput)

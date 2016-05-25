@@ -86,6 +86,7 @@ for epoch = 1, options.maxEpoch do
         if options.cuda then
           encoderInput = encoderInput:cuda()
           target = target:cuda()
+          model.LMMatrix = model.LMMatrix:cuda()
         end
 
         -- print(encoderInput:size())
