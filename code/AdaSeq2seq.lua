@@ -61,7 +61,7 @@ function AdaSeq2Seq:buildModel()
   -- self.decoder:add(nn.JoinTable(2))
   self.decoder:add(nn.SplitTable(1, 2))
   -- self.encoderLSTM = nn.LSTM(self.hiddenSize, self.hiddenSize)
-  self.decoderLSTM = nn.LSTM(self.hiddenSize, self.hiddenSize)
+  self.decoderLSTM = nn.FastLSTM(self.hiddenSize, self.hiddenSize)
   -- self.LSTMModule = nn.Sequential()
   -- self.LSTMModule:add(self.encoderLSTM)
   -- self.LSTMModule:add(self.decoderLSTM)
@@ -175,9 +175,9 @@ function AdaSeq2Seq:eval(input)
   -- Forward <go> and all of it's output recursively back to the decoder
   local output = self.LMMatrix[self.goToken]
   for i = 1, MAX_OUTPUT_SIZE do
-    -- if i > 1 then
-    --   input = input:zero()
-    -- end
+    if i > 1 then
+      input:zero()
+    end
     local prediction = self.decoder:forward({input * 10, output:cuda()})[1]
     -- prediction contains the probabilities for each word IDs.
     -- The index of the probability is the word ID.
