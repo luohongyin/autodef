@@ -23,8 +23,8 @@ function AdaSeq2Seq:buildModel()
   self.LMModule = nn.Sequential()
   self.MEMModule = nn.Sequential()
   local attentionModule = nn.Sequential()
-  -- lookupModule:add(nn.LMLookupTable("../data/model/lm_vectors.t7"))
-  lookupModule:add(nn.Linear(400, self.hiddenSize))
+  lookupModule:add(nn.LookupTable(self.vocabSize, self.hiddenSize))
+  -- lookupModule:add(nn.Linear(400, self.hiddenSize))
   
   --[[
   self.encoderLSTM = nn.LSTM(self.hiddenSize, 400)
@@ -112,15 +112,14 @@ function AdaSeq2Seq:backwardConnect()
     nn.rnn.recursiveCopy(self.encoderLSTM.gradPrevOutput, self.decoderLSTM.userGradPrevOutput)
 end
 
-function AdaSeq2Seq:train(input, target, LMTarget)
-  local input_net = input * 10
+function AdaSeq2Seq:train(input, target)
+  local decoderInput = target:sub(1, -2)
   local decoderTarget = target:sub(2, -1)
-  local LMDecoderInput = LMTarget:sub(1, -2)
 
   -- Forward pass
   -- self.encoder:forward(encoderInput)
   -- self:forwardConnect(encoderInput:size(1))
-  local LMModelOutput = self.decoder:forward({input_net, LMDecoderInput})
+  local LMModelOutput = self.decoder:forward({input, decoderInput})
   --local MEMOutput = self.MEMModule:forward({input, decoderInput})
   local Edecoder = self.criterion:forward(LMModelOutput, decoderTarget)
 
@@ -138,7 +137,7 @@ function AdaSeq2Seq:train(input, target, LMTarget)
   end
   local mEdec = self.MEMCriterion:backward(MEMOutput, inputTable)
   ]]--
-  self.decoder:backward({input_net, LMDecoderInput}, gEdec)
+  self.decoder:backward({input, decoderInput}, gEdec)
   -- self:backwardConnect()
   -- self.encoder:backward(encoderInput, self.zeroTensor)
   -- self.encoder:updateGradParameters(self.momentum)
@@ -173,12 +172,12 @@ function AdaSeq2Seq:eval(input)
   local probabilities = {}
 
   -- Forward <go> and all of it's output recursively back to the decoder
-  local output = self.LMMatrix[self.goToken]
+  local output = self.goToken
   for i = 1, MAX_OUTPUT_SIZE do
     -- if i > 1 then
     --   input = input:zero()
     -- end
-    local prediction = self.decoder:forward({input * 10, output:cuda()})[1]
+    local prediction = self.decoder:forward({input, torch.Tensor({output})})[1]
     -- prediction contains the probabilities for each word IDs.
     -- The index of the probability is the word ID.
     local prob, wordIds = prediction:sort(1, true)
