@@ -7,3 +7,2971 @@ Dataset stats:
 
 -- Epoch 1 / 50	
 	
+
+Finished in 1h3m 23.603075732144 examples/sec.	
+
+Epoch stats:	
+           LR= 0.05	
+  Errors: min= 0	
+          max= 307.96506214142	
+       median= 55.031754493713	
+         mean= 64.295510846861	
+          std= 38.994893463305	
+
+(Saving model ...)	
+Test Example 1	
+>> Any of the family	
+1000	
+----------------------------------------	
+Test Example 2	
+>> The same time	
+2000	
+----------------------------------------	
+Test Example 3	
+>> An area	
+3000	
+----------------------------------------	
+Test Example 4	
+>> Any of the third or in the third or in the third or in the third or in the third or in the third or in the third or in	
+4000	
+----------------------------------------	
+Test Example 5	
+>> A source of the same species	
+5000	
+----------------------------------------	
+Test Example 6	
+>> The third base	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A vehicle	
+7000	
+----------------------------------------	
+Test Example 8	
+>> A single	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A ship	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A person	
+10000	
+----------------------------------------	
+Test Example 11	
+>> Any of the family	
+11000	
+----------------------------------------	
+Test Example 12	
+>> In the same	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A small	
+13000	
+----------------------------------------	
+Test Example 14	
+>> Type genus of the	
+14000	
+----------------------------------------	
+Test Example 15	
+>> The third base	
+15000	
+----------------------------------------	
+Test Example 16	
+>> A ball	
+16000	
+----------------------------------------	
+Test Example 17	
+>> A ship	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A small	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A ship	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A ship	
+20000	
+----------------------------------------	
+Test Example 21	
+>> An area	
+21000	
+----------------------------------------	
+Test Example 22	
+>> An area	
+22000	
+----------------------------------------	
+Test Example 23	
+>> A genus of the third of the third of the third of the third of the third of the third of the third of the third of the third of	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Be true	
+24000	
+----------------------------------------	
+Test Example 25	
+>> An area	
+25000	
+----------------------------------------	
+Test Example 26	
+>> An area	
+26000	
+----------------------------------------	
+Test Example 27	
+>> In the upper	
+27000	
+----------------------------------------	
+Test Example 28	
+>> In the same or	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A small	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Any of the family	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A hole	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus chrysanthemum	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A symptom of the third base	
+33000	
+----------------------------------------	
+Test Example 34	
+>> A ship	
+34000	
+----------------------------------------	
+Test Example 35	
+>> An aircraft	
+35000	
+----------------------------------------	
+Test Example 36	
+>> A ball and	
+36000	
+----------------------------------------	
+Test Example 37	
+>> The third base	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Any of the same family	
+38000	
+----------------------------------------	
+Test Example 39	
+>> A ship	
+39000	
+----------------------------------------	
+Test Example 40	
+>> A person	
+40000	
+----------------------------------------	
+Test Example 41	
+>> Any of the third or a source of the third or a source of the third or a source of the third or a source of the third or a	
+41000	
+----------------------------------------	
+Test Example 42	
+>> An area	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A ball	
+43000	
+----------------------------------------	
+Test Example 44	
+>> The third or a word	
+44000	
+----------------------------------------	
+Test Example 45	
+>> In the upper	
+45000	
+----------------------------------------	
+Test Example 46	
+>> A ship	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A ball	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A small	
+48000	
+----------------------------------------	
+Test Example 49	
+>> A ship	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A person	
+50000	
+----------------------------------------	
+Test Example 51	
+>> An essential for their growth	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A river	
+52000	
+----------------------------------------	
+Test Example 53	
+>> An area	
+53000	
+----------------------------------------	
+Test Example 54	
+>> A symptom	
+54000	
+----------------------------------------	
+Test Example 55	
+>> A ball and a ball and a ball and a ball and a ball and a ball and a ball and a ball and a ball and a ball and	
+55000	
+----------------------------------------	
+Test Example 56	
+>> In the same or	
+56000	
+----------------------------------------	
+Test Example 57	
+>> An area	
+57000	
+----------------------------------------	
+Test Example 58	
+>> An area	
+58000	
+----------------------------------------	
+Test Example 59	
+>> Any of the base	
+59000	
+----------------------------------------	
+Test Example 60	
+>> Genus of the family	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A source of a source of a source of a source of a source of a source of a source of a source of a source of a source of	
+61000	
+----------------------------------------	
+Test Example 62	
+>> English	
+62000	
+----------------------------------------	
+Test Example 63	
+>> Genus chrysanthemum	
+63000	
+----------------------------------------	
+Test Example 64	
+>> The third	
+64000	
+----------------------------------------	
+Test Example 65	
+>> The third base	
+65000	
+----------------------------------------	
+Test Example 66	
+>> An area	
+66000	
+----------------------------------------	
+Test Example 67	
+>> The third	
+67000	
+----------------------------------------	
+Test Example 68	
+>> An area	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A ship	
+69000	
+----------------------------------------	
+Test Example 70	
+>> A symptom of the spinal cord	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A small	
+71000	
+----------------------------------------	
+Test Example 72	
+>> An area	
+72000	
+----------------------------------------	
+Test Example 73	
+>> A vehicle	
+73000	
+----------------------------------------	
+Test Example 74	
+>> An area	
+74000	
+----------------------------------------	
+Test Example 75	
+>> A ship	
+75000	
+----------------------------------------	
+Test Example 76	
+>> An oil	
+76000	
+----------------------------------------	
+Test Example 77	
+>> A ship	
+77000	
+----------------------------------------	
+Test Example 78	
+>> An area	
+78000	
+----------------------------------------	
+Test Example 79	
+>> A small	
+79000	
+----------------------------------------	
+Test Example 80	
+>> An aircraft	
+80000	
+----------------------------------------	
+Test Example 81	
+>> Type genus of the third base	
+81000	
+----------------------------------------	
+Test Example 82	
+>> A ship	
+82000	
+----------------------------------------	
+Test Example 83	
+>> Type genus of the	
+83000	
+----------------------------------------	
+Test Example 84	
+>> In the same or	
+84000	
+----------------------------------------	
+Test Example 85	
+>> A source	
+85000	
+----------------------------------------	
+Test Example 86	
+>> A ball and a ball and a ball and a ball and a ball and a ball and a ball and a ball and a ball and a ball and	
+86000	
+----------------------------------------	
+Test Example 87	
+>> A strong	
+87000	
+----------------------------------------	
+Test Example 88	
+>> A small	
+88000	
+----------------------------------------	
+Test Example 89	
+>> A person	
+89000	
+----------------------------------------	
+
+-- Epoch 2 / 50	
+	
+
+Finished in 1h1m 24.189278237466 examples/sec.	
+
+Epoch stats:	
+           LR= 0.04750125	
+  Errors: min= 0	
+          max= 255.57581233978	
+       median= 48.235906124115	
+         mean= 56.497315631796	
+          std= 34.920492613657	
+
+(Saving model ...)	
+Test Example 1	
+>> Any of the first	
+1000	
+----------------------------------------	
+Test Example 2	
+>> An area	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A series of a series of a series of a series of a series of a series of a series of a series of a series of a series of	
+3000	
+----------------------------------------	
+Test Example 4	
+>> Any of a wall	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of a tree	
+5000	
+----------------------------------------	
+Test Example 6	
+>> The same	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A musical instruments	
+7000	
+----------------------------------------	
+Test Example 8	
+>> An area	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A ship	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A person	
+10000	
+----------------------------------------	
+Test Example 11	
+>> Any of the sea	
+11000	
+----------------------------------------	
+Test Example 12	
+>> In the number	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A ship	
+13000	
+----------------------------------------	
+Test Example 14	
+>> Type genus of the sea	
+14000	
+----------------------------------------	
+Test Example 15	
+>> A series of a series of a series of a series of a series of a series of a series of a series of a series of a series of	
+15000	
+----------------------------------------	
+Test Example 16	
+>> A light	
+16000	
+----------------------------------------	
+Test Example 17	
+>> A small or to the third	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A small white or to the third	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A ship	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A member of a member of a member of a member of a member of a member of a member of a member of a member of a member of	
+20000	
+----------------------------------------	
+Test Example 21	
+>> A sentence	
+21000	
+----------------------------------------	
+Test Example 22	
+>> An image	
+22000	
+----------------------------------------	
+Test Example 23	
+>> A family	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Be played by the line	
+24000	
+----------------------------------------	
+Test Example 25	
+>> An area	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A small or a small or a small or a small or a small or a small or a small or a small or a small or a small or	
+26000	
+----------------------------------------	
+Test Example 27	
+>> In the main memory with a small round	
+27000	
+----------------------------------------	
+Test Example 28	
+>> An acute	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A ball	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Any plant	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A vessel	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus chrysanthemum	
+32000	
+----------------------------------------	
+Test Example 33	
+>> An area	
+33000	
+----------------------------------------	
+Test Example 34	
+>> A small or a small or a small or a small or a small or a small or a small or a small or a small or a small or	
+34000	
+----------------------------------------	
+Test Example 35	
+>> An area	
+35000	
+----------------------------------------	
+Test Example 36	
+>> English	
+36000	
+----------------------------------------	
+Test Example 37	
+>> An opening	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Any of a plant	
+38000	
+----------------------------------------	
+Test Example 39	
+>> A ship	
+39000	
+----------------------------------------	
+Test Example 40	
+>> A ship	
+40000	
+----------------------------------------	
+Test Example 41	
+>> Any of the base	
+41000	
+----------------------------------------	
+Test Example 42	
+>> The body	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A ball	
+43000	
+----------------------------------------	
+Test Example 44	
+>> The line	
+44000	
+----------------------------------------	
+Test Example 45	
+>> In the base	
+45000	
+----------------------------------------	
+Test Example 46	
+>> A ship	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A light	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A small or to the center	
+48000	
+----------------------------------------	
+Test Example 49	
+>> A source of a source of a source of a source of a source of a source of a source of a source of a source of a source of	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A person	
+50000	
+----------------------------------------	
+Test Example 51	
+>> An essential for use of the production	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A river in the first	
+52000	
+----------------------------------------	
+Test Example 53	
+>> An area	
+53000	
+----------------------------------------	
+Test Example 54	
+>> An area	
+54000	
+----------------------------------------	
+Test Example 55	
+>> A small amounts of the flesh	
+55000	
+----------------------------------------	
+Test Example 56	
+>> Having a person	
+56000	
+----------------------------------------	
+Test Example 57	
+>> An acute	
+57000	
+----------------------------------------	
+Test Example 58	
+>> A book	
+58000	
+----------------------------------------	
+Test Example 59	
+>> Any of a plant	
+59000	
+----------------------------------------	
+Test Example 60	
+>> Genus chrysanthemum and some classification	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A ship	
+61000	
+----------------------------------------	
+Test Example 62	
+>> English	
+62000	
+----------------------------------------	
+Test Example 63	
+>> Genus of the family	
+63000	
+----------------------------------------	
+Test Example 64	
+>> The first president of the first president of the first president of the first president of the first president of the first president of the first president of the first	
+64000	
+----------------------------------------	
+Test Example 65	
+>> A series of a series of a series of a series of a series of a series of a series of a series of a series of a series of	
+65000	
+----------------------------------------	
+Test Example 66	
+>> An area	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Of the third	
+67000	
+----------------------------------------	
+Test Example 68	
+>> An area	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A ball	
+69000	
+----------------------------------------	
+Test Example 70	
+>> An oral contraceptive	
+70000	
+----------------------------------------	
+Test Example 71	
+>> A musical instruments	
+71000	
+----------------------------------------	
+Test Example 72	
+>> An area	
+72000	
+----------------------------------------	
+Test Example 73	
+>> A vehicle	
+73000	
+----------------------------------------	
+Test Example 74	
+>> An area	
+74000	
+----------------------------------------	
+Test Example 75	
+>> A ship	
+75000	
+----------------------------------------	
+Test Example 76	
+>> An explosive	
+76000	
+----------------------------------------	
+Test Example 77	
+>> A gun	
+77000	
+----------------------------------------	
+Test Example 78	
+>> An area	
+78000	
+----------------------------------------	
+Test Example 79	
+>> A ship	
+79000	
+----------------------------------------	
+Test Example 80	
+>> An engine and a liquid used as a liquid used as a liquid used as a liquid used as a liquid used as a liquid used as a liquid used	
+80000	
+----------------------------------------	
+Test Example 81	
+>> Type genus of a family	
+81000	
+----------------------------------------	
+Test Example 82	
+>> A ship	
+82000	
+----------------------------------------	
+Test Example 83	
+>> Type genus of the upper and some of the upper and some of the upper and some of the upper and some of the upper and some of the upper	
+83000	
+----------------------------------------	
+Test Example 84	
+>> Not necessarily	
+84000	
+----------------------------------------	
+Test Example 85	
+>> A ship	
+85000	
+----------------------------------------	
+Test Example 86	
+>> A light	
+86000	
+----------------------------------------	
+Test Example 87	
+>> A strong	
+87000	
+----------------------------------------	
+Test Example 88	
+>> A small white or in the first	
+88000	
+----------------------------------------	
+Test Example 89	
+>> A ship	
+89000	
+----------------------------------------	
+
+-- Epoch 3 / 50	
+	
+
+Finished in 1h2m 23.839803132914 examples/sec.	
+
+Epoch stats:	
+           LR= 0.0450025	
+  Errors: min= 0	
+          max= 243.45764732361	
+       median= 44.808408737183	
+         mean= 52.552818300915	
+          std= 32.843788114019	
+
+(Saving model ...)	
+Test Example 1	
+>> Any of a source of a source of a source of a source of a source of a source of a source of a source of a source of a	
+1000	
+----------------------------------------	
+Test Example 2	
+>> An event	
+2000	
+----------------------------------------	
+Test Example 3	
+>> The first to be true	
+3000	
+----------------------------------------	
+Test Example 4	
+>> Any of the lower	
+4000	
+----------------------------------------	
+Test Example 5	
+>> A small area	
+5000	
+----------------------------------------	
+Test Example 6	
+>> The third	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A system	
+7000	
+----------------------------------------	
+Test Example 8	
+>> An important	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A small or the same or the same or the same or the same or the same or the same or the same or the same or the same or	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A child	
+10000	
+----------------------------------------	
+Test Example 11	
+>> A fungus and used as well	
+11000	
+----------------------------------------	
+Test Example 12	
+>> In the use of the use of the use of the use of the use of the use of the use of the use of the use of the use	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A	
+13000	
+----------------------------------------	
+Test Example 14	
+>> A family	
+14000	
+----------------------------------------	
+Test Example 15	
+>> An order of the third	
+15000	
+----------------------------------------	
+Test Example 16	
+>> Any of a small or a small or a small or a small or a small or a small or a small or a small or a small or a	
+16000	
+----------------------------------------	
+Test Example 17	
+>> A	
+17000	
+----------------------------------------	
+Test Example 18	
+>> In the same species	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A ship	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A	
+20000	
+----------------------------------------	
+Test Example 21	
+>> An organization	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Not	
+22000	
+----------------------------------------	
+Test Example 23	
+>> Any of a member of a member of a member of a member of a member of a member of a member of a member of a member of a	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Make a	
+24000	
+----------------------------------------	
+Test Example 25	
+>> Any of the bone	
+25000	
+----------------------------------------	
+Test Example 26	
+>> The same or to be played	
+26000	
+----------------------------------------	
+Test Example 27	
+>> Having a small or as a small or as a small or as a small or as a small or as a small or as a small or as a	
+27000	
+----------------------------------------	
+Test Example 28	
+>> Having an event	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A long and a long and a long and a long and a long and a long and a long and a long and a long and a long and	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Any plant	
+30000	
+----------------------------------------	
+Test Example 31	
+>> Any of the upper side of the upper side of the upper side of the upper side of the upper side of the upper side of the upper side of	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of a fungus	
+32000	
+----------------------------------------	
+Test Example 33	
+>> An oral contraceptive	
+33000	
+----------------------------------------	
+Test Example 34	
+>> An area	
+34000	
+----------------------------------------	
+Test Example 35	
+>> An enemy	
+35000	
+----------------------------------------	
+Test Example 36	
+>> United states of a source of a source of a source of a source of a source of a source of a source of a source of a source of	
+36000	
+----------------------------------------	
+Test Example 37	
+>> An opening	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Any of a small white or the first to the first to the first to the first to the first to the first to the first to the first to	
+38000	
+----------------------------------------	
+Test Example 39	
+>> A small or the first	
+39000	
+----------------------------------------	
+Test Example 40	
+>> A ship	
+40000	
+----------------------------------------	
+Test Example 41	
+>> Any of a fungus of a fungus of a fungus of a fungus of a fungus of a fungus of a fungus of a fungus of a fungus of a	
+41000	
+----------------------------------------	
+Test Example 42	
+>> The first	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A gun	
+43000	
+----------------------------------------	
+Test Example 44	
+>> The use	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a	
+45000	
+----------------------------------------	
+Test Example 46	
+>> A ship	
+46000	
+----------------------------------------	
+Test Example 47	
+>> Any of the first amendment to the first amendment to the first amendment to the first amendment to the first amendment to the first amendment to the first amendment to	
+47000	
+----------------------------------------	
+Test Example 48	
+>> An automobile	
+48000	
+----------------------------------------	
+Test Example 49	
+>> English	
+49000	
+----------------------------------------	
+Test Example 50	
+>> English	
+50000	
+----------------------------------------	
+Test Example 51	
+>> An antibody	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A river in the first president	
+52000	
+----------------------------------------	
+Test Example 53	
+>> An area	
+53000	
+----------------------------------------	
+Test Example 54	
+>> An organ	
+54000	
+----------------------------------------	
+Test Example 55	
+>> A bottle	
+55000	
+----------------------------------------	
+Test Example 56	
+>> In a	
+56000	
+----------------------------------------	
+Test Example 57	
+>> An ulcer	
+57000	
+----------------------------------------	
+Test Example 58	
+>> An order to the number of the number of the number of the number of the number of the number of the number of the number of the number of	
+58000	
+----------------------------------------	
+Test Example 59	
+>> Any of a small white or the highest in the highest in the highest in the highest in the highest in the highest in the highest in the highest in	
+59000	
+----------------------------------------	
+Test Example 60	
+>> Genus of a fungus of a fungus of a fungus of a fungus of a fungus of a fungus of a fungus of a fungus of a fungus of a	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A source of a source of a source of a source of a source of a source of a source of a source of a source of a source of	
+61000	
+----------------------------------------	
+Test Example 62	
+>> English	
+62000	
+----------------------------------------	
+Test Example 63	
+>> Genus of a fungus	
+63000	
+----------------------------------------	
+Test Example 64	
+>> The first president of the first president of the first president of the first president of the first president of the first president of the first president of the first	
+64000	
+----------------------------------------	
+Test Example 65	
+>> An order	
+65000	
+----------------------------------------	
+Test Example 66	
+>> An aircraft	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Of the official languages	
+67000	
+----------------------------------------	
+Test Example 68	
+>> An event	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A ship	
+69000	
+----------------------------------------	
+Test Example 70	
+>> Inflammation of the skin	
+70000	
+----------------------------------------	
+Test Example 71	
+>> Music	
+71000	
+----------------------------------------	
+Test Example 72	
+>> An area of the black	
+72000	
+----------------------------------------	
+Test Example 73	
+>> A ship of the use of the use of the use of the use of the use of the use of the use of the use of the use of	
+73000	
+----------------------------------------	
+Test Example 74	
+>> Of a person	
+74000	
+----------------------------------------	
+Test Example 75	
+>> A ship	
+75000	
+----------------------------------------	
+Test Example 76	
+>> An oil	
+76000	
+----------------------------------------	
+Test Example 77	
+>> A place	
+77000	
+----------------------------------------	
+Test Example 78	
+>> Not	
+78000	
+----------------------------------------	
+Test Example 79	
+>> In the same or the same or the same or the same or the same or the same or the same or the same or the same or the same	
+79000	
+----------------------------------------	
+Test Example 80	
+>> An engine	
+80000	
+----------------------------------------	
+Test Example 81	
+>> Type of a source of a source of a source of a source of a source of a source of a source of a source of a source of a	
+81000	
+----------------------------------------	
+Test Example 82	
+>> A room	
+82000	
+----------------------------------------	
+Test Example 83	
+>> Type of a family	
+83000	
+----------------------------------------	
+Test Example 84	
+>> Not having no emotion	
+84000	
+----------------------------------------	
+Test Example 85	
+>> An engine	
+85000	
+----------------------------------------	
+Test Example 86	
+>> A small amounts of a small amounts of a small amounts of a small amounts of a small amounts of a small amounts of a small amounts of a small	
+86000	
+----------------------------------------	
+Test Example 87	
+>> An animal	
+87000	
+----------------------------------------	
+Test Example 88	
+>> A small	
+88000	
+----------------------------------------	
+Test Example 89	
+>> A small	
+89000	
+----------------------------------------	
+
+-- Epoch 4 / 50	
+	
+
+Finished in 1h2m 23.804677171044 examples/sec.	
+
+Epoch stats:	
+           LR= 0.04250375	
+  Errors: min= 0	
+          max= 230.6488776207	
+       median= 42.213297843933	
+         mean= 49.555396106165	
+          std= 31.212801735764	
+
+(Saving model ...)	
+Test Example 1	
+>> Any plant	
+1000	
+----------------------------------------	
+Test Example 2	
+>> An idea	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A place	
+3000	
+----------------------------------------	
+Test Example 4	
+>> Any of the stem	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of the first	
+5000	
+----------------------------------------	
+Test Example 6	
+>> The same species	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A computer	
+7000	
+----------------------------------------	
+Test Example 8	
+>> The first to the first to the first to the first to the first to the first to the first to the first to the first to the first to	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A ship	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A person	
+10000	
+----------------------------------------	
+Test Example 11	
+>> Any plant	
+11000	
+----------------------------------------	
+Test Example 12	
+>> In a great power	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A	
+13000	
+----------------------------------------	
+Test Example 14	
+>> Type	
+14000	
+----------------------------------------	
+Test Example 15	
+>> An important in the third to the third to the third to the third to the third to the third to the third to the third to the third to	
+15000	
+----------------------------------------	
+Test Example 16	
+>> A	
+16000	
+----------------------------------------	
+Test Example 17	
+>> A particular	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A garment	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A place	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A small	
+20000	
+----------------------------------------	
+Test Example 21	
+>> An event	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Not necessarily	
+22000	
+----------------------------------------	
+Test Example 23	
+>> Any of the first to the first to the first to the first to the first to the first to the first to the first to the first to the	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Make a new york	
+24000	
+----------------------------------------	
+Test Example 25	
+>> The bone marrow	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A ship	
+26000	
+----------------------------------------	
+Test Example 27	
+>> Having a wall	
+27000	
+----------------------------------------	
+Test Example 28	
+>> Showing the same	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A band	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Any plant	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of the family	
+32000	
+----------------------------------------	
+Test Example 33	
+>> The body of the body of the body of the body of the body of the body of the body of the body of the body of the body of	
+33000	
+----------------------------------------	
+Test Example 34	
+>> The same	
+34000	
+----------------------------------------	
+Test Example 35	
+>> An enemy	
+35000	
+----------------------------------------	
+Test Example 36	
+>> English	
+36000	
+----------------------------------------	
+Test Example 37	
+>> The body	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Any of the first to the first to the first to the first to the first to the first to the first to the first to the first to the	
+38000	
+----------------------------------------	
+Test Example 39	
+>> A place	
+39000	
+----------------------------------------	
+Test Example 40	
+>> A ship	
+40000	
+----------------------------------------	
+Test Example 41	
+>> Any of the hair	
+41000	
+----------------------------------------	
+Test Example 42	
+>> The use	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A gun	
+43000	
+----------------------------------------	
+Test Example 44	
+>> The meaning	
+44000	
+----------------------------------------	
+Test Example 45	
+>> In a wall	
+45000	
+----------------------------------------	
+Test Example 46	
+>> A ship	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A sudden and a sudden and a sudden and a sudden and a sudden and a sudden and a sudden and a sudden and a sudden and a sudden and	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A long and a long and a long and a long and a long and a long and a long and a long and a long and a long and	
+48000	
+----------------------------------------	
+Test Example 49	
+>> A small	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A woman	
+50000	
+----------------------------------------	
+Test Example 51	
+>> An antibody	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A river	
+52000	
+----------------------------------------	
+Test Example 53	
+>> An increase in the first day	
+53000	
+----------------------------------------	
+Test Example 54	
+>> In the blood in the blood in the blood in the blood in the blood in the blood in the blood in the blood in the blood in the blood	
+54000	
+----------------------------------------	
+Test Example 55	
+>> A dish	
+55000	
+----------------------------------------	
+Test Example 56	
+>> Showing the same species	
+56000	
+----------------------------------------	
+Test Example 57	
+>> An acute and the ear	
+57000	
+----------------------------------------	
+Test Example 58	
+>> A specific information about a specific information about a specific information about a specific information about a specific information about a specific information about a specific information about a specific	
+58000	
+----------------------------------------	
+Test Example 59	
+>> Any of a variety of a variety of a variety of a variety of a variety of a variety of a variety of a variety of a variety of a	
+59000	
+----------------------------------------	
+Test Example 60	
+>> Genus of a group	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A small amounts	
+61000	
+----------------------------------------	
+Test Example 62	
+>> English	
+62000	
+----------------------------------------	
+Test Example 63	
+>> Any of the largest	
+63000	
+----------------------------------------	
+Test Example 64	
+>> The first president of the first president of the first president of the first president of the first president of the first president of the first president of the first	
+64000	
+----------------------------------------	
+Test Example 65	
+>> In the same species	
+65000	
+----------------------------------------	
+Test Example 66	
+>> An act	
+66000	
+----------------------------------------	
+Test Example 67	
+>> The th century	
+67000	
+----------------------------------------	
+Test Example 68	
+>> An official	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A line	
+69000	
+----------------------------------------	
+Test Example 70	
+>> Inflammation of the skin	
+70000	
+----------------------------------------	
+Test Example 71	
+>> Music	
+71000	
+----------------------------------------	
+Test Example 72	
+>> A place	
+72000	
+----------------------------------------	
+Test Example 73	
+>> A ship	
+73000	
+----------------------------------------	
+Test Example 74	
+>> An offender	
+74000	
+----------------------------------------	
+Test Example 75	
+>> A gun	
+75000	
+----------------------------------------	
+Test Example 76	
+>> An oral	
+76000	
+----------------------------------------	
+Test Example 77	
+>> A ship	
+77000	
+----------------------------------------	
+Test Example 78	
+>> Not necessarily a person	
+78000	
+----------------------------------------	
+Test Example 79	
+>> The third	
+79000	
+----------------------------------------	
+Test Example 80	
+>> The first atomic	
+80000	
+----------------------------------------	
+Test Example 81	
+>> Type genus of the upper respiratory	
+81000	
+----------------------------------------	
+Test Example 82	
+>> A building	
+82000	
+----------------------------------------	
+Test Example 83	
+>> A family	
+83000	
+----------------------------------------	
+Test Example 84	
+>> Not having no emotion	
+84000	
+----------------------------------------	
+Test Example 85	
+>> A gun	
+85000	
+----------------------------------------	
+Test Example 86	
+>> A small	
+86000	
+----------------------------------------	
+Test Example 87	
+>> An animal	
+87000	
+----------------------------------------	
+Test Example 88	
+>> Any of the first	
+88000	
+----------------------------------------	
+Test Example 89	
+>> A small or a small or a small or a small or a small or a small or a small or a small or a small or a small or	
+89000	
+----------------------------------------	
+
+-- Epoch 5 / 50	
+	
+
+Finished in 1h3m 23.514264704161 examples/sec.	
+
+Epoch stats:	
+           LR= 0.040005	
+  Errors: min= 0	
+          max= 210.26701784134	
+       median= 39.954368591309	
+         mean= 47.047064104706	
+          std= 29.789408069567	
+
+(Saving model ...)	
+Test Example 1	
+>> Any of the fruit	
+1000	
+----------------------------------------	
+Test Example 2	
+>> An event	
+2000	
+----------------------------------------	
+Test Example 3	
+>> The first place	
+3000	
+----------------------------------------	
+Test Example 4	
+>> Any of the base	
+4000	
+----------------------------------------	
+Test Example 5	
+>> Any of the first class of the first class of the first class of the first class of the first class of the first class of the first class of	
+5000	
+----------------------------------------	
+Test Example 6	
+>> The third base in the third base in the third base in the third base in the third base in the third base in the third base in the third	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A system	
+7000	
+----------------------------------------	
+Test Example 8	
+>> The fruit	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A chain	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A person	
+10000	
+----------------------------------------	
+Test Example 11	
+>> Genus of the family	
+11000	
+----------------------------------------	
+Test Example 12	
+>> In the time	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A small and a small and a small and a small and a small and a small and a small and a small and a small and a small and	
+13000	
+----------------------------------------	
+Test Example 14	
+>> Type	
+14000	
+----------------------------------------	
+Test Example 15	
+>> The third	
+15000	
+----------------------------------------	
+Test Example 16	
+>> A a a a a a a a a a a a a a a a a a a a a a a a a a a a a a	
+16000	
+----------------------------------------	
+Test Example 17	
+>> A small arms	
+17000	
+----------------------------------------	
+Test Example 18	
+>> In the same	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A single	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A new england	
+20000	
+----------------------------------------	
+Test Example 21	
+>> An earlier	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Having an object	
+22000	
+----------------------------------------	
+Test Example 23	
+>> Any of the family	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Be used as a specific	
+24000	
+----------------------------------------	
+Test Example 25	
+>> Any of the bone marrow	
+25000	
+----------------------------------------	
+Test Example 26	
+>> The first	
+26000	
+----------------------------------------	
+Test Example 27	
+>> Having a triangle	
+27000	
+----------------------------------------	
+Test Example 28	
+>> An order	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A small white and a small white and a small white and a small white and a small white and a small white and a small white and a small	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Any plant	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A small round	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus chrysanthemum	
+32000	
+----------------------------------------	
+Test Example 33	
+>> An electric shock the blood vessels	
+33000	
+----------------------------------------	
+Test Example 34	
+>> A small pieces	
+34000	
+----------------------------------------	
+Test Example 35	
+>> An activity	
+35000	
+----------------------------------------	
+Test Example 36	
+>> French and a piano	
+36000	
+----------------------------------------	
+Test Example 37	
+>> An opening	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Any of the fruit of the fruit of the fruit of the fruit of the fruit of the fruit of the fruit of the fruit of the fruit of the	
+38000	
+----------------------------------------	
+Test Example 39	
+>> A small and a small and a small and a small and a small and a small and a small and a small and a small and a small and	
+39000	
+----------------------------------------	
+Test Example 40	
+>> A small pieces	
+40000	
+----------------------------------------	
+Test Example 41	
+>> Any of the skin	
+41000	
+----------------------------------------	
+Test Example 42	
+>> The use of the use of the use of the use of the use of the use of the use of the use of the use of the use of	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A lever	
+43000	
+----------------------------------------	
+Test Example 44	
+>> The third	
+44000	
+----------------------------------------	
+Test Example 45	
+>> In the same species	
+45000	
+----------------------------------------	
+Test Example 46	
+>> A ship	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A small white or to the sun	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A brush	
+48000	
+----------------------------------------	
+Test Example 49	
+>> A small to the same	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A piano	
+50000	
+----------------------------------------	
+Test Example 51	
+>> An oil	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A single the first to the first to the first to the first to the first to the first to the first to the first to the first to the	
+52000	
+----------------------------------------	
+Test Example 53	
+>> An ideal	
+53000	
+----------------------------------------	
+Test Example 54	
+>> Any of the first	
+54000	
+----------------------------------------	
+Test Example 55	
+>> French and a thin crisp	
+55000	
+----------------------------------------	
+Test Example 56	
+>> In the same	
+56000	
+----------------------------------------	
+Test Example 57	
+>> An infant	
+57000	
+----------------------------------------	
+Test Example 58	
+>> An organism	
+58000	
+----------------------------------------	
+Test Example 59	
+>> Any of the highest mountain and a variety of the highest mountain and a variety of the highest mountain and a variety of the highest mountain and a variety of	
+59000	
+----------------------------------------	
+Test Example 60	
+>> Genus of the family	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A small grains	
+61000	
+----------------------------------------	
+Test Example 62	
+>> English and a	
+62000	
+----------------------------------------	
+Test Example 63	
+>> Genus of the family	
+63000	
+----------------------------------------	
+Test Example 64	
+>> Russian	
+64000	
+----------------------------------------	
+Test Example 65	
+>> The third of the third of the third of the third of the third of the third of the third of the third of the third of the third of	
+65000	
+----------------------------------------	
+Test Example 66	
+>> An organization	
+66000	
+----------------------------------------	
+Test Example 67	
+>> A language	
+67000	
+----------------------------------------	
+Test Example 68	
+>> The same	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A chain	
+69000	
+----------------------------------------	
+Test Example 70	
+>> Inflammation of the face	
+70000	
+----------------------------------------	
+Test Example 71	
+>> Music	
+71000	
+----------------------------------------	
+Test Example 72	
+>> An ancient rome	
+72000	
+----------------------------------------	
+Test Example 73	
+>> A vehicle	
+73000	
+----------------------------------------	
+Test Example 74	
+>> Of the same	
+74000	
+----------------------------------------	
+Test Example 75	
+>> A small boats	
+75000	
+----------------------------------------	
+Test Example 76	
+>> An alcohol and used to the skin	
+76000	
+----------------------------------------	
+Test Example 77	
+>> A vehicle	
+77000	
+----------------------------------------	
+Test Example 78	
+>> An enemy	
+78000	
+----------------------------------------	
+Test Example 79	
+>> A line	
+79000	
+----------------------------------------	
+Test Example 80	
+>> A nuclear weapons	
+80000	
+----------------------------------------	
+Test Example 81	
+>> Type genus of the family	
+81000	
+----------------------------------------	
+Test Example 82	
+>> A company	
+82000	
+----------------------------------------	
+Test Example 83	
+>> Type	
+83000	
+----------------------------------------	
+Test Example 84	
+>> Not necessarily	
+84000	
+----------------------------------------	
+Test Example 85	
+>> A gun	
+85000	
+----------------------------------------	
+Test Example 86	
+>> A small grains	
+86000	
+----------------------------------------	
+Test Example 87	
+>> Young adults on the human being	
+87000	
+----------------------------------------	
+Test Example 88	
+>> Any of the wind	
+88000	
+----------------------------------------	
+Test Example 89	
+>> A small or to the first to the first to the first to the first to the first to the first to the first to the first to the first	
+89000	
+----------------------------------------	
+
+-- Epoch 6 / 50	
+	
+
+Finished in 1h3m 23.651794244309 examples/sec.	
+
+Epoch stats:	
+           LR= 0.03750625	
+  Errors: min= 0	
+          max= 202.92002344131	
+       median= 38.007431983948	
+         mean= 44.739418539642	
+          std= 28.443055295212	
+
+(Saving model ...)	
+Test Example 1	
+>> Any of the fruit	
+1000	
+----------------------------------------	
+Test Example 2	
+>> The use of the use of the use of the use of the use of the use of the use of the use of the use of the use of	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A series	
+3000	
+----------------------------------------	
+Test Example 4	
+>> Any of the stem	
+4000	
+----------------------------------------	
+Test Example 5	
+>> A small white or the fruit	
+5000	
+----------------------------------------	
+Test Example 6	
+>> The number of the number of the number of the number of the number of the number of the number of the number of the number of the number of	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A system	
+7000	
+----------------------------------------	
+Test Example 8	
+>> Of the fruit	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A chain	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A person	
+10000	
+----------------------------------------	
+Test Example 11	
+>> Genus are used in the family	
+11000	
+----------------------------------------	
+Test Example 12	
+>> In the time	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A rope	
+13000	
+----------------------------------------	
+Test Example 14	
+>> Type genus of the family	
+14000	
+----------------------------------------	
+Test Example 15	
+>> The third base	
+15000	
+----------------------------------------	
+Test Example 16	
+>> A bell in the first	
+16000	
+----------------------------------------	
+Test Example 17	
+>> A body of the third base	
+17000	
+----------------------------------------	
+Test Example 18	
+>> Having a small to the same	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A place	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A new zealand	
+20000	
+----------------------------------------	
+Test Example 21	
+>> The same as a trial	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Not having a specific conditions of the use of the use of the use of the use of the use of the use of the use of the use of	
+22000	
+----------------------------------------	
+Test Example 23	
+>> Any of the family	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Be true	
+24000	
+----------------------------------------	
+Test Example 25	
+>> An abnormal red blood pressure	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A ship	
+26000	
+----------------------------------------	
+Test Example 27	
+>> Having a cross	
+27000	
+----------------------------------------	
+Test Example 28	
+>> Showing an angel and a person	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A band	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Any of the fruit	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A small or in the thumb	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of the family of the family of the family of the family of the family of the family of the family of the family of the family of the	
+32000	
+----------------------------------------	
+Test Example 33	
+>> An organism	
+33000	
+----------------------------------------	
+Test Example 34	
+>> A sudden change in the water	
+34000	
+----------------------------------------	
+Test Example 35	
+>> An aircraft	
+35000	
+----------------------------------------	
+Test Example 36	
+>> French and a womans	
+36000	
+----------------------------------------	
+Test Example 37	
+>> A part of the main sensory the main sensory the main sensory the main sensory the main sensory the main sensory the main sensory the main sensory the main sensory	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Any of the fruit	
+38000	
+----------------------------------------	
+Test Example 39	
+>> A street	
+39000	
+----------------------------------------	
+Test Example 40	
+>> A ship	
+40000	
+----------------------------------------	
+Test Example 41	
+>> Any of the skin	
+41000	
+----------------------------------------	
+Test Example 42	
+>> The use of the use of the use of the use of the use of the use of the use of the use of the use of the use of	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A lever	
+43000	
+----------------------------------------	
+Test Example 44	
+>> The third base	
+44000	
+----------------------------------------	
+Test Example 45	
+>> In the stem	
+45000	
+----------------------------------------	
+Test Example 46	
+>> A ship	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A sudden and a sudden and a sudden and a sudden and a sudden and a sudden and a sudden and a sudden and a sudden and a sudden and	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A long	
+48000	
+----------------------------------------	
+Test Example 49	
+>> A person	
+49000	
+----------------------------------------	
+Test Example 50	
+>> English and a woman	
+50000	
+----------------------------------------	
+Test Example 51	
+>> An organism	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A river in a river in a river in a river in a river in a river in a river in a river in a river in a river in	
+52000	
+----------------------------------------	
+Test Example 53	
+>> A total body of the time	
+53000	
+----------------------------------------	
+Test Example 54	
+>> Inflammation of the first	
+54000	
+----------------------------------------	
+Test Example 55	
+>> French and a womans and a womans and a womans and a womans and a womans and a womans and a womans and a womans and a womans and a	
+55000	
+----------------------------------------	
+Test Example 56	
+>> Having a strong and a strong and a strong and a strong and a strong and a strong and a strong and a strong and a strong and a strong	
+56000	
+----------------------------------------	
+Test Example 57	
+>> An acute	
+57000	
+----------------------------------------	
+Test Example 58	
+>> A particular purpose	
+58000	
+----------------------------------------	
+Test Example 59	
+>> Any of the highest in the highest in the highest in the highest in the highest in the highest in the highest in the highest in the highest in the	
+59000	
+----------------------------------------	
+Test Example 60	
+>> Genus of the family	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A small or a small or a small or a small or a small or a small or a small or a small or a small or a small or	
+61000	
+----------------------------------------	
+Test Example 62	
+>> English and a woman	
+62000	
+----------------------------------------	
+Test Example 63	
+>> Genus cassia to the family of the family of the family of the family of the family of the family of the family of the family of the family of	
+63000	
+----------------------------------------	
+Test Example 64	
+>> Russian member of the body of the body of the body of the body of the body of the body of the body of the body of the body of	
+64000	
+----------------------------------------	
+Test Example 65	
+>> In the third base	
+65000	
+----------------------------------------	
+Test Example 66	
+>> An activity	
+66000	
+----------------------------------------	
+Test Example 67	
+>> Of the third to the third to the third to the third to the third to the third to the third to the third to the third to the third	
+67000	
+----------------------------------------	
+Test Example 68	
+>> The same ownership	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A line	
+69000	
+----------------------------------------	
+Test Example 70	
+>> Inflammation of the eye	
+70000	
+----------------------------------------	
+Test Example 71	
+>> Music	
+71000	
+----------------------------------------	
+Test Example 72	
+>> An area of the third base of the third base of the third base of the third base of the third base of the third base of the third base	
+72000	
+----------------------------------------	
+Test Example 73	
+>> A vehicle	
+73000	
+----------------------------------------	
+Test Example 74	
+>> The same ownership	
+74000	
+----------------------------------------	
+Test Example 75	
+>> A chain	
+75000	
+----------------------------------------	
+Test Example 76	
+>> An action	
+76000	
+----------------------------------------	
+Test Example 77	
+>> A vehicle	
+77000	
+----------------------------------------	
+Test Example 78	
+>> Not having a strong emotion	
+78000	
+----------------------------------------	
+Test Example 79	
+>> In the line	
+79000	
+----------------------------------------	
+Test Example 80	
+>> A nuclear weapons	
+80000	
+----------------------------------------	
+Test Example 81	
+>> Type of the family	
+81000	
+----------------------------------------	
+Test Example 82	
+>> A room	
+82000	
+----------------------------------------	
+Test Example 83	
+>> Type genus of the family	
+83000	
+----------------------------------------	
+Test Example 84	
+>> Not having a drug	
+84000	
+----------------------------------------	
+Test Example 85	
+>> A large powerful	
+85000	
+----------------------------------------	
+Test Example 86	
+>> A small grains	
+86000	
+----------------------------------------	
+Test Example 87	
+>> An adult in the male and a human beings	
+87000	
+----------------------------------------	
+Test Example 88	
+>> Any of the stem	
+88000	
+----------------------------------------	
+Test Example 89	
+>> A ship	
+89000	
+----------------------------------------	
+
+-- Epoch 7 / 50	
+	
+
+Finished in 1h3m 23.675282942187 examples/sec.	
+
+Epoch stats:	
+           LR= 0.0350075	
+  Errors: min= 0	
+          max= 195.98447465897	
+       median= 36.240005016327	
+         mean= 42.655836359359	
+          std= 27.209520738489	
+
+(Saving model ...)	
+Test Example 1	
+>> Any of the skin	
+1000	
+----------------------------------------	
+Test Example 2	
+>> The use of the use of the use of the use of the use of the use of the use of the use of the use of the use of	
+2000	
+----------------------------------------	
+Test Example 3	
+>> A whole	
+3000	
+----------------------------------------	
+Test Example 4	
+>> Any of the stem	
+4000	
+----------------------------------------	
+Test Example 5	
+>> A small fish	
+5000	
+----------------------------------------	
+Test Example 6	
+>> A person	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A system	
+7000	
+----------------------------------------	
+Test Example 8	
+>> The same and a whole	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A chain	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A woman	
+10000	
+----------------------------------------	
+Test Example 11	
+>> Any of the family	
+11000	
+----------------------------------------	
+Test Example 12	
+>> In a person	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A small	
+13000	
+----------------------------------------	
+Test Example 14	
+>> Type	
+14000	
+----------------------------------------	
+Test Example 15	
+>> A book	
+15000	
+----------------------------------------	
+Test Example 16	
+>> A bell in a bell in a bell in a bell in a bell in a bell in a bell in a bell in a bell in a bell in	
+16000	
+----------------------------------------	
+Test Example 17	
+>> A particular activity	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A small white or the same	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A single and a single and a single and a single and a single and a single and a single and a single and a single and a single and	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A member of a member of a member of a member of a member of a member of a member of a member of a member of a member of	
+20000	
+----------------------------------------	
+Test Example 21	
+>> The use of a new testament to the use of a new testament to the use of a new testament to the use of a new testament to the use	
+21000	
+----------------------------------------	
+Test Example 22	
+>> An excessive use of the result of the result of the result of the result of the result of the result of the result of the result of the result	
+22000	
+----------------------------------------	
+Test Example 23	
+>> Any of a small fish	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Be used as a place	
+24000	
+----------------------------------------	
+Test Example 25	
+>> An organ	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A small holes in a small holes in a small holes in a small holes in a small holes in a small holes in a small holes in a small	
+26000	
+----------------------------------------	
+Test Example 27	
+>> Having a small in a small in a small in a small in a small in a small in a small in a small in a small in a small	
+27000	
+----------------------------------------	
+Test Example 28	
+>> An act	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A hat	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Any plant and the fruit	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A small holes in a small holes in a small holes in a small holes in a small holes in a small holes in a small holes in a small	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus	
+32000	
+----------------------------------------	
+Test Example 33	
+>> An oral into a liquid	
+33000	
+----------------------------------------	
+Test Example 34	
+>> A small or the number	
+34000	
+----------------------------------------	
+Test Example 35	
+>> The first	
+35000	
+----------------------------------------	
+Test Example 36	
+>> Italian and a member of the first to the first to the first to the first to the first to the first to the first to the first to the	
+36000	
+----------------------------------------	
+Test Example 37	
+>> The ear	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Any of the fruit	
+38000	
+----------------------------------------	
+Test Example 39	
+>> A distinctive	
+39000	
+----------------------------------------	
+Test Example 40	
+>> A person	
+40000	
+----------------------------------------	
+Test Example 41	
+>> Any of the skin	
+41000	
+----------------------------------------	
+Test Example 42	
+>> The first or the first or the first or the first or the first or the first or the first or the first or the first or the first or	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A lever	
+43000	
+----------------------------------------	
+Test Example 44	
+>> The third	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a round	
+45000	
+----------------------------------------	
+Test Example 46	
+>> A train	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A seat	
+48000	
+----------------------------------------	
+Test Example 49	
+>> A saint	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A woman	
+50000	
+----------------------------------------	
+Test Example 51	
+>> An organism	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A river in a river in a river in a river in a river in a river in a river in a river in a river in a river in	
+52000	
+----------------------------------------	
+Test Example 53	
+>> An earthquake	
+53000	
+----------------------------------------	
+Test Example 54	
+>> An organ	
+54000	
+----------------------------------------	
+Test Example 55	
+>> A ball and a ball and a ball and a ball and a ball and a ball and a ball and a ball and a ball and a ball and	
+55000	
+----------------------------------------	
+Test Example 56	
+>> In a person	
+56000	
+----------------------------------------	
+Test Example 57	
+>> An excessive skin	
+57000	
+----------------------------------------	
+Test Example 58	
+>> A particular facts	
+58000	
+----------------------------------------	
+Test Example 59	
+>> Any of the common in a plant	
+59000	
+----------------------------------------	
+Test Example 60	
+>> Genus cassia	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A small quantities	
+61000	
+----------------------------------------	
+Test Example 62	
+>> English	
+62000	
+----------------------------------------	
+Test Example 63	
+>> Genus	
+63000	
+----------------------------------------	
+Test Example 64	
+>> Russian movement	
+64000	
+----------------------------------------	
+Test Example 65	
+>> A line	
+65000	
+----------------------------------------	
+Test Example 66	
+>> An organization	
+66000	
+----------------------------------------	
+Test Example 67	
+>> A member of the same species	
+67000	
+----------------------------------------	
+Test Example 68	
+>> The first or the first or the first or the first or the first or the first or the first or the first or the first or the first or	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A line	
+69000	
+----------------------------------------	
+Test Example 70	
+>> Inflammation of the normal vision	
+70000	
+----------------------------------------	
+Test Example 71	
+>> Music	
+71000	
+----------------------------------------	
+Test Example 72	
+>> An ancient rome in the first to the first to the first to the first to the first to the first to the first to the first to the first	
+72000	
+----------------------------------------	
+Test Example 73	
+>> A vehicle	
+73000	
+----------------------------------------	
+Test Example 74	
+>> The same ownership of the same ownership of the same ownership of the same ownership of the same ownership of the same ownership of the same ownership of the same	
+74000	
+----------------------------------------	
+Test Example 75	
+>> A place	
+75000	
+----------------------------------------	
+Test Example 76	
+>> An alcohol	
+76000	
+----------------------------------------	
+Test Example 77	
+>> A train	
+77000	
+----------------------------------------	
+Test Example 78	
+>> Not necessarily a person	
+78000	
+----------------------------------------	
+Test Example 79	
+>> A river	
+79000	
+----------------------------------------	
+Test Example 80	
+>> A liquid	
+80000	
+----------------------------------------	
+Test Example 81	
+>> Type	
+81000	
+----------------------------------------	
+Test Example 82	
+>> A room	
+82000	
+----------------------------------------	
+Test Example 83	
+>> Type genus	
+83000	
+----------------------------------------	
+Test Example 84	
+>> Not having a well	
+84000	
+----------------------------------------	
+Test Example 85	
+>> A river	
+85000	
+----------------------------------------	
+Test Example 86	
+>> A solid in a solid in a solid in a solid in a solid in a solid in a solid in a solid in a solid in a solid in	
+86000	
+----------------------------------------	
+Test Example 87	
+>> Any of the human flesh	
+87000	
+----------------------------------------	
+Test Example 88	
+>> A small fish	
+88000	
+----------------------------------------	
+Test Example 89	
+>> A small or the first	
+89000	
+----------------------------------------	
+
+-- Epoch 8 / 50	
+	
+
+Finished in 1h2m 23.908846793929 examples/sec.	
+
+Epoch stats:	
+           LR= 0.03250875	
+  Errors: min= 0	
+          max= 188.77233076096	
+       median= 34.4945063591	
+         mean= 40.647891800732	
+          std= 26.003126030893	
+
+(Saving model ...)	
+Test Example 1	
+>> Any of the fruit and the fruit and the fruit and the fruit and the fruit and the fruit and the fruit and the fruit and the fruit and the	
+1000	
+----------------------------------------	
+Test Example 2	
+>> In the first to the first to the first to the first to the first to the first to the first to the first to the first to the first	
+2000	
+----------------------------------------	
+Test Example 3	
+>> The first day	
+3000	
+----------------------------------------	
+Test Example 4	
+>> Any of the stem	
+4000	
+----------------------------------------	
+Test Example 5	
+>> A small or the fruit	
+5000	
+----------------------------------------	
+Test Example 6	
+>> The first day	
+6000	
+----------------------------------------	
+Test Example 7	
+>> A system	
+7000	
+----------------------------------------	
+Test Example 8	
+>> Judaism	
+8000	
+----------------------------------------	
+Test Example 9	
+>> A chain	
+9000	
+----------------------------------------	
+Test Example 10	
+>> A small or the most of the most of the most of the most of the most of the most of the most of the most of the most of	
+10000	
+----------------------------------------	
+Test Example 11	
+>> Genus of the fruit and other genera usually eaten raw and other genera usually eaten raw and other genera usually eaten raw and other genera usually eaten raw and other	
+11000	
+----------------------------------------	
+Test Example 12	
+>> In the surface	
+12000	
+----------------------------------------	
+Test Example 13	
+>> A base of the line	
+13000	
+----------------------------------------	
+Test Example 14	
+>> Type	
+14000	
+----------------------------------------	
+Test Example 15	
+>> A single	
+15000	
+----------------------------------------	
+Test Example 16	
+>> A single	
+16000	
+----------------------------------------	
+Test Example 17	
+>> A small or the first	
+17000	
+----------------------------------------	
+Test Example 18	
+>> A small round	
+18000	
+----------------------------------------	
+Test Example 19	
+>> A small or the first flight	
+19000	
+----------------------------------------	
+Test Example 20	
+>> A class or the first	
+20000	
+----------------------------------------	
+Test Example 21	
+>> An office	
+21000	
+----------------------------------------	
+Test Example 22	
+>> Not to the use	
+22000	
+----------------------------------------	
+Test Example 23	
+>> Any of the major in the major in the major in the major in the major in the major in the major in the major in the major in the	
+23000	
+----------------------------------------	
+Test Example 24	
+>> Be true	
+24000	
+----------------------------------------	
+Test Example 25	
+>> Any of the the the the the the the the the the the the the the the the the the the the the the the the the the the the	
+25000	
+----------------------------------------	
+Test Example 26	
+>> A large	
+26000	
+----------------------------------------	
+Test Example 27	
+>> In the fruit	
+27000	
+----------------------------------------	
+Test Example 28	
+>> An expression of the use of the use of the use of the use of the use of the use of the use of the use of the use of	
+28000	
+----------------------------------------	
+Test Example 29	
+>> A member of the head	
+29000	
+----------------------------------------	
+Test Example 30	
+>> Any plant and the fruit	
+30000	
+----------------------------------------	
+Test Example 31	
+>> A drum	
+31000	
+----------------------------------------	
+Test Example 32	
+>> Genus of the order	
+32000	
+----------------------------------------	
+Test Example 33	
+>> A drug used as a drug used as a drug used as a drug used as a drug used as a drug used as a drug used as a drug	
+33000	
+----------------------------------------	
+Test Example 34	
+>> The water	
+34000	
+----------------------------------------	
+Test Example 35	
+>> An aircraft	
+35000	
+----------------------------------------	
+Test Example 36	
+>> French and the first	
+36000	
+----------------------------------------	
+Test Example 37	
+>> The ear in the ear in the ear in the ear in the ear in the ear in the ear in the ear in the ear in the ear in	
+37000	
+----------------------------------------	
+Test Example 38	
+>> Any of the fruit	
+38000	
+----------------------------------------	
+Test Example 39	
+>> A large area	
+39000	
+----------------------------------------	
+Test Example 40	
+>> A person	
+40000	
+----------------------------------------	
+Test Example 41	
+>> Any of the body and a large	
+41000	
+----------------------------------------	
+Test Example 42	
+>> The first impression of the first impression of the first impression of the first impression of the first impression of the first impression of the first impression of the first	
+42000	
+----------------------------------------	
+Test Example 43	
+>> A handle	
+43000	
+----------------------------------------	
+Test Example 44	
+>> The number of the number of the number of the number of the number of the number of the number of the number of the number of the number of	
+44000	
+----------------------------------------	
+Test Example 45	
+>> Having a small in the stem	
+45000	
+----------------------------------------	
+Test Example 46	
+>> A ship	
+46000	
+----------------------------------------	
+Test Example 47	
+>> A light	
+47000	
+----------------------------------------	
+Test Example 48	
+>> A small round	
+48000	
+----------------------------------------	
+Test Example 49	
+>> English and a small or to the line	
+49000	
+----------------------------------------	
+Test Example 50	
+>> A woman	
+50000	
+----------------------------------------	
+Test Example 51	
+>> A drug	
+51000	
+----------------------------------------	
+Test Example 52	
+>> A member of the first president	
+52000	
+----------------------------------------	
+Test Example 53	
+>> An area	
+53000	
+----------------------------------------	
+Test Example 54	
+>> Inflammation of the first to the first to the first to the first to the first to the first to the first to the first to the first to the	
+54000	
+----------------------------------------	
+Test Example 55	
+>> The flesh	
+55000	
+----------------------------------------	
+Test Example 56	
+>> In the use of the use of the use of the use of the use of the use of the use of the use of the use of the use	
+56000	
+----------------------------------------	
+Test Example 57	
+>> An infant	
+57000	
+----------------------------------------	
+Test Example 58	
+>> The first place	
+58000	
+----------------------------------------	
+Test Example 59	
+>> Any of the first	
+59000	
+----------------------------------------	
+Test Example 60	
+>> Genus of the genus of the genus of the genus of the genus of the genus of the genus of the genus of the genus of the genus of the	
+60000	
+----------------------------------------	
+Test Example 61	
+>> A plant or to a plant or to a plant or to a plant or to a plant or to a plant or to a plant or to a plant	
+61000	
+----------------------------------------	
+Test Example 62	
+>> English and a small or to the first to the first to the first to the first to the first to the first to the first to the first to	
+62000	
+----------------------------------------	
+Test Example 63	
+>> Genus of the sweet or to the sweet or to the sweet or to the sweet or to the sweet or to the sweet or to the sweet or to	
+63000	
+----------------------------------------	
+Test Example 64	
+>> Soviet black and the first to the first to the first to the first to the first to the first to the first to the first to the first to	
+64000	
+----------------------------------------	
+Test Example 65	
+>> The first to the first to the first to the first to the first to the first to the first to the first to the first to the first to	
+65000	
+----------------------------------------	
+Test Example 66	
+>> An organization	
+66000	
+----------------------------------------	
+Test Example 67	
+>> A member of the first and the first and the first and the first and the first and the first and the first and the first and the first and	
+67000	
+----------------------------------------	
+Test Example 68	
+>> An office	
+68000	
+----------------------------------------	
+Test Example 69	
+>> A small or to the line	
+69000	
+----------------------------------------	
+Test Example 70	
+>> Inflammation of the liver	
+70000	
+----------------------------------------	
+Test Example 71	
+>> Music	
+71000	
+----------------------------------------	
+Test Example 72	
+>> An area	
+72000	
+----------------------------------------	
+Test Example 73	
+>> A vehicle	
+73000	
+----------------------------------------	
+Test Example 74	
+>> An act	
+74000	
+----------------------------------------	
+Test Example 75	
+>> A series	
+75000	
+----------------------------------------	
+Test Example 76	
+>> Made of the root	
+76000	
+----------------------------------------	
+Test Example 77	
+>> A road	
+77000	
+----------------------------------------	
+Test Example 78	
+>> A person	
+78000	
+----------------------------------------	
+Test Example 79	
+>> A line	
+79000	
+----------------------------------------	
+Test Example 80	
+>> A liquid in a liquid in a liquid in a liquid in a liquid in a liquid in a liquid in a liquid in a liquid in a liquid in	
+80000	
+----------------------------------------	
+Test Example 81	
+>> Type genus bos	
+81000	
+----------------------------------------	
+Test Example 82	
+>> A room	
+82000	
+----------------------------------------	
+Test Example 83	
+>> Type	
+83000	
+----------------------------------------	
+Test Example 84	
+>> Not serious action	
+84000	
+----------------------------------------	
+Test Example 85	
+>> A fire	
+85000	
+----------------------------------------	
+Test Example 86	
+>> A small amounts in the main constituent	
+86000	
+----------------------------------------	
+Test Example 87	
+>> The liver and the liver and the liver and the liver and the liver and the liver and the liver and the liver and the liver and the liver and	
+87000	
+----------------------------------------	
+Test Example 88	
+>> A small round and a small round and a small round and a small round and a small round and a small round and a small round and a small	
+88000	
+----------------------------------------	
+Test Example 89	
+>> A series of the first to a series of the first to a series of the first to a series of the first to a series of the first to	
+89000	
+----------------------------------------	
+
+-- Epoch 9 / 50	
+	
