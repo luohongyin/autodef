@@ -61,7 +61,7 @@ function AdaSeq2Seq:buildModel()
   self.decoder:add(nn.JoinTable(2))
   self.decoder:add(nn.SplitTable(1, 2))
   -- self.encoderLSTM = nn.LSTM(self.hiddenSize, self.hiddenSize)
-  self.decoderLSTM = nn.LSTM(2 * self.hiddenSize, self.hiddenSize)
+  self.decoderLSTM = nn.FastLSTM(2 * self.hiddenSize, self.hiddenSize)
   -- self.LSTMModule = nn.Sequential()
   -- self.LSTMModule:add(self.encoderLSTM)
   -- self.LSTMModule:add(self.decoderLSTM)
@@ -82,7 +82,6 @@ end
 function AdaSeq2Seq:cuda()
   -- self.encoder:cuda()
   self.decoder:cuda()
-  self.LMMatrix:cuda()
   --self.MEMModule:cuda()
   if self.criterion then
     self.criterion:cuda()
@@ -190,7 +189,6 @@ function AdaSeq2Seq:eval(input)
       break
     end
 
-    output = self.LMMatrix[output]
     table.insert(predictions, wordIds)
     table.insert(probabilities, prob)
   end 

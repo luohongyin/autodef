@@ -80,6 +80,7 @@ for epoch = 1, options.maxEpoch do
 	  
 	  if i % 1000 ~= 0 then
 	      local encoderInput = torch.Tensor(target:size()[1] - 1, 400)
+		  -- encoderInput:zero()
           -- encoderInput[1] = input
 	      for i = 1, target:size()[1] - 1 do
 	        encoderInput[i]:copy(input)
